@@ -1,4 +1,4 @@
-# AgentSLR
+# AgentSLR Evaluation Harness
 
 <table style="border-collapse: separate; border-spacing: 20px 0;">
   <tr>
