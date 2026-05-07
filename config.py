@@ -10,6 +10,7 @@ from src.harvest.queries import get_queries_for_pathogen, normalize_pathogen_nam
 class Config:
     def __init__(self, args):
         self.stage = args.stage
+        self.skip_ocr = args.skip_ocr
         self.pathogen = normalize_pathogen_name(args.pathogen)
         if self.pathogen is None:
             raise ValueError(f"Unsupported pathogen: {args.pathogen}")
@@ -26,6 +27,7 @@ class Config:
         if args.direct_full_text:
             self.fulltext_screening_mode = "direct_fulltext"
         self.direct_full_text = self.fulltext_screening_mode == "direct_fulltext"
+        self.fulltext_input_mode = "pdf" if self.skip_ocr else args.fulltext_input_mode
 
         self.harvest_root = self.data_dir / "harvests" / self.pathogen
         self.client_root = self.data_dir / "client" / self.client_dir_name / self.pathogen
@@ -136,6 +138,7 @@ class Config:
         self.use_system_prompt = args.use_system_prompt
         self.save_traces = args.save_traces
         self.hit_async = args.hit_async
+        self.reasoning_enabled = args.reasoning
         self.reasoning_effort = args.reasoning_effort
         self.max_completion_tokens = args.max_completion_tokens
         self.abstract_screening_batch_size = args.abstract_screening_batch_size
@@ -197,6 +200,11 @@ class Config:
         )
         self.report_reasoning_effort = (
             args.report_reasoning_effort or self.reasoning_effort
+        )
+        self.report_reasoning_enabled = (
+            self.reasoning_enabled
+            if args.report_reasoning is None
+            else args.report_reasoning
         )
         self.report_max_completion_tokens = (
             self.max_completion_tokens
@@ -312,6 +320,10 @@ class Config:
     def resolve_markdown_input_path(self) -> Path:
         if self.screening_input_path is not None:
             return self.screening_input_path
+        if self.fulltext_input_mode == "pdf":
+            if self.fulltext_screening_mode == "on_ai4epi_abstracts":
+                return self.abstract_screening_path
+            return self.harvest_downloaded_pdfs_path
         return self.articles_with_markdown_path
 
     def resolve_ocr_input_path(self) -> Path:

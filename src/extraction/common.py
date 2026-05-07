@@ -1,6 +1,7 @@
 # src/extraction/common.py
 from __future__ import annotations
 
+import base64
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -11,6 +12,7 @@ import pandas as pd
 from tqdm import tqdm
 
 from src.screening.common import apply_sample
+from src.ocr.common import get_pdf_path_column, resolve_pdf_path
 
 T = TypeVar("T")
 R = TypeVar("R")
@@ -58,6 +60,20 @@ def load_extraction_input_dataframe(config, logger: Any = None) -> pd.DataFrame:
 
 def prepare_article_fulltext_dataframe(config, logger: Any = None) -> pd.DataFrame:
     dataframe = load_extraction_input_dataframe(config, logger=logger)
+
+    if getattr(config, "fulltext_input_mode", "markdown") == "pdf":
+        pdf_path_column = get_pdf_path_column(dataframe)
+        dataframe["pdf_path"] = dataframe[pdf_path_column].apply(
+            lambda value: str(resolve_pdf_path(value, config, Path(config.fulltext_screening_path)))
+            if pd.notna(value) and str(value).strip()
+            else None
+        )
+        dataframe = dataframe[
+            dataframe["pdf_path"].notna()
+            & dataframe["pdf_path"].apply(lambda value: Path(str(value)).exists())
+        ].copy()
+        dataframe["fulltext"] = "PDF supplied directly to the model."
+        return dataframe
 
     if "markdown_content" in dataframe.columns:
         dataframe = dataframe.rename(columns={"markdown_content": "fulltext"})
@@ -115,8 +131,61 @@ def run_with_optional_thread_pool(
             yield future.result()
 
 
-def get_chat_reasoning_kwargs(model_name: str, uses_tools: bool = False) -> dict[str, str]:
+def get_chat_reasoning_kwargs(
+    model_name: str,
+    uses_tools: bool = False,
+    reasoning_enabled: bool = True,
+    reasoning_effort: str = "high",
+) -> dict[str, str]:
+    if not reasoning_enabled:
+        return {}
     lowered = model_name.lower()
     if uses_tools and (lowered.startswith("gpt-5") or lowered.startswith("o")):
         return {}
-    return {"reasoning_effort": "high"}
+    return {"reasoning_effort": reasoning_effort}
+
+
+def upload_pdf_for_chat(
+    client: Any,
+    pdf_path: str | None,
+    cache: dict[str, dict[str, str]],
+) -> dict[str, str] | None:
+    if not pdf_path:
+        return None
+    resolved = str(Path(pdf_path).expanduser().resolve())
+    if resolved not in cache:
+        try:
+            with open(resolved, "rb") as handle:
+                uploaded = client.files.create(file=handle, purpose="user_data")
+            cache[resolved] = {"file_id": uploaded.id}
+        except Exception:
+            encoded = base64.b64encode(Path(resolved).read_bytes()).decode("ascii")
+            cache[resolved] = {
+                "filename": Path(resolved).name,
+                "file_data": f"data:application/pdf;base64,{encoded}",
+            }
+    return cache[resolved]
+
+
+def build_user_content(user_prompt: str, file_id: dict[str, str] | None = None):
+    if not file_id:
+        return user_prompt
+    return [
+        {"type": "file", "file": file_id},
+        {"type": "text", "text": user_prompt},
+    ]
+
+
+def redact_file_data(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {
+            key: (
+                f"<redacted file_data length={len(item)}>"
+                if key == "file_data" and isinstance(item, str)
+                else redact_file_data(item)
+            )
+            for key, item in value.items()
+        }
+    if isinstance(value, list):
+        return [redact_file_data(item) for item in value]
+    return value

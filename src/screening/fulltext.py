@@ -20,6 +20,7 @@ from src.screening.common import (
     truthy_mask,
 )
 from src.screening.prompts import get_prompt
+from src.ocr.common import get_pdf_path_column, resolve_pdf_path
 
 
 
@@ -45,6 +46,33 @@ def _load_markdown_dataframe(config, logger=None) -> tuple[Path, pd.DataFrame]:
         raise ValueError(
             "No markdown content found in the input file. Run OCR first to convert PDFs to markdown."
         )
+    return input_path, dataframe
+
+
+def _load_pdf_dataframe(config, logger=None) -> tuple[Path, pd.DataFrame]:
+    input_path = config.resolve_markdown_input_path()
+    if not input_path.exists():
+        raise FileNotFoundError(f"Full-text PDF input not found: {input_path}")
+
+    emit_log(logger, "info", f"Loading full-text PDF input from: {input_path}")
+    dataframe = pd.read_csv(input_path)
+    pdf_path_column = get_pdf_path_column(dataframe)
+    dataframe["fulltext_pdf_path"] = dataframe[pdf_path_column].apply(
+        lambda value: str(resolve_pdf_path(value, config, input_path)) if pd.notna(value) and str(value).strip() else None
+    )
+    pdf_mask = dataframe["fulltext_pdf_path"].notna() & dataframe["fulltext_pdf_path"].apply(
+        lambda value: Path(str(value)).exists()
+    )
+    dataframe = dataframe.loc[pdf_mask].copy()
+    if len(dataframe) == 0:
+        raise ValueError("No downloaded PDFs available for direct full-text screening.")
+
+    if "markdown_content" not in dataframe.columns:
+        dataframe["markdown_content"] = "PDF supplied directly to the model."
+    else:
+        dataframe["markdown_content"] = dataframe["markdown_content"].fillna("PDF supplied directly to the model.")
+
+    dataframe["fulltext_input_mode"] = "pdf"
     return input_path, dataframe
 
 
@@ -139,7 +167,10 @@ def _merge_abstract_screening_if_needed(
 
 
 def run_fulltext_screening(config, logger=None) -> int:
-    _, dataframe = _load_markdown_dataframe(config, logger)
+    if config.fulltext_input_mode == "pdf":
+        _, dataframe = _load_pdf_dataframe(config, logger)
+    else:
+        _, dataframe = _load_markdown_dataframe(config, logger)
     dataframe = _merge_abstract_screening_if_needed(dataframe, config, logger)
 
     df_with_markdown = dataframe[dataframe["markdown_content"].notna()].copy()
@@ -168,7 +199,14 @@ def run_fulltext_screening(config, logger=None) -> int:
     )
 
     titles = df_with_markdown["title"].fillna("").tolist()
-    fulltexts = df_with_markdown["markdown_content"].fillna("").tolist()
+    if config.fulltext_input_mode == "pdf":
+        fulltexts = [
+            "The full text PDF is attached. Read the PDF directly and apply the review criteria."
+        ] * len(df_with_markdown)
+        pdf_paths = df_with_markdown["fulltext_pdf_path"].tolist()
+    else:
+        fulltexts = df_with_markdown["markdown_content"].fillna("").tolist()
+        pdf_paths = None
     user_prompts = [
         user_prompt_template.format(title=title, fulltext=fulltext)
         for title, fulltext in zip(titles, fulltexts)
@@ -216,6 +254,7 @@ def run_fulltext_screening(config, logger=None) -> int:
             concurrency=concurrency,
             reasoning_effort=config.reasoning_effort,
             trace_ids=trace_ids,
+            pdf_paths=pdf_paths[start : start + batch_size] if pdf_paths else None,
             **get_max_tokens_kwargs(config),
         )
 

@@ -20,6 +20,9 @@ from src.extraction.common import (
     get_chat_reasoning_kwargs,
     prepare_article_fulltext_dataframe,
     run_with_optional_thread_pool,
+    upload_pdf_for_chat,
+    build_user_content,
+    redact_file_data,
 )
 from .extractor import ModelExtractor, ModelExtractionResult, ModelProvenanceResult
 from .tools import MODEL_TOOL_CALL, PROVENANCE_TOOL_CALL
@@ -65,6 +68,8 @@ class ModelExtractionRunner:
         output_models_file: Optional[str] = None,
         max_completion_tokens: int = 98304,
         article_concurrency: int = 1,
+        reasoning_effort: str = "high",
+        reasoning_enabled: bool = True,
     ):
         self.client = client
         self.run_id = run_id
@@ -76,9 +81,16 @@ class ModelExtractionRunner:
         self.output_models_file = output_models_file
         self.max_completion_tokens = max_completion_tokens
         self.article_concurrency = max(1, int(article_concurrency))
+        self.reasoning_effort = reasoning_effort
+        self.reasoning_enabled = bool(reasoning_enabled)
         self._append_lock = Lock()
+        self._pdf_file_cache: dict[str, dict[str, str]] = {}
 
-        self.extra_body = {"thinking": {"type": "enabled"}} if 'gpt' not in self.model_name.lower() else None
+        self.extra_body = (
+            {"thinking": {"type": "enabled"}}
+            if self.reasoning_enabled and 'gpt' not in self.model_name.lower()
+            else None
+        )
 
         self.extractor = ModelExtractor()
 
@@ -154,19 +166,23 @@ class ModelExtractionRunner:
             json.dump(trace, f, indent=2)
         self._append_jsonl(os.path.join(self.log_dir, "reasoning_traces.jsonl"), trace)
 
-    def screen_article(self, article_text: str, article_id: str) -> tuple[bool, dict]:
+    def _messages(self, system_prompt: str, user_prompt: str, pdf_path: str | None = None):
+        file_id = upload_pdf_for_chat(self.client, pdf_path, self._pdf_file_cache)
+        return [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": build_user_content(user_prompt, file_id)},
+        ]
+
+    def screen_article(self, article_text: str, article_id: str, pdf_path: str | None = None) -> tuple[bool, dict]:
         prompt = self.system_prompt + "\n\n" + self.screening_prompt
 
-        input_list = [
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": article_text},
-        ]
+        input_list = self._messages(prompt, article_text, pdf_path=pdf_path)
 
         trace = {
             "stage": "screening",
             "article_id": article_id,
             "timestamp": dt.datetime.now().isoformat(),
-            "input": input_list.copy(),
+            "input": redact_file_data(input_list),
             "response": None,
             "decision": None,
             "error": None,
@@ -177,7 +193,12 @@ class ModelExtractionRunner:
             response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=input_list,
-                **get_chat_reasoning_kwargs(self.model_name, uses_tools=True),
+                **get_chat_reasoning_kwargs(
+                    self.model_name,
+                    uses_tools=True,
+                    reasoning_enabled=self.reasoning_enabled,
+                    reasoning_effort=self.reasoning_effort,
+                ),
                 max_completion_tokens=self.max_completion_tokens,
                 extra_body=self.extra_body if self.extra_body else None
             )
@@ -226,19 +247,16 @@ class ModelExtractionRunner:
                 f"Model screening failed for article {article_id}: {e}"
             ) from e
 
-    def extract_models(self, article_text: str, article_id: str) -> tuple[list[dict], list[dict], dict]:
+    def extract_models(self, article_text: str, article_id: str, pdf_path: str | None = None) -> tuple[list[dict], list[dict], dict]:
         prompt = self.system_prompt + "\n\n" + self.extraction_prompt
 
-        input_list = [
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": article_text},
-        ]
+        input_list = self._messages(prompt, article_text, pdf_path=pdf_path)
 
         trace = {
             "stage": "extraction",
             "article_id": article_id,
             "timestamp": dt.datetime.now().isoformat(),
-            "input": input_list.copy(),
+            "input": redact_file_data(input_list),
             "iterations": [],
             "extractions": [],
             "error": None,
@@ -262,7 +280,12 @@ class ModelExtractionRunner:
                     model=self.model_name,
                     tools=[MODEL_TOOL_CALL],
                     messages=input_list,
-                    **get_chat_reasoning_kwargs(self.model_name, uses_tools=True),
+                    **get_chat_reasoning_kwargs(
+                        self.model_name,
+                        uses_tools=True,
+                        reasoning_enabled=self.reasoning_enabled,
+                        reasoning_effort=self.reasoning_effort,
+                    ),
                     max_completion_tokens=self.max_completion_tokens,
                     extra_body=self.extra_body if self.extra_body else None
                 )
@@ -389,7 +412,11 @@ class ModelExtractionRunner:
         if self.provenance_enabled and extractions:
             for idx, extraction in enumerate(extractions):
                 provenance, prov_trace = self.extract_provenance(
-                    article_text, article_id, extraction, model_index=idx + 1
+                    article_text,
+                    article_id,
+                    extraction,
+                    model_index=idx + 1,
+                    pdf_path=pdf_path,
                 )
                 self._append_jsonl(
                     os.path.join(self.log_dir, "provenance_traces.jsonl"),
@@ -421,6 +448,7 @@ class ModelExtractionRunner:
         article_id: str,
         extracted_values: dict,
         model_index: int = 1,
+        pdf_path: str | None = None,
     ) -> tuple[Optional[dict], dict]:
         try:
             with open("model_extraction/prompts/provenance.md", "r") as f:
@@ -444,16 +472,17 @@ class ModelExtractionRunner:
                                 Data Available: {extracted_values.get('is_data_used_available', 'N/A')}
                                 """
 
-        input_list = [
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": f"{extracted_summary}\n\n# Article Text\n{article_text}"},
-        ]
+        input_list = self._messages(
+            prompt,
+            f"{extracted_summary}\n\n# Article Text\n{article_text}",
+            pdf_path=pdf_path,
+        )
 
         trace = {
             "article_id": article_id,
             "model_index": model_index,
             "timestamp": dt.datetime.now().isoformat(),
-            "input": input_list.copy(),
+            "input": redact_file_data(input_list),
             "iterations": [],
             "provenance": None,
             "error": None,
@@ -479,7 +508,12 @@ class ModelExtractionRunner:
                     model=self.model_name,
                     tools=[PROVENANCE_TOOL_CALL],
                     messages=input_list,
-                    **get_chat_reasoning_kwargs(self.model_name, uses_tools=True),
+                    **get_chat_reasoning_kwargs(
+                        self.model_name,
+                        uses_tools=True,
+                        reasoning_enabled=self.reasoning_enabled,
+                        reasoning_effort=self.reasoning_effort,
+                    ),
                     max_completion_tokens=self.max_completion_tokens,
                     extra_body=self.extra_body if self.extra_body else None
                 )
@@ -645,15 +679,16 @@ class ModelExtractionRunner:
             article_id = str(article_id)
 
         article_text = row.get("fulltext", "")
+        pdf_path = row.get("pdf_path")
 
         if not article_text or (isinstance(article_text, float) and pd.isna(article_text)):
             self.logger.warning(f"Empty text for article {article_id}, skipping")
             return [], []
 
-        has_models, _ = self.screen_article(article_text, article_id)
+        has_models, _ = self.screen_article(article_text, article_id, pdf_path=pdf_path)
 
         if has_models and self.extraction_enabled:
-            models, prov_rows, _ = self.extract_models(article_text, article_id)
+            models, prov_rows, _ = self.extract_models(article_text, article_id, pdf_path=pdf_path)
             return models, prov_rows if self.provenance_enabled else []
 
         return [], []
@@ -718,18 +753,26 @@ class Runner(ModelExtractionRunner):
             
         df = apply_extraction_sample(df, config, logger=logger)
 
+        fulltext_columns = ["fulltext", "article_id"]
+        if "title" in df.columns:
+            fulltext_columns.insert(0, "title")
+        if "pdf_path" in df.columns:
+            fulltext_columns.append("pdf_path")
+
         super().__init__(
             client=client,
             run_id=run_id,
             model_name=config.model_name,
             pathogen=config.pathogen,
-            fulltext=df[["title", "fulltext", "article_id"]] if "title" in df.columns else df[["fulltext", "article_id"]],
+            fulltext=df[fulltext_columns],
             extraction_enabled_bool=bool(getattr(config, "data_value_extraction_enabled_bool", True)),
             provenance_enabled=bool(getattr(config, "data_extraction_provenance_enabled", True)),
             log_dir=str(log_dir),
             output_models_file=str(config.data_extraction_models_path),
             max_completion_tokens = config.max_completion_tokens if hasattr(config, 'max_completion_tokens') else 98304,
             article_concurrency=get_data_extraction_concurrency(config),
+            reasoning_effort=getattr(config, "reasoning_effort", "high"),
+            reasoning_enabled=getattr(config, "reasoning_enabled", True),
         )
 
         if logger is not None:

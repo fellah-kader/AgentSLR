@@ -1,4 +1,5 @@
 import asyncio
+import base64
 import datetime as dt
 import json
 from pathlib import Path
@@ -15,6 +16,7 @@ class OpenAIWrapper:
         save_traces=False,
         trace_dir=None,
         reasoning_effort="high",
+        reasoning_enabled=True,
         max_completion_tokens=None,
         async_flag=False,
     ):
@@ -23,11 +25,17 @@ class OpenAIWrapper:
         self.trace_dir = trace_dir
         self._trace_counter = 0
         self.reasoning_effort = reasoning_effort
+        self.reasoning_enabled = bool(reasoning_enabled)
         self.max_completion_tokens = max_completion_tokens
         self.async_flag = async_flag
         self.client = OpenAI(base_url=base_url, api_key=api_key)
         self.async_client = AsyncOpenAI(base_url=base_url, api_key=api_key) if async_flag else None
-        self.extra_body = {"thinking": {"type": "enabled"}} if "gpt" not in model_name.lower() else {}
+        self.extra_body = (
+            {"thinking": {"type": "enabled"}}
+            if self.reasoning_enabled and "gpt" not in model_name.lower()
+            else {}
+        )
+        self._pdf_file_cache = {}
 
         if self.save_traces and trace_dir:
             Path(self.trace_dir).mkdir(parents=True, exist_ok=True)
@@ -38,6 +46,21 @@ class OpenAIWrapper:
             return
         with open(self.trace_file, "a") as handle:
             handle.write(json.dumps(trace_data) + "\n")
+
+    @staticmethod
+    def _redact_file_data(value):
+        if isinstance(value, dict):
+            return {
+                key: (
+                    f"<redacted file_data length={len(item)}>"
+                    if key == "file_data" and isinstance(item, str)
+                    else OpenAIWrapper._redact_file_data(item)
+                )
+                for key, item in value.items()
+            }
+        if isinstance(value, list):
+            return [OpenAIWrapper._redact_file_data(item) for item in value]
+        return value
 
     def _extract_text(self, resp):
         text_response = ""
@@ -56,14 +79,46 @@ class OpenAIWrapper:
                 text_response = "".join(parts).strip()
         return text_response
 
-    def _build_messages(self, prompt, system_prompt=None):
+    def _upload_pdf(self, pdf_path):
+        if not pdf_path:
+            return None
+        resolved = str(Path(pdf_path).expanduser().resolve())
+        if resolved not in self._pdf_file_cache:
+            try:
+                with open(resolved, "rb") as handle:
+                    uploaded = self.client.files.create(file=handle, purpose="user_data")
+                self._pdf_file_cache[resolved] = {"file_id": uploaded.id}
+            except Exception:
+                encoded = base64.b64encode(Path(resolved).read_bytes()).decode("ascii")
+                self._pdf_file_cache[resolved] = {
+                    "filename": Path(resolved).name,
+                    "file_data": f"data:application/pdf;base64,{encoded}",
+                }
+        return self._pdf_file_cache[resolved]
+
+    @staticmethod
+    def _build_user_content(prompt, file_id=None, responses_api=False):
+        if not file_id:
+            return prompt
+        if responses_api:
+            return [
+                {"type": "input_file", **file_id},
+                {"type": "input_text", "text": prompt},
+            ]
+        return [
+            {"type": "file", "file": file_id},
+            {"type": "text", "text": prompt},
+        ]
+
+    def _build_messages(self, prompt, system_prompt=None, file_id=None):
         system_role = "developer" if (self.model_name.startswith("o") or self.model_name.startswith("gpt-5")) else "system"
+        user_content = self._build_user_content(prompt, file_id=file_id)
         if system_prompt:
             return [
                 {"role": system_role, "content": system_prompt},
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": user_content},
             ]
-        return [{"role": "user", "content": prompt}]
+        return [{"role": "user", "content": user_content}]
 
     async def _one_chat(
         self,
@@ -72,12 +127,13 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_id=None,
         max_completion_tokens=None,
+        file_id=None,
     ):
         reasoning_effort = reasoning_effort if reasoning_effort is not None else self.reasoning_effort
         max_completion_tokens = (
             max_completion_tokens if max_completion_tokens is not None else self.max_completion_tokens
         )
-        input_data = self._build_messages(prompt, system_prompt=system_prompt)
+        input_data = self._build_messages(prompt, system_prompt=system_prompt, file_id=file_id)
 
         trace_data = None
         if self.save_traces:
@@ -88,7 +144,7 @@ class OpenAIWrapper:
                 "model": self.model_name,
                 "reasoning_effort": reasoning_effort,
                 "max_completion_tokens": max_completion_tokens,
-                "input": input_data,
+                "input": self._redact_file_data(input_data),
                 "response": None,
                 "extracted_text": None,
                 "error": None,
@@ -98,9 +154,9 @@ class OpenAIWrapper:
 
         try:
             request_params = {"model": self.model_name, "messages": input_data}
-            if "gpt" not in self.model_name.lower():
+            if self.reasoning_enabled and "gpt" not in self.model_name.lower():
                 request_params["reasoning_effort"] = reasoning_effort
-            else:
+            elif self.reasoning_enabled:
                 request_params["reasoning_effort"] = reasoning_effort
             if max_completion_tokens is not None:
                 request_params["max_completion_tokens"] = max_completion_tokens
@@ -137,6 +193,7 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_ids=None,
         max_completion_tokens=None,
+        file_ids=None,
     ):
         sem = asyncio.Semaphore(concurrency)
 
@@ -149,6 +206,7 @@ class OpenAIWrapper:
                     reasoning_effort=reasoning_effort,
                     trace_id=trace_id,
                     max_completion_tokens=max_completion_tokens,
+                    file_id=file_ids[idx] if file_ids else None,
                 )
 
         return await asyncio.gather(*(guarded(prompt, idx) for idx, prompt in enumerate(prompts)))
@@ -160,6 +218,7 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_ids=None,
         max_completion_tokens=None,
+        file_ids=None,
     ):
         out = []
         for idx, prompt in enumerate(prompts):
@@ -170,6 +229,7 @@ class OpenAIWrapper:
                     reasoning_effort=reasoning_effort,
                     trace_id=trace_ids[idx] if trace_ids else None,
                     max_completion_tokens=max_completion_tokens,
+                    file_id=file_ids[idx] if file_ids else None,
                 )
             )
         return out
@@ -181,12 +241,13 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_id=None,
         max_completion_tokens=None,
+        file_id=None,
     ):
         reasoning_effort = reasoning_effort if reasoning_effort is not None else self.reasoning_effort
         max_completion_tokens = (
             max_completion_tokens if max_completion_tokens is not None else self.max_completion_tokens
         )
-        input_data = self._build_messages(prompt, system_prompt=system_prompt)
+        input_data = self._build_messages(prompt, system_prompt=system_prompt, file_id=file_id)
 
         trace_data = None
         if self.save_traces:
@@ -197,7 +258,7 @@ class OpenAIWrapper:
                 "model": self.model_name,
                 "reasoning_effort": reasoning_effort,
                 "max_completion_tokens": max_completion_tokens,
-                "input": input_data,
+                "input": self._redact_file_data(input_data),
                 "response": None,
                 "extracted_text": None,
                 "error": None,
@@ -207,7 +268,8 @@ class OpenAIWrapper:
 
         try:
             request_params = {"model": self.model_name, "messages": input_data}
-            request_params["reasoning_effort"] = reasoning_effort
+            if self.reasoning_enabled:
+                request_params["reasoning_effort"] = reasoning_effort
             if max_completion_tokens is not None:
                 request_params["max_completion_tokens"] = max_completion_tokens
             if self.extra_body:
@@ -240,7 +302,9 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_ids=None,
         max_completion_tokens=None,
+        pdf_paths=None,
     ):
+        file_ids = [self._upload_pdf(path) for path in pdf_paths] if pdf_paths else None
         if self.async_flag:
             return asyncio.run(
                 self._many_chat(
@@ -250,6 +314,7 @@ class OpenAIWrapper:
                     reasoning_effort=reasoning_effort,
                     trace_ids=trace_ids,
                     max_completion_tokens=max_completion_tokens,
+                    file_ids=file_ids,
                 )
             )
         return self._many_chat_sync(
@@ -258,6 +323,7 @@ class OpenAIWrapper:
             reasoning_effort=reasoning_effort,
             trace_ids=trace_ids,
             max_completion_tokens=max_completion_tokens,
+            file_ids=file_ids,
         )
 
     def generate_one(
@@ -267,8 +333,10 @@ class OpenAIWrapper:
         reasoning_effort=None,
         trace_id=None,
         max_completion_tokens=None,
+        pdf_path=None,
     ):
         trace_ids = [trace_id] if trace_id is not None else None
+        pdf_paths = [pdf_path] if pdf_path is not None else None
         return self.generate_many(
             [prompt],
             system_prompt=system_prompt,
@@ -276,6 +344,7 @@ class OpenAIWrapper:
             reasoning_effort=reasoning_effort,
             trace_ids=trace_ids,
             max_completion_tokens=max_completion_tokens,
+            pdf_paths=pdf_paths,
         )[0]
 
 
@@ -288,6 +357,7 @@ class OpenAIResponsesWrapper:
         save_traces=False,
         trace_dir=None,
         reasoning_effort="high",
+        reasoning_enabled=True,
         max_output_tokens=None,
     ):
         self.model_name = model_name
@@ -297,11 +367,30 @@ class OpenAIResponsesWrapper:
         self.trace_dir = trace_dir
         self._trace_counter = 0
         self.reasoning_effort = reasoning_effort
+        self.reasoning_enabled = bool(reasoning_enabled)
         self.max_output_tokens = max_output_tokens
+        self._pdf_file_cache = {}
 
         if self.save_traces and trace_dir:
             Path(self.trace_dir).mkdir(parents=True, exist_ok=True)
             self.trace_file = Path(self.trace_dir) / "reasoning_traces.jsonl"
+
+    def _upload_pdf(self, pdf_path):
+        if not pdf_path:
+            return None
+        resolved = str(Path(pdf_path).expanduser().resolve())
+        if resolved not in self._pdf_file_cache:
+            try:
+                with open(resolved, "rb") as handle:
+                    uploaded = self.client.files.create(file=handle, purpose="user_data")
+                self._pdf_file_cache[resolved] = {"file_id": uploaded.id}
+            except Exception:
+                encoded = base64.b64encode(Path(resolved).read_bytes()).decode("ascii")
+                self._pdf_file_cache[resolved] = {
+                    "filename": Path(resolved).name,
+                    "file_data": f"data:application/pdf;base64,{encoded}",
+                }
+        return self._pdf_file_cache[resolved]
 
     def _save_trace(self, trace_data):
         if not self.save_traces or not self.trace_dir:
@@ -316,17 +405,23 @@ class OpenAIResponsesWrapper:
         reasoning_effort=None,
         trace_id=None,
         max_output_tokens=None,
+        file_id=None,
     ):
         reasoning_effort = reasoning_effort if reasoning_effort is not None else self.reasoning_effort
         max_output_tokens = max_output_tokens if max_output_tokens is not None else self.max_output_tokens
 
+        user_content = OpenAIWrapper._build_user_content(
+            prompt,
+            file_id=file_id,
+            responses_api=True,
+        )
         if system_prompt:
             input_data = [
                 {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": user_content},
             ]
         else:
-            input_data = [{"role": "user", "content": prompt}]
+            input_data = [{"role": "user", "content": user_content}]
 
         trace_data = None
         if self.save_traces:
@@ -337,7 +432,7 @@ class OpenAIResponsesWrapper:
                 "model": self.model_name,
                 "reasoning_effort": reasoning_effort,
                 "max_output_tokens": max_output_tokens,
-                "input": input_data,
+                "input": OpenAIWrapper._redact_file_data(input_data),
                 "response": None,
                 "extracted_text": None,
                 "error": None,
@@ -347,8 +442,9 @@ class OpenAIResponsesWrapper:
             request_params = {
                 "model": self.model_name,
                 "input": input_data,
-                "reasoning": {"effort": reasoning_effort},
             }
+            if self.reasoning_enabled:
+                request_params["reasoning"] = {"effort": reasoning_effort}
             if max_output_tokens is not None:
                 request_params["max_output_tokens"] = max_output_tokens
 
@@ -385,6 +481,7 @@ class OpenAIResponsesWrapper:
         reasoning_effort=None,
         trace_ids=None,
         max_output_tokens=None,
+        file_ids=None,
     ):
         sem = asyncio.Semaphore(concurrency)
 
@@ -397,6 +494,7 @@ class OpenAIResponsesWrapper:
                     reasoning_effort=reasoning_effort,
                     trace_id=trace_id,
                     max_output_tokens=max_output_tokens,
+                    file_id=file_ids[idx] if file_ids else None,
                 )
 
         return await asyncio.gather(*(guarded(prompt, idx) for idx, prompt in enumerate(prompts)))
@@ -409,7 +507,9 @@ class OpenAIResponsesWrapper:
         reasoning_effort=None,
         trace_ids=None,
         max_output_tokens=None,
+        pdf_paths=None,
     ):
+        file_ids = [self._upload_pdf(path) for path in pdf_paths] if pdf_paths else None
         return asyncio.run(
             self._many_chat(
                 prompts,
@@ -418,6 +518,7 @@ class OpenAIResponsesWrapper:
                 reasoning_effort=reasoning_effort,
                 trace_ids=trace_ids,
                 max_output_tokens=max_output_tokens,
+                file_ids=file_ids,
             )
         )
 
@@ -428,8 +529,10 @@ class OpenAIResponsesWrapper:
         reasoning_effort=None,
         trace_id=None,
         max_output_tokens=None,
+        pdf_path=None,
     ):
         trace_ids = [trace_id] if trace_id is not None else None
+        pdf_paths = [pdf_path] if pdf_path is not None else None
         return self.generate_many(
             [prompt],
             system_prompt=system_prompt,
@@ -437,4 +540,5 @@ class OpenAIResponsesWrapper:
             reasoning_effort=reasoning_effort,
             trace_ids=trace_ids,
             max_output_tokens=max_output_tokens,
+            pdf_paths=pdf_paths,
         )[0]

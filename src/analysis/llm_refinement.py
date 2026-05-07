@@ -31,11 +31,13 @@ class AnalysisLLMClient:
         api_key: str | None,
         responses_api: bool,
         reasoning_effort: str,
+        reasoning_enabled: bool,
         max_completion_tokens: int | None,
     ):
         self.model_name = model_name
         self.responses_api = bool(responses_api)
         self.reasoning_effort = reasoning_effort
+        self.reasoning_enabled = bool(reasoning_enabled)
         self.max_completion_tokens = max_completion_tokens
         self.client = OpenAI(base_url=base_url, api_key=api_key)
 
@@ -53,8 +55,9 @@ class AnalysisLLMClient:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                "reasoning": {"effort": self.reasoning_effort},
             }
+            if self.reasoning_enabled:
+                params["reasoning"] = {"effort": self.reasoning_effort}
             if temperature is not None:
                 params["temperature"] = temperature
             if self.max_completion_tokens is not None:
@@ -77,8 +80,9 @@ class AnalysisLLMClient:
                 {"role": self._system_role(), "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "reasoning_effort": self.reasoning_effort,
         }
+        if self.reasoning_enabled:
+            params["reasoning_effort"] = self.reasoning_effort
         if temperature is not None:
             params["temperature"] = temperature
         if self.max_completion_tokens is not None:
@@ -1018,6 +1022,7 @@ def run_report_refinement(
         api_key=config.report_api_key,
         responses_api=config.report_responses_api,
         reasoning_effort=config.report_reasoning_effort,
+        reasoning_enabled=config.report_reasoning_enabled,
         max_completion_tokens=config.report_max_completion_tokens,
     )
     refiner = NarrativeRefiner(

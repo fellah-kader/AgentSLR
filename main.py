@@ -129,6 +129,10 @@ def run_all_stages(args: Namespace, argv: list[str]) -> int:
     start_index = PIPELINE_STAGES.index(resume_from)
 
     for stage in PIPELINE_STAGES[start_index:]:
+        if stage == "ocr" and (args.skip_ocr or args.fulltext_input_mode == "pdf"):
+            print("Skipping OCR stage and using downloaded PDFs for full-text input.")
+            continue
+
         if stage == "ocr" and args.ocr_client in {"glm", "paddle"}:
             if not args.ocr_python_bin:
                 resume_command = build_stage_command("run_all", argv)

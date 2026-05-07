@@ -29,6 +29,12 @@ def add_core_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--data-dir", default="data/agentslr")
     parser.add_argument("--resume-from", default="harvest")
     parser.add_argument("--ocr-python-bin", default=os.environ.get("OCR_PYTHON_BIN"))
+    parser.add_argument(
+        "--skip-ocr",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Skip OCR in run_all and pass PDFs directly to multimodal full-text stages.",
+    )
 
 
 def add_harvest_flow_args(parser: argparse.ArgumentParser) -> None:
@@ -140,6 +146,12 @@ def add_screening_args(parser: argparse.ArgumentParser) -> None:
         choices=["low", "medium", "high"],
         default="high",
     )
+    parser.add_argument(
+        "--reasoning",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Send reasoning parameters to supported models. Use --no-reasoning for non-reasoning models.",
+    )
     parser.add_argument("--max-completion-tokens", type=int, default=65536)
     parser.add_argument("--abstract-screening-batch-size", type=int, default=64)
     parser.add_argument("--abstract-screening-concurrency", type=int, default=8)
@@ -151,6 +163,12 @@ def add_screening_args(parser: argparse.ArgumentParser) -> None:
         "--direct-full-text",
         action=argparse.BooleanOptionalAction,
         default=False,
+    )
+    parser.add_argument(
+        "--fulltext-input-mode",
+        choices=["markdown", "pdf"],
+        default="markdown",
+        help="Use OCR Markdown or downloaded PDFs for full-text screening and extraction.",
     )
 
 
@@ -282,6 +300,12 @@ def add_report_args(parser: argparse.ArgumentParser) -> None:
         "--report-reasoning-effort",
         choices=["low", "medium", "high"],
         default=None,
+    )
+    parser.add_argument(
+        "--report-reasoning",
+        action=argparse.BooleanOptionalAction,
+        default=None,
+        help="Override reasoning for report refinement. Defaults to --reasoning.",
     )
     parser.add_argument("--report-max-completion-tokens", type=int, default=None)
     parser.add_argument(

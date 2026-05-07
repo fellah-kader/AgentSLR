@@ -17,11 +17,15 @@ from openai import OpenAI
 from src.extraction.common import (
     apply_extraction_sample,
     append_jsonl,
+    build_user_content,
     get_data_extraction_concurrency,
     get_chat_reasoning_kwargs,
     load_extraction_input_dataframe,
+    redact_file_data,
     run_with_optional_thread_pool,
+    upload_pdf_for_chat,
 )
+from src.ocr.common import get_pdf_path_column, resolve_pdf_path
 from .tools import (
     AttackRateExtractor, GrowthRateExtractor, HumanDelayExtractor,
     MutationRateExtractor, RelativeContributionExtractor,
@@ -62,6 +66,8 @@ class ExtractionRunner:
         output_parameters_file: Optional[str] = None,  
         max_completion_tokens: Optional[int] = None,
         article_concurrency: int = 1,
+        reasoning_effort: str = "high",
+        reasoning_enabled: bool = True,
 
     ):
         self.client = client
@@ -74,9 +80,16 @@ class ExtractionRunner:
 
         self.max_completion_tokens = max_completion_tokens
         self.article_concurrency = max(1, int(article_concurrency))
+        self.reasoning_effort = reasoning_effort
+        self.reasoning_enabled = bool(reasoning_enabled)
         self._append_lock = Lock()
+        self._pdf_file_cache: dict[str, dict[str, str]] = {}
 
-        self.extra_body = {"thinking": {"type": "enabled"}} if 'gpt' not in self.model_name.lower() else None
+        self.extra_body = (
+            {"thinking": {"type": "enabled"}}
+            if self.reasoning_enabled and 'gpt' not in self.model_name.lower()
+            else None
+        )
 
 
 
@@ -139,6 +152,13 @@ class ExtractionRunner:
             json.dump(trace, f, indent=2)
         self._append_jsonl(os.path.join(self.log_dir, "reasoning_traces.jsonl"), trace)
 
+    def _messages(self, system_prompt: str, user_prompt: str, pdf_path: str | None = None):
+        file_id = upload_pdf_for_chat(self.client, pdf_path, self._pdf_file_cache)
+        return [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": build_user_content(user_prompt, file_id)},
+        ]
+
     def screen_parameters(
         self, user_prompt: str, row: pd.Series,
     ) -> dict[str, bool]:
@@ -149,16 +169,18 @@ class ExtractionRunner:
         )
 
         article_id = str(row["article_id"])
+        pdf_path = row.get("pdf_path")
 
         for parameter_class in self.parameter_classes:
             parameter_screening_prompt = screening_prompt + "\n" + self._read_text(
                 TOOLS_DIR / parameter_class / "screening.md"
             )
 
-            input_list = [
-                {"role": "system", "content": parameter_screening_prompt},
-                {"role": "user", "content": user_prompt},
-            ]
+            input_list = self._messages(
+                parameter_screening_prompt,
+                user_prompt,
+                pdf_path=pdf_path,
+            )
 
             tool = extractor.SCREENING_TOOL_CALL
 
@@ -167,7 +189,7 @@ class ExtractionRunner:
                 "article_id": article_id,
                 "parameter_class": parameter_class,
                 "timestamp": dt.datetime.now().isoformat(),
-                "input": input_list.copy(),
+                "input": redact_file_data(input_list),
                 "iterations": [],
                 "decision": None,
                 "annotations": None,
@@ -197,7 +219,12 @@ class ExtractionRunner:
                         model=self.model_name,
                         tools=[tool],
                         messages=input_list,
-                        **get_chat_reasoning_kwargs(self.model_name, uses_tools=True),
+                        **get_chat_reasoning_kwargs(
+                            self.model_name,
+                            uses_tools=True,
+                            reasoning_enabled=self.reasoning_enabled,
+                            reasoning_effort=self.reasoning_effort,
+                        ),
                         max_completion_tokens=self.max_completion_tokens,
                         extra_body=self.extra_body if self.extra_body else None
                     )
@@ -338,19 +365,17 @@ class ExtractionRunner:
         extractor: ParameterExtractor,
         article_id: str,
         stage: str,
+        pdf_path: str | None = None,
     ) -> tuple[list[dict], list[dict], dict]:
         
-        input_list = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ]
+        input_list = self._messages(system_prompt, user_prompt, pdf_path=pdf_path)
 
         trace = {
             "stage": stage,
             "article_id": article_id,
             "parameter": parameter,
             "timestamp": dt.datetime.now().isoformat(),
-            "input": input_list.copy(),
+            "input": redact_file_data(input_list),
             "iterations": [],
             "extractions": [],
             "error": None
@@ -376,7 +401,12 @@ class ExtractionRunner:
                     model=self.model_name,
                     tools=[tool],
                     messages=input_list,
-                    **get_chat_reasoning_kwargs(self.model_name, uses_tools=True),
+                    **get_chat_reasoning_kwargs(
+                        self.model_name,
+                        uses_tools=True,
+                        reasoning_enabled=self.reasoning_enabled,
+                        reasoning_effort=self.reasoning_effort,
+                    ),
                     max_completion_tokens=self.max_completion_tokens,
                     extra_body=self.extra_body if self.extra_body else None
                 )
@@ -477,10 +507,14 @@ class ExtractionRunner:
 
 
     def extract_single_paper_parameters(self, row: pd.Series):
+        pdf_path = row.get("pdf_path")
+        fulltext = row.get("markdown_content", row.get("fulltext", ""))
+        if pdf_path:
+            fulltext = "The full text PDF is attached. Read the PDF directly for extraction."
         user_prompt = (
             f"# Article title: {row['title']}\n"
             f"# Full Text\n"
-            f"{row['markdown_content']}"
+            f"{fulltext}"
         )
 
         article_id = str(row["article_id"]) 
@@ -521,6 +555,7 @@ class ExtractionRunner:
                     extractor=extractor,
                     article_id=article_id,
                     stage=f"value_extraction_{parameter}",
+                    pdf_path=pdf_path,
                 )
             )
 
@@ -571,6 +606,7 @@ class ExtractionRunner:
                         extractor=extractor,
                         article_id=article_id,
                         stage=f"uncertainty_{parameter}_{idx}",
+                        pdf_path=pdf_path,
                     )
                 )
 
@@ -628,6 +664,7 @@ class ExtractionRunner:
                         extractor=extractor,
                         article_id=article_id,
                         stage=f"population_{parameter}_{idx}",
+                        pdf_path=pdf_path,
                     )
                 )
 
@@ -696,6 +733,7 @@ class ExtractionRunner:
                         extractor=extractor,
                         article_id=article_id,
                         stage=f"aggregation_{parameter}",
+                        pdf_path=pdf_path,
                     )
                 )
 
@@ -852,6 +890,19 @@ class Runner(ExtractionRunner):
             client = OpenAI(api_key=config.api_key)
 
         fulltext = load_extraction_input_dataframe(config, logger=logger)
+        if getattr(config, "fulltext_input_mode", "markdown") == "pdf":
+            if "pdf_path" not in fulltext.columns:
+                source_column = "fulltext_pdf_path" if "fulltext_pdf_path" in fulltext.columns else get_pdf_path_column(fulltext)
+                fulltext["pdf_path"] = fulltext[source_column].apply(
+                    lambda value: str(resolve_pdf_path(value, config, Path(config.fulltext_screening_path)))
+                    if pd.notna(value) and str(value).strip()
+                    else None
+                )
+            fulltext = fulltext[
+                fulltext["pdf_path"].notna()
+                & fulltext["pdf_path"].apply(lambda value: Path(str(value)).exists())
+            ].copy()
+            fulltext["markdown_content"] = "PDF supplied directly to the model."
         fulltext = apply_extraction_sample(fulltext, config, logger=logger)
 
         if config.limit is not None:
@@ -868,6 +919,8 @@ class Runner(ExtractionRunner):
             output_parameters_file=str(config.data_extraction_parameters_path),
             max_completion_tokens=getattr(config, "max_completion_tokens", None),
             article_concurrency=get_data_extraction_concurrency(config),
+            reasoning_effort=getattr(config, "reasoning_effort", "high"),
+            reasoning_enabled=getattr(config, "reasoning_enabled", True),
         )
 
         if logger is not None:
