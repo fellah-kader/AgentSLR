@@ -13,3 +13,5 @@ cartopy
 plotly
 vllm
 mistralai
+huggingface_hub
+pyarrow

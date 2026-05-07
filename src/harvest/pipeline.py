@@ -55,6 +55,9 @@ def _load_metadata_input(config, logger: Any = None) -> pd.DataFrame:
     )
     dataframe = ensure_harvest_columns(dataframe, preserve_extra=True)
     dataframe = _ensure_identifiers(dataframe, config.pathogen)
+    for column in ["downloaded_path", "download_source", "download_error"]:
+        if column in dataframe.columns:
+            dataframe[column] = dataframe[column].astype("object")
     return dataframe
 
 
