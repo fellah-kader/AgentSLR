@@ -1,0 +1,2 @@
+2026-07-25 — Set up Mac environment (Python 3.11, existing Homebrew/git), forked AgentSLR to fellah-kader/AgentSLR as NeuroSLR, connected Groq (Llama 3.3 70B) via OPENAI_BASE_URL/API_KEY/MODEL, ran abstract_screen stage on 5 sample Lassa abstracts successfully (1 included, 4 excluded).
+Note: AgentSLR runs as a step-by-step command-line pipeline (main.py dispatches stages), not LangGraph as originally assumed in CA1 — relevant for NeuroSLR's architecture section.
