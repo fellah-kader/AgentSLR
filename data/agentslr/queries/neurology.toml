@@ -1,0 +1,29 @@
+[alzheimers]
+name = "Alzheimer's Disease"
+mesh_terms = ["Alzheimer Disease", "Dementia", "Amyloid beta-Peptides", "tau Proteins"]
+keywords = ["Alzheimer", "amyloid", "tau", "dementia", "cognitive decline", "memory loss"]
+boolean_query = "(Alzheimer Disease[MeSH] OR Alzheimer[tiab] OR amyloid beta[tiab] OR tau protein[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab])"
+
+[parkinsons]
+name = "Parkinson's Disease"
+mesh_terms = ["Parkinson Disease", "alpha-Synuclein", "Dopamine", "Lewy Bodies"]
+keywords = ["Parkinson", "dopamine", "alpha-synuclein", "motor symptoms", "tremor", "lewy body"]
+boolean_query = "(Parkinson Disease[MeSH] OR Parkinson[tiab] OR dopamine[tiab] OR alpha-synuclein[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab])"
+
+[multiple_sclerosis]
+name = "Multiple Sclerosis"
+mesh_terms = ["Multiple Sclerosis", "Myelin Sheath", "Neuroinflammation", "Demyelinating Diseases"]
+keywords = ["multiple sclerosis", "MS", "myelin", "demyelination", "neuroinflammation", "relapse"]
+boolean_query = "(Multiple Sclerosis[MeSH] OR multiple sclerosis[tiab] OR demyelination[tiab] OR myelin[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab])"
+
+[epilepsy]
+name = "Epilepsy"
+mesh_terms = ["Epilepsy", "Seizures", "Anticonvulsants", "Epilepsies, Partial"]
+keywords = ["epilepsy", "seizure", "anticonvulsant", "antiepileptic", "convulsion", "EEG"]
+boolean_query = "(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab])"
+
+[stroke]
+name = "Stroke"
+mesh_terms = ["Stroke", "Brain Ischemia", "Cerebrovascular Disorders", "Thrombolytic Therapy"]
+keywords = ["stroke", "ischemia", "cerebrovascular", "thrombolysis", "infarction", "hemorrhage"]
+boolean_query = "(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab])"
