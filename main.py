@@ -75,6 +75,15 @@ def dispatch_stage(config, logger) -> int:
 
         return run_writeup_stage(config, logger)
 
+
+    if config.stage == "contradiction_analysis":
+        from src.contradiction.run import run_contradiction_analysis
+        return run_contradiction_analysis(config, logger)
+
+    if config.stage == "evidence_grading":
+        from src.evidence.run import run_evidence_grading
+        return run_evidence_grading(config, logger)
+
     raise SystemExit(f"Unsupported stage: {config.stage}")
 
 
