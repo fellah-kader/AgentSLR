@@ -8,6 +8,7 @@ This is a novel component not present in the original AgentSLR system.
 from __future__ import annotations
 import json
 import logging
+import os
 from dataclasses import dataclass
 from typing import Optional
 
@@ -136,7 +137,7 @@ def analyse_pair(
 
     try:
         response = llm_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
             messages=[{"role": "user", "content": prompt}],
             max_tokens=1000,
             temperature=0.1,  # Low temperature for consistent structured output

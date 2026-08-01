@@ -1,0 +1,82 @@
+[
+  {
+    "article_id": "PMID_42201543",
+    "title": "Development of a serverless, interactive application for Alzheimer's disease detection and visualization using MRI images.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Computer-aided diagnosis system development and evaluation",
+    "sample_size": "n=1687",
+    "justification": "The study describes the development and evaluation of a diagnostic system rather than a traditional clinical study design like RCT or cohort study. It focuses on a technological approach and its application rather than direct clinical outcomes.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41963962",
+    "title": "Clostridium butyricum ameliorates Toxoplasma gondii-induced neuropsychiatric disorders by attenuating glial-mediated synaptic pruning via the gut-brain axis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study involves animal models (mice) to investigate the effects of Clostridium butyricum on neuropsychiatric disorders, which classifies it as an animal study. There is no mention of a sample size for human participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41728301",
+    "title": "Predicting Preclinical Cognitive Decline Using Plasma P-tau217 and APOE Genotype in 8,582 Individuals From Different Ethnic Groups.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=8582",
+    "justification": "The study evaluates the association between plasma P-tau217 levels and cognitive impairment in a large cohort of individuals, making it an observational cohort study rather than a randomized controlled trial or case-control study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41634240",
+    "title": "Multi-Modal Fusion with Supervised Contrastive Learning Model for Early Alzheimer's Disease Diagnosis and Multi-Modal Biomarker Identification.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Experimental study using machine learning techniques",
+    "sample_size": "unknown",
+    "justification": "The study presents a novel machine learning framework and validates it on a dataset, but it does not involve a randomized controlled trial, cohort, or case-control design. The sample size is not specified in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41520099",
+    "title": "Real world clinical practice of lecanemab at PUMCH dementia cohort: focus on dynamic imaging and biomarker evolution.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Single-center, real-world cohort study",
+    "sample_size": "n=42",
+    "justification": "The study evaluates the efficacy and safety of lecanemab in a cohort of patients with early Alzheimer's disease, using observational methods without randomization, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41358624",
+    "title": "Peripheral inflammation in a Canadian cohort of neurodegenerative conditions: Occurrence, determinants, and impact.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study (observational)",
+    "sample_size": "n=514",
+    "justification": "The study assesses blood inflammatory markers in a cohort of older adults, comparing those with cognitive impairment to cognitively normal individuals, which fits the definition of a cohort study. It does not involve randomization or control groups typical of RCTs.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40611874",
+    "title": "Estimated Effects of Comorbidities on Risk of All-cause Dementia in Patients with Mild Cognitive Impairment.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=19797",
+    "justification": "The study is a retrospective cohort study analyzing the effects of comorbidities on the risk of all-cause dementia in patients with mild cognitive impairment, which fits the criteria for Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39683391",
+    "title": "Food Functional Factors in Alzheimer's Disease Intervention: Current Research Progress.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review of current research",
+    "sample_size": "unknown",
+    "justification": "The paper discusses various functional factors and their potential effects on Alzheimer's disease based on current research but does not present original data or a specific study design such as RCTs or cohort studies. It summarizes findings from existing literature without conducting new research.",
+    "confidence": 0.8
+  }
+]

@@ -22,6 +22,8 @@ def add_core_args(parser: argparse.ArgumentParser) -> None:
             "write_up_parameters",
             "write_up_models",
             "write_up_outbreaks",
+            "contradiction_analysis",
+            "evidence_grading",
         ],
         default="harvest",
     )

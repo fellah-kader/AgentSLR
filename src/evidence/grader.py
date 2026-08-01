@@ -15,6 +15,7 @@ Level 5 - Case reports, expert opinion, animal studies
 from __future__ import annotations
 import json
 import logging
+import os
 from dataclasses import dataclass
 
 logger = logging.getLogger(__name__)
@@ -117,7 +118,7 @@ def grade_paper(paper: dict, condition: str, llm_client) -> EvidenceGrade:
 
     try:
         response = llm_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
             messages=[{"role": "user", "content": prompt}],
             max_tokens=500,
             temperature=0.1,
