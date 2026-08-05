@@ -1,0 +1,8 @@
+2026-08-05 18:30:14,439 - INFO - Starting contradiction analysis for parkinsons with 12 included papers
+2026-08-05 18:33:35,154 - INFO - Contradiction analysis complete:
+2026-08-05 18:33:35,154 - INFO -   Total pairs analysed: 50
+2026-08-05 18:33:35,154 - INFO -   Contradictions found: 4
+2026-08-05 18:33:35,154 - INFO -   [MAJOR] PMID_42539673 vs PMID_42533232: effect direction
+2026-08-05 18:33:35,154 - INFO -   [MAJOR] PMID_42539673 vs PMID_42494717: effect direction
+2026-08-05 18:33:35,154 - INFO -   [MAJOR] PMID_42533232 vs PMID_42494717: effect direction
+2026-08-05 18:33:35,154 - INFO -   [MAJOR] PMID_42516801 vs PMID_42494717: effect direction

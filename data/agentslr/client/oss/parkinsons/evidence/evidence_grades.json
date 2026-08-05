@@ -1,0 +1,122 @@
+[
+  {
+    "article_id": "PMID_42550252",
+    "title": "Comparative pharmacovigilance of Levodopa and Pramipexole: a disproportionality analysis of the FAERS database.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Disproportionality analysis using real-world data from FAERS",
+    "sample_size": "n=12,304 (5,410 Levodopa and 6,894 Pramipexole reports)",
+    "justification": "This study analyzes adverse event reports from a large database, making it an observational cohort study rather than a randomized controlled trial or systematic review.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42545552",
+    "title": "Transition dynamics modeling of pre-trained accelerometry representations for time to diagnosis of Parkinson's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational study using accelerometry data from the UK Biobank",
+    "sample_size": "unknown",
+    "justification": "The study utilizes accelerometer data to assess Parkinson's disease risk, indicating a cohort design where individuals are monitored over time. However, the sample size is not specified in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42539673",
+    "title": "Adjunctive EGb 761 treatment in patients with Parkinson's disease: a case series.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case series",
+    "sample_size": "n=17",
+    "justification": "This study is a case series involving a small number of patients (17) and does not include a control group or randomization, which limits the strength of the evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42533668",
+    "title": "Movement dependent neural substates within levodopa-induced dyskinesia in Parkinson's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study of patients with Parkinson's disease",
+    "sample_size": "n=22",
+    "justification": "The study involves observing and analyzing neural oscillations in a cohort of patients with Parkinson's disease during different behavioral states, which fits the criteria for a cohort study. It does not involve randomization or a control group, thus it is not a higher level of evidence.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42533232",
+    "title": "Efficacy and safety of fecal microbiota transplantation in Parkinson's disease: a systematic review and meta-analysis of randomized controlled trials with GRADE assessment.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "sample_size": "n=318",
+    "justification": "The study is a systematic review and meta-analysis that evaluates multiple randomized controlled trials, which provides a high level of evidence regarding the efficacy and safety of fecal microbiota transplantation in Parkinson's disease.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42516801",
+    "title": "Clinical outcomes following a home-based dual-task telerehabilitation program in Parkinson's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=60",
+    "justification": "The study is a retrospective cohort analysis without a control group, which fits the criteria for Level 3 evidence. While it shows promising results, the lack of randomization and control limits the strength of the conclusions.",
+    "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_42509706",
+    "title": "Molecular Mechanisms and Therapeutic Strategies in Parkinson's Disease: From Pathogenic Signaling to Drug Development.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review summarizing existing knowledge on Parkinson's Disease rather than presenting original research data or a systematic review of trials. Therefore, it fits the lowest level of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42500962",
+    "title": "A novel approach to the management of levodopa-induced dyskinesia using deep transcranial magnetic stimulation: A case report.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "n=2",
+    "justification": "This study reports on two individual cases without a control group or randomization, making it a case report. The findings are preliminary and require further investigation in larger studies.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42494717",
+    "title": "Clinical and Cost-Effectiveness of the \"UCL Live Well With Parkinson's\" Toolkit: A Randomised Controlled Trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=346",
+    "justification": "The study is a two-arm randomised controlled trial evaluating the clinical and cost-effectiveness of a self-management intervention for Parkinson's disease, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42487050",
+    "title": "Preferences for Parkinson's Disease Treatments: A Scoping Literature Review.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Scoping literature review",
+    "sample_size": "n=12 studies",
+    "justification": "This paper is a scoping literature review that synthesizes findings from multiple studies rather than presenting original research data or a systematic review of RCTs. Therefore, it fits the lowest level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40659664",
+    "title": "Circadian clock dysfunction in Parkinson's disease: mechanisms, consequences, and therapeutic strategy.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review that summarizes existing literature on circadian clock dysfunction in Parkinson's disease rather than presenting original research data or a systematic review of trials. Therefore, it fits the lowest level of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_36009865",
+    "title": "Potential of Whole-Body Vibration in Parkinson's Disease: A Systematic Review and Meta-Analysis of Human and Animal Studies.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=32 studies (14 human studies and 18 animal studies)",
+    "justification": "The paper is a systematic review and meta-analysis that evaluates multiple studies, including randomized controlled trials, to assess the effects of Whole-Body Vibration in Parkinson's Disease. This qualifies it for the highest level of evidence.",
+    "confidence": 0.9
+  }
+]

@@ -1,0 +1,26 @@
+2026-08-05 18:22:15,862 - INFO - Running harvest stage for pathogen=parkinsons mode=full
+2026-08-05 18:22:15,862 - INFO - Harvest root: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons
+2026-08-05 18:22:15,862 - INFO - PDF output dir: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/pdfs
+2026-08-05 18:22:15,862 - INFO - Harvest metadata path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/harvest_metadata.csv
+2026-08-05 18:22:15,862 - INFO - Harvest downloaded path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/harvest_downloaded_pdfs.csv
+2026-08-05 18:22:15,862 - INFO - [2026-08-05T17:22:15+00:00] Harvest start: parkinsons
+2026-08-05 18:22:16,387 - INFO - [2026-08-05T17:22:16+00:00] OpenAlex harvested total: 0
+2026-08-05 18:22:18,886 - INFO - [2026-08-05T17:22:18+00:00] PubMed harvested total: 200
+2026-08-05 18:22:19,314 - INFO - [2026-08-05T17:22:19+00:00] EuropePMC harvested total: 4
+2026-08-05 18:22:19,356 - INFO - [2026-08-05T17:22:19+00:00] Final dedup: 204 -> 200 records
+2026-08-05 18:22:19,369 - INFO - [2026-08-05T17:22:19+00:00] Metadata rows ready for download: 200
+2026-08-05 18:22:19,372 - INFO - [2026-08-05T17:22:19+00:00] Total records: 200
+2026-08-05 18:22:19,372 - INFO - [2026-08-05T17:22:19+00:00] Already downloaded (flagged): 0
+2026-08-05 18:22:19,372 - INFO - [2026-08-05T17:22:19+00:00] To process: 200
+2026-08-05 18:22:19,372 - INFO - [2026-08-05T17:22:19+00:00] Starting downloads with 8 workers
+2026-08-05 18:22:26,887 - INFO - [2026-08-05T17:22:26+00:00] Progress: [50/200] (success: 9)
+2026-08-05 18:22:36,626 - INFO - [2026-08-05T17:22:36+00:00] Progress: [100/200] (success: 22)
+2026-08-05 18:23:08,908 - INFO - [2026-08-05T17:23:08+00:00] Progress: [150/200] (success: 33)
+2026-08-05 18:23:33,857 - INFO - [2026-08-05T17:23:33+00:00] Progress: [200/200] (success: 44)
+2026-08-05 18:23:33,937 - INFO - Complete: parkinsons
+2026-08-05 18:23:33,937 - INFO - Total records: 200
+2026-08-05 18:23:33,937 - INFO - Successfully downloaded: 44
+2026-08-05 18:23:33,937 - INFO - Failed: 156
+2026-08-05 18:23:33,937 - INFO - Metadata saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/harvest_metadata.csv
+2026-08-05 18:23:33,937 - INFO - Downloaded output saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/harvest_downloaded_pdfs.csv
+2026-08-05 18:23:33,937 - INFO - Progress saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/metadata_progress.csv

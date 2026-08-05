@@ -1,0 +1,9 @@
+2026-08-05 18:24:12,987 - INFO - Loading abstract screening input from: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/parkinsons/harvest_metadata.csv
+2026-08-05 18:24:13,006 - INFO - Screening 200 metadata rows without download filtering
+2026-08-05 18:24:13,008 - INFO - Sampling 30 of 200 abstract-screening rows with seed=7
+2026-08-05 18:24:13,008 - INFO - Screening 30 papers
+2026-08-05 18:24:13,009 - INFO - Reasoning traces will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/parkinsons/logs/abstract_screening_dumps_2026-08-05_18-24-13
+2026-08-05 18:24:13,032 - INFO - Results will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/parkinsons/screening/abstract_screening.csv
+2026-08-05 18:24:13,032 - INFO - Run ID: 2026-08-05_18-24-13
+2026-08-05 18:28:20,843 - INFO - Included 12 papers for full-text review
+2026-08-05 18:28:20,843 - INFO - Abstract screening summary: total=30 included=12 excluded=18
