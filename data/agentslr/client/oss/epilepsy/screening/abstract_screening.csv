@@ -1,0 +1,1371 @@
+article_id,source,pmid,pmcid,doi,title,authors,journal,year,abstract,url,openalex_id,openalex_pdf_url,pathogen,query,harvested_at,downloaded,downloaded_path,download_attempted_at,download_source,download_error,ai4epi_abstract_response,ai4epi_abstract_decision,to_ocr,screening_timestamp
+PMID_42553752,PubMed,42553752,PMC8296467,10.1093/braincomms/fcag290,Functional connectivity predictors and mechanisms of symptom change in functional neurological disorder.,"Westlin, Christiana; Bleier, Cristina; Guthrie, Andrew J; Finkelstein, Sara A; Maggio, Julie; Ranford, Jessica; MacLean, Julie; Godena, Ellen; Millstein, Daniel; Freeburn, Jennifer; Adams, Caitlin; Stephen, Christopher D; Diez, Ibai; Perez, David L",Brain communications,2026,"Clinical trajectories in patients with functional neurological disorder (FND) are variable, and the neural mechanisms underlying this heterogeneity remain poorly understood. This longitudinal brain imaging study examined resting-state functional connectivity predictors and mechanisms of symptom change in FND. Thirty-two adults with FND (motor and/or seizure phenotypes) completed baseline questionnaires and functional MRI (fMRI), followed by naturalistic treatment for 6.8 ± 0.8 months. All participants completed follow-up questionnaires; 28 completed follow-up fMRI. At each timepoint, three graph-theory network metrics of resting-state functional connectivity were computed: whole-brain weighted-degree (centrality), cortical integration (between-network connectivity), and cortical segregation (within-network connectivity). All analyses adjusted for age, sex, antidepressants, head motion, time between sessions and baseline score of interest, with cluster-wise correction. Results were contextualized against 50 age-, sex-, and head motion-matched healthy controls (HCs). Based on patient-reported Clinical Global Impression of Improvement ratings, 59.4% improved, 31.3% were unchanged, and 9.3% worsened. Core FND symptom (i.e. Screening for Somatoform Symptoms-7 Subscale for Conversion Disorder) and non-core physical symptom (Patient Health Questionnaire-15) scores showed variable trajectories, with no group-level changes. For whole-brain weighted-degree analyses, baseline centrality in right middle frontal, precentral, and left cerebellar regions was positively associated with core FND symptom change; longitudinally, centrality decreases in right precentral, superior parietal, lateral occipital, and cerebellar regions were associated with symptom improvement. For cortical integration analyses, baseline between-network connectivity in ventral attention, frontoparietal, and default mode network regions was positively associated with core FND symptom change; longitudinally, decreases in between-network connectivity for regions of these same networks were associated with symptom improvement. For cortical segregation analyses, baseline within-network connectivity in frontoparietal network regions was positively associated with core FND symptom change; no regions showed longitudinal segregation changes associated with symptom change. The right anterior insula emerged as a convergent site across baseline and longitudinal integration analyses, with the most improved participants showing elevated baseline between-network connectivity relative to HCs that normalized at follow-up. More modest functional connectivity associations were observed with non-core physical symptom change, spanning baseline within-network connectivity in dorsal attention network regions and longitudinal between-network connectivity increases in visual network regions. Findings remained significant adjusting for FND phenotype, although several attenuated when accounting for baseline affective symptoms or trauma burden. In conclusion, this study identified baseline and longitudinal resting-state functional connectivity features linked to symptom change in FND, highlighting the potential of large-scale network interactions as prognostic markers and providing mechanistic insights that set the stage for novel, biologically informed interventions.",https://pubmed.ncbi.nlm.nih.gov/42553752/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether the abstract should be included or excluded based on the criteria provided, I will assess each inclusion and exclusion criterion step-by-step.
+
+## Inclusion Criteria
+ALL must be met:
+1. **Pathogen: Must be about Epilepsy**  
+   - The study is centered around functional neurological disorder (FND), which is not classified as epilepsy. Thus, this criterion is not met.
+   
+2. **Language: English only**  
+   - The abstract is in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The study is presented as original research. This criterion is met.
+
+4. **Population: Human subjects**  
+   - The study involves human subjects (32 adults with FND). This criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of the specified outcomes**  
+   - The study does not report on seizure frequency or seizure-free rates, nor does it involve antiepileptic drugs, EEG-based outcomes, or other relevant measures specifically for epilepsy. This criterion is not met.
+
+Since the study does not meet the first and fifth inclusion criteria, it cannot be included.
+
+## Exclusion Criteria
+Exclude if ANY apply:
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**  
+   - The study is not about epilepsy but rather FND, which excludes it based on this criterion.
+
+2. **Language: Non-English**  
+   - The abstract is in English. This criterion does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The abstract appears to be part of original research. This criterion does not apply.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves human participants. This criterion does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - The study involves human participants. This criterion does not apply.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - The study is not related to outbreaks. This criterion does not apply.
+
+Since the study is not about epilepsy and falls into the first exclusion criterion, it should be excluded.
+
+Based on this evaluation, the decision is clear. The paper must be excluded from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.733872
+PMID_42553683,PubMed,42553683,PMC10577710,10.1136/bmjment-2023-300809,Epidemiological characteristics of comorbidities in childhood Attention-Deficit/Hyperactivity Disorder and common comorbidity patterns.,"Ji, Xiaolu; Meng, Haojie; Liu, Qianqi; Li, Yang; Wang, Xu",Frontiers in public health,2026,"OBJECTIVE: This study aims to explore the epidemiological features of medical and psychological comorbidities among children with Attention-Deficit/Hyperactivity Disorder (ADHD) and analyze the comorbidity profiles. The findings are expected to enhance clinical recognition of comorbid conditions and provide evidence for early screening and intervention.
+METHODS: A retrospective analysis was performed on children diagnosed with ADHD at Children's Hospital of Nanjing Medical University between December 2015 and January 2025. Comorbidity was operationalized as ADHD accompanied by at least one other chronic condition or health problem in this study. The 10 most prevalent chronic conditions and health problems were defined based on parental medical history, on-site physical examinations, and blood sample testing. Systematic cluster analysis and principal component analysis (PCA) were employed to explore the comorbidity patterns in children with ADHD.
+RESULTS: A total of 52,098 children diagnosed withs ADHD were enrolled in this study, including 41,124 males, accounting for 78.9% of the total study population. The age distribution showed that 92.6% of the children were aged 6-11 years. Among all enrolled subjects, 10,797 children (20.7%) had comorbid chronic conditions or health problems. Tic disorder was the most common comorbid condition. Regarding comorbidity combinations, the most frequent one was the co-occurrence of intellectual disability and autism spectrum disorder (ASD), with a total of 189 cases (n = 189, 25.7%). PCA identified a core comorbidity pattern for ADHD: tic disorders, intellectual disabilities, epilepsy, sleep problems, and obesity.
+CONCLUSION: Comorbid conditions are not rare among pediatric ADHD populations. The burden imposed by comorbidity in children with ADHD is substantial and thus cannot be neglected in clinical management. Based on the comorbidity patterns identified in this study, comprehensive clinical assessment covering both ADHD and its potential comorbidities, as well as integrated, individualized intervention strategies, are essential to optimize the long-term outcomes and quality of life for children with ADHD.",https://pubmed.ncbi.nlm.nih.gov/42553683/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's assess the abstract against the inclusion and exclusion criteria step by step.
+
+## Inclusion Criteria
+**ALL must be met:**
+
+1. **Pathogen: Must be about Epilepsy**  
+   - This study is primarily focused on Attention-Deficit/Hyperactivity Disorder (ADHD) and discusses comorbidity patterns, which include epilepsy. However, the main focus is not on epilepsy itself.  
+   **Not met.**
+
+2. **Language: English only**  
+   - The abstract is written in English.  
+   **Met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The study appears to be original research as it involves a retrospective analysis of clinical data.  
+   **Met.**
+
+4. **Population: Human subjects**  
+   - The study involves human subjects (children diagnosed with ADHD).  
+   **Met.**
+
+5. **Content: Must contain AT LEAST ONE of the specified outcomes**  
+   - The primary focus is on ADHD and its comorbidities. While the mention of epilepsy as a comorbid condition is present, the study does not provide quantitative details concerning epilepsy itself (e.g., seizure frequency or outcomes regarding epilepsy).  
+   **Not met.**
+
+## Exclusion Criteria
+**Exclude if ANY apply:**
+
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**  
+   - The primary focus is not on epilepsy, despite its mention as a comorbidity.  
+   **Applies.**
+
+2. **Language: Non-English**  
+   - Not applicable as the abstract is in English.  
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - This is an abstract of a study; therefore, this criterion applies.  
+   **Applies.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - This study includes human subjects.  
+   **Not applicable.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters (R0, Rt, Re, r, growth rate, mutation rate)**  
+   - This study is not animal-based.  
+   **Not applicable.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - Not applicable; the study does not discuss laboratory outbreaks.  
+
+Since the study primarily focuses on ADHD and does not meet the primary inclusion criteria regarding epilepsy, while also falling under the exclusion criteria as an abstract, we conclude that this study should not be included. 
+
+Thus, the final decision is:
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736238
+PMID_42552475,PubMed,42552475,PMC12968823,10.1007/s12028-025-02347-5,Guidelines for Seizure Prophylaxis in Patients with Aneurysmal Subarachnoid Hemorrhage: A Statement for Healthcare Professionals from the Neurocritical Care Society.,"Rowe, A Shaun; Zafar, Sahar F; Tesoro, Eljim; Gilmore, Emily J; Johnson, Emily L; Olson, DaiWai; Rayi, Appaji; Ullman, Jamie; Yuan, Yuhong; Frontera, Jennifer A",Neurocritical care,2026,"BACKGROUND: There are limited data to guide antiseizure medication (ASM) prophylaxis in patients with aneurysmal subarachnoid hemorrhage (SAH). This results in practice variation in the use and duration of ASM prophylaxis.
+METHODS: We conducted a systematic review and meta-analysis of articles assessing ASM prophylaxis in adults with aneurysmal SAH. The population, intervention, comparator, and outcome (PICO) questions were as follows: (1) Should ASM or no ASM be used in patients hospitalized for aneurysmal subarachnoid hemorrhage who have no history of clinical or electrographic seizures? (2) If an ASM is used, should levetiracetam or phenytoin/fosphenytoin be preferentially used? (3) If an ASM is used, should a long (> 3 days) or short (≤ 3 days) duration of prophylaxis be used? The main outcomes were early seizure (≤ 14 days), late seizures (> 14 days), adverse events, mortality, and functional outcomes. We used Grading of Recommendations Assessment, Development, and Evaluation (GRADE) methodology to generate recommendations.
+RESULTS: The initial literature search yielded 1988 articles, of which 10 formed the basis of the recommendations: Regarding PICO 1, we did not find a significant difference in outcomes of early seizure, adverse events, mortality, or functional outcomes when comparing ASM to no ASM. In regard to PICO 2, we found fewer early seizures with phenytoin/fosphenytoin and lower risk for neurologic decline with levetiracetam; however, there was low certainty of evidence. There was no significant difference in mortality between the different treatment types. Regarding PICO 3, we found extended use of ASM may be associated with lower seizure risk, but at the same time be associated with higher risk for adverse effects.
+CONCLUSIONS: Overall, the quality of evidence is low, precluding strong recommendations. We suggest that ASM or no ASM may be used in patients hospitalized with aneurysmal subarachnoid hemorrhage (conditional recommendation, low quality of evidence). If used, we suggest either levetiracetam or phenytoin/fosphenytoin (conditional recommendation, very low quality of evidence) for a short or long duration (conditional recommendation, moderate quality of evidence).",https://pubmed.ncbi.nlm.nih.gov/42552475/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's assess the provided abstract against the systematic review's criteria:
+
+### Inclusion Criteria
+1. **Pathogen:** The study is about Epilepsy. *(Met)*
+2. **Language:** The abstract is in English. *(Met)*
+3. **Study type:** The study is a systematic review and meta-analysis, which is considered for special consideration. *(Met)*
+4. **Population:** The study involves human subjects (adults with aneurysmal subarachnoid hemorrhage). This specific population may relate to epilepsy risk, but it does not directly involve patients with confirmed epilepsy diagnosis as a primary focus. Hence, this criterion is not strictly met. *(Not Met)*
+5. **Content:** 
+   - The study does involve antiseizure medications (ASM), which relate to epilepsy treatment and seizure outcomes.
+   - The primary reported outcomes include early and late seizures, but these outcomes are for patients hospitalized for SAH, not specifically for epilepsy. Hence, even though it addresses seizure data, it does not focus on epilepsy-related seizure outcomes specifically. *(Not Fully Met)*
+
+### Exclusion Criteria
+1. **Pathogen:** The study is about Epilepsy. *(Not applicable for exclusion)*
+2. **Language:** The abstract is in English. *(Not applicable for exclusion)*
+3. **Publication type:** The abstract is from a systematic review, which is not excluded. *(Not applicable for exclusion)*
+4. **Study design:** The study includes human subjects as it is a systematic review/meta-analysis. *(Not applicable for exclusion)*
+5. **Study design:** The focus on a different condition (SAH) does not fully align with the systematic review's requirements for a primary population of patients with confirmed epilepsy. *(Implicatively Not Met but not explicitly an exclusion)*
+6. **Outbreak type:** Not relevant as this is not an outbreak study. *(Not applicable for exclusion)*
+
+### Conclusion
+While the study discusses antiseizure medications and reports on seizure frequency, its primary focus is on patients with aneurysmal subarachnoid hemorrhage, not on those diagnosed with epilepsy. Therefore, it does not fully meet the inclusion criteria related to population focus.
+
+Given these evaluations, the final decision is:
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736355
+PMID_42546502,PubMed,42546502,,10.1016/j.ebiom.2026.106417,Accurate prediction of gain- and loss-of-function missense variants in GABAA receptors.,"Boßelmann, Christian M; Ortiz, Sebastian; Dahl, Rebekka; Liao, Vivian W Y; El-Kamand, Serene; Lin, Susan X N; Hon Kan, Anthony Sze; Brünger, Tobias; Lal, Dennis; Lerche, Holger; Kreuer, Jules; Pfeifer, Nico; Chebib, Mary; Absalom, Nathan L; Ahring, Philip K; Møller, Rikke S",EBioMedicine,2026,"BACKGROUND: Missense variants in genes encoding GABAA receptors are involved in the pathophysiology of common and rare epilepsies. Variant effects on channel biophysical function are associated with key clinical characteristics and treatment response. Predicting variant effects is therefore key to improving care for individuals with GABAA receptor-related disorders.
+METHODS: We collected data from 505 affected individuals with 272 (likely) pathogenic GABAA receptor missense variants (GABRA1, GABRB2, GABRB3, GABRG2). All variants were evaluated with in-vitro electrophysiology. Variants were annotated with features based on sequence, structure, and phenotype. Model performance was estimated using cross-validation and external validation on a further 197 individuals with 138 (likely) pathogenic variants.
+FINDINGS: Our models enable highly accurate prediction of missense variant effects in GABAA (AU-ROC 0.862-0.946), outperforming state-of-the-art models (AU-ROC 0.495-0.756) and clinical decision-making. Model scores correlated with GABA sensitivity and were consistent with expert-based structure-function hypotheses, supporting plausibility. Predictions on population variants were similar to functionally neutral variants, while cases from ClinVar were similar to GOF/LOF variants. Our model may provide additional evidence for 5-25% of variants in ClinVar. Lastly, we show that we can predict likely clinical characteristics from variant information alone (median Lin similarity 0.754 IQR 0.161).
+INTERPRETATION: We demonstrate accurate missense variant effect prediction in GABAA receptors with rigorous validation across a large dataset of functionally tested variants. These predictions may facilitate timely diagnosis and precision treatment of individuals with GABAA receptor-related disorders, pending prospective clinical validation. A web interface, precomputed scores, and calibrated score thresholds for all possible variants are openly available.
+FUNDING: Else Kröner-Fresenius-Stiftung; German Federal Ministry of Research, Technology and Space; German Research Foundation; Medical Faculty University of Tübingen; Lundbeck Foundation; Novo Nordisk Foundation.",https://pubmed.ncbi.nlm.nih.gov/42546502/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's assess the provided abstract against the inclusion and exclusion criteria.
+
+### Inclusion Criteria
+1. **Pathogen:** The study is about Epilepsy, as it discusses GABAA receptor missense variants related to epilepsy. **(Met)**
+2. **Language:** The abstract is in English. **(Met)**
+3. **Study type:** The study appears to be peer-reviewed original research focusing on electrophysiology and variant prediction, though it does not clarify if it’s a full research article (could be a preclinical study). Systematic reviews/meta-analyses are mentioned, but the abstract does not indicate this study falls into that category. **(Uncertain)**
+4. **Population:** The study involves human subjects (505 affected individuals). **(Met)**
+5. **Content:** The study discusses the prediction of clinical characteristics and variant effects based on biophysical function, but it primarily focuses on genetic variants without direct reporting of seizure frequency or seizure-free outcomes, which are part of the core content criteria. **(Not Met)**
+
+### Exclusion Criteria
+1. **Pathogen:** The study is about Epilepsy. **(Not Met)**
+2. **Language:** The abstract is in English. **(Not Met)**
+3. **Publication type:** The study is stated to be peer-reviewed, but the abstract does not specify if it is a conference proceeding or something else like that. **(Uncertain)**
+4. **Study design:** The study is not described as in-vitro only; it seems to involve human data regarding variants. **(Not Met)**
+5. **Study design:** The study is not solely on animal studies nor does it focus exclusively on non-human subjects. **(Not Met)**
+6. **Outbreak type:** Not applicable as this study is not about infectious disease outbreaks. **(Not Met)**
+
+### Conclusion
+While the study concerns epilepsy through its focus on genetic variants related to GABAA receptors, it does not report specific clinical outcomes like seizure frequency or seizure-free rates, which are key components of the systematic review’s inclusion criteria. The abstract also doesn’t clearly fit into the specified study designs of RTCs, cohort studies, or systematic reviews. Therefore, the abstract fails to meet a crucial inclusion criterion.
+
+Thus, the decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736442
+PMID_42545895,PubMed,42545895,PMC10099582,10.1002/epi4.70320,Changes in effectiveness and safety in patients with Lennox-Gastaut syndrome transitioning from the fenfluramine randomized controlled trial to open-label extension study.,"Nabbout, Rima; Devinsky, Orrin; Lagae, Lieven; Scheffer, Ingrid E; Guerrini, Renzo; Sullivan, Joseph; Gil-Nagel, Antonio; Zuberi, Sameer M; Riney, Kate; Healy, Patrick; Abraham, Jayne; Roper, Rebecca Zhang; Langlois, Mélanie; Lothe, Amélie; Knupp, Kelly G",Epilepsia open,2026,"In the phase 3 randomized controlled trial (RCT; NCT03355209) of fenfluramine in Lennox-Gastaut syndrome (LGS), patients in fenfluramine treatment groups (0.2 mg/kg/day, 0.7 mg/kg/day) experienced greater reduction from baseline in frequency of seizures associated with a fall versus placebo, which was sustained in the open-label extension (OLE) study (NCT03355209). In this post hoc analysis, trajectories of fenfluramine effectiveness and safety, along with dose changes over time, are described for patients with LGS randomized to placebo in RCT who switched to fenfluramine in OLE (PBO-FFA) and those who received fenfluramine in both RCT/OLE (FFA-FFA). Among patients who completed 12 months in OLE (N = 151), numerical improvements in effectiveness outcomes were seen in the PBO-FFA group (n = 59) after initiating fenfluramine and were similar to those in the FFA-FFA group (n = 92). Regression to the mean was not observed in the PBO-FFA group, suggesting that changes were due to fenfluramine. Incidence of the most commonly reported treatment-emergent adverse events increased in the PBO-FFA group after fenfluramine initiation but decreased in the FFA-FFA group in OLE. These data demonstrate rapid improvement in seizure frequency and global functioning in both groups with continued clinical improvement as the mean fenfluramine dose was increased. These results confirm that sustained fenfluramine treatment is effective and tolerable. PLAIN LANGUAGE SUMMARY: This study assessed the change over time in the number of seizures, overall improvement, and side effects in patients with LGS receiving placebo (no active medicine) or fenfluramine in a 14-week study; all patients later received fenfluramine in the extension study. Overall, the number of seizures (associated with a fall) decreased once patients initially receiving placebo changed to fenfluramine (optimal effect around Month 4 while receiving a higher dose), but as expected, common side effects were reported more frequently once patients began fenfluramine treatment. Patients, parents, and doctors should be aware of this time course to allow fenfluramine enough time to work.",https://pubmed.ncbi.nlm.nih.gov/42545895/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To evaluate the abstract for inclusion in the systematic review on epilepsy, we will sequentially analyze the study against each criterion from both the inclusion and exclusion criteria.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**  
+   - The study focuses on Lennox-Gastaut syndrome, which is a form of epilepsy. **Criterion met.**
+
+2. **Language: English only**  
+   - The abstract is in English. **Criterion met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The study is a randomized controlled trial (RCT) and appears to be original research. **Criterion met.**
+
+4. **Population: Human subjects**  
+   - The study involves human subjects with Lennox-Gastaut syndrome. **Criterion met.**
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   The study reports changes in seizure frequency and related outcomes:
+   - a) **Quantitative details of concluded human outbreak** - Not applicable.  
+   - b) **Mathematical or statistical model of disease transmission** - Not applicable.  
+   - c) **Measures/estimates of transmission parameters** - Not applicable.  
+   - d) **Measures/estimates of timing parameters** - Not applicable.  
+   - e) **Measures/estimates of severity** - The study reports on seizure frequency and adverse events, which could be interpreted as severity measures. **Criterion met.**  
+   - f) **Measures/estimates of genetic evolution** - Not applicable.  
+   - g) **Measures of overdispersion or superspreading** - Not applicable.  
+   - h) **Seroprevalence data or serological surveys** - Not applicable.  
+   - i) **Risk factors for infection, severe disease, death, or hospitalization** - Although not focused on risk factors, it documents adverse effects and treatment parameters relevant to the patient population. **Criterion potentially addressed, but not a direct fit.**
+   - j) **Measures/estimates of vector parameters** - Not applicable.  
+
+### Exclusion Criteria 
+1. **Pathogen: Not about Epilepsy**  
+   - The study is about epilepsy (Lennox-Gastaut syndrome). **Not applicable for exclusion.**
+
+2. **Language: Non-English**  
+   - Language is English. **Not applicable for exclusion.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The abstract indicates original research. **Not applicable for exclusion.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves human subjects and is a clinical trial. **Not applicable for exclusion.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - The study does not involve animal studies. **Not applicable for exclusion.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - The study does not pertain to laboratory outbreaks. **Not applicable for exclusion.**
+
+### Conclusion
+Overall, all relevant inclusion criteria are met, and none of the exclusion criteria apply. The study provides insights into the efficacy of fenfluramine in an epilepsy context, thus supporting the systematic review objectives aimed at evaluating treatment interventions for epilepsy.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.736516
+PMID_42539589,PubMed,42539589,PMC7532773,10.1016/j.yebeh.2020.107493,Effects of ketogenic diet therapy in outpatient anti epileptic drug cost reduction and parental satisfaction among children with intractable epilepsy.,"Rafli, Achmad; Handryastuti, Setyo; Soebadi, Amanda; Santoso, Dara Ninggar; Rahmawati, Indira; Pramana, Ryan; Ramadhan, Rahadian; Anthony, Clifford Peter; Mangunatmadja, Irawan",Frontiers in neurology,2026,"INTRODUCTION: Epilepsy is a global neurological disorder that contributes to a significant disease burden in children and adolescents. About 11 million children worldwide suffer from epilepsy. Most children with epilepsy respond to anti-epileptic drugs and have controlled symptoms. However, drug-resistant epilepsy (DRE) happens in some children which presents a lot of challenges to their quality of life and development. Alternative treatment for DRE is ketogenic diet therapy (KDT) which is also given alongside the regiment.
+METHODS: This study aims to compare the prescribed anti-epileptic drug cost of patients receiving KDT compared to the initial pre-diet cost. This study was a descriptive analytical retrospective using outpatient medical records in Dr.Cipto Mangunkusumo General Hospital (RSCM Kiara) from 2021 to 2022. Subjects were patients with drug-resistant epilepsy and underwent a ketogenic diet up to 6 months and aged between 5-18 years old. These patients were then evaluated for their anti epileptic drug costs before starting and after they did a ketogenic diet for up to 6 months with cost evaluation at 3 months interval. The cost of prescribed outpatient antiepileptic drugs were adjusted according to prices set by the Indonesian Ministry of Health. Parents of participants were also surveyed about their satisfaction with KDT using Google Form questionnaire with consent prior to survey.
+RESULTS: In this study, a comparison between the overall cost of incorporating KDT for 6 months and pre-diet treatment plan was found to have a statistically significant cost reduction for the incorporation of KDT which demonstrated 21.8% overall reduction in outpatient anti epileptic drug costs among 16 patients which was found to be Rp 3,757,812 or 235 US$ (p = < 0.001).
+DISCUSSION: This study demonstrated that incorporating KDT for 6 months provides significant financial savings in treatment cost for children with drug-resistant epilepsy.",https://pubmed.ncbi.nlm.nih.gov/42539589/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the provided abstract step-by-step against the inclusion and exclusion criteria:
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**: Yes, the study is about epilepsy and its treatment.
+2. **Language: English only**: The abstract is in English.
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**: The abstract describes original research on the effects of the ketogenic diet, but it does not state whether it has been peer-reviewed.
+4. **Population: Human subjects**: Yes, the study involves human subjects (children with drug-resistant epilepsy).
+5. **Content: Must contain AT LEAST ONE of**: 
+   - The study discusses the impact of a ketogenic diet on antiepileptic drug cost and parental satisfaction. It does not report on seizure frequency or seizure-free rates explicitly, but it focuses on alternative treatment for drug-resistant epilepsy, which is relevant to outcomes.
+   
+Since the study was primarily about the cost reductions and not about reporting seizure outcomes or quantitative details about seizures, it partially meets the criteria for clinical outcomes but does not focus on seizure frequency or seizure-free rates as explicitly required.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**: Does not apply; it is about epilepsy.
+2. **Language: Non-English**: Does not apply; it is in English.
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**: The format (abstract) is not specified as being part of a peer-reviewed publication in this instance. This might be suggestive of excluding it.
+4. **Study design: In-vitro studies only (no human or animal component)**: Does not apply; it involves human subjects.
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters (R0, Rt, Re, r, growth rate, mutation rate)**: Does not apply; it involves human subjects.
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**: Does not apply; it is about a medical treatment.
+
+Given that the study does not explicitly report seizure frequency or seizure-free rates, it fails to meet the core inclusion criteria despite its relevance to epilepsy treatment and alternative approaches.
+
+In conclusion, based on the defined criteria and the contents of the abstract provided, the study does not fully align with our inclusion criteria. 
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736588
+PMID_42535128,PubMed,42535128,PMC9688233,10.1055/s-0046-1819644,Flow Diverter Treatment for Ruptured Dissecting Aneurysm at A1-A2 Junction of the Anterior Cerebral Artery in a Young Adult: A Case Report.,"Dinh, Hoai T P; Nakahara, Ichiro; Hasebe, Akiko; Haraguchi, Kenichi; Tanabe, Jun; Komatsu, Fuminari; Yamada, Hiroyasu; Tanaka, Riki; Sasaki, Kento; Kihara, Kotarou; Katayama, Tomoka; Okubo, Mai; Fuseya, Chisato; Kato, Yoko",Asian journal of neurosurgery,2026,"Ruptured dissecting aneurysms (DAs) of the anterior cerebral artery (ACA), particularly at the A1-A2 junction, are rare and diagnostically challenging, especially in young patients. Conventional treatment options may be limited due to anatomical constraints and the lesion's fragility. We report the case of a 23-year-old male who presented with diffuse subarachnoid hemorrhage and seizure. Initial imaging failed to identify the bleeding source. On follow-up, computed tomography angiography revealed subtle findings suggestive of a dissection at the right A1-A2 junction, which was subsequently confirmed by digital subtraction angiography. Considering the lesion's morphology and location, the aneurysm was treated with a flow diverter (Pipeline Flex with Shield Technology) following clinical stabilization. The patient recovered without neurological deficits and was discharged in good functional condition. This case highlights the potential of flow diversion as an effective treatment strategy for ruptured DAs in the distal ACA. Early recognition through repeat imaging and individualized multidisciplinary planning may contribute to favorable outcomes in anatomically complex lesions.",https://pubmed.ncbi.nlm.nih.gov/42535128/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether the provided abstract should be included in the systematic review, we will evaluate it against the inclusion and exclusion criteria outlined.
+
+### Inclusion Criteria
+1. **Pathogen**: The study must be about Epilepsy.
+   - **Evaluation**: The abstract is not about epilepsy; it discusses a ruptured dissecting aneurysm and its treatment.
+   - **Outcome**: Not met.
+
+2. **Language**: The study must be in English.
+   - **Evaluation**: The abstract is in English.
+   - **Outcome**: Met.
+
+3. **Study type**: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration).
+   - **Evaluation**: The abstract is from a case report, which is original research but not necessarily peer-reviewed as part of a larger study or clinical trial.
+   - **Outcome**: Met as it presents original research.
+
+4. **Population**: Human subjects (animal studies acceptable if reporting specific parameters).
+   - **Evaluation**: The study involves a human subject, a 23-year-old male patient.
+   - **Outcome**: Met.
+
+5. **Content**: Must contain at least one of the specified content requirements.
+   - **Evaluation**: The abstract discusses a clinical case involving a medical intervention but does not provide quantitative details regarding seizure frequency or rates. It does not measure any of the specific content criteria like severity, genetic evolution, or risk factors associated with epilepsy.
+   - **Outcome**: Not met.
+
+### Exclusion Criteria
+1. **Pathogen**: Not about Epilepsy (exclude studies on other pathogens).
+   - **Evaluation**: The study is not about epilepsy; it focuses on a ruptured dissecting aneurysm.
+   - **Outcome**: Excluded.
+
+2. **Language**: Non-English.
+   - **Evaluation**: The abstract is in English.
+   - **Outcome**: Not applicable; this does not apply since the previous criterion already leads to exclusion.
+
+3. **Publication type**: Conference proceedings, abstracts, posters, correspondence.
+   - **Evaluation**: The abstract is part of a case report and not a typical research paper.
+   - **Outcome**: Not applicable; this does not apply as the abstract has already failed inclusion.
+
+4. **Study design**: In-vitro studies only (no human or animal component).
+   - **Evaluation**: The study involves a human patient, so this does not apply. 
+   - **Outcome**: Not applicable; this does not apply as the abstract has already failed inclusion.
+
+5. **Study design**: Solely animal studies AND animal studies that do not report transmission parameters.
+   - **Evaluation**: The study is about a human patient; not applicable.
+   - **Outcome**: Not applicable; this does not apply as the abstract has already failed inclusion.
+
+6. **Outbreak type**: Accidental laboratory outbreaks (not natural disease transmission).
+   - **Evaluation**: The abstract does not fall under outbreak studies.
+   - **Outcome**: Not applicable; this does not apply as the abstract has already failed inclusion.
+
+### Conclusion
+Since the study does not meet the inclusion criteria in terms of relevance to epilepsy and directly addresses a different medical topic, it should be excluded from the review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736654
+PMID_42526306,PubMed,42526306,,10.1016/j.eplepsyres.2026.107879,Retrospective evaluation of caregiver-administered buccal midazolam for pediatric status epilepticus in a regional core hospital in Japan.,"Akiba, Takato; Shimada, Shino; Matsuda, Shimpei; Hamahara, Ayaka; Ikeno, Mitsuru; Abe, Shinpei; Baba, Yosuke; Shoji, Hiromichi",Epilepsy research,2026,"BACKGROUND: Status epilepticus (SE) is a frequent pediatric neurological emergency in which rapid seizure control is needed to prevent neurological injury. Buccal midazolam (Buc-MDL) is a noninvasive first-line benzodiazepine for prehospital pediatric SE; nonetheless, real-world data from geographically constrained regional settings are limited.
+METHODS: This retrospective, single-center study was performed at a regional core hospital in Eastern Shizuoka, Japan. Pediatric patients aged ≤ 15 years who received Buc-MDL for convulsive SE between April 2023 and September 2025 were included. Effectiveness was defined as seizure cessation within 10 min after administration, without recurrence within 30 min; respiratory suppression was evaluated as the safety outcome.
+RESULTS: Buc-MDL was prescribed for 39 patients and administered in 13 (41 episodes), of which 38 episodes in 12 patients were analyzed. Seizure cessation within 10 min occurred in 30/38 episodes (78.9%; 95% confidence interval 63.7-88.9%), with a median time to cessation of 5 min in effective episodes. Mild respiratory suppression occurred in 4/38 episodes (10.5%); all were managed with oxygen alone, and no airway intervention was required. Respiratory suppression was more frequent in ineffective than effective episodes (37.5% vs 3.3%).
+CONCLUSIONS: Buc MDL was effective in this small retrospective cohort, but oxygen-requiring respiratory suppression occurred in 10.5% of episodes and appeared to be more frequent when seizures were not controlled; however, this exploratory association is based on a small sample, causality remains uncertain, and its safety profile warrants cautious interpretation, particularly in light of alternative diazepam intranasal rescue formulations with extensive safety data.",https://pubmed.ncbi.nlm.nih.gov/42526306/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the abstract according to the provided inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria Evaluation
+1. **Pathogen: Must be about Epilepsy**
+   - The study focuses on pediatric status epilepticus, which is a condition related to epilepsy. This criterion is met.
+
+2. **Language: English only**
+   - The abstract is in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study appears to be original research which has been conducted in a specific clinical setting. This criterion is met.
+
+4. **Population: Human subjects (animal studies acceptable if reporting specific parameters)**
+   - The study involves pediatric patients, which satisfies this criterion.
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - a) **Quantitative details of concluded/ongoing human outbreak** - The study does not report on outbreaks.
+   - b) **Mathematical or statistical model of disease transmission** - Not applicable here.
+   - c) **Measures/estimates of transmission parameters** - Not applicable here.
+   - d) **Measures/estimates of timing parameters** - The study mentions time to seizure cessation, relevant to seizure control but not explicitly a timing parameter.
+   - e) **Measures/estimates of severity** - This is satisfied as it reports on seizure cessation rates and safety outcomes.
+   - f) **Measures/estimates of genetic evolution** - Not applicable here.
+   - g) **Measures of overdispersion or superspreading** - Not applicable here.
+   - h) **Seroprevalence data or serological surveys** - Not applicable here.
+   - i) **Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)** - Discusses respiratory suppression as a side effect and its correlation with ineffective seizure control, but does not quantify risk factors in a way that fully aligns with this criterion.
+   - j) **Measures/estimates of vector parameters** - Not applicable here.
+   
+   The study meets at least one of the content criteria regarding measures of severity related to seizure cessation effectiveness.
+
+### Exclusion Criteria Evaluation
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - This study is about epilepsy, so this criterion is not applicable for exclusion.
+
+2. **Language: Non-English**
+   - The study is in English, thus this criterion does not apply for exclusion.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study appears to be an original research report, so this does not apply for exclusion.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human subjects, thus this does not apply for exclusion.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study is human-based, so this does not apply for exclusion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This is not applicable since the study does not pertain to outbreaks.
+
+### Conclusion
+The paper meets several inclusion criteria and does not meet any exclusion criteria. The study provides valuable insights into the management of status epilepticus in a pediatric population related to epilepsy, thus it contributes to the clinical evidence synthesis desired by the systematic review.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.736731
+PMID_42524749,PubMed,42524749,PMC11250519,10.1002/epi4.70313,Cumulative electroconvulsive therapy sessions and focal epilepsy: A nationwide cohort study in Japan.,"Hata, Masahiro; Miyazaki, Yuki; Omori, Hisaki; Takahashi, Shun; Ikeda, Manabu",Epilepsia open,2026,"OBJECTIVE: Electroconvulsive therapy (ECT) is widely used for severe psychiatric disorders, yet concerns remain regarding possible epileptogenic effects associated with prolonged or repeated exposure. We examined the association between cumulative ECT sessions and focal epilepsy in a nationwide Japanese cohort.
+METHODS: We conducted a retrospective cohort study using a nationwide claims database including 3733 patients who received ECT between 2008 and 2025. For analyses of incident focal epilepsy, patients with a prior diagnosis of epilepsy before the first ECT session were excluded from the at-risk population. New-onset focal epilepsy was defined as a G40.2 diagnosis recorded after ECT initiation. Person-time accrued from the first ECT session to epilepsy diagnosis or last follow-up. Multivariable logistic regression assessed the association between cumulative ECT sessions and focal epilepsy, adjusting for age, sex, and psychiatric diagnoses. An exploratory time-varying Cox model evaluated cumulative exposure as a time-dependent variable.
+RESULTS: Among 3733 patients (mean age 56.9 years; 66.4% female), 96 (2.6%) developed focal epilepsy, corresponding to an incidence of 3748 per 100 000 person-years. A cumulative exposure pattern was observed, with diagnosis rates exceeding 5% among patients receiving ≥ 50 sessions and peaking at 9.1% in the 80-89 session group. Each additional ECT session was associated with higher odds of focal epilepsy (β = 0.0099, p = 0.004). Age, sex, and psychiatric diagnoses were not significant predictors. In exploratory time-varying analysis, reaching ≥ 50 sessions was associated with increased hazard, although event numbers were limited. Latency to diagnosis ranged from weeks to over 4000 days. Following epilepsy diagnosis, 70.8% discontinued ECT and 98.0% received antiseizure medication.
+SIGNIFICANCE: In this nationwide cohort, greater cumulative ECT exposure was associated with focal epilepsy diagnosis. While causality cannot be established, these findings support consideration of careful neurological monitoring during prolonged ECT courses.
+PLAIN LANGUAGE SUMMARY: Electroconvulsive therapy (ECT) is an effective treatment for severe mental illnesses. However, its long-term neurological effects are not fully understood. We analyzed nationwide data from 3733 patients in Japan who received ECT and examined whether repeated treatments were associated with new diagnoses of focal epilepsy. Ninety-six patients (2.6%) were diagnosed with focal epilepsy after starting ECT. The likelihood of diagnosis was higher among patients who received more ECT sessions, particularly those undergoing prolonged courses. Although this study cannot determine whether ECT directly causes epilepsy, our findings suggest that careful neurological monitoring may be considered during extended treatment.",https://pubmed.ncbi.nlm.nih.gov/42524749/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the provided abstract against the inclusion and exclusion criteria step by step:
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - The study focuses on focal epilepsy, which fits this criterion.
+
+2. **Language: English only**
+   - The abstract is presented in English.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract presents a cohort study, which is original research.
+
+4. **Population: Human subjects**
+   - The study involves human subjects, specifically patients in Japan who received ECT.
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - None of the specific quantitative measures or estimates provided in the inclusion criteria relate to the definitions related to outbreaks or diseases; however, it does contain quantitative data about the incidence of focal epilepsy following ECT sessions (2.6% developed focal epilepsy, with details about cumulative exposure and diagnosis rates).
+
+### Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - This study is indeed about epilepsy; it does not apply.
+
+2. **Language: Non-English**
+   - The abstract is in English; this does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study is presented as a cohort study, which typically implies it should be peer-reviewed and published; this does not apply.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This study included human participants; thus, it does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This does not apply as the study involves human subjects.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This exclusion does not apply as the study does not involve outbreaks of infectious agents.
+
+### Conclusion
+The study aligns with the broader focus of the systematic review regarding epilepsy and provides quantitative outcome data related to seizure diagnosis (in this instance, focal epilepsy following ECT), though it does not relate to pharmacological or non-pharmacological interventions in the typical sense for epilepsy management. However, since it meets the broader criteria of documenting clinical outcomes and examining a cohort of patients with a diagnosis of epilepsy, it seems relevant.
+
+Thus, considering the purpose of the systematic review and the data presented, I would advise:
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.736800
+PMID_42524629,PubMed,42524629,PMC4580738,10.1097/id9.0000000000000184,Scrub typhus triggering seizure in a patient with a preexisting seizure disorder: A case report.,"Murugesh, Sri Ram; Shriya, Akalu Srinivas Kamakshi; Siddaraju, Meghana Belagula",Infectious diseases & immunity,2026,"Scrub typhus is a bacterial infection caused by Orientia tsutsugamushi and transmitted by chigger bites. It presents as an acute febrile illness and can lead to serious complications, including liver and kidney dysfunction. Although neurological involvement is rare, cases have been reported. We describe the case of a 59-year-old male from a scrub typhus endemic region with a history of seizure disorder who had experienced a fever for the last two days, multiple headaches, and seizures. Laboratory tests confirmed scrub typhus, low platelet levels, and elevated liver enzymes. The patient responded well to doxycycline and supportive care. This case highlights the need to identify scrub typhus in febrile patients with neurological symptoms to enable early diagnosis and treatment and prevent severe complications. The occurrence of scrub typhus with seizures is rare, making this case clinically significant in broadening differential diagnoses in endemic regions.",https://pubmed.ncbi.nlm.nih.gov/42524629/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To screen the provided abstract for inclusion in the systematic review on Epilepsy, I will evaluate it against each of the inclusion and exclusion criteria.
+
+### Inclusion Criteria
+
+1. **Pathogen: Must be about Epilepsy**
+   - This study focuses on scrub typhus in relation to seizures but does not primarily address epilepsy as a condition. While it involves a patient with a preexisting seizure disorder, the primary focus is not epilepsy itself. **(Not Met)**
+
+2. **Language: English only**
+   - The abstract is in English. **(Met)**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - It is a case report, which typically does not qualify as original research in the context of systematic reviews focusing on clinical effectiveness or interventions. If it were more broadly on clinical features relevant to interventions and outcomes, consideration might be different, but this does not appear to meet the criteria. **(Not Met)**
+
+4. **Population: Human subjects**
+   - The study involves a human subject. **(Met)**
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - Although the patient has seizures, the study focuses on a bacterial infection and its relationship to the seizures without data on seizure frequency, intervention effectiveness, or an evaluative measure typically aligned with epilepsy outcomes. Thus, it does not meet the criteria of contributing useful data for the systematic review. **(Not Met)**
+
+### Exclusion Criteria
+
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The focus is on scrub typhus, which is not related to epilepsy as the primary condition or treatment of interest. **(Applicable)**
+
+2. **Language: Non-English**
+   - The abstract is in English. **(Not Applicable)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract appears to be a case report, but if it is from a peer-reviewed journal it may not necessarily fall under these categories—however, as a case report, its relevance still is limited. **(Not Applicable)**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This study does involve human subjects. **(Not Applicable)**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters.**
+   - This study involves a human subject. **(Not Applicable)**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This abstract reports on a clinical case of scrub typhus and does not involve an outbreak scenario. **(Not Applicable)**
+
+### Conclusion
+Given the criteria evaluated, the abstract primarily discusses a case of scrub typhus and its impact on an individual with a history of seizure disorder, which diverts focus away from epilepsy as a condition and does not meet the inclusion criteria necessary for the systematic review. Therefore, the abstract does not warrant inclusion in the review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736864
+PMID_42524494,PubMed,42524494,PMC9491421,10.7759/cureus.111653,Seizure As the Sentinel Event: An Atypical Presentation of Anti-N-Methyl-D-Aspartate (NMDA) Receptor Encephalitis in a Young Adult Male.,"Hendee, Nicholas J; Mooney, James C; Brzuchalski, Amy E; Bridges, Edward E",Cureus,2026,"This case report details an atypical presentation of anti-N-methyl-D-aspartate (NMDA) receptor encephalitis in a 21-year-old male, characterized by a ""seizure-first"" phenotype. The patient's initial generalized tonic-clonic seizure led to a misdiagnosis of epilepsy, and subsequent psychiatric symptoms were incorrectly attributed to the side effects of antiepileptic medication or a new, undiagnosed psychiatric disorder. This resulted in an involuntary psychiatric admission and a delay in diagnosis and, thus, definitive treatment. Once the Graus criteria for probable anti-NMDA receptor encephalitis were met (presence of at least four out of six neuropsychiatric symptom categories, an abnormal electroencephalogram (EEG), and the reasonable exclusion of alternative causes), the patient was empirically treated with high-dose steroids. Upon detecting anti-NMDA receptor antibodies at a serum titer of 1:1000 and a cerebrospinal fluid (CSF) titer of 1:100, the treatment regimen was escalated to include plasmapheresis. In this patient's case, earlier consideration of autoimmune encephalitis during his initial presentation of new-onset seizures and rapid psychiatric decline could have prevented the diagnostic delay and involuntary psychiatric admission.",https://pubmed.ncbi.nlm.nih.gov/42524494/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess the provided abstract for inclusion in the systematic review, we will systematically evaluate each criterion:
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**  
+   - The abstract discusses seizures and a misdiagnosis of epilepsy, hence it relates to epilepsy. **Met**.
+
+2. **Language: English only**  
+   - The abstract is in English. **Met**.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The abstract describes a case report, which may not typically fall under ""original research"" as understood in a broader context of RCTs, cohort studies, or systematic reviews. However, since case reports can provide valuable insights, especially in atypical presentations, this remains debatable. **Partially Met**.
+
+4. **Population: Human subjects (animal studies acceptable if reporting specified parameters)**  
+   - The study involves a 21-year-old male human subject. **Met**.
+
+5. **Content: Must contain AT LEAST ONE of the enumerated measures/estimates**  
+   - The abstract does not provide quantitative data on seizure frequency or seizure-free outcomes, nor does it include other measurable outcomes specified in the content criteria. It reports on a case of NMDA receptor encephalitis with seizures being a symptom but doesn't meet the inclusion criteria for clinical outcome measures (seizure frequency/seizure-free rates). **Not Met**.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**  
+   - The paper is about epilepsy. **Not Applicable**.
+
+2. **Language: Non-English**  
+   - The abstract is in English. **Not Applicable**.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - This is a case report, likely in a peer-reviewed journal. **Not Applicable**.
+
+4. **Study design: In-vitro studies only**  
+   - This study involves human subjects and is not an in-vitro study. **Not Applicable**.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - This is not an animal study. **Not Applicable**.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - This is not related to outbreak studies. **Not Applicable**.
+
+### Conclusion
+Although the abstract discusses a case of epilepsy and its management, it ultimately fails to provide critical data on seizure frequencies or seizure-free rates, which is a core requirement of the inclusion criteria. This lack of relevant clinical outcome measures significantly hampers its eligibility. 
+
+Thus, I conclude that the paper should be excluded from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736926
+PMID_42523478,PubMed,42523478,PMC13405405,10.64898/2026.07.10.737818,Convergent Inhibitory Cortical Circuit Disruption Drives Genetically Distinct Absence Seizures.,"Song, Siyuan; Lau, Shu-Ning Natalie; Tran, Doan; Ljungberg, Cecilia; Tang, Jianrong; Maheshwari, Atul; Noebels, Jeffrey L; Jiang, Xiaolong",bioRxiv : the preprint server for biology,2026,"Absence seizures, the most common childhood epilepsy, are characterized by brief involuntary lapses in consciousness and 3-Hz spike-wave EEG discharges (SWD). Despite extensive documentation of pathogenic thalamic remodeling, the cortical circuit abnormalities driving this highly stereotyped SWD remain elusive. Using two of the best characterized mouse models of absence epilepsy carrying point mutations in distinct genes altering pre and postsynaptic transmission, stargazer ( Cacng2 ) and tottering ( Cacna1a ), we show that a specific translaminar inhibitory circuit motif defined by layer 6 corticothalamic neurons (L6 CT) and a novel Tac1 + Pvalb interneuron subtype is selectively disrupted in both models. This early functional defect was accompanied by a secondary synaptic collapse of deep-layer somatostatin-expressing ( Sst ) interneurons that precisely coincides with the developmental onset of seizures. Crucially, we established the serial causality of these cascading defects by demonstrating that chemogenetic disruption of L6 CT-Tac1 + Pvalb circuit motif alone in wild-type mice is sufficient to induce both the secondary Sst interneuron collapse and contemporaneous emergence of SWDs. Together, these findings reveal a sequential translaminar synaptic failure or 'domino effect' wherein a primary defect triggers broader circuit adaptations permitting spike-wave hypersynchrony. Our results thus identify a convergent, causative cortical circuit pathology that is shared by genetically heterogeneous absence epilepsy models, highlighting a common functional target for therapeutic intervention.",https://pubmed.ncbi.nlm.nih.gov/42523478/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the abstract against the predefined inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria:
+1. **Pathogen**: The abstract focuses on epilepsy (specifically absence seizures).  
+   - **Met**: YES
+
+2. **Language**: The abstract is in English.  
+   - **Met**: YES
+
+3. **Study type**: The abstract describes original research, but it is about mouse models (animal studies), not human subjects.  
+   - **Met**: NO
+
+4. **Population**: The study involves animal subjects and not human participants.  
+   - **Met**: NO
+
+5. **Content**: The abstract discusses circuit disruptions and findings related to absence seizures, but it does not provide quantitative details or measures related to seizure frequency or seizure-free rates, as it focuses on animal models.
+   - **Met**: NO (as it does not meet the specific content requirements related to human outcomes)
+
+### Exclusion Criteria:
+1. **Pathogen**: It is about epilepsy.  
+   - **Met**: NO (this criterion does NOT apply since the study is about epilepsy).
+
+2. **Language**: The abstract is in English.  
+   - **Met**: NO (this criterion does NOT apply since the study is in English).
+
+3. **Publication type**: No indication it is a conference proceeding or abstract; it's described as original research.  
+   - **Met**: NO (this criterion does NOT apply).
+
+4. **Study design**: It explicitly describes animal studies.  
+   - **Met**: YES (it is solely an animal study and thus is subject to exclusion).
+
+5. **Study design**: It involves only animal studies and does not provide transmission parameters (R0, Rt, Re, r, growth rate, mutation rate).  
+   - **Met**: YES (the abstract does not provide any relevant parameters and focuses entirely on animal models).
+
+6. **Outbreak type**: The study does not pertain to outbreaks, laboratory or otherwise, since it focuses on basic mechanism research.  
+   - **Met**: NO (this criterion does NOT apply).
+
+### Conclusion:
+In reviewing the criteria, the abstract does not meet the essential requirements for inclusion in the systematic review concerning the focus on human subjects and relevant clinical outcome measures. Moreover, it consists of exclusively animal studies without relevant parameters that pertain to epilepsy in humans.
+
+Hence, I will classify this study as excluded. 
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.736989
+PMID_42521800,PubMed,42521800,PMC9744255,10.1093/geront/30.5.583,"Ketogenic diet for pediatric drug-resistant epilepsy: sleep, children's psychosocial functioning, and maternal mental health.","Nassar, May Fouad; El-Rashidy, Omnia Fathy; Shata, Mennatallah Osama; ElHagaar, Mohamed Ahmed; Abdelmageed, Reham Ibrahim",Pediatric research,2026,"BACKGROUND: Despite increasing attention to ketogenic dietary therapy (KDT) for drug-resistant epilepsy (DRE) in children, research examining its impact on non-seizure outcomes in children and their mothers remains limited. This study examined effects of KDT on sleep quality, children's psychosocial functioning, and maternal mental health.
+METHODS: This prospective study followed 40 children with DRE and their mothers from baseline to 4 and 12 weeks after KDT initiation. Children's sleep and psychosocial functioning were assessed using the Children's Sleep Habits Questionnaire and the Strengths and Difficulties Questionnaire. Maternal sleep and mental health were evaluated using the Pittsburgh Sleep Quality Index and the Depression Anxiety and Stress Scale.
+RESULTS: Significant improvements in children's sleep and psychosocial functioning, as well as maternal sleep and mental health symptoms, were observed at 4 weeks, with the greatest improvements at 12 weeks. Regression analyses showed changes in seizure severity were associated with improvements in children's sleep and psychosocial functioning. Improved children's sleep was associated with better psychosocial outcomes. Maternal sleep quality and stress demonstrated a reciprocal relationship.
+CONCLUSIONS: A 12-week KDT was associated with improvements in children's sleep quality and psychosocial functioning, as well as maternal sleep quality and mental health, suggesting benefits beyond seizure control.
+IMPACT STATEMENT: KD has recently gained attention in pediatric drug resistant epilepsy (DRE) management, and further potential assets for patients and families should be emphasized. KD is a tolerable, safe, and effective line of therapy in pediatric DRE without significant negative impacts on the patients. The positive effect of KD on sleep and psychological function of pediatric patients, as well as mothers' mental health, are promising findings, and wider scale studies and longer KD usage can prove additional achievements in treated patients.",https://pubmed.ncbi.nlm.nih.gov/42521800/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether to include or exclude the provided abstract for the systematic review on epilepsy, we will systematically evaluate the study against the specified inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria Evaluation
+1. **Pathogen**: Must be about Epilepsy.
+   - The study clearly focuses on the ketogenic diet as an intervention for pediatric drug-resistant epilepsy (DRE). 
+   - **Criteria met**.
+
+2. **Language**: English only.
+   - The abstract is written in English.
+   - **Criteria met**.
+
+3. **Study type**: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration).
+   - This abstract describes a prospective study, which indicates it is original research.
+   - **Criteria met**.
+
+4. **Population**: Human subjects.
+   - The study involves children with DRE and their mothers.
+   - **Criteria met**.
+
+5. **Content**: Must contain AT LEAST ONE of the specified measures or estimates.
+   - The abstract reports improvements in seizure severity as being related to changes in children's sleep and psychosocial functioning. Although this primarily discusses non-seizure outcomes, the mention of seizure severity is relevant as it ties lower seizure severity to enhanced quality of life measures (sleep and psychosocial functioning).
+   - **Criteria met**.
+
+### Exclusion Criteria Evaluation
+1. **Pathogen**: Not about Epilepsy (exclude studies on other pathogens).
+   - The study is indeed about epilepsy.
+   - **Criteria not applicable**.
+
+2. **Language**: Non-English.
+   - The abstract is in English.
+   - **Criteria not applicable**.
+
+3. **Publication type**: Conference proceedings, abstracts, posters, correspondence.
+   - There is no indication that the study is merely a conference abstract. It summarizes a prospective study, so it likely represents more extensive research rather than just an abstract.
+   - **Criteria not applicable**.
+
+4. **Study design**: In-vitro studies only (no human or animal component).
+   - The study involves human subjects.
+   - **Criteria not applicable**.
+
+5. **Study design**: Solely animal studies AND animal studies that do not report transmission parameters.
+   - This study involves human participants only.
+   - **Criteria not applicable**.
+
+6. **Outbreak type**: Accidental laboratory outbreaks (not natural disease transmission).
+   - The research does not deal with outbreaks, so this exclusion criterion does not apply.
+   - **Criteria not applicable**.
+
+### Conclusion
+This study meets all the inclusion criteria and does not meet any of the exclusion criteria. It offers insight into pharmacological intervention (ketogenic diet) in the context of epilepsy, aligning well with the review's objectives regarding treatment outcomes.
+
+Therefore, the decision is:
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.737046
+PMID_42520488,PubMed,42520488,,10.1016/j.jocn.2026.112217,Clinical characteristics and outcomes of post-stroke seizures following reperfusion therapy: a retrospective single-center study.,"Kamisli, Ozden; Haki, Cemile; Akgun, Aslihan Celik; Cakar, Merve Melodi; Yamanyar, Gulcin Koc; Sarac, Kaya; Kamisli, Suat",Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia,2026,"BACKGROUND: Post-stroke seizures (PSS) are a recognized complication of ischemic stroke and may adversely affect functional outcomes and survival; however, their characteristics in patients receiving contemporary reperfusion therapy remain incompletely defined. We aimed to describe the clinical characteristics, treatment patterns, and outcomes of patients who developed PSS following reperfusion therapy and to compare early- and late-onset seizure subgroups.
+METHODS: This single-center retrospective study included adult patients with acute ischemic stroke treated with intravenous thrombolysis (IV-tPA), mechanical thrombectomy (MT), or combined therapy between January 2020 and September 2025. Early seizures were defined as occurring within 7 days of stroke onset. Clinical, radiological, and treatment-related variables were analyzed, and functional outcome was assessed using the modified Rankin Scale at 3 months.
+RESULTS: Of 1242 patients who received reperfusion therapy, 53 (4.27 %; 95 % CI 3.28-5.54) developed PSS. Observed seizure rates were 3.39 % in the MT group, 4.06 % in the IV-tPA group, and 7.02 % in the combined therapy group; these observed rates did not differ significantly across treatment modalities. Early seizures occurred in 23 patients and late seizures in 30. No significant differences were found between early- and late-onset seizure subgroups in demographic characteristics, vascular risk factors, stroke severity, reperfusion success, or clinical outcomes, with the exception of an isolated, exploratory difference in stroke laterality. Three-month mortality among patients with PSS was 45.28 % (95 % CI 32.66-58.55), and in-hospital mortality was 20.75 %.
+CONCLUSIONS: In this single-center cohort, the incidence of PSS after reperfusion therapy was comparable to previously reported rates, with no marked differences across treatment modalities. The high mortality among patients with PSS likely reflects underlying stroke severity rather than a treatment-specific risk.",https://pubmed.ncbi.nlm.nih.gov/42520488/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess whether the given abstract should be included in the systematic review on Epilepsy, we will evaluate it against the provided inclusion and exclusion criteria.
+
+### Inclusion Criteria
+**ALL must be met:**
+1. **Pathogen: Must be about Epilepsy**
+   - The study focuses on post-stroke seizures (PSS) and does not directly pertain to epilepsy as a primary condition. While seizures are involved, the primary focus is on seizures following stroke.
+   
+2. **Language: English only**
+   - The abstract is in English.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study is a peer-reviewed original research article.
+
+4. **Population: Human subjects (animal studies acceptable if reporting specified parameters)**
+   - The study involves human subjects (adult patients).
+
+5. **Content: Must contain AT LEAST ONE of the specified content measures**
+   - This study provides data on seizures, but since it focuses specifically on post-stroke seizures, it does not satisfy the specific focus on epilepsy and its pharmacological or non-pharmacological interventions outlined in the inclusion criteria. It does not provide details on antiepileptic drugs or related outcomes directly linked to epilepsy.
+
+### Exclusion Criteria
+**Exclude if ANY apply:**
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is not about epilepsy. It deals with post-stroke seizures, categorically outside the scope specified.
+
+2. **Language: Non-English**
+   - The abstract is in English.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract appears to be for a peer-reviewed journal article rather than an abstract or conference proceeding.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This study involves human subjects.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This does not apply here, as the study is on human subjects.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This does not apply here, as it is primarily about seizures following a stroke.
+
+### Conclusion
+The primary concern is that this study’s focus is on post-stroke seizures rather than epilepsy itself as defined in the systematic review objectives. Therefore, it does not meet the essential inclusion criterion of being about epilepsy, and it must be excluded based on this criterion.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737101
+PMID_42516310,PubMed,42516310,PMC12729167,10.1186/s13023-025-04075-7,Novel ALG13 Variants and an Expanded Neurodevelopmental Spectrum: Genotype-Phenotype Correlations.,"Su, Song; Hu, Wandong; Ren, Ying; Zhang, Tong; Yu, Chunmei; Zhang, Hongwei",Human mutation,2026,"BACKGROUND: The ALG13 gene is implicated in congenital disorders of glycosylation (CDG) and developmental and epileptic encephalopathy (DEE), yet genotype-phenotype correlations remain incompletely understood.
+METHODS: Whole-exome sequencing (WES) was performed in unrelated families, and we systematically reviewed existing patient data on ALG13 variants and investigated the expression patterns of ALG13 using organoid models.
+RESULTS: This study reports five patients with ALG13 variants, including two novel variants. Four patients presented with epilepsy accompanied by neurodevelopmental impairment, including infantile epileptic spasms syndrome (IESS) and drug-resistant epilepsy, whereas one patient showed developmental delay without seizures. Further analysis revealed that variants identified in patients with isolated developmental delay were primarily located outside the key glycosylation functional domain. Statistical analysis of patients with epileptic encephalopathy showed that infantile-onset seizures were the predominant feature, with most cases being refractory to treatment. Additionally, in organoids, the highest ALG13 expression was observed at 1 month in ectodermal-derived neurons (EN). At 5 months, peak expression shifted to deep-layer cortical neurons (EN-CTX-Deep).
+CONCLUSIONS: ALG13 variants are associated with a broad phenotypic spectrum ranging from DEE to neurodevelopmental impairment without seizures. Our findings support a possible domain-related genotype-phenotype association and provide additional developmental context for the role of ALG13 in neurodevelopmental disorders. Further functional studies are required to clarify the pathogenic mechanisms of different ALG13 variants.",https://pubmed.ncbi.nlm.nih.gov/42516310/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess the abstract against the inclusion and exclusion criteria, we can analyze each criterion step by step.
+
+## Inclusion Criteria Assessment
+1. **Pathogen: Must be about Epilepsy**
+   - The abstract discusses epilepsy, specifically in patients with ALG13 variants associated with developmental and epileptic encephalopathy. This criterion is met.
+
+2. **Language: English only**
+   - The abstract is written in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract appears to present original research findings based on whole-exome sequencing and patient data review. This criterion is met.
+
+4. **Population: Human subjects**
+   - The study includes five patients with ALG13 variants, confirming a human subject population. This criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of the specified measures or estimates**
+   - The abstract mentions the presence of epilepsy in some patients, but it primarily focuses on genotype-phenotype correlations and does not provide quantitative data regarding seizure frequency, seizure-free rates, or other specified measures such as treatment efficacy or hospital rates. Therefore, this criterion is not fully met. 
+
+## Exclusion Criteria Assessment
+1. **Pathogen: Not about Epilepsy**
+   - The study is about epilepsy and thus does not meet the exclusion criteria.
+
+2. **Language: Non-English**
+   - The abstract is in English, so this exclusion criterion does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract appears to present original research findings, indicating it is not a conference proceeding or ancillary form. Therefore, this exclusion criterion does not apply.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study includes human subjects; hence this exclusion criterion does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This does not apply as the study is focused on human patients.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - Not applicable here, as the study focuses on genetic variants and their association with epilepsy.
+
+## Conclusion
+The study highlights the connection between ALG13 variants and epilepsy but lacks key quantitative details on seizure frequency or rates, which makes it hard to conclude that it meets the necessary content criteria to be included given our systematic review's focus. Therefore, despite having several criteria met, the failure to meet content criteria necessitates exclusion.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737159
+PMID_42514222,PubMed,42514222,PMC4412776,10.1002/dev.21280,Developmental Window-Dependent Effects of Neonatal Tactile Stimulation on Sensorimotor Development in WAG/Rij Rat Pups.,"Balikci, Aymen; May-Benson, Teresa A; Ilbay, Gul","Life (Basel, Switzerland)",2026,"Background: Early-life sensory experiences play a crucial role in the maturation of neural circuits underlying sensorimotor development. The present study investigated whether the effects of neonatal tactile stimulation (NTS) on sensorimotor development depend on the developmental timing of the intervention in WAG/Rij rat pups, a well-established genetic model of absence epilepsy. Methods: Seventy rat pups were randomly assigned to five groups: Wistar control, WAG/Rij control, and WAG/Rij rats receiving NTS during the first (PN Week 1-NTS), second (PN Week 2-NTS), or third (PN Week 3-NTS) postnatal week. Tactile stimulation was administered three times daily. Sensorimotor development was assessed on postnatal day 22 using a modified rung-bridge task that evaluated orientation, flexor/extensor activity, distal control, gait development, postural control, sensorimotor responses, tail use, total sensorimotor performance, and crossing time. Results: WAG/Rij control pups exhibited impaired sensorimotor performance compared with Wistar controls, demonstrating lower distal control, gait development, sensorimotor response, and total sensorimotor scores, together with prolonged crossing times. The effects of the NTS protocol were dependent on the developmental window in which it was administered. The NTS protocol applied during the second postnatal week was associated with the most pronounced improvements, including significantly higher distal control, sensorimotor response, tail performance, and total sensorimotor scores, as well as significantly shorter crossing times compared with untreated WAG/Rij controls. In contrast, orientation, flexor/extensor activity, and postural control were not significantly affected. Discussion and Conclusions: These findings indicate that sensorimotor abnormalities are detectable in WAG/Rij rats during the early postnatal period, before the typical adult expression of absence seizures. The effects of the NTS protocol were strongly dependent on developmental timing, with the second postnatal week representing a particularly sensitive developmental window for sensorimotor maturation. Overall, the NTS protocol was associated with improved early sensorimotor performance in WAG/Rij rats, particularly when administered during the second postnatal week. Because a sham-handled control group was not included, these findings should be interpreted as reflecting the NTS protocol as a whole rather than tactile stimulation alone.",https://pubmed.ncbi.nlm.nih.gov/42514222/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To evaluate the provided study abstract against the inclusion and exclusion criteria, we'll go through each criterion step-by-step.
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - The abstract discusses WAG/Rij rats, a genetic model of absence epilepsy. Therefore, this criterion is met.
+
+2. **Language: English only**
+   - The abstract is written in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract appears to present original research. This criterion is met.
+
+4. **Population: Human subjects (animal studies acceptable if reporting EITHER...)**
+   - This study is conducted on rat pups, which means it does not involve human subjects. Although animal studies are included under specific parameters, those do not apply here since there are no relevant transmission parameters reported. 
+   - Fails to meet this criterion due to the lack of human subject data.
+
+5. **Content: Must contain AT LEAST ONE of the specified measures/estimates relevant to the review**
+   - The abstract does not refer to seizure frequency or seizure-free rates, pharmacological interventions (antiepileptic drugs), or EEG-based outcomes. The focus is on sensorimotor development and does not meet any of the required content measures. 
+   - Fails to meet this criterion.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is about epilepsy, so this criterion does not apply.
+
+2. **Language: Non-English**
+   - This study is in English, so this criterion does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract is from a study presentation; therefore, it may fall into this category, but it is not sufficient for exclusion based on inclusion criteria being unmet.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This is not applicable as the study involved animal models.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This study only involves animal subjects and does not report relevant transmission parameters related to epilepsy (e.g., seizure frequency, seizure-free outcomes), leading to exclusion under this criterion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This is not applicable since the study does not address disease transmission but rather developmental outcomes.
+
+After evaluating all criteria, since the study does not meet the inclusion criteria relating to human populations and relevant clinical endpoints, it must be excluded. 
+
+Therefore, the final decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737212
+PMID_42512521,PubMed,42512521,PMC9136030,10.3389/fsurg.2022.887329,Navigating the Eloquent Brain: A Multicenter Study on the Safety and Efficacy of Symptomatic Cavernoma Resection.,"Rowbottom, Hojka; Velnar, Tomaž; Ravnik, Janez; Kozorog, Ninna; Šmigoc, Tomaž",Brain sciences,2026,"Background/Objectives: Surgical management of cerebral cavernous malformations (CCMs) within eloquent brain regions presents a high risk of neurological deficits. This study describes the clinical outcomes and technical feasibility of microsurgical resection for symptomatic eloquent CCMs, detailing the integration of advanced intraoperative adjuncts aimed at optimization of seizure control and functional preservation. Methods: We conducted a retrospective multicenter analysis of nine adult patients who underwent microsurgical resection for symptomatic eloquent CCMs between January 2021 and December 2025 across two tertiary centers in Slovenia. Intraoperative modalities included 100% neuronavigation, 55.6% intraoperative ultrasound, 77.8% intraoperative neuromonitoring (IONM) with motor and somatosensory evoked potentials, and 22.2% awake craniotomies. Results: Seizures were the primary clinical presentation in 77.8% of patients (66.7% medically refractory), and the overall hemorrhage rate was 66.7%. Gross total resection of the CCM was achieved in 100% of cases, with complete hemosiderin rim removal in 80% of applicable lesions. Early postoperative complications occurred in four patients, but at the maximum 48-month follow-up, 100% of the cohort achieved complete seizure control, and 44.4% successfully discontinued antiepileptic drugs. Long-term focal neurological deficits persisted in only two patients, while 77.8% were able to work following surgery. Conclusions: Microsurgical resection remains a well-established treatment modality for symptomatic CCMs. In this small, descriptive series of patients with lesions in functionally critical regions, high rates of gross total resection and favorable long-term seizure freedom were observed. These findings suggest that a multimodal approach combining anatomical neuronavigation with functional IONM may help minimize permanent morbidity, though larger cohorts are required to establish definitive efficacy.",https://pubmed.ncbi.nlm.nih.gov/42512521/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether to include or exclude the study based on the provided criteria, we will evaluate each inclusion and exclusion criterion in detail.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - This study is focused on symptomatic cavernous malformations (CCMs) and surgical outcomes related to these lesions in brain regions, not directly on epilepsy. It does mention seizure control but does not focus on epilepsy as the primary topic.
+   - **Outcome**: Not met.
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Outcome**: Met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract describes a retrospective multicenter analysis, which would typically be considered original research.
+   - **Outcome**: Met.
+
+4. **Population: Human subjects**
+   - The study involves human subjects (nine adult patients).
+   - **Outcome**: Met.
+
+5. **Content: Must contain AT LEAST ONE of the specified metrics, such as seizure frequency or rates**
+   - The study discusses seizure control as an outcome after the surgical intervention, stating that 100% of the cohort achieved complete seizure control. 
+   - **Outcome**: Met.
+
+### Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - As previously stated, the study does not focus directly on epilepsy; rather, it discusses surgical outcomes for CCMs related to seizure control.
+   - **Outcome**: Exclude.
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Outcome**: Not applicable.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract appears to be part of a research study; however, without more context, it’s hard to determine if it qualifies under this criterion.
+   - **Outcome**: Not applicable.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study does involve human subjects.
+   - **Outcome**: Not applicable.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This study does not involve animal studies.
+   - **Outcome**: Not applicable.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion does not apply as the study does not relate to outbreaks or natural disease transmission.
+   - **Outcome**: Not applicable.
+
+Given the evaluation of the criteria, the key reason for exclusion lies in the first inclusion/exclusion criterion regarding the study's focus on epilepsy. While it does provide insights about seizure outcomes, the primary subject matter is not epilepsy itself but rather a specific surgical intervention for cavernous malformations.
+
+Thus, the decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737266
+PMID_42509062,PubMed,42509062,,10.1016/j.encep.2026.04.003,Optimizing ECT in a complex neuroanatomical context: A case-based approach combining clinical outcome and electric field modeling.,"Gosez, Julie; Le Tutour, Tom; Sarkar, Anish; Sensale, Marco; Germaneau, Arnaud; Jaafari, Nemat; Harika-Germaneau, Ghina",L'Encephale,2026,"Electroconvulsive therapy (ECT) is an effective intervention for treatment-resistant schizophrenia, but failure to induce adequate seizures remains a clinical challenge, especially in patients with high seizure thresholds. We report the case of a 55-year-old woman with chronic treatment-resistant schizophrenia and a left temporal meningioma, who initially responded to bifrontal ECT but later developed resistance to induced seizures. A switch to right unilateral (RUL) stimulation successfully re-induced therapeutic seizures, with sustained clinical improvement. To understand this outcome, we conducted electric field modeling using patient-specific MRI data and finite-element simulations with SimNIBS. The analysis compared bifrontal and RUL montages, with and without modeling of the meningioma. Results showed no significant impact of the meningioma on current distribution. However, the RUL montage consistently generated higher mean electric fields in cortical regions compared to the bifrontal configuration. These findings offer a mechanistic explanation for the clinical efficacy of the RUL approach in this case and highlight the potential of electric field modeling to optimize stimulation parameters, especially in anatomically complex cases. This case supports the utility of switching electrode montages as a simple, safe, and effective strategy when seizure thresholds rise, and it suggests a promising role for computational modeling in guiding personalized ECT planning. Further research is needed to assess the broader applicability of this approach and to explore its cognitive and functional implications.",https://pubmed.ncbi.nlm.nih.gov/42509062/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - The study does not mention epilepsy; it focuses on electroconvulsive therapy (ECT) for treatment-resistant schizophrenia.
+   - **Not Met**
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Met**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract indicates that it is based on a case study. However, since it's not clear if this study is peer-reviewed or original research based on the abstract provided, we cannot confirm it adequately meets this criterion.
+   - **Uncertain**
+
+4. **Population: Human subjects**
+   - The study reports on a 55-year-old woman, thus involving human subjects.
+   - **Met**
+
+5. **Content: Must contain AT LEAST ONE of the specified measures**
+   - The study involves ECT in a clinical context but does not provide any data on seizure frequency or seizure-free rates related to epilepsy. It focuses on optimizing ECT rather than seizure outcomes, which is critical for our review.
+   - **Not Met**
+
+### Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is not about epilepsy; it focuses on schizophrenia treatment via ECT.
+   - **Exclude**
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Does not apply**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - As no information is provided about publication type, we assume it is a published abstract.
+   - **Does not apply**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human subjects, not an in-vitro study.
+   - **Does not apply**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This criterion does not apply as the study involves human participants.
+   - **Does not apply**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This does not apply here as the study does not involve infections or outbreaks.
+   - **Does not apply**
+
+### Summary
+The study under review does not meet the primary focus on epilepsy outlined in the inclusion criteria and is therefore primarily irrelevant to our review's objectives. Additionally, at least one key exclusion criterion is clearly met. 
+
+Based on the evaluation:
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737320
+PMID_42504887,PubMed,42504887,,10.1002/epd2.70358,Impact of medical and surgical treatment on stigma among people with epilepsy: A systematic review.,"Sharma, Mayank; Singh, Mamta Bhushan; Bisht, Ramila; Bhatia, Rohit; Tiwari, Hemant Kumar; Parihar, Jasmine; Haldar, Partha; Sander, Josemir W; Singh, Gagandeep; Maulik, Pallab K; Raman, Usha",Epileptic disorders : international epilepsy journal with videotape,2026,"OBJECTIVE: The stigma surrounding epilepsy affects medication adherence, psychosocial well-being, and quality of life. While medical and surgical interventions aim for seizure control, their impact on stigma remains unclear. We appraised published literature examining the relationship between epilepsy treatment and stigma.
+METHODS: We conducted a systematic review across PubMed, Embase, PsycINFO, Web of Science, and Scopus to identify studies examining how epilepsy treatment affects stigma among people with epilepsy. We included studies providing quantitative assessments of stigma in relation to medical treatment or surgical interventions. Given the heterogeneity of study designs and outcomes, we synthesized data narratively. Risk of bias was evaluated using the Joanna Briggs Institute Critical Appraisal Tools. This systematic review is registered on PROSPERO (CRD42024526560).
+RESULTS: Ten studies were analyzed: seven on medical treatment (three cross-sectional, three cohort studies, and one randomized trial) and three on surgical interventions (cohort studies). Medical treatments also yielded mixed results, with stigma reductions linked to improved seizure control and psychosocial outcomes. Surgical interventions were frequently associated with reduced stigma; however, findings vary with some data indicating that stigma does not significantly decrease following epilepsy surgery. Studies from low- and middle-income countries reported persistent stigma driven by limited access and cultural barriers.
+SIGNIFICANCE: Evidence suggests surgical treatment may reduce perceived stigma among people with epilepsy, though it is based on limited studies. Outcomes of medical treatment vary significantly, as they are influenced by seizure control, psychosocial support, and healthcare access. Further research is required to fully elucidate the relationships between treatment interventions, stigma, and different socio-economic contexts.",https://pubmed.ncbi.nlm.nih.gov/42504887/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether the abstract titled ""Impact of medical and surgical treatment on stigma among people with epilepsy: A systematic review"" should be included or excluded from the systematic review on epilepsy, let’s evaluate it against the inclusion and exclusion criteria provided.
+
+## Inclusion Criteria Assessment
+1. **Pathogen**: The study is about epilepsy. **(Met)**
+2. **Language**: The abstract is in English. **(Met)**
+3. **Study type**: It is a systematic review of studies on medical and surgical interventions related to epilepsy, which is noted for special consideration. **(Met)**
+4. **Population**: It involves human subjects (people with epilepsy). **(Met)**
+5. **Content**: The study discusses medical and surgical treatments concerning stigma, a psychosocial outcome rather than a clinical outcome measure directly tied to seizure frequency or seizure-free rates. It does not provide quantitative details related to seizure frequency or seizure-free rates, nor seizure control metrics in the outcomes mentioned. **(Not Met)**
+
+## Exclusion Criteria Assessment
+1. **Pathogen**: The study is about epilepsy. **(Not applicable)**
+2. **Language**: The abstract is in English. **(Not applicable)**
+3. **Publication type**: This is a systematic review, which is a type of peer-reviewed original research. **(Not applicable)**
+4. **Study design**: The study design is a systematic review involving human subjects. **(Not applicable)**
+5. **Study design**: It is a systematic review and not solely animal studies. **(Not applicable)**
+6. **Outbreak type**: Does not pertain to accidental laboratory outbreaks. **(Not applicable)**
+
+## Conclusion
+The primary reason for exclusion stems from the 5th inclusion criterion regarding content, as the study does not report on seizure frequency or seizure-free outcomes, which are crucial for this systematic review. Although it addresses treatments and stigma, it lacks the data on clinical outcomes essential for inclusion.
+
+Thus, based on the screening criteria evaluation, the decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737372
+PMID_42504746,PubMed,42504746,,10.1002/epd2.70356,Electroclinical phenotypes-genetic characterization of developmental and epileptic encephalopathies in a cohort study.,"Yaman, Burcu; Kurekci, Fulya; Akbas, Sinan; Oney, Ceyda; Kilic, Mehmet Akif; Genc, Hulya Maras; Aslanger, Ayca Dilruba; Yildiz, Edibe Pembegul",Epileptic disorders : international epilepsy journal with videotape,2026,"OBJECTIVE: Developmental and epileptic encephalopathies (DEEs) are characterized by refractory seizures and frequently recurring epileptic activity with neurodevelopmental delay or regression that usually begin in early life. We aimed to define the relationship between electroclinical features and etiology, as well as the genotype-phenotype characterizations and prognosis with genetically determined DEEs.
+METHODS: We retrospectively evaluated patients with DEEs who were referred to the Division of Pediatric Neurology at our university hospital between 2017 and 2021 and followed for at least 24 months. Demographic characteristics, etiologies, genetic findings, and electroclinical phenotypes were analyzed in 136 children with DEEs.
+RESULTS: In our study, 50.7% of the patients were female. Age at presentation ranged from 1 to 126 months and the mean age at seizure onset was 9.4 months. Etiology was genetic in 41 patients (30.1%), structural in 32 patients (23.5%), and metabolic in 17 patients (12.5%). Among patients with a genetic etiology, 32 were genetically solved, including 28 with pathogenic or likely pathogenic single-gene variants and 4 with pathogenic copy number variants or chromosomal rearrangements. Eight additional patients had phenotype-concordant variants of uncertain significance, and one patient had a clinical-only genetic diagnosis. SCN1A was the most frequently affected gene. Electroclinical phenotypes in genetic DEEs were as follows: EIDEE in 11 patients, Dravet syndrome in 10, IESS in 6, EMAS in 2, LGS in 2, and unclassified in 10 patients.
+SIGNIFICANCE: We characterized DEEs with genetic etiology in our cohort and described their associated electroclinical phenotypes, including several novel variants in disease-associated genes. Understanding the diverse underlying etiologies of DEEs in children, along with their genotypic and phenotypic characteristics, is crucial for early diagnosis and treatment and the development of targeted management strategies.",https://pubmed.ncbi.nlm.nih.gov/42504746/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To evaluate the abstract for inclusion in the systematic review on *Epilepsy*, we'll assess it against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria Evaluation
+
+1. **Pathogen: Must be about Epilepsy**
+   - The study focuses on developmental and epileptic encephalopathies (DEEs), which are related to epilepsy. **(Met)**
+
+2. **Language: English only**
+   - The abstract is in English. **(Met)**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study appears to be original research, as it describes a cohort of patients and their evaluations over time. **(Met)**
+
+4. **Population: Human subjects**
+   - The study includes human subjects (children with DEEs). **(Met)**
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - Seizure frequency or seizure-free rates: The abstract discusses seizures and their characteristics but doesn’t provide specific data on seizure frequency or rates of being seizure-free, which is required.
+   - **(Not Met)**
+
+### Exclusion Criteria Evaluation
+
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is about DEEs, which are related to epilepsy. **(Not Applicable)**
+
+2. **Language: Non-English**
+   - The abstract is in English. **(Not Applicable)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract is not identified as a conference proceeding or non-peer-reviewed correspondence. **(Not Applicable)**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human subjects and is not an in-vitro study. **(Not Applicable)**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters (R0, Rt, Re, r, growth rate, mutation rate)**
+   - Not an animal study. **(Not Applicable)**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - Not applicable as this study does not involve outbreaks. **(Not Applicable)**
+
+### Conclusion
+The study does focus on epilepsy through its examination of developmental and epileptic encephalopathies, but it does not provide the specific outcome data required in inclusion criterion 5 regarding seizure frequency or seizure-free rates.
+
+Therefore, the study does not meet all the inclusion criteria and since it does not meet criterion 5 explicitly, it should be excluded.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737425
+PMID_42501662,PubMed,42501662,,10.1016/j.seizure.2026.07.010,Clinical characteristics and factors associated with preoperative neurodevelopment in children with Rasmussen encephalitis: A single-centre retrospective study of 51 patients.,"Guo, Hongru; Liu, Qingzhu; Gong, Pan; Yu, Guojing; Wang, Shuang; Wu, Ye; Liu, Xiaoyan; Jiang, Yuwu; Cai, Lixin; Ji, Taoyun",Seizure,2026,"PURPOSE: To characterise clinical features of Rasmussen encephalitis (RE) and identify factors associated with preoperative neurodevelopmental status in affected children.
+METHODS: This retrospective single-centre study included 51 paediatric patients diagnosed with RE who underwent surgical treatment. Demographic characteristics, seizure features, video-electroencephalography (VEEG) findings, magnetic resonance imaging (MRI) features, and neurodevelopmental assessments were systematically collected. Associations between full-scale developmental quotient/intelligence quotient (FSDQ/IQ) and clinical variables, including age at onset, disease duration, electroencephalography findings, MRI characteristics, and number of antiseizure medications (ASMs), were analysed.
+RESULTS: All patients underwent hemispherotomy or hemispherectomy and were seizure-free at the latest follow-up, although one experienced postoperative seizures from the contralateral hemisphere. Epilepsia partialis continua occurred in 54.9% of patients, and 52.9% had contralateral independent epileptiform discharges. Early MRI showed hemispheric or focal atrophy in 49%. Preoperative neurodevelopmental assessment was completed in 45 patients, with a mean FSDQ/IQ of 70.5. Overall, 55.6% demonstrated normal or borderline development, and 26.7% had mild developmental delay. Motor function was the most affected domain, whereas cognitive and non-motor domains were generally borderline. Patients with contralateral epileptiform discharges had lower FSDQ/IQ than those without (p = 0.001), and this association remained significant after adjustment for age at seizure onset, disease duration, and number of ASMs.
+CONCLUSION: Preoperative neurodevelopmental status in children with RE was heterogeneous, with overall scores in the borderline range. Contralateral independent epileptiform discharges were independently associated with lower FSDQ/IQ, although the underlying mechanisms and clinical significance of this association remain uncertain. These findings support close developmental monitoring and individualised preoperative assessment in RE.",https://pubmed.ncbi.nlm.nih.gov/42501662/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the provided abstract against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+**ALL must be met:**
+1. **Pathogen**: Must be about Epilepsy.
+   - The study discusses Rasmussen encephalitis, which is a type of epilepsy. Thus, this criterion is met.
+   
+2. **Language**: English only.
+   - The abstract is in English. Thus, this criterion is met.
+   
+3. **Study type**: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration).
+   - The study is a retrospective single-centre study of 51 patients. It appears to be original research and is likely peer-reviewed. Thus, this criterion is met.
+  
+4. **Population**: Human subjects.
+   - The study involves human subjects (children with Rasmussen encephalitis). Thus, this criterion is met.
+  
+5. **Content**: Must contain AT LEAST ONE of:
+   a) Quantitative details of concluded/ongoing human outbreak (size, year, location, duration, spatial scale)
+   - There are no quantitative details related to an outbreak provided in this abstract.
+   b) Mathematical or statistical model of disease transmission
+   - No modeling is discussed in the abstract.
+   c) Measures/estimates of transmission parameters: R, R0, Rt, r, Re, growth rate, doubling time
+   - None of these parameters are mentioned.
+   d) Measures/estimates of timing parameters: generation time, serial interval, incubation period, latent period, infectious period
+   - No timing parameters are provided in this study.
+   e) Measures/estimates of severity: CFR, IFR, hospitalization rate, mortality rate, attack rate
+   - The study does not report on these measures of severity.
+   f) Measures/estimates of genetic evolution: mutation rate, substitution rate, evolutionary rate
+   - No genetic evolution measures are mentioned.
+   g) Measures of overdispersion or superspreading (k parameter, transmission heterogeneity)
+   - This is not applicable here.
+   h) Seroprevalence data or serological surveys
+   - No seroprevalence data is provided.
+   i) Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)
+   - The study discusses developmental issues and associations but does not directly address risk factors for infection or severe disease in the context of infectious disease.
+   j) Measures/estimates of vector parameters
+   - This criterion is not applicable as it pertains to vector-borne diseases.
+
+The study discusses neurodevelopmental aspects and seizure frequency in a specific condition affecting children with epilepsy, but does not address any of the content measures specified in this inclusion criterion.
+
+### Exclusion Criteria
+**Exclude if ANY apply:**
+1. **Pathogen**: Not about Epilepsy (exclude studies on other pathogens).
+   - The study is about epilepsy (Rasmussen encephalitis). Not applicable here.
+   
+2. **Language**: Non-English.
+   - The abstract is in English. Not applicable here.
+   
+3. **Publication type**: Conference proceedings, abstracts, posters, correspondence.
+   - The abstract is from a peer-reviewed study, not an excluded publication type. Not applicable here.
+   
+4. **Study design**: In-vitro studies only (no human or animal component).
+   - The study involves human participants. Not applicable here.
+   
+5. **Study design**: Solely animal studies AND animal studies that do not report transmission parameters.
+   - The study involves human participants and is not an animal study. Not applicable here.
+   
+6. **Outbreak type**: Accidental laboratory outbreaks (not natural disease transmission).
+   - The study does not describe an outbreak. Not applicable here.
+
+### Conclusion
+While the study is relevant to epilepsy and provides important clinical insights, it does not meet any of the content-related inclusion criteria that we need for this systematic review. Therefore, it does not provide the necessary evidence related to seizure frequency, seizure-free rates, or pharmacological and non-pharmacological interventions as outlined in the systematic review goals.
+
+Based on this assessment, we conclude that the study should be excluded:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737483
+PMID_42501325,PubMed,42501325,,10.1002/epi.70409,Focal epilepsy expands the phenotype of FUS-associated amyotrophic lateral sclerosis.,"Jia, Yu; Cui, Bo; Liang, Yan; Zhang, Mengge; Wang, Suobin; Wang, Yuping; Chen, Hai",Epilepsia,2026,"Epileptic seizures are an exceedingly rare manifestation in classic amyotrophic lateral sclerosis (ALS). Emerging case reports suggest a potential link between ALS associated with FUS gene mutations (FUS-ALS) and seizures, expanding the disease's phenotypic spectrum. A 25-year-old man presented with a 5-month history of rapidly progressive limb weakness, atrophy, and both upper and lower motor neuron signs, consistent with ALS. Notably, he developed two types of epileptic seizures during the disease course, including focal motor seizures and focal seizures evolving to bilateral tonic-clonic seizures. Electroencephalography revealed epileptiform discharges over the right frontotemporal region. Brain 18F-fluorodeoxyglucose positron emission tomography-computed tomography showed focal hypometabolism in the right frontal cortex. Genetic testing identified a de novo pathogenic FUS variant (c.1574C>T, p.Pro525Leu). The patient was diagnosed with FUS-ALS with comorbid focal epilepsy. Treatment with levetiracetam partially controlled the seizures, but motor function continued to deteriorate. This case highlights focal epilepsy as a comorbid feature in FUS-ALS, broadening the recognized phenotypic spectrum. Genetic testing for FUS mutations should be considered in young-onset ALS patients presenting with seizures.",https://pubmed.ncbi.nlm.nih.gov/42501325/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"First, let's evaluate the abstract against the inclusion and exclusion criteria step by step.
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**  
+   - The study discusses seizures related to amyotrophic lateral sclerosis (ALS) and specifically mentions focal epilepsy.  
+   - **Met**.
+
+2. **Language: English only**  
+   - The abstract is in English.  
+   - **Met**.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The abstract appears to present original research detailing a case report.  
+   - **Met**.
+
+4. **Population: Human subjects**  
+   - The study discusses a 25-year-old man as the only subject.  
+   - **Met**.
+
+5. **Content: Must contain AT LEAST ONE of the specified details**  
+   - The study includes details about a patient's seizures, the type of epileptic seizures experienced, electroencephalography findings, and treatment with levetiracetam.   
+   - It reports on the clinical outcomes of focal epilepsy in the context of ALS.  
+   - **Met**.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**  
+   - The study is about epilepsy in the context of ALS.  
+   - **Not applicable; does not cause exclusion**.
+
+2. **Language: Non-English**  
+   - The abstract is in English.  
+   - **Not applicable; does not cause exclusion**.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The abstract is from a case report, which counts as original research.  
+   - **Not applicable; does not cause exclusion**.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves a human subject.  
+   - **Not applicable; does not cause exclusion**.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - This study does not involve animal studies at all.  
+   - **Not applicable; does not cause exclusion**.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - The case does not report on a laboratory outbreak; it discusses a clinical case.  
+   - **Not applicable; does not cause exclusion**.
+
+After reviewing the abstract, we find that it meets all of the inclusion criteria without falling under any exclusion criteria. While the study is a case report and may not reflect a larger clinical trial or systematic review standard, it provides insights into epilepsy in a specific context that could be relevant for the systematic review.
+
+Therefore, the decision is to include this abstract.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.737536
+PMID_42500388,PubMed,42500388,PMC11372657,10.1136/jnnp-2022-330360,Anti-NMDA-receptor encephalitis and MOGAD associated optic neuritis: a case series.,"Parthasarathi, Pooja; Dattilo, Michael; Peragallo, Jason",Frontiers in neurology,2026,"INTRODUCTION: Anti-N-methyl-D-aspartate receptor (NMDAR) encephalitis is a well-recognized autoimmune condition that often presents with neuropsychiatric symptoms and seizures. Myelin oligodendrocyte glycoprotein antibody-associated disease (MOGAD) often manifests as optic neuritis and, less frequently, as acute demyelinating encephalomyelitis or transverse myelitis. The co-occurrence of anti-NMDAR encephalitis and MOGAD is becoming increasingly recognized, but clinical series remain limited.
+DESCRIPTION OF CASES: We present three patients with anti-NMDAR encephalitis and MOGAD optic neuritis (ON): two men, aged 19 and 26, and one woman, aged 36. Clinical presentations, signs, investigations, and management of each case are discussed. The 26-year-old man presented with altered mental status and concurrent vision loss. The 36-year-old woman presented with altered mental status during the encephalitis episode and developed vision loss 4 months after encephalitis. The 19-year-old man with a prior history of altered mental status, diagnosed with NMDA encephalitis 9 years earlier, presented with headache and vision loss. Abnormal T2/FLAIR lesions in the brain and/or spinal cord during the encephalitis episode and unilateral or bilateral optic nerve enhancement during the optic neuritis episode were detected on brain and orbital magnetic resonance imaging (MRI) in all patients. All patients tested positive for cerebrospinal fluid (CSF) anti-NMDAR antibodies during the encephalitis episode and had positive serum MOG titers during the optic neuritis episode. Each patient presented with bilateral, asymmetrically reduced visual acuity and diminished color vision. One patient exhibited bilateral temporal optic nerve pallor, while two patients had bilateral optic nerve edema. The diagnostic work-up revealed positive serum MOG titers (1:100, 1:10,000, and 1:10,000 in the 36/F, 26/M, and 19/M, respectively). The 36-year-old woman was treated with intravenous (IV) steroids, plasma exchange (PLEX), and rituximab during the encephalitis episode. During the optic neuritis episode, she was treated with IV steroids, IV immunoglobulin (IVIG), and rituximab, followed by long-term rituximab maintenance therapy. The 19-year-old man was treated for encephalitis with IV steroids, IVIG, and rituximab. During his optic neuritis episode, he received IV steroids, IVIG, and tocilizumab, followed by long-term tocilizumab maintenance therapy. The 26-year-old man was treated with IV steroids, PLEX, and rituximab during the acute episode, followed by long-term IVIG maintenance therapy. After achieving 2 years of stability that prompted the discontinuation of IVIG, the patient experienced a MOG-IgG-positive relapse 5 months later. This relapse was marked by a seizure-like episode and the appearance of new lesions on MRI. The acute symptoms resolved after treatment with intravenous steroids and IVIG. Subsequently, the patient was initiated on an indefinite maintenance IVIG regimen. Visual acuity in all patients improved to their baseline levels following treatment.
+CONCLUSION: This series highlights the emerging overlap between anti-NMDAR encephalitis and MOGAD optic neuritis. Optic neuritis may occur months to years after encephalitis, underscoring the need for careful monitoring of patients with anti-NMDAR encephalitis who develop new visual symptoms. Dual autoimmunity may represent a distinct phenotype with implications for long-term immunotherapy.",https://pubmed.ncbi.nlm.nih.gov/42500388/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To effectively screen this abstract against the predefined criteria, I will evaluate it step by step according to both the inclusion and exclusion criteria. 
+
+### Inclusion Criteria Evaluation
+
+1. **Pathogen**: The study is not about epilepsy specifically but focuses on anti-NMDAR encephalitis and MOGAD associations. Although seizures are mentioned, the primary condition is autoimmune and not a chronic epilepsy diagnosis. **(Not met)**
+   
+2. **Language**: The abstract is in English. **(Met)**
+
+3. **Study type**: The study appears to be a case series, which typically does not qualify as peer-reviewed original research focusing on systematic reviews or randomized controlled trials as described in our inclusion criteria. **(Not met)**
+
+4. **Population**: The subjects discussed have a diagnosis associated with seizures but are specifically related to anti-NMDAR encephalitis and MOGAD, which may not fit the inclusion criteria of having a confirmed diagnosis of epilepsy as a primary subject. **(Not met)**
+
+5. **Content**: The abstract does not present quantitative details about seizure frequency or rates of being seizure-free, nor does it explore pharmacological interventions directly related to standard epilepsy treatment. While seizures are mentioned, the context does not align with our specific interest in epilepsy as a primary focus. **(Not met)**
+
+### Exclusion Criteria Evaluation
+
+1. **Pathogen**: The study is primarily about conditions not classified as epilepsy but autoimmune conditions with seizures. **(Exclude)**
+
+2. **Language**: The language is English. **(Not applicable for exclusion)**
+
+3. **Publication type**: The abstract represents a case study which is not peer-reviewed original research suitable for our review focus. **(Exclude)**
+
+4. **Study design**: This study is classified as a case series with only three patients, which generally does not qualify as a robust study design for inclusion in systematic reviews focusing on trials or larger cohort studies. **(Exclude)**
+
+5. **Study design**: The study focuses solely on autoimmune variants rather than traditional epilepsy and does not report on epilepsy directly. **(Exclude)**
+
+6. **Outbreak type**: This criterion is not applicable as the study does not focus on outbreaks. 
+
+Based on the evaluations above, especially the points in the exclusion criteria that apply, this study should be excluded.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737587
+PMID_42496182,PubMed,42496182,,10.1177/08830738261463079,Childhood-Onset Refractory Absence Epilepsy as a Presentation of Glucose Transporter 1 Deficiency Syndrome Type 2: A Case Report With a Diagnostic Challenge.,"Ahmed, Hana; Alsumaili, Mohammad; Saeed, Muhammad; Abdelmagid, Tayseer",Journal of child neurology,2026,"Glucose transporter 1 (GLUT1) deficiency syndrome is a rare metabolic disorder caused by mutations in the SLC2A1 gene resulting in impaired glucose transport through the blood-brain barrier. The ""classic"" phenotype in children includes early-onset drug-resistant epilepsy, especially absence epilepsy, cognitive delay, movement disorders, and microcephaly. The ketogenic diet is the only treatment. We report a case of a 12-year-old girl who presented at the age of 11 years with daily absence seizures unresponsive to multiple antiseizure medications. Her poor therapeutic response raised suspicion for an underlying genetic etiology. Whole exome sequencing revealed a heterozygous mutation in the SLC2A1 gene, confirming a diagnosis of autosomal dominant GLUT1 deficiency syndrome type 2. The patient showed significant clinical improvement following the initiation of the ketogenic diet. This case highlights the importance of genetic evaluation in refractory absence epilepsy and the role of dietary therapy in GLUT1 deficiency.",https://pubmed.ncbi.nlm.nih.gov/42496182/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria methodically.
+
+### Inclusion Criteria Assessment
+1. **Pathogen**: The study is about Epilepsy. **(Met)**
+2. **Language**: The abstract is in English. **(Met)**
+3. **Study type**: The abstract represents original research as a case report. Although case reports are typically not preferred for systematic reviews, it might be considered for special consideration. Here, I will tentatively mark this as **(Met)** for now but will note this for overall assessment later.
+4. **Population**: Involves a human subject (the 12-year-old girl). **(Met)**
+5. **Content**: The abstract mentions ""daily absence seizures"" and the ""ketogenic diet"" as a treatment method, along with the mention of a genetic mutation confirming the diagnosis. However, it does not report quantitative seizure frequency or seizure-free rates explicitly. **(Not Met)**
+
+### Exclusion Criteria Assessment
+1. **Pathogen**: The study is about Epilepsy. **(Not applicable)**
+2. **Language**: The abstract is in English. **(Not applicable)**
+3. **Publication type**: It is a peer-reviewed case report, not a conference proceeding, abstract, poster, or correspondence. **(Not applicable)**
+4. **Study design**: Since it is a case report, it does not have a controlled study design (like a randomized controlled trial). **(Potential exclusion but depends on inclusion evaluation)**
+5. **Study design**: This is a human study and does not involve solely in-vitro or solely animal studies. **(Not applicable)**
+6. **Outbreak type**: Not relevant here as this is a case report on a clinical presentation and genetic diagnosis. **(Not applicable)**
+
+### Summary of Findings
+The abstract does involve a case of epilepsy and discusses treatment outcomes but lacks specific quantitative data on seizure frequency or rates of being seizure-free, which is a crucial part of the inclusion criteria. Although it does contribute to understanding the genetic component and treatment options in epilepsy, the absence of defined seizure data makes it difficult to justify inclusion.
+
+Considering that the content criteria is critical for inclusion, I conclude that despite its potential relevance, it ultimately does not meet the necessary inclusion criteria due to the lack of reported seizure frequency or functional outcome data.
+
+Thus, my final decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737645
+PMID_42485909,PubMed,42485909,,10.1016/j.seizure.2026.07.008,Electroclinical and behavioral outcomes of add-on ethosuximide in children with developmental and epileptic encephalopathy with spike-wave activation in sleep (D/EE-SWAS): A prospective observational study.,"Sahu, Ashutosh; Saini, Arushi Gahlot; Sharma, Rajni; Singh, Shagun; Suthar, Renu; Sahu, Jitendra Kumar; Sankhyan, Naveen",Seizure,2026,"OBJECTIVE: To evaluate the electroclinical and behavioral outcomes, and tolerability of add-on ethosuximide in children with developmental and epileptic encephalopathy with spike-wave activation in sleep (D/EE-SWAS) and to identify predictors of treatment response.
+METHODS: This prospective, single-center, observational cohort study included children aged 4-18 years with D/EE-SWAS receiving add-on ethosuximide at a tertiary pediatric neurology center. Seizure outcomes, electroencephalographic (EEG) response based on spike-wave index (SWI), parent-reported language and cognitive outcomes, behavioral outcomes using the Strengths and Difficulties Questionnaire (SDQ), and adverse effects were assessed following treatment. Outcomes were compared between idiopathic and structural etiologies. Predictors of seizure and EEG response were explored using univariate and multivariable analyses.
+RESULTS: Thirty-nine children were included (56% structural and 44% idiopathic etiologies). The median age at diagnosis of D/EE-SWAS was 6 years (range 1-10 years). Following a median ethosuximide exposure of 14 months, 28/39 (71.8%) achieved seizure freedom and 33/39 (84.6%) demonstrated favorable seizure outcomes. EEG improvement occurred in 29/39 (74.4%), including complete normalization in 8/39 (20.5%). Complete EEG normalization was more frequent in idiopathic compared with structural D/EE-SWAS (41.2%vs 4.5%, p = 0.01). Parent-reported improvement was observed in language (69.2%) and cognition (64.1%). Significant improvement was observed across SDQ domains, including total difficulties, emotional symptoms, hyperactivity, conduct problems, peer problems, and impact scores (all p < 0.001). Longer duration of ethosuximide exposure was associated with favorable seizure outcome, while later epilepsy onset and idiopathic etiology were associated with better EEG response. Adverse effects occurred in 28% and were predominantly mild-to-moderate; one child developed drug reaction with eosinophilia and systemic symptoms.
+CONCLUSIONS: Add-on ethosuximide was associated with favorable electroclinical and behavioral outcomes in children with D/EE-SWAS and was generally well tolerated. EEG normalization was more likely in idiopathic disease, while behavioral improvements were observed across etiologic groups. Controlled studies are needed to define the role of ethosuximide within the therapeutic strategy for D/EE-SWAS.",https://pubmed.ncbi.nlm.nih.gov/42485909/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To determine whether the study should be included or excluded from the systematic review on epilepsy, we will assess the provided abstract against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+We must check if ALL the following conditions are met:
+
+1. **Pathogen: Must be about Epilepsy**  
+   - The study title and abstract clearly indicate that it focuses on epilepsy (specifically developmental and epileptic encephalopathy with spike-wave activation in sleep).  
+   - **Conclusion: Met**
+
+2. **Language: English only**  
+   - The abstract is written in English.  
+   - **Conclusion: Met**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The study is described as a prospective, single-center, observational cohort study, which qualifies as original research.  
+   - **Conclusion: Met**
+
+4. **Population: Human subjects**  
+   - The study includes children aged 4-18 years with a confirmed epilepsy diagnosis (D/EE-SWAS).  
+   - **Conclusion: Met**
+
+5. **Content: Must contain AT LEAST ONE of the specified quantitative details or measures**  
+   - The results indicate that 71.8% of participants achieved seizure freedom and EEG improvement is quantified (e.g., the spike-wave index). The outcomes measured regarding seizure frequency and EEG response qualify as relevant content.  
+   - **Conclusion: Met**
+
+Since all inclusion criteria are met, we continue to exclusion criteria.
+
+### Exclusion Criteria
+We check if ANY of the following conditions apply to exclude the study:
+
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**  
+   - The study is focused specifically on epilepsy.  
+   - **Conclusion: Not applicable**
+
+2. **Language: Non-English**  
+   - The abstract is in English.  
+   - **Conclusion: Not applicable**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The abstract presents a completed study with results, and there is no indication that it is merely a conference proceeding.  
+   - **Conclusion: Not applicable**
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves human subjects, not in-vitro studies.  
+   - **Conclusion: Not applicable**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - The study does not involve animals.  
+   - **Conclusion: Not applicable**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - This study is not about an outbreak; it focuses on treatment outcomes in a clinical setting.  
+   - **Conclusion: Not applicable**
+
+As none of the exclusion criteria are met, we have determined to include this study in the systematic review.
+
+Thus, the final decision is:  
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.737709
+PMID_42485908,PubMed,42485908,,10.1016/j.seizure.2026.06.018,Surgical strategies after failed hemispheric disconnection surgery: A systematic review and individual-patient data analysis.,"Sescu, Daniel; Fattah, Abdel-Rahman Abdel; Quezada, Jose Araya; Danish, Burhanuddin; Robinson, Shenandoah; Anderson, William S; Merenzon, Martin A",Seizure,2026,"PURPOSE: To analyze surgical and seizure outcomes after secondary interventions following failed hemispheric disconnection surgery (hemispherectomy/hemispherotomy).
+METHODS: We systematically searched five databases from January 1990 to April 2025. Eligible studies included patients of any age who underwent index hemispheric disconnection surgery (HDS), experienced seizure recurrence, and reported outcomes after secondary interventions: redo hemispheric surgery (RHS), laser interstitial thermal therapy (LITT), or vagus nerve stimulation (VNS). Studies were classified as aggregate or individual-patient data (IPD). Pooled proportions were estimated using random- and common-effects meta-analyses. IPD were analyzed using Kaplan-Meier survival methods and log-rank testing. Risk of bias was assessed using Joanna Briggs Institute tools.
+RESULTS: From 998 records, 25 studies met inclusion criteria, reporting outcomes for RHS (n=151), LITT (n=9), and VNS (n=9). The pooled incidence of reoperation after failed HDS was 18% (95% CI 14-22; I²=0%). Following RHS, Engel I outcome was achieved in 50% (95% CI 33-66; I²=57.4%), and Engel I-II in 69% (95% CI 59-77; I²=0.0%). In IPD analyses, median seizure-free survival after RHS was 4.5 years (95% CI 3.0-6.8), extending to 6.8 years (95% CI 4.5-10.6) for Engel I-II outcomes. Engel I duration was significantly longer after RHS compared with LITT (median 4.5 vs 1.4 years; log-rank p=0.02). Data on VNS were limited and allowed only narrative synthesis.
+CONCLUSIONS: To our knowledge, this is the first synthesis focused on seizure outcomes after secondary interventions for failed HDS. Overall, RHS remains the most effective salvage strategy, providing durable seizure control in a substantial proportion of patients. LITT represents a promising minimally invasive alternative with more limited durability, while VNS appears primarily palliative. These findings provide evidence-based benchmarks to guide surgical decision-making and counseling in this challenging population.",https://pubmed.ncbi.nlm.nih.gov/42485908/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess whether the paper should be included in the systematic review based on the provided inclusion and exclusion criteria, we will evaluate each criterion step-by-step:
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - The study is indeed about epilepsy, specifically focusing on surgical strategies related to hemispheric disconnection surgery after failed attempts. 
+   - This criterion is met.
+
+2. **Language: English only**
+   - The abstract is in English.
+   - This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study is a systematic review and includes individual-patient data analysis, which qualifies for special consideration.
+   - This criterion is met.
+
+4. **Population: Human subjects**
+   - The study includes human subjects who had previously undergone hemispheric disconnection surgery.
+   - This criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of the specified measures**
+   - The study reports seizure outcomes and results from secondary interventions (including seizure-free survival times).
+   - It provides quantitative outcomes regarding Engel classification (seizure control) and estimates pooled proportions regarding reoperation rates.
+   - This criterion is met.
+
+### Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is about epilepsy.
+   - This criterion is not applicable for exclusion.
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - This criterion is not applicable for exclusion.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study is a systematic review and thus does not fall under this category.
+   - This criterion is not applicable for exclusion.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study includes human subjects and is not an in-vitro study.
+   - This criterion is not applicable for exclusion.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study does not involve animal studies.
+   - This criterion is not applicable for exclusion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion does not apply since the study is focused on surgical outcomes rather than outbreaks.
+   - This criterion is not applicable for exclusion.
+
+### Conclusion
+Based on the evaluation, the study meets all the inclusion criteria and none of the exclusion criteria, thus it should be included in the systematic review.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T18:56:55.737763
+PMID_42482946,PubMed,42482946,PMC11960164,10.1517/14740338.2011.534455,Arthroscopic capsular release combined with Latarjet procedure for chronic locked anterior shoulder dislocation secondary to epilepsy: a case report with one-year follow-up.,"Chen, Zeyan; Chen, Jiancong; Wang, Guoliang; Zhang, Zhenfeng",Frontiers in surgery,2026,"BACKGROUND: Chronic anterior shoulder dislocation is rare and poses significant therapeutic challenges due to associated structural injuries. This case report details the management of a chronic dislocation with complex pathologies.
+CASE PRESENTATION: A 28-year-old female patient presented with persistent left shoulder deformity and restricted motion 1 year after an anterior dislocation. Imaging revealed a locked anterior dislocation, Bankart lesion, Hill-Sachs lesion, pseudoglenoid formation, and rotator cuff atrophy. Preoperative functional scores were poor.
+INTERVENTION: Arthroscopic posterior capsular release and glenoid osteoplasty were performed, followed by open Latarjet procedure with coracoid transfer and screw fixation. Temporary Kirschner wire stabilization was maintained for 2 weeks.
+OUTCOMES: At 1-year follow-up, shoulder mobility significantly improved and functional scores markedly increased with no recurrence. The patient reported high satisfaction.
+CONCLUSION: The Latarjet procedure combined with arthroscopic release effectively restored stability and function in chronic anterior shoulder dislocation caused by epileptic seizure. Early postoperative rehabilitation is critical for optimal recovery.",https://pubmed.ncbi.nlm.nih.gov/42482946/,,,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the provided abstract against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria Evaluation
+
+1. **Pathogen (Must be about Epilepsy)**: 
+   - The study does focus on epilepsy as it discusses a chronic shoulder dislocation secondary to epileptic seizures. **(Met)**
+
+2. **Language (English only)**: 
+   - The abstract is in English. **(Met)**
+
+3. **Study type (Peer-reviewed, original research)**: 
+   - This is a case report, which is a form of original research; however, it is not specified to be peer-reviewed, and given the nature of case reports, they may not always be considered for systematic reviews. Still, since systematic reviews/meta-analyses are mentioned for special consideration, we won't immediately exclude it for this reason. **(Potentially Met, but caution advised)**
+
+4. **Population (Human subjects)**: 
+   - The study involves a human subject. **(Met)**
+
+5. **Content (Must contain AT LEAST ONE measure/estimate)**: 
+   - The abstract reports on the intervention and outcomes related to shoulder stability and mobility, but it does not provide any quantitative details related to epilepsy, such as seizure frequency or seizure-free rates. Therefore, it does not meet this criterion, as it lacks the required measure of clinical outcome in the context of epilepsy. **(Not Met)**
+
+### Exclusion Criteria Evaluation
+
+1. **Pathogen (Not about Epilepsy)**: 
+   - The study is indeed about epilepsy. **(Not Excluded)**
+
+2. **Language (Non-English)**: 
+   - The abstract is in English. **(Not Excluded)**
+
+3. **Publication type (Conference proceedings, abstracts, etc.)**: 
+   - This is a case report, which may be considered akin to an abstract. However, it's not clearly defined in this category; hence, we will be cautious but not exclude solely based on publication type. **(Not Excluded)**
+
+4. **Study design (In-vitro studies only)**: 
+   - This is not an in-vitro study. **(Not Excluded)**
+
+5. **Study design (Solely animal studies...)**: 
+   - This is not an animal study. **(Not Excluded)**
+
+6. **Outbreak type (Accidental laboratory outbreaks)**: 
+   - This is not related to outbreak transmission hence does not apply here. **(Not Excluded)**
+
+### Conclusion
+
+The key criterion that this abstract fails to meet is the requirement to document clinical outcome measures directly related to epilepsy—namely, seizure frequency or seizure-free rates. Although the abstract discusses a medical intervention in line with epilepsy, it does not provide relevant quantitative data or seizure-related outcomes necessary per the systematic review's objectives.
+
+Given the findings:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737818
+PMID_36557329,EuropePMC,36557329,PMC9788458,10.3390/metabo12121288,Ketogenic Diet and Vitamin D Metabolism: A Review of Evidence.,"Detopoulou P, Papadopoulou SK, Voulgaridou G, Dedes V, Tsoumana D, Gioxari A, Gerostergios G, Detopoulou M, Panoutsopoulos GI.",,2022,"The ketogenic diet (KD), which is low in carbohydrates and high to normal in fat and protein, has been traditionally used in epilepsy for the last 100 years. More recently, its application in obesity has been introduced. The present review aimed to investigate the effects of the KD on vitamin D. In total, five studies were done in healthy adults, one in subjects with type 2 diabetes, and seven in subjects with epilepsy that assessed the levels of vitamin D pre- and post-intervention. In the majority of studies, increases in circulating vitamin D were reported. The relationship of the KD with vitamin D was explained through several mechanisms: ketone bodies, macronutrient intake, the status levels of other fat-soluble vitamins, weight loss, changes in the hormonal milieu, and effects on gut microbiota. Moreover, potential nutrient-gene-related interactions were discussed. There is still a need to conduct multiple arm studies to compare the effects of the KD versus other diets and better decipher the particular effects of the KD on vitamin D levels and metabolism. Moreover, differentiations of the diet's effects according to sex and genetic makeup should be investigated to prescribe KDs on a more personalized basis.",https://pubmed.ncbi.nlm.nih.gov/36557329/,,https://europepmc.org/articles/PMC9788458?pdf=render,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess the abstract titled ""Ketogenic Diet and Vitamin D Metabolism: A Review of Evidence"" against the screening criteria, we will evaluate each inclusion and exclusion criterion step-by-step.
+
+### Inclusion Criteria
+
+1. **Pathogen: Must be about Epilepsy**
+   - This study does focus on epilepsy since it mentions the ketogenic diet (KD) being traditionally used in epilepsy treatment. 
+   - **Criterion Met**
+
+2. **Language: English only**
+   - The abstract is in English. 
+   - **Criterion Met**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - This is a review of existing evidence rather than original research. It does not present new data or findings but summarizes previous studies, thus it does not meet this criterion. 
+   - **Criterion Not Met**
+
+4. **Population: Human subjects**
+   - The abstract mentions studies conducted with subjects with epilepsy. 
+   - **Criterion Met**
+
+5. **Content: Must contain AT LEAST ONE of the specific quantitative details or measures**
+   - While the abstract discusses effects of the ketogenic diet on vitamin D metabolism in subjects with epilepsy, it does not provide quantitative details on seizure frequency or seizure-free rates, nor does it discuss specific clinical outcomes directly related to epilepsy management. 
+   - **Criterion Not Met**
+
+### Exclusion Criteria
+
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study is indeed about epilepsy. 
+   - **Criterion Not Applicable (Pass)**
+
+2. **Language: Non-English**
+   - The study is in English. 
+   - **Criterion Not Applicable (Pass)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - This is a review article and does not fall under these categories. 
+   - **Criterion Not Applicable (Pass)**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The studies referenced involve human subjects, so this criterion does not apply. 
+   - **Criterion Not Applicable (Pass)**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The studies reported involve humans. 
+   - **Criterion Not Applicable (Pass)**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion is irrelevant as it pertains to outbreak transmission and is not applicable to the study's focus on the ketogenic diet and epilepsy. 
+   - **Criterion Not Applicable (Pass)**
+
+### Conclusion
+The study does discuss aspects of epilepsy and includes human subjects, but it fails to meet the necessary criteria for inclusion due to it being a review without original findings and the lack of relevant clinical outcome data connected to epilepsy. 
+
+Thus, the overall evaluation leads us to conclude:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737873
+PMID_33517431,EuropePMC,33517431,PMC7955971,10.1093/neuros/nyaa365,Functional Outcomes and Health-Related Quality of Life Following Glioma Surgery.,"De Witt Hamer PC, De Witt Hamer PC, Klein M, Hervey-Jumper SL, Wefel JS, Berger MS.",,2021,"Functional outcome following glioma surgery is defined as how the patient functions or feels. Functional outcome is a coprimary end point of surgery in patients with diffuse glioma, together with oncological outcome. In this review, we structure the functional outcome measurements following glioma surgery as reported in the last 5 yr. We review various perspectives on functional outcome of glioma surgery with available measures, and offer suggestions for their use. From the recent neurosurgical literature, 160 publications were retrieved fulfilling the selection criteria. In these publications, neurological outcomes were reported most often, followed by activities of daily living, seizure outcomes, neurocognitive outcomes, and health-related quality of life or well-being. In more than a quarter of these publications functional outcome was not reported. A minimum essential consensus set of functional outcome measurements would benefit comparison across neurosurgical reports. The consensus set should be based on a combination of clinician- and patient-reported outcomes, assessed at a predefined time before and after surgery. The selected measurements should have psychometric properties supporting the intended use including validity-related evidence, reliability, and sensitivity to detect meaningful change with minimal burden to ensure compliance. We circulate a short survey as a start towards reporting guidelines. Many questions remain to better understand, report, and improve functional outcome following glioma surgery.",https://pubmed.ncbi.nlm.nih.gov/33517431/,,https://europepmc.org/articles/PMC7955971?pdf=render,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"To assess the abstract titled ""Functional Outcomes and Health-Related Quality of Life Following Glioma Surgery,"" we will evaluate it against the inclusion and exclusion criteria outlined for the systematic review on epilepsy.
+
+### Inclusion Criteria
+1. **Pathogen**: The abstract is not about epilepsy; it discusses glioma surgery outcomes. **(Not met)**
+2. **Language**: The abstract is in English. **(Met)**
+3. **Study Type**: The abstract reports on outcomes from various publications, but it is not original research as it summarizes other studies. **(Not met)**
+4. **Population**: The population discussed is patients with glioma, not epilepsy. **(Not met)**
+5. **Content**: While the abstract mentions ""seizure outcomes,"" it is in the context of glioma surgery and not focused on epilepsy diagnosis or treatment in a way that aligns with our review. **(Not met)**
+
+### Exclusion Criteria
+1. **Pathogen**: The study is not related to epilepsy; it focuses on glioma. **(Applies)**
+2. **Language**: The language is English. **(Does not apply)**
+3. **Publication Type**: The abstract does appear to summarize publications, which may be similar to proceedings but isn’t classified as a conference proceeding or correspondence. However, the primary issue remains its relevance to epilepsy. **(Does not apply)**
+4. **Study Design**: It does not report primary original research but rather summarizes existing studies. **(Does not apply)**
+5. **Study Design**: It does not focus on animal studies. **(Does not apply)**
+6. **Outbreak Type**: Not applicable here as this is about gliomas and does not discuss outbreaks. **(Does not apply)**
+
+### Conclusion
+Given that the primary focus of the abstract is on glioma and its outcomes, and it does not meet the inclusion criteria specific to epilepsy, nor does it provide relevant data for the review's objectives regarding epilepsy treatment or outcomes, the outcome of the screening will be:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.737925
+PMID_35510826,EuropePMC,35510826,PMC9069991,10.1002/14651858.cd013444.pub2,Cannabis and cannabinoids for symptomatic treatment for people with multiple sclerosis.,"Filippini G, Minozzi S, Borrelli F, Cinquini M, Dwan K.",,2022,"<h4>Background</h4>Spasticity and chronic neuropathic pain are common and serious symptoms in people with multiple sclerosis (MS). These symptoms increase with disease progression and lead to worsening disability, impaired activities of daily living and quality of life. Anti-spasticity medications and analgesics are of limited benefit or poorly tolerated. Cannabinoids may reduce spasticity and pain in people with MS. Demand for symptomatic treatment with cannabinoids is high. A thorough understanding of the current body of evidence regarding benefits and harms of these drugs is required.<h4>Objectives</h4>To assess benefit and harms of cannabinoids, including synthetic, or herbal and plant-derived cannabinoids, for reducing symptoms for adults with MS.<h4>Search methods</h4>We searched the following databases from inception to December 2021: MEDLINE, Embase, the Cochrane Central Register of Controlled Trials (CENTRAL, the Cochrane Library), CINAHL (EBSCO host), LILACS, the Physiotherapy Evidence Database (PEDro), the World Health Organisation International Clinical Trials Registry Platform, the US National Institutes of Health clinical trial register, the European Union Clinical Trials Register, the International Association for Cannabinoid Medicines databank. We hand searched citation lists of included studies and relevant reviews.<h4>Selection criteria</h4>We included randomised parallel or cross-over trials (RCTs) evaluating any cannabinoid (including herbal Cannabis, Cannabis flowers, plant-based cannabinoids, or synthetic cannabinoids) irrespective of dose, route, frequency, or duration of use for adults with MS.<h4>Data collection and analysis</h4>We followed standard Cochrane methodology. To assess bias in included studies, we used the Cochrane Risk of bias 2 tool for parallel RCTs and crossover trials. We rated the certainty of evidence using the GRADE approach for the following outcomes: reduction of 30% in the spasticity Numeric Rating Scale, pain relief of 50% or greater in the Numeric Rating Scale-Pain Intensity, much or very much improvement in the Patient Global Impression of Change (PGIC), Health-Related Quality of Life (HRQoL), withdrawals due to adverse events (AEs) (tolerability), serious adverse events (SAEs), nervous system disorders, psychiatric disorders, physical dependence.<h4>Main results</h4>We included 25 RCTs with 3763 participants of whom 2290 received cannabinoids. Age ranged from 18 to 60 years, and between 50% and 88% participants across the studies were female.  The included studies were 3 to 48 weeks long and compared nabiximols, an oromucosal spray with a plant derived equal (1:1) combination of tetrahydrocannabinol (THC) and cannabidiol (CBD) (13 studies), synthetic cannabinoids mimicking THC (7 studies), an oral THC extract of Cannabis sativa (2 studies), inhaled herbal Cannabis (1 study) against placebo. One study compared dronabinol, THC extract of Cannabis sativa and placebo, one compared inhaled herbal Cannabis, dronabinol and placebo. We identified eight ongoing studies. Critical outcomes • Spasticity: nabiximols probably increases the number of people who report an important reduction of perceived severity of spasticity compared with placebo (odds ratio (OR) 2.51, 95% confidence interval (CI) 1.56 to 4.04; 5 RCTs, 1143 participants; I<sup>2</sup> = 67%; moderate-certainty evidence). The absolute effect was 216 more people (95% CI 99 more to 332 more) per 1000 reporting benefit with cannabinoids than with placebo. • Chronic neuropathic pain: we found only one small trial that measured the number of participants reporting substantial pain relief with a synthetic cannabinoid compared with placebo (OR 4.23, 95% CI 1.11 to 16.17; 1 study, 48 participants; very low-certainty evidence). We are uncertain whether cannabinoids reduce chronic neuropathic pain intensity. • Treatment discontinuation due to AEs: cannabinoids may increase slightly the number of participants who discontinue treatment compared with placebo (OR 2.41, 95% CI 1.51 to 3.84; 21 studies, 3110 participants; I² = 17%; low-certainty evidence); the absolute effect is 39 more people (95% CI 15 more to 76 more) per 1000 people. Important outcomes • PGIC: cannabinoids probably increase the number of people who report 'very much' or 'much' improvement in health status compared with placebo (OR 1.80, 95% CI 1.37 to 2.36; 8 studies, 1215 participants; I² = 0%; moderate-certainty evidence). The absolute effect is 113 more people (95% CI 57 more to 175 more) per 1000 people reporting improvement. • HRQoL: cannabinoids may have little to no effect on HRQoL (SMD -0.08, 95% CI -0.17 to 0.02; 8 studies, 1942 participants; I<sup>2</sup> = 0%; low-certainty evidence); • SAEs: cannabinoids may result in little to no difference in the number of participants who have SAEs compared with placebo (OR 1.38, 95% CI 0.96 to 1.99; 20 studies, 3124 participants; I² = 0%; low-certainty evidence); • AEs of the nervous system: cannabinoids may increase nervous system disorders compared with placebo (OR 2.61, 95% CI 1.53 to 4.44; 7 studies, 1154 participants; I² = 63%; low-certainty evidence); • Psychiatric disorders: cannabinoids may increase psychiatric disorders compared with placebo (OR 1.94, 95% CI 1.31 to 2.88; 6 studies, 1122 participants; I² = 0%; low-certainty evidence); • Drug tolerance: the evidence is very uncertain about the effect of cannabinoids on drug tolerance (OR 3.07, 95% CI 0.12 to 75.95; 2 studies, 458 participants; very low-certainty evidence).<h4>Authors' conclusions</h4>Compared with placebo, nabiximols probably reduces the severity of spasticity in the short-term in people with MS. We are uncertain about the effect on chronic neurological pain and health-related quality of life. Cannabinoids may increase slightly treatment discontinuation due to AEs, nervous system and psychiatric disorders compared with placebo. We are uncertain about the effect on drug tolerance. The overall certainty of evidence is limited by short-term duration of the included studies.",https://pubmed.ncbi.nlm.nih.gov/35510826/,,https://europepmc.org/articles/PMC9069991?pdf=render,epilepsy,(Epilepsy[MeSH] OR epilepsy[tiab] OR seizure[tiab] OR anticonvulsant[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T17:46:50+00:00,,,,,,"Let's evaluate the provided abstract against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Epilepsy**
+   - The study focuses on cannabinoids for symptomatic treatment in multiple sclerosis (MS). It does not address epilepsy. 
+   - **Criteria Met? No**
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Criteria Met? Yes**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - This appears to be a systematic review of RCTs concerning cannabinoids, which falls under the category for special consideration.
+   - **Criteria Met? Yes**
+
+4. **Population: Human subjects**
+   - The study involves human subjects with MS.
+   - **Criteria Met? Yes**
+
+5. **Content: Must contain AT LEAST ONE of the specified quantitative details, models, or measures relevant to the objectives of the systematic review**
+   - While the study provides quantitative measures concerning the impact of cannabinoids on symptoms like spasticity and pain in MS, it does not focus on epilepsy or any of the outcomes listed in the systematic review objectives specific to epilepsy (e.g., seizure frequency, seizure-free rates).
+   - **Criteria Met? No**
+
+### Exclusion Criteria
+1. **Pathogen: Not about Epilepsy (exclude studies on other pathogens)**
+   - The study focuses on MS, not epilepsy.
+   - **Criteria Met? Yes (Exclude)**
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Criteria Met? No**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract is from a systematic review.
+   - **Criteria Met? No**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human subjects (RCTs).
+   - **Criteria Met? No**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - Not applicable as the study evaluates human participants.
+   - **Criteria Met? No**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This is not relevant as the study is about symptom management in MS.
+   - **Criteria Met? No**
+
+### Conclusion
+The study does not meet the primary focus of the systematic review, as it is centered on MS and cannabinoids, not epilepsy. It fails to satisfy inclusion criteria regarding relevance to epilepsy, leading to exclusion. 
+
+Therefore, based on the evaluation, the final decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T18:56:55.738269

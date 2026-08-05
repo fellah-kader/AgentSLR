@@ -1,0 +1,72 @@
+[
+  {
+    "article_id": "PMID_42545895",
+    "title": "Changes in effectiveness and safety in patients with Lennox-Gastaut syndrome transitioning from the fenfluramine randomized controlled trial to open-label extension study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Post hoc analysis of a randomized controlled trial and open-label extension study",
+    "sample_size": "n=151",
+    "justification": "This study analyzes data from patients transitioning from a randomized controlled trial to an open-label extension, which is characteristic of a cohort study design. It does not represent a new randomized controlled trial but rather an analysis of outcomes based on treatment received.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42526306",
+    "title": "Retrospective evaluation of caregiver-administered buccal midazolam for pediatric status epilepticus in a regional core hospital in Japan.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=38 episodes",
+    "justification": "This study is a retrospective evaluation of a cohort of pediatric patients who received buccal midazolam for status epilepticus, making it a cohort study. The sample size of 38 episodes is explicitly mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42524749",
+    "title": "Cumulative electroconvulsive therapy sessions and focal epilepsy: A nationwide cohort study in Japan.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=3733",
+    "justification": "This study is a retrospective cohort study examining the association between cumulative ECT sessions and the development of focal epilepsy in a large patient population. It does not involve randomization or a control group, which aligns it with Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42521800",
+    "title": "Ketogenic diet for pediatric drug-resistant epilepsy: sleep, children's psychosocial functioning, and maternal mental health.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective cohort study",
+    "sample_size": "n=40",
+    "justification": "The study follows a group of children with drug-resistant epilepsy over time to assess the effects of the ketogenic diet on various outcomes, which fits the definition of a cohort study. It does not involve randomization, thus it is not classified as an RCT.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42501325",
+    "title": "Focal epilepsy expands the phenotype of FUS-associated amyotrophic lateral sclerosis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study presents a single case of a patient with FUS-ALS and comorbid focal epilepsy, which is characteristic of a case report. There is no mention of a larger sample size or comparative analysis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485909",
+    "title": "Electroclinical and behavioral outcomes of add-on ethosuximide in children with developmental and epileptic encephalopathy with spike-wave activation in sleep (D/EE-SWAS): A prospective observational study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective observational cohort study",
+    "sample_size": "n=39",
+    "justification": "This study is a prospective observational cohort study evaluating the outcomes of add-on ethosuximide in children with D/EE-SWAS, which fits the criteria for a Level 3 evidence study design.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485908",
+    "title": "Surgical strategies after failed hemispheric disconnection surgery: A systematic review and individual-patient data analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and individual-patient data analysis",
+    "sample_size": "n=169 (151 for RHS, 9 for LITT, 9 for VNS)",
+    "justification": "This study is a systematic review that includes individual-patient data analysis, synthesizing outcomes from multiple studies, which qualifies it for Level 1 evidence. It provides comprehensive insights into surgical outcomes after failed hemispheric disconnection surgery.",
+    "confidence": 0.9
+  }
+]
