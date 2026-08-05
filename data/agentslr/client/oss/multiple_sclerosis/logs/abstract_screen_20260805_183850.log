@@ -1,0 +1,9 @@
+2026-08-05 18:38:51,529 - INFO - Loading abstract screening input from: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/harvest_metadata.csv
+2026-08-05 18:38:51,546 - INFO - Screening 207 metadata rows without download filtering
+2026-08-05 18:38:51,550 - INFO - Sampling 30 of 207 abstract-screening rows with seed=7
+2026-08-05 18:38:51,550 - INFO - Screening 30 papers
+2026-08-05 18:38:51,550 - INFO - Reasoning traces will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/multiple_sclerosis/logs/abstract_screening_dumps_2026-08-05_18-38-51
+2026-08-05 18:38:51,576 - INFO - Results will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/multiple_sclerosis/screening/abstract_screening.csv
+2026-08-05 18:38:51,576 - INFO - Run ID: 2026-08-05_18-38-51
+2026-08-05 18:42:31,219 - INFO - Included 5 papers for full-text review
+2026-08-05 18:42:31,219 - INFO - Abstract screening summary: total=30 included=5 excluded=25

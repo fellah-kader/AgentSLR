@@ -1,0 +1,6 @@
+2026-08-05 18:44:02,801 - INFO - Starting contradiction analysis for multiple_sclerosis with 5 included papers
+2026-08-05 18:44:31,723 - INFO - Contradiction analysis complete:
+2026-08-05 18:44:31,723 - INFO -   Total pairs analysed: 10
+2026-08-05 18:44:31,723 - INFO -   Contradictions found: 2
+2026-08-05 18:44:31,723 - INFO -   [MAJOR] PMID_42479470 vs PMID_37272540: effect size
+2026-08-05 18:44:31,723 - INFO -   [MAJOR] PMID_37272540 vs PMID_35583174: effect direction
