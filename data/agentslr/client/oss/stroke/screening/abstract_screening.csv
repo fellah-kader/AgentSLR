@@ -1,0 +1,1439 @@
+article_id,source,pmid,pmcid,doi,title,authors,journal,year,abstract,url,openalex_id,openalex_pdf_url,pathogen,query,harvested_at,downloaded,downloaded_path,download_attempted_at,download_source,download_error,ai4epi_abstract_response,ai4epi_abstract_decision,to_ocr,screening_timestamp
+PMID_42553827,PubMed,42553827,PMC5693549,10.4103/sja.sja_824_25,Role of transcranial Doppler pulsatility index for predicting neurological deterioration in mild-to-moderate traumatic brain injury patients in intensive care unit.,"Kaur, Sachreet; Rani, Nisha",Saudi journal of anaesthesia,2026,"BACKGROUND: Traumatic brain injury (TBI) is a leading cause of death and long-term disability worldwide, particularly among young adults in low- and middle-income countries. Even patients presenting with mild-to-moderate TBI may experience secondary neurological deterioration due to evolving intracranial pathology. Early identification of patients at risk remains challenging. Transcranial Doppler (TCD) ultrasonography provides a noninvasive bedside assessment of cerebral hemodynamics, and the pulsatility index (PI) reflects downstream cerebrovascular resistance and intracranial compliance.
+METHODS: This prospective observational study included 100 adult patients with mild-to-moderate TBI admitted to a tertiary care intensive care unit (ICU). Demographic data, mechanism of injury, clinical status, and computed tomography (CT) findings were recorded. TCD examination was performed at admission to measure middle cerebral artery velocities and calculate PI. Patients were followed for seven days. Neurological deterioration was defined as a decrease in Glasgow Coma Scale score by ≥2 points, requirement of mechanical ventilation, or need for neurosurgical intervention. Receiver operating characteristic (ROC) curve analysis and multivariate logistic regression were used to assess the predictive value of PI.
+RESULTS: Neurological deterioration occurred in 22% of patients. Admission PI was significantly higher in patients who deteriorated compared with those who remained stable (1.35 ± 0.18 vs. 1.14 ± 0.17; P < 0.001). ROC analysis demonstrated that PI predicted neurological deterioration with an area under the curve of 0.82 (95% confidence interval (CI): 0.73-0.91). A PI cutoff value of ≥1.25 yielded a sensitivity of 77% and a specificity of 80%. On multivariate analysis, admission PI ≥1.25 independently predicted neurological deterioration (adjusted OR 4.3; 95% CI 1.7-10.8).
+CONCLUSION: Admission PI measured by TCD is a reliable, noninvasive predictor of early neurological deterioration in patients with mild-to-moderate TBI and may aid early risk stratification in the ICU.",https://pubmed.ncbi.nlm.nih.gov/42553827/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine whether the provided abstract should be included or excluded, we will evaluate it against the inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - This study is focused on traumatic brain injury (TBI), not on stroke (ischaemic or haemorrhagic). 
+   - **Not met** 
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Met**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - It appears to be a prospective observational study, which qualifies as original research.
+   - **Met**
+
+4. **Population: Human subjects**
+   - The study involves human subjects (100 adult patients with mild-to-moderate TBI).
+   - **Met**
+
+5. **Content: Must contain AT LEAST ONE of the specified details (e.g., quantifiable stroke outcomes, transmission parameters)**
+   - The study does not report stroke-related outcomes or interventions; it focuses on TBI and its prediction metrics, specifically using TCD to assess neurological deterioration.
+   - **Not met**
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - As already noted, this study focuses on TBI rather than stroke.
+   - **Applies; should be excluded.**
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Does not apply.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - Judging by the information provided, it seems to be a full study, at least based on the abstract provided. If this is indeed an original study and not just an abstract, it does not fall under this category.
+   - **Does not apply.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This study does involve human subjects and is not an in-vitro study.
+   - **Does not apply.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - Not applicable, as this study involves human subjects, not animals.
+   - **Does not apply.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion is not relevant as the study does not analyze outbreaks.
+   - **Does not apply.**
+
+### Conclusion
+Given that the primary focus of the abstract is on traumatic brain injury and not stroke, the first inclusion criterion is not satisfied. Additionally, the exclusion criteria state to exclude any studies that do not pertain to stroke, which directly applies here.
+
+Thus, the decision is clear:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.935291
+PMID_42552599,PubMed,42552599,,10.1002/cns.71011,N6-Methyladenosine Demethylase FTO Mitigates Cerebral Ischemia-Reperfusion Injury by Suppressing AQP4 Expression.,"Chen, Wei; Cao, Luyuan; Zheng, Xiaoxiao; Yu, Chenyuan; Zhu, Xiaoqiang; Wang, Qing; Zheng, Li; Lan, Jiahua; Jiang, Cheng; Wang, Hongwei",CNS neuroscience & therapeutics,2026,"AIM: In patients with acute ischemic stroke, reperfusion therapy can compromise the blood-brain barrier, resulting in secondary cerebral ischemia-reperfusion injury (CIRI). This study investigated the involvement of the N6-methyladenosine (m6A) demethylase FTO in the pathogenesis of CIRI and explored the underlying molecular mechanisms.
+METHODS: We established a middle cerebral artery occlusion (MCAO) mouse model in vivo and an oxygen-glucose deprivation/reperfusion (OGD/R) model in primary astrocytes in vitro.
+RESULTS: FTO expression was significantly downregulated in both the in vivo and in vitro CIRI models. Upregulation of FTO via plasmid transfection significantly attenuated cellular damage and enhanced astrocyte viability. At the molecular level, m6A-modified transcripts were enriched in the MAPK signaling pathway during cerebral ischemia-reperfusion. Notably, Heat Shock Protein Family A (Hsp70) Member 1A (Hspa1a) was identified as a key target. The reduction in FTO expression led to increased m6A methylation levels on Hspa1a mRNA, thereby promoting its degradation. Furthermore, the cellular damage induced by FTO silencing was alleviated by Hspa1a overexpression or the silencing of Aquaporin-4 (AQP4).
+CONCLUSIONS: This study demonstrates that FTO mitigates CIRI by stabilizing Hspa1a mRNA, which in turn suppresses AQP4 expression. Consequently, FTO represents a promising therapeutic target for the treatment of ischemic stroke.",https://pubmed.ncbi.nlm.nih.gov/42552599/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine whether to include or exclude the given abstract based on the predefined inclusion and exclusion criteria for the systematic review on stroke, we will evaluate it step-by-step against the criteria provided.
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - The study investigates ischemic stroke and its complications related to reperfusion therapy. This criterion is met.
+
+2. **Language: English only**
+   - The abstract is in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract appears to describe original research, although the publication type is not explicitly stated. We will tentatively consider this criterion met, pending further details on publication.
+
+4. **Population: Human subjects (animal studies acceptable if reporting EITHER...)**
+   - The study uses mouse models and primary astrocytes, which does not meet the inclusion criteria of using human subjects or relevant animal studies reporting transmission parameters. This criterion is not met.
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - The abstract contains information relevant to ischemic stroke mechanism and potential therapeutic targets, but it does not provide quantitative details of human outcomes (size, year, location, etc.), nor does it include statistical measures related to human patients or outcomes. Since this criterion requires at least one of the specified content types related to human subjects, it is not fully met.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - This study is about stroke, so this criterion is not applicable.
+
+2. **Language: Non-English**
+   - The abstract is in English, so this criterion is not applicable.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - Although this appears to be an abstract, it is still ultimately considered original research. However, the study should be a peer-reviewed publication to align with inclusion criteria. This criterion could lean towards exclusion depending on the publication status, but we tentatively assume it's relevant research unless specified otherwise.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - This study includes an in vivo mouse model, so this criterion does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters...**
+   - The study is based on animal models (mouse) and does not address any human clinical outcomes or transmission parameters applicable to the inclusion criteria, indicating it should be excluded.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This does not apply, as the study is not concerned with outbreaks.
+
+### Conclusion
+The abstract primarily deals with ischemic stroke mechanisms but does not meet several of the critical inclusion criteria concerning human subjects or clinically relevant outcome measures. Given that it involves animal studies without reporting on human outcomes, it will be excluded based on the third exclusion criterion.
+
+Hence, the final decision is:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.938859
+PMID_42549517,PubMed,42549517,,10.1161/circulationaha.125.079205,Incidence and Predictors of Extracranial Bleeding on Oral Anticoagulants for Stroke Prevention in Patients With Atrial Fibrillation: A COMBINE-AF Analysis.,"Siegal, Deborah M; Carrier, Marc; Bahit, M Cecilia; Bosch, Jackie; Benz, Alexander P; Bergmark, Brian; Giugliano, Robert P; Granger, Christopher B; Monguillon, Victorien; O'Donnell, Martin; Oldgren, Jonas; Patel, Manesh R; Reddy, Rohin K; Wallentin, Lars; Yi, Qilong; Zimerman, Andre; Eikelboom, John",Circulation,2026,"BACKGROUND: Extracranial bleeding is the most common complication of oral anticoagulant (OAC) therapy for atrial fibrillation (AF), but its clinical importance for patients may be underrecognized. We sought to characterize extracranial bleeding events according to standardized severity definitions, identify baseline risk factors for bleeding, and quantify their population attributable fraction in patients with AF receiving OACs.
+METHODS: We analyzed patients receiving OACs from 5 pivotal randomized trials testing a direct OAC or warfarin in patients with AF (COMBINE-AF [A Collaboration Between Multiple Institutions to Better Investigate Non-Vitamin K Antagonist Oral Anticoagulant Use in Atrial Fibrillation]). The primary outcome was extracranial clinically relevant bleeding, defined as a first episode of extracranial major or clinically relevant nonmajor bleeding according to International Society on Thrombosis and Haemostasis criteria. The Kaplan-Meier method was used to calculate the cumulative incidence of bleeding by category. Multivariable Cox regression models were used to estimate adjusted hazard ratios (HRs) with 95% CI. Logistic regression models were used to calculate average population attributable fraction with 95% CI.
+RESULTS: Of 73 737 patients treated with OACs, 10 634 experienced clinically relevant extracranial bleeding over a mean follow-up of 705 days (cumulative incidence, 26% [95% CI, 18%-35%]; 7.6 per 100 person-years). This included 3188 major bleeds (cumulative incidence, 7% [95% CI, 6%-7%]; 2.1 per 100 person-years) and 7446 clinically relevant nonmajor bleeds (cumulative incidence, 19% [95% CI, 12%-28%]; 5.2 per 100 person-years). The distribution of bleeding sites differed by severity, with gastrointestinal bleeds comprising 26% of clinically relevant bleeds, 49% of major bleeds, and 15% of clinically relevant nonmajor bleeds. Risk factors for extracranial bleeding were consistent across severity bleeding categories, and baseline covariates in our multivariable models accounted for 66% to 69% of the population attributable bleeding risk.
+CONCLUSIONS: Extracranial clinically relevant bleeding is common among patients with AF treated with OACs and may more accurately reflect the overall burden of bleeding than major bleeding alone. Our models explained about two-thirds of the average population attributable risk, suggesting that additional unmeasured or unknown factors contribute to bleeding risk.",https://pubmed.ncbi.nlm.nih.gov/42549517/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To screen the abstract ""Incidence and Predictors of Extracranial Bleeding on Oral Anticoagulants for Stroke Prevention in Patients With Atrial Fibrillation: A COMBINE-AF Analysis,"" I will evaluate it against the predefined inclusion and exclusion criteria.
+
+### Inclusion Criteria Assessment
+
+1. **Pathogen: Must be about Stroke**
+   - The study focuses on extracranial bleeding related to oral anticoagulant therapy in patients with atrial fibrillation for stroke prevention. While it indirectly relates to stroke, the primary focus is on bleeding rather than stroke itself.
+   - **Not met.**
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Met.**
+
+3. **Study type: Peer-reviewed, original research**
+   - The study reports on an analysis from randomized trials and appears to be peer-reviewed original research.
+   - **Met.**
+
+4. **Population: Human subjects**
+   - The study involves human subjects with atrial fibrillation.
+   - **Met.**
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - While the study provides valuable information on bleeding, it does not present data or outcomes specifically related to stroke (e.g., does not report functional outcomes like mRS, Barthel Index, or NIHSS).
+   - **Not met.**
+
+### Exclusion Criteria Assessment
+
+1. **Pathogen: Not about Stroke**
+   - While linked to stroke prevention, the study primarily addresses complications (extracranial bleeding) from a treatment (oral anticoagulants) rather than stroke directly.
+   - **Met.** (Study should be excluded based on focus.)
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Not met.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study is likely a detailed original research paper arising from pivotal trials rather than a conference abstract.
+   - **Not met.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human participants.
+   - **Not met.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study does not involve animal studies.
+   - **Not met.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - Not applicable here.
+   - **Not met.**
+
+### Conclusion
+Due to the primary focus on extracranial bleeding rather than direct outcomes or interventions related to stroke, along with the failure to meet the stroke-related content requirement of the inclusion criteria, the study does not fulfill the requirements necessary for inclusion.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.938972
+PMID_42549211,PubMed,42549211,PMC8111564,10.7759/cureus.112031,Treatment of a Symptomatic Carotid Web: A Case Report and Review of the Literature.,"Shehata, Mahetab; Tee, Sui; Elsharkawy, Ashraf",Cureus,2026,"A carotid web is identified as an atypical variant of fibromuscular dysplasia. It is characterised by fibrotic, non-atherosclerotic bands found in the carotid artery intima, forming a shelf-like intraluminal web that, in most cases, lies on the posterior wall of the carotid bulb or the proximal internal carotid artery. That shelf formed a site for thrombus accumulation, with a significant risk of further distal embolisation to the cranial circulation, leading to recurrent thromboembolic stroke and transient ischaemic attack. In this case report, a 48-year-old male presented with recurrent transient ischaemic attacks and stroke despite being on the best medical treatment in the form of dual antiplatelets and a high dose of statins. During the most recent event, he presented with left-sided weakness and slurred speech and underwent urgent thrombolysis with full recovery, then was referred to the vascular surgery department. During his workup investigations with carotid duplex and computed tomographic angiography, a carotid web was identified on the posterior wall of the proximal internal carotid artery with 50% stenosis. As per the recent literature consensus and guidelines, due to recurrent symptomatic events despite medical therapy, he was scheduled for carotid endarterectomy with bovine patch repair in the nearest slot.",https://pubmed.ncbi.nlm.nih.gov/42549211/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To evaluate whether the abstract meets the inclusion and exclusion criteria for the systematic review on stroke, let's analyze each criterion step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - The abstract discusses a case of recurrent transient ischaemic attacks and stroke. 
+   - **Met.**
+
+2. **Language: English only**
+   - The abstract is in English. 
+   - **Met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - This is a case report, which is considered original research but is typically not classified as a peer-reviewed study like a randomized controlled trial or cohort study.
+   - **Met (with caution).**
+
+4. **Population: Human subjects**
+   - The study involves a human subject (a 48-year-old male).
+   - **Met.**
+
+5. **Content: Must contain AT LEAST ONE of the specific measures or estimates**
+   - The abstract does not provide quantitative details, models of disease transmission, or specific measures of outcome such as mRS, Barthel Index, or NIHSS. It discusses the clinical scenario but does not report on any explicit functional outcomes or provides numerical outcome measures.
+   - **Not met.**
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke**
+   - The study is about stroke.
+   - **Not applicable.**
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Not applicable.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract is a single case report and fits within our review's scope for original research but is quite limited in detail.
+   - **Not applicable.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study does involve humans.
+   - **Not applicable.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This is a human study.
+   - **Not applicable.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This does not pertain to an outbreak.
+   - **Not applicable.**
+
+### Conclusion
+Based on the analysis, while the study addresses a case of stroke and involves human subjects, it does not meet the fundamental inclusion criterion regarding the reporting of functional outcome measures. Therefore, the study does not fit the criteria for inclusion in the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939058
+PMID_42545629,PubMed,42545629,PMC9364124,10.1001/jama.2022.12584,Efficacy and Safety of an Early Aggressive Lipid-Lowering Strategy Using Triple Therapy After Mechanical Thrombectomy.,"Woo, Ho Geol; Park, Jaeyu; Song, Tae-Jin; Eun, Mi-Yeon; Mo, Heejung; Mo; Park, Hee-Kwon",CNS drugs,2026,"BACKGROUND: Current guidelines recommend initial high-intensity statin monotherapy and ""the wait and watch paradigm,"" even in patients with acute ischemic stroke (AIS). However, newer lipid-lowering therapies allow aggressive low-density lipoprotein cholesterol (LDL-C) reduction without drug class restriction. The effectiveness of triple therapy (early aggressive strategy) comprising a proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitor, ezetimibe, and a high-intensity statin after endovascular thrombectomy (EVT) for emergent large vessel occlusion (ELVO) remains uncertain.
+METHODS: We retrospectively analyzed patients with AIS due to ELVO who underwent successful EVT at four comprehensive stroke centers between January 2021 and December 2024. Patients were classified into triple therapy or high-intensity statin monotherapy (standard therapy) and followed up for 90 days. Multivariable regression and propensity score matching were used.
+RESULTS: Among 197 patients (mean age, 70.8 ± 12.1; 36.0% male), 55 received triple therapy. Baseline total cholesterol (TC) and LDL-C levels were comparable between groups. At both 4 and 12 weeks, the triple therapy group demonstrated significantly lower mean TC and LDL-C levels compared with the standard therapy group. Triple therapy was independently associated with a reduced risk of early neurological deterioration (adjusted odds ratio [aOR], 0.14; 95% confidence interval [CI], 0.03-0.81). In the subgroup of patients with ELVO due to large-artery atherosclerosis (LAA), triple therapy was further associated with a higher likelihood of functional independence at 90 days (aOR 9.30; 95% CI 1.86-46.56).
+CONCLUSIONS: Triple therapy achieved faster and greater LDL-C reduction and improved clinical outcomes following EVT, particularly among patients with AIS due to ELVO from LAA.",https://pubmed.ncbi.nlm.nih.gov/42545629/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let’s evaluate the abstract against the predefined inclusion and exclusion criteria step by step:
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**  
+   The study focuses on ischemic stroke (AIS) and explores interventions related to it, thus fulfilling this criterion.
+
+2. **Language: English only**  
+   The abstract is in English, meeting this criterion.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   The study is a retrospective analysis of patient data, which qualifies as original research. This criterion is met.
+
+4. **Population: Human subjects**  
+   The study involves patients with acute ischemic stroke due to emergent large vessel occlusion, which is human subjects. This criterion is satisfied.
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   - The study presents quantitative data related to clinical outcomes (e.g., early neurological deterioration, likelihood of functional independence) and specifically targets functional outcomes at 90 days post-treatment, thereby fulfilling content requirements related to functional outcomes.
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   The study is focused on stroke, so it does not meet this exclusion criterion.
+
+2. **Language: Non-English**  
+   The abstract is in English, so this does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   The type of publication is not detailed, but it appears to be a full study rather than correspondence or an abstract from a conference. It seems to be a completed study rather than just an abstract.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   There are no in-vitro studies conducted; this criterion does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   The study is human research and not excluded under this criterion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   This criterion does not apply as the focus is on clinical interventions in stroke patients.
+
+### Summary Evaluation
+Based on the criteria, the abstract meets all the inclusion criteria while none of the exclusion criteria apply. The study is relevant, focused on human subjects with stroke, and reports on a key intervention (triple therapy) with a strong emphasis on functional outcomes. Therefore, the decision on this paper is to include it in the systematic review.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939126
+PMID_42545155,PubMed,42545155,,10.23736/s1973-9087.26.09209-9,Clinical effect of kinesio taping combined with dry needling to myofascial trigger point on shoulder-hand syndrome in hemiplegia patients: a randomized controlled trial.,"Lv, Xuehai; Xiang, Zhengmao; Chang, Cheng; Hao, Pengna; Li, Linxi; Yang, Nuan; Guo, Yinuo; Chai, Jia; Zhou, Xiaofei; Zhu, Xiaoshuai; Gao, Yuemin; Wu, Yiping",European journal of physical and rehabilitation medicine,2026,"BACKGROUND: Shoulder-hand syndrome (SHS) is a common complication after stroke, characterized by pain, edema, and functional impairment of the upper limb. Myofascial trigger points (MTrPs) play a key role in its pathophysiology. Kinesio taping (KT) and dry needling (DN) have been used individually for pain management, but their combined efficacy in post-stroke SHS remains unclear.
+AIM: This study aimed to examine the efficacy of Kinesio taping combined with dry needling in the management of MTrPs among patients with post-stroke hemiplegic shoulder-hand syndrome.
+DESIGN: A prospective, double-blind randomized controlled trial.
+SETTING: Rehabilitation department of a tertiary hospital.
+POPULATION: Eighty-four individuals diagnosed with SHS were enrolled and allocated to three intervention groups.
+METHODS: Participants were randomly assigned to three groups: DN alone (Group A, N.=28), KT alone (Group B, N.=28), and combined DN+KT (Group C, N.=28). All participants received conventional rehabilitation therapy. Assessments included the Visual Analog Scale, Activities of Daily Living score assessed via the Barthel Index, Fugl-Meyer Assessment for Upper Extremity, passive range of motion (PROM), and an 8-figure volumetric measurement. Evaluations were conducted before and after a 28-day treatment period. Data were analyzed using SPSS version 27.0. Paired t-tests were applied for within-group comparisons, and independent sample t-tests for between-group differences, with a significance threshold of P<0.05.
+RESULTS: Each group exhibited significant improvements across all outcome measures (P<0.05). Group C demonstrated superior results compared to both Group A and Group B in every metric (P<0.05). Statistically significant differences between Group A and Group B were observed only in the 8-figure volumetric measurement (P<0.05).
+CONCLUSIONS: The combination of DN and KT yields greater benefits than either intervention alone in alleviating pain, reducing edema, and improving functional outcomes in patients with SHS.
+CLINICAL REHABILITATION IMPACT: This combined approach offers an effective, non-pharmacological strategy that can be readily integrated into routine rehabilitation practice to enhance upper limb recovery, reduce disability, and improve quality of life in post-stroke patients with SHS.",https://pubmed.ncbi.nlm.nih.gov/42545155/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To assess whether the provided abstract meets the inclusion and exclusion criteria for the systematic review on Stroke, we will go through each criterion step by step.
+
+## Inclusion Criteria
+### ALL must be met:
+1. **Pathogen:** Must be about Stroke  
+   - **Assessment:** The study focuses on shoulder-hand syndrome (SHS), a complication after stroke. Therefore, it is related to stroke.  
+   - **Result:** Met.
+
+2. **Language:** English only  
+   - **Assessment:** The abstract is in English.  
+   - **Result:** Met.
+
+3. **Study type:** Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)  
+   - **Assessment:** The abstract describes a randomized controlled trial (RCT), which qualifies as peer-reviewed original research.  
+   - **Result:** Met.
+
+4. **Population:** Human subjects (animal studies acceptable if reporting specified parameters)  
+   - **Assessment:** The study involves 84 individuals diagnosed with SHS, which stems from being post-stroke patients.  
+   - **Result:** Met.
+
+5. **Content:** Must contain AT LEAST ONE of:  
+   - a) **Quantitative details of concluded/ongoing human outbreak (size, year, location, duration, spatial scale)**  
+   - b) **Mathematical or statistical model of disease transmission**  
+   - c) **Measures/estimates of transmission parameters: R, R0, Rt, r, Re, growth rate, doubling time**  
+   - d) **Measures/estimates of timing parameters**  
+   - e) **Measures/estimates of severity**  
+   - f) **Measures/estimates of genetic evolution**  
+   - g) **Measures of overdispersion or superspreading**  
+   - h) **Seroprevalence data or serological surveys**  
+   - i) **Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)**  
+   - j) **Measures/estimates of vector parameters**  
+   - **Assessment:** While the content discusses functional outcomes and their improvements related to kinesio taping and dry needling in SHS, it does not explicitly present any of the measures mentioned in a) - j) that are concerned with transmission parameters or outbreaks. The focus is purely on functional recovery rather than the specified epidemiological parameters.  
+   - **Result:** Not met.
+
+## Exclusion Criteria
+### Exclude if ANY apply:
+1. **Pathogen:** Not about Stroke  
+   - **Assessment:** The study is about stroke-related SHS.  
+   - **Result:** Not applicable (included).
+
+2. **Language:** Non-English  
+   - **Assessment:** The abstract is in English.  
+   - **Result:** Not applicable (included).
+
+3. **Publication type:** Conference proceedings, abstracts, posters, correspondence  
+   - **Assessment:** The abstract evidences a structured study report typical of original research rather than merely a conference or poster presentation.  
+   - **Result:** Not applicable (included).
+
+4. **Study design:** In-vitro studies only (no human or animal component)  
+   - **Assessment:** The study involves human participants, ruling out purely in-vitro designs.  
+   - **Result:** Not applicable (included).
+
+5. **Study design:** Solely animal studies AND animal studies that do not report transmission parameters  
+   - **Assessment:** The study does not involve animal studies.  
+   - **Result:** Not applicable (included).
+
+6. **Outbreak type:** Accidental laboratory outbreaks (not natural disease transmission)  
+   - **Assessment:** This study focuses on a natural complication of stroke rather than outbreaks per se.  
+   - **Result:** Not applicable (included).
+
+Having assessed the study against the inclusion and exclusion criteria:
+
+### Conclusion
+The study does not meet the necessary content criteria (specifically for functional outcomes). This does not fully align with the systematic review's objectives that seek specific epidemiological measures associated with stroke. Therefore, despite its relevance to stroke recovery, it is excluded on the grounds of failing to meet the inclusion criteria for content.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939202
+PMID_42544320,PubMed,42544320,PMC6907751,10.1371/journal.pgen.1008489,An NRIP1-Centric Monocyte Immunogenetic Bridge Between Heart Failure and Ischemic Stroke.,"Chen, Hongyao; Xiao, Yao; Yang, Xiaoyan; Zhou, Ying; Ding, Changsong",Journal of inflammation research,2026,"BACKGROUND: Heart failure (HF) and ischemic stroke (IS) frequently co-occur and worsen each other. Circulating immune cells may act as a cross-organ inflammatory bridge, but the key immune lineage, genetically supported mediators, and druggable targets remain unclear.
+OBJECTIVE: To identify the immune-cell lineage, candidate gene, and tractable intervention target linking HF and IS.
+METHODS: Bidirectional Mendelian randomization (MR) of genome-wide association study summary statistics was used to assess causal links between HF and IS. Mouse single-cell transcriptomic datasets from HF and IS models were integrated to define a shared immune/stromal atlas and characterize Ly6C⁺ monocyte expansion. Ly6C⁺ monocyte marker genes were mapped to human orthologs and evaluated using peripheral-blood expression quantitative trait locus data for gene-level MR, followed by expression validation, colocalization, summary-data-based MR, and spatial transcriptomics. In HF single-cell data, Ly6C⁺ monocytes were stratified by Nrip1 expression for cell-cell communication, pathway enrichment, and pseudotime analyses. Candidate-drug prediction, druggability evaluation, molecular docking, molecular dynamics simulation, and in vitro validation were then performed.
+RESULTS: MR supported a bidirectional positive association between HF and IS. Both diseases showed expansion of inflammatory Ly6C⁺ monocytes at single-cell resolution. Among MR-implicated genes, NRIP1 was prioritized as a key gene associated with reduced IS risk, and genetic and spatial evidence supported its monocyte-mediated role in HF-IS coupling. Nrip1-stratified and pseudotime analyses suggested a homeostatic role through modulation of inflammatory thresholds and communication patterns. Drug prediction and in silico analyses indicated that retinoic acid-related small molecules may bind NRIP1 and exhibit preliminary druggability. In vitro, tretinoin alleviated ischemia-like HMC3 cell injury and inflammation by modulating monocyte NRIP1.
+CONCLUSION: An NRIP1-centered monocyte network may represent a tractable immune bridge in HF-IS comorbidity, and tretinoin provides an entry point for NRIP1-targeted intervention.",https://pubmed.ncbi.nlm.nih.gov/42544320/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine whether the abstract should be included or excluded from the systematic review on *Stroke*, we will evaluate it against all inclusion and exclusion criteria.
+
+### Inclusion Criteria Assessment
+1. **Pathogen: Must be about Stroke**  
+   The study focuses on ischemic stroke (IS) in relation to heart failure (HF), which aligns with the criterion.  
+   **Status: Met**
+   
+2. **Language: English only**  
+   The abstract is in English.  
+   **Status: Met**
+   
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   The study appears to be an original research study and not a systematic review or meta-analysis.  
+   **Status: Met**
+   
+4. **Population: Human subjects**  
+   While the study employs mouse models and genetic data for its experiments, it does provide insights relevant to human pathology (heart failure and stroke) through gene mapping and expression analysis related to human orthologs. However, the predominant emphasis is on animal data.  
+   **Status: Not fully met (as the primary population is not clearly human subjects)**
+
+5. **Content: Must contain AT LEAST ONE of**  
+   The abstract does provide insights into gene-level MR and implications for drug targeting in relation to ischemic stroke, making it relevant to pharmacological intervention.  
+   **Status: Met**
+
+### Exclusion Criteria Assessment
+1. **Pathogen: Not about Stroke**  
+   The study is about ischemic stroke, which does not trigger exclusion.  
+   **Status: Not applicable (not excluded)**
+
+2. **Language: Non-English**  
+   The abstract is in English.  
+   **Status: Not applicable (not excluded)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   There’s no indication in the abstract that it falls under these categories, suggesting it’s original research.  
+   **Status: Not applicable (not excluded)**
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   The study does include animal components, thus not exclusively in vitro.  
+   **Status: Not applicable (not excluded)**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   The study relies primarily on mouse data and does not focus on human outcomes, nor does it strictly fall under animal transmission parameters.  
+   **Status: Excluded**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   The study does not pertain to laboratory outbreaks.  
+   **Status: Not applicable (not excluded)**
+
+### Conclusion
+The study presents significant insights into links between heart failure and ischemic stroke, particularly concerning the immune mechanisms involved. Although it includes relevant components related to stroke, its predominant focus on animal studies and indirect implications for human stroke outcomes leads to a lack of direct evidence specific to human subjects or functional outcomes critical for the review.
+
+Given the assessment:
+- While the abstract does provide some interesting findings, it does not meet all inclusion criteria due to its primary focus on mouse models rather than human subjects or direct stroke outcomes.
+
+Therefore, the decision is to **exclude** this study from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939267
+PMID_42542287,PubMed,42542287,,10.1016/j.pnpbp.2026.111873,"How high ventilation breathwork alters consciousness: Hypoperfusion, network dynamics, and subjective experience.","Schmitz, Christian N; Bernardic, Marijan; Vlădoiu, Anamaria-Domnica; Harris, Rida; Carmana, Daniele; Kärtner, Laura; Oberthür, Gunilla; Gründer, Gerhard; Adolphi, Hana",Progress in neuro-psychopharmacology & biological psychiatry,2026,"High ventilation breathwork (HVB) is increasingly used in psychotherapeutic and contemplative contexts to induce altered states of consciousness (ASC), yet its neurobiological mechanisms remain poorly understood. Thirty experienced HVB practitioners (mean age 44.97 ± 11.80 years) underwent perfusion and resting-state fMRI to assess acute cerebrovascular and post-acute network changes. Cerebral blood flow (CBF) was measured using arterial spin labelling during baseline and the interval of maximal subjective effects. Acute psychotropic effects were rated using an online Likert scale, ASC intensity was assessed immediately after breathwork with the 5-Dimensional Altered States of Consciousness (5D-ASC) scale. HVB induced a 45.5% reduction in global grey matter cerebral blood flow (CBF; 29.81 ± 7.58 vs. 16.24 ± 4.35 ml/100 g/min; t(29) = -10.69, p < 0.001), accompanied by increased heart and respiratory rate. Default mode network (DMN) functional connectivity (FC) did not change significantly at the group level. In further exploratory analyses, greater decreases in DMN FC (pre - post breathwork) predicted higher 5D-ASC rating (β = -4.88, p < 0.05) in analyses using global signal regression, though this association was not significant without global signal regression (p = 0.75). CBF reductions were not associated with ΔDMN-FC or 5D-ASC ratings. HVB produces marked global cerebral hypoperfusion without systematic DMN FC changes, suggesting that hypoperfusion and network dynamics may represent partially dissociable mechanisms underlying breathwork-induced ASC. As a controllable, non-pharmacological means of inducing ASC, HVB may hold promise as a psychotherapeutic and psychedelic-adjacent intervention.",https://pubmed.ncbi.nlm.nih.gov/42542287/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine whether to include or exclude this abstract in the systematic review on Stroke, we will assess it against the predefined inclusion and exclusion criteria step by step.
+
+## Inclusion Criteria
+
+1. **Pathogen: Must be about Stroke**  
+   - The study is not about Stroke; it focuses on high ventilation breathwork and its effects on altered states of consciousness.  
+   - **Not met.**
+
+2. **Language: English only**  
+   - The abstract is in English.  
+   - **Met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The abstract states that it involves original research with human subjects.  
+   - **Met.**
+
+4. **Population: Human subjects**  
+   - The study involves human participants (30 experienced HVB practitioners).  
+   - **Met.**
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   - The content does not provide any information related to stroke incidence, outcomes, or interventions. It discusses mechanisms related to breathwork impacting consciousness instead.  
+   - **Not met.**
+
+## Exclusion Criteria
+
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   - The study is not related to Stroke.  
+   - **Applies.** (Exclude)
+
+2. **Language: Non-English**  
+   - This criterion does not apply, as the abstract is in English.  
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The abstract format is acceptable since it presents original research.  
+   - **Not applicable for exclusion.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves human participants, so this does not apply.  
+   - **Not applicable for exclusion.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - The study does not involve animal studies.  
+   - **Not applicable for exclusion.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - Does not apply as the study is unrelated to disease outbreaks.  
+   - **Not applicable for exclusion.**
+
+### Conclusion
+The study does not meet the inclusion criteria regarding the focus on Stroke and the outcomes considered relevant to the systematic review. Additionally, it meets an exclusion criterion as it is not about Stroke.
+
+Therefore, the final decision is:  
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939333
+PMID_42535224,PubMed,42535224,PMC6168060,10.1055/s-0046-1816059,Effectiveness and Safety of Minimally Invasive Surgery for Infratentorial Hemorrhages: A Meta-Analysis of Clinical and Technical Outcomes.,"Frusteri, Marco; Sepúlveda, Juan Esteban Suárez; Zapata, Miguel Gaviria; Stockman, Isabelle G; Ocampo, Francisco Javier Londoño; González, Ignacio; Quiceno, Esteban",Asian journal of neurosurgery,2026,"Spontaneous infratentorial hemorrhages (SIHs) are a type of hemorrhagic stroke that compromise the cerebellum and/or brainstem. While minimally invasive surgical (MIS) approaches are effective in treating spontaneous supratentorial hemorrhage, their efficacy in managing SIH remains unclear. This uncertainty prompted the undertaking of this systematic review and meta-analysis. Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, we conducted a comprehensive search of the PubMed, Scopus, and Cochrane Library databases. Studies were included if they had a minimum of five patients and reported at least one outcome of interest. The outcomes evaluated were technical success, mean hematoma reduction, good functional outcomes at 3- and 6-month follow-up, complication rates, rebleeding rates, and postoperative mortality. A subgroup analysis was performed based on hemorrhage location and surgical approach. Depending on the data, either a random-effects or common-effects model was applied, and heterogeneity was assessed using I 2 statistics. Seventeen studies met inclusion criteria. Postoperative mortality was 14.34% (95% confidence interval [CI]: 8.94-19.74%). Rate of good functional outcomes were 46.82% (95% CI: 18.88-74.77%) and 50.95% (95% CI: 32.72-69.17%) at 3 and 6 months, respectively. The overall complication rate was 6.86% (95% CI: 3.03-10.69%). Mortality by surgical technique ranged from 6.72% (miniature craniotomy only) to 26.27% (miniature craniotomy and catheter/puncture drainage), with no significant differences between approaches ( p  = 0.08). Patients with cerebellar hemorrhage experienced significantly greater rates of good functional outcome at 6 months compared with those with brainstem hemorrhage ( p  = 0.0004). Our study suggests that MIS for the treatment of SIH is an effective and feasible approach, as evidenced by low mortality rates and a limited number of associated complications. Larger randomized studies are warranted to compare different strategies and further optimize patient care.",https://pubmed.ncbi.nlm.nih.gov/42535224/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract against the predefined inclusion and exclusion criteria step by step.
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Stroke**  
+   - The study is about spontaneous infratentorial hemorrhages (SIHs), a type of hemorrhagic stroke.  
+   - **Criteria met.**
+
+2. **Language: English only**  
+   - The abstract is written in English.  
+   - **Criteria met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - This study is a systematic review and meta-analysis, which is under consideration for inclusion.  
+   - **Criteria met.**
+
+4. **Population: Human subjects**  
+   - The study involves human subjects as it analyzes data from clinical studies (indicated by the minimum of five participants).  
+   - **Criteria met.**
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   a) **Quantitative details of concluded/ongoing human outbreak**  
+   b) **Mathematical or statistical model of disease transmission**  
+   c) **Measures/estimates of transmission parameters:** R, R0, Rt, r, Re, growth rate, doubling time  
+   d) **Measures/estimates of timing parameters:** generation time, serial interval, incubation, latent, infectious period  
+   e) **Measures/estimates of severity:** CFR, IFR, hospitalization rate, mortality rate, attack rate  
+   f) **Measures/estimates of genetic evolution:** mutation rate, etc.  
+   g) **Measures of overdispersion or superspreading**    
+   h) **Seroprevalence data or serological surveys**   
+   i) **Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)**  
+   j) **Measures/estimates of vector parameters**  
+   - The study reports on technical success, mean hematoma reduction, good functional outcomes, complication rates, rebleeding rates, and postoperative mortality. It provides quantitative outcomes, such as mortality rates and functional outcome percentages at both 3 and 6 months.  
+   - **Criteria met.**  
+
+## Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   - The study deals with hemorrhagic stroke.  
+   - **Criteria not applicable.**
+
+2. **Language: Non-English**  
+   - The abstract is in English.  
+   - **Criteria not applicable.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - This is a systematic review/meta-analysis, which is not categorized under these types.  
+   - **Criteria not applicable.**
+
+4. **Study design: In-vitro studies only**  
+   - The study involves human participants, not in-vitro studies.  
+   - **Criteria not applicable.**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - The study involves human subjects only.  
+   - **Criteria not applicable.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - This does not apply to the study topic.  
+   - **Criteria not applicable.**
+
+In summary, the study meets all inclusion criteria and does not meet any exclusion criteria. It is relevant as it evaluates human subjects with hemorrhagic stroke and reports valuable clinical outcomes.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939399
+PMID_42534689,PubMed,42534689,PMC11843556,10.3389/fneur.2025.1505270,Mechanistic and clinical investigation of Jiajiang Xuming decoction in multi-modal programmed cell death in stroke-associated pneumonia.,"Li, Zezhao; Wang, Jie; Hong, Zhen; Li, Mengyao; Liu, Tian; Wang, Yue; Men, Lianchao",Frontiers in cell and developmental biology,2026,"BACKGROUND: Stroke-Associated Pneumonia (SAP) is one of the leading causes of sepsis and ICU mortality among stroke patients, attributed to dysregulated immune responses as well as multiple MODES of cell death. Jiajiang Xuming Decoction (JXD) is a traditional Chinese medicine (TCM) formula to treat the symptoms of Wind-Phlegm-Stasis Obstruction Syndrome, blamed for all SAP-related sepsis.
+METHODS: A single-centre retrospective cohort study was conducted in 100 ICU patients with microbiologically confirmed sepsis (Sepsis-3 criteria): 58 Stroke-Associated Pneumonia (SAP) and 42 non-SAP sepsis, compared to thirty healthy controls. On admission, Day 3 and Day 7, serial inflammatory markers (IL-6, IL-1β, TNF-α PCT CRP) and organ-function indicators were measured (hepatic: ALT AST; renal: creatinine (BUN); cardiac: cTnI† NT-proBNP). Therapeutic efficacy of JXD was evaluated in a propensity-score-matched (JXD n = 29; conventional treatment n = 29) sub-cohort. Mechanistic evidence were derived from scRNA-seq and an in vitro LPS + OGD cell model as well as ferroptosis characterisation (GEO: GSM5319987).
+RESULTS: Compared to non-SAP sepsis, SAP patients had significantly higher levels of inflammatory cytokines, markers of hepatic injury (ALT, AST), renal impairment (creatinine, BUN), and cardiac injury (cTnI, NT-proBNP) all P < 0.001; FDR q < 0.001). An AUC = 0.872 for SAP diagnosis with a combination of four markers (PCT + IL-6 + ALT + creatinine) was established. Supplemental JXD therapy provided a significant advantage over conventional treatment in Day-7 clinical improvement rate (72.4% vs. 48.3%, P = 0.048) and shortened ICU stay (12.1 vs. 16.3 days, P = 0.002), along with markers of mode microbiome-related inflammation and injury reduction in this population of patients with acute disturbances post-septic organs (Galluzzi et al., Cell Death Differ, 2018, 25(3), 486-541). JXD basically inhibited apoptosis (CASP3), pyroptosis (NLRP3), necroptosis (RIPK3) in vitro, and reversed ferroptotic death by restoring GPX4, downregulating MDA, as well as inhibiting ACSL4.
+CONCLUSION: Multi-organ dysfunction biomarkers independently predicts sepsis sequelae post-SAP (AUC = 0.872)) and track treatments response Conclusions: JXD modulates a number of cellular death pathways in vitro, and markedly improves clinical outcomes in SAP-associated sepsis.",https://pubmed.ncbi.nlm.nih.gov/42534689/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To assess whether this study should be included in the systematic review, we will evaluate the abstract against the predefined inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - This study focuses on Stroke-Associated Pneumonia (SAP), which is related to stroke patients. The underlying condition is stroke; therefore, it pertains to the area of interest.
+   - **Met** 
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Met**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - This is a single-centre cohort study, indicating it is original research and peer-reviewed.
+   - **Met**
+
+4. **Population: Human subjects**
+   - The study involves 100 ICU patients with microbiologically confirmed sepsis, including those with stroke-associated pneumonia.
+   - **Met**
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - While the study focuses on stroke-associated pneumonia, it does provide clinical outcomes related to stroke, particularly in terms of treatment efficacy and associated biomarkers, which could have implications for understanding stroke complications.
+   - Although it does not explicitly report functional outcomes (mRS, Barthel Index, NIHSS) commonly used in trials focused on stroke recovery, it does report on clinical improvement rates and ICU stay, which might indirectly reflect functional outcomes.
+   - **Partially Met** (this is the grey area since it doesn't directly measure traditional functional outcomes related to stroke recovery but discusses clinical outcomes related to stroke-associated complications)
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke**
+   - The study is related to stroke.
+   - **Not Applicable** 
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Not Applicable** 
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study is a peer-reviewed research article, not mere proceedings or correspondence.
+   - **Not Applicable**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study includes human subjects as well as some in vitro components (the cellular death pathways), but the focus is primarily on human clinical outcomes.
+   - **Not Applicable**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study does not include animal data as its primary focus is on human stroke patients.
+   - **Not Applicable**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion is not relevant as the study is concerned with stroke and pneumonia in a clinical setting.
+   - **Not Applicable**
+
+### Conclusion
+While the study primarily discusses stroke-associated pneumonia and includes human clinical data, it does not directly report outcomes that measure functional recovery from stroke (like mRS, Barthel Index, or NIHSS). However, it may still provide related insights into complications following stroke. Given the systematic review's focus on synthesizing evidence for stroke interventions and outcomes, and the fact that this study deals with stroke patients but does not present the standard stroke functional outcomes, it leads to ambiguity.
+
+Ultimately, considering the aim to support evidence-based clinical guidelines for stroke, I would still justify inclusion as it provides relevant information regarding a complication of stroke.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939461
+PMID_42532674,PubMed,42532674,,10.3174/ajnr.a9560,ARISE II Consensus on Venous Sinus Stenting.,"Amans, Matthew R; Ding, Kevin; Hui, Ferdinand K; Fargen, Kyle M; Pereira, Vitor Mendes; Altschul, David J; Altschul, Dorothea; Burkhardt, Jan-Karl; Anderies, Barrett J; Colby, Geoffrey P; Choudhri, Omar A; Kan, Peter; Morales, José M; Al-Mufti, Fawaz; Siddiqui, Adnan H; Arthur, Adam S; Wakhloo, Ajay K; Patsalides, Athos",AJNR. American journal of neuroradiology,2026,"In recent years, venous sinus stenosis has been shown to be a key underlying contributor to idiopathic intracranial hypertensions (IIH) and the most common cause of pulsatile tinnitus (PT). Recent advancements in noninvasive venous imaging have improved the detection of venous sinus stenosis in IIH patients, and growing evidence supports a pathophysiological relationship between venous sinus stenosis, reduced cerebrospinal fluid (CSF) absorption, and elevated intracranial pressure (ICP) in a substantial subset of this population. The growing use of venous sinus stenting (VSS) as an effective treatment for sequelae of venous sinus stenosis highlights the importance of developing standardized, evidence-based diagnostic and management guidelines. A multidisciplinary roundtable of academic, government, and industry cerebrovascular experts convened at the ARISE II meeting to discuss existing evidence and develop areas of expert consensus. These discussions focused on developing standardized patient selection, diagnostic evaluation, procedural considerations, and post-treatment follow-up for VSS. Expert consensus supports VSS as a safe and effective therapy for appropriately selected patients with venous sinus stenosis. The recommendations discussed in this paper aim to standardize patient care, optimize outcomes, and identify opportunities for further investigation.",https://pubmed.ncbi.nlm.nih.gov/42532674/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To assess whether the paper should be included in the systematic review on Stroke, let's evaluate the abstract against each of the predefined inclusion and exclusion criteria step by step.
+
+1. **Pathogen: Must be about Stroke**
+   - The abstract does not mention stroke. It focuses on venous sinus stenosis and idiopathic intracranial hypertension (IIH). Therefore, it does not meet this criterion.
+   
+2. **Language: English only**
+   - The abstract is in English, so this criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract appears to be from a consensus meeting rather than original research, so this might not fully meet the criterion of being original peer-reviewed research.
+
+4. **Population: Human subjects**
+   - The abstract discusses patients with venous sinus stenosis and IIH, which involve human subjects, thus this criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of the specified content requirements**
+   - The abstract discusses the relationship between venous sinus stenosis and elevated intracranial pressure but does not contain quantitative details of an outbreak or mathematical models related to stroke, nor does it provide measures of transmission, severity, or related risk factors. Therefore, this criterion is not met.
+
+**Exclusion Criteria:**
+1. **Pathogen: Not about Stroke**
+   - This is applicable since the study is not about stroke but rather about venous issues related to IIH.
+
+2. **Language: Non-English**
+   - This does not apply, as the text is in English.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The paper appears to be derived from a consensus meeting and may fall under this exclusion criterion.
+
+4. **Study design: In-vitro studies only**
+   - This does not apply since it discusses patient care.
+
+5. **Study design: Solely animal studies**
+   - This does not apply as the study focuses on human subjects.
+
+6. **Outbreak type: Accidental laboratory outbreaks**
+   - This does not apply as it is not an outbreak study.
+
+**Summary of Evaluation:**
+- The key criteria that have not been met are #1 from the Inclusion Criteria (focus on stroke) and #1 from the Exclusion Criteria (not about Stroke).
+- Given the abstract discusses venous sinus stenosis and IIH without relating it to stroke, it should be excluded based on these findings.
+
+Based on the evaluation, the final decision is: 
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939523
+PMID_42532140,PubMed,42532140,,10.1016/j.expneurol.2026.115949,"Pre- and post-stroke memantine administration attenuates neurological deficits, infarct size, and astrogliosis, with a concomitant increase in MAP2 protein in a rat stroke model.","Martínez-Torres, Nestor I; Cárdenas-Bedoya, Jhonathan; Torres-Mendoza, Blanca Miriam",Experimental neurology,2026,"Over the past 30 years, the global incidence of stroke and related disability-adjusted life years has risen significantly, underscoring the urgent need for effective therapeutic strategies. Memantine (Mem), a non-competitive antagonist of N-methyl-d-aspartate (NMDA) glutamate receptors, has been investigated as a potential treatment in stroke models. By blocking NMDA receptor activity, Mem can prevent excessive calcium influx and excitotoxic neuronal death, thereby promoting neuroprotection with good tolerability. Because early intervention is crucial, we evaluated a sequential memantine regimen in 32 male Sprague-Dawley rats (300-350 g). A low dose of Mem (0.2 mg/kg) was administered before permanent middle cerebral artery occlusion (pMCAO), followed by a higher dose (10 mg/kg) two hours after occlusion. Neurological function was evaluated 24 h later using the modified Neurological Severity Score (mNSS). Brain tissue was collected for immunohistochemical analysis of glial fibrillary acidic protein (GFAP) and microtubule-associated protein 2 (MAP2) near the infarct area. Enzyme-linked immunosorbent assays (ELISA) measured brain-derived neurotrophic factor (BDNF) and postsynaptic density protein 95 (PSD95). Memantine treatment preserved neurological function, reduced infarct size, and decreased GFAP levels, indicating diminished astrocyte reactivity. Additionally, MAP2 presence increased compared to the untreated pMCAO group, suggesting neuronal preservation. No significant changes were observed in BDNF or PSD95 levels. Memantine administered before and after stroke minimized tissue loss and prevented early astrogliosis, while preserving neuronal structural integrity as indicated by MAP2. In contrast, no immediate changes were detected in BDNF or PSD95, implying that memantine-induced neuroprotection occurs before the appearance of plasticity-related molecular adaptations in the early post-stroke period.",https://pubmed.ncbi.nlm.nih.gov/42532140/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria:
+
+### Inclusion Criteria Evaluation
+1. **Pathogen: Must be about Stroke**
+   - The study is focused on stroke, fulfilling this criterion.
+
+2. **Language: English only**
+   - The abstract is in English, fulfilling this criterion.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study describes original research conducted with animals, fulfilling this criterion.
+
+4. **Population: Human subjects (animal studies acceptable if reporting EITHER...)**
+   - The study is conducted on male Sprague-Dawley rats, which are animal subjects rather than human subjects. This criterion is not met, as it does not involve human subjects and does not fall under the specific animal study parameters outlined.
+
+5. **Content: Must contain AT LEAST ONE of...**
+   - The study discusses various outcomes related to stroke and memantine's effects on infarct size and functional outcomes, but it does not provide any data on human outcomes or human disease transmission parameters, since it is based on an animal model.
+
+### Exclusion Criteria Evaluation
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - The study is about stroke, so this criterion does not apply.
+
+2. **Language: Non-English**
+   - The study is in English, so this criterion does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The abstract is from original research. This criterion does not apply.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study is not in-vitro; it is an animal study, so this criterion does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters (R0, Rt, Re, r, growth rate, mutation rate)**
+   - This study does involve solely animal research and does not report any of the transmission parameters listed, confirming that this study should be excluded.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion does not apply.
+
+### Conclusion
+The study does not meet the inclusion criteria as it involves an animal model instead of human subjects and does not report any relevant transmission parameters, thus it falls under exclusion criterion 5.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939596
+PMID_42531250,PubMed,42531250,PMC12173386,10.1371/journal.pdig.0000899,A Multiagent Large Language Model Framework for Emergency Treatment Recommendation in Acute Ischemic Stroke: Development and Validation Study.,"Yan, Bicong; Zhang, Ruipeng; Chen, Li; Song, Xinyu; Cao, Zhongzheng; Li, Yuehua",Journal of medical Internet research,2026,"BACKGROUND: Acute ischemic stroke (AIS) treatment selection requires rapid, guideline-concordant integration of clinical, imaging, and laboratory data, including therapeutic windows, contraindications, stroke severity, and imaging eligibility. This process is complex, expertise-dependent, and vulnerable to safety-critical errors.
+OBJECTIVE: This study aimed to develop and validate a structured multiagent large language model (LLM) framework for AIS decision support using real-world cases and to assess its accuracy, safety, auditability, and impact on physician decision-making, particularly among junior physicians and nonspecialists.
+METHODS: We developed a multiagent LLM framework that used structured outputs and guideline-based reasoning to generate treatment recommendations (intravenous thrombolysis, endovascular thrombectomy, standard medical therapy, or non-AIS, or nonstroke) and Trial of ORG 10172 in Acute Stroke Treatment (TOAST) classification. The framework was evaluated using multicenter retrospective real-world cases from 2 hospitals collected between January 2018 and March 2025, prospective cases from February to May 2025, and literature-derived challenging cases from PubMed between January 2024 and January 2025. Performance was assessed against clinical reference standards. Safety was assessed using omission and hallucination event rates, instruction adherence, and 5-point clinical safety ratings. In a prospective physician study, physicians with different seniority and specialty backgrounds made AIS treatment and TOAST classification decisions with and without LLM support. Physician-case decision-level outcomes were analyzed using a binomial generalized linear mixed-effects model accounting for physician and case effects.
+RESULTS: The final analysis included 1055 group A cases, 721 group B cases, 144 literature-derived group C cases, and 161 prospectively collected group D cases. Across representative Baichuan, Qwen, DeepSeek, and GPT models, the multiagent framework consistently improved treatment recommendation accuracy. Model-level accuracy ranges increased from 0.546-0.737 to 0.687-0.851 in group A, from 0.587-0.698 to 0.671-0.813 in group B, and from 0.507-0.646 to 0.667-0.750 in group C. TOAST classification improved overall, with cohort-level variation. Across evaluated models, the multiagent framework increased the mean clinical safety score from 3.70 to 4.01 and reduced mean hallucination and omission rates from 33.6% to 20.6% and from 38.5% to 24.5%, respectively. In the prospective physician study, LLM support increased treatment decision accuracy from 73.1% to 88.6% (odds ratio 2.86, 95% CI, 2.27-3.60; P<.001). Accuracy gains were largest among junior and nonspecialist physicians, including junior specialists (0.667 to 0.833), junior nonspecialists (0.600 to 0.846), and senior nonspecialists (0.667 to 0.850). TOAST classification performance also improved (odds ratio 3.63, 95% CI 2.85-4.64; P<.001).
+CONCLUSIONS: A structured multiagent framework improved LLM performance with average improvements of 18.9% in AIS treatment recommendation and TOAST classification, while producing more structured, auditable outputs with higher safety ratings. It was associated with higher physician decision accuracy, with larger gains among less-experienced physicians, suggesting the potential to narrow expertise-related decision accuracy gaps. Prospective multicenter studies are needed to assess effects on workflow and clinical outcomes.",https://pubmed.ncbi.nlm.nih.gov/42531250/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine whether the study should be included in the systematic review on Stroke, I will evaluate the provided abstract against the defined inclusion and exclusion criteria.
+
+### Inclusion Criteria Assessment:
+1. **Pathogen: Must be about Stroke**  
+   - **Assessment:** The study is focused on acute ischemic stroke (AIS), meeting the criterion.
+  
+2. **Language: English only**  
+   - **Assessment:** The abstract is in English, so this criterion is satisfied.
+  
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - **Assessment:** The study appears to be original research, not a systematic review or meta-analysis, thus complying with this requirement.
+  
+4. **Population: Human subjects**  
+   - **Assessment:** The study involves human subjects as it assesses treatment decisions made by physicians based on real cases. Therefore, this criterion is met.
+  
+5. **Content: Must contain AT LEAST ONE of:**  
+   - The study discusses the treatment recommendations for acute ischemic stroke, which involves therapeutic interventions (intravenous thrombolysis, endovascular thrombectomy, etc.), and provides quantitative details about treatment accuracy improvements.  
+   - **Assessment:** This content requirement is fulfilled by the analysis of treatment recommendation accuracy and TOAST classification decisions.
+
+### Exclusion Criteria Assessment:
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   - **Assessment:** This study is about stroke, so it does not meet this exclusion criterion.
+  
+2. **Language: Non-English**  
+   - **Assessment:** The study is in English, therefore this exclusion criterion is not applicable.
+  
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - **Assessment:** This abstract does not fall into the excluded categories, given that it presents original research findings.
+  
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - **Assessment:** The study involves human decision-making processes, not just in-vitro studies. This criterion does not apply.
+  
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - **Assessment:** The study does not involve animal studies, hence this does not apply.
+  
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - **Assessment:** The study does not pertain to laboratory outbreaks; it focuses on clinical treatment decision-making for stroke.
+
+### Conclusion:
+The study meets all the inclusion criteria relevant to the systematic review on Stroke and does not fall under any of the exclusion criteria. It provides clinically relevant evidence on treatment recommendation accuracy for acute ischemic stroke, which is integral to the review objectives. 
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939660
+PMID_42530894,PubMed,42530894,,10.1177/10538135261472484,Effect of Visual Modification by Video See-Through Augmented Reality with REHA-Glasses on Postural Verticality in Individuals with Post-Stroke Lateropulsion.,"Yokota, Chiaki; Kamada, Masatoshi; Liu, Hailong; Omae, Katsuhiro; Doda, Daishi; Shioiri, Kanta; Shimano, Katsuaki; Wada, Takahiro; Ito, Koichi",NeuroRehabilitation,2026,"ObjectivesTo examine whether post-stroke lateropulsion can be corrected to the upright position by wearing REHA-glasses, which provide the wearer with front-view images rotated based on body tilt.MethodsA prospective, open-label, single-arm, exploratory, interventional study for individuals with first-ever acute stroke and spontaneous body posture rated ≥ 0.75 on the Scale for Contraversive Pushing (SCP) was conducted in a single center in Japan. The intervention was performed by three physical therapists who understood the study protocol. When the participants wore REHA-glasses, the therapist rotated the visual field of view with the intent of moving the participants' position to an upright stance. Differences in assessment between therapists were resolved by mutual agreement. The primary outcome was the change in the total SCP score between the pre-wearing and wearing periods. Adverse events included falling, cybersickness symptoms, deterioration of neurological symptoms, and mechanical problems.ResultsTwenty-four participants (mean 67.6 years) were enrolled. The total SCP score was lower during wearing than during pre-wearing: mean 0.62 (standard deviation: 0.96) vs. 2.26 (1.13); median 0.1 (interquartile range: 0-0.9) vs. 2.0 (1.3-2.5); mean difference 1.64 (95% confidence interval: 1.29-1.97), respectively, p < 0.001, Cohen's dz = 2.04. Mechanical problems, due to damage to the connection port of the headset, was the only adverse event, which did not endanger the participants' safety.ConclusionsPost-stroke lateropulsion was improved by modulating visual input using REHA-glasses.",https://pubmed.ncbi.nlm.nih.gov/42530894/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"### Reflection on Criteria
+
+To determine whether this paper should be included, we will systematically evaluate the abstract against the inclusion and exclusion criteria, keeping in mind the specific requirements for studying stroke. 
+
+### Step-by-step Evaluation
+
+#### Inclusion Criteria:
+1. **Pathogen: Must be about Stroke**  
+   **Meets**: The study focuses on post-stroke lateropulsion, which is relevant to stroke.
+
+2. **Language: English only**  
+   **Meets**: The abstract is written in English.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   **Meets**: The abstract describes a prospective, open-label, single-arm, exploratory, interventional study, which qualifies as original research.
+
+4. **Population: Human subjects**  
+   **Meets**: The study involves human participants, specifically individuals with first-ever acute stroke.
+
+5. **Content: Must contain AT LEAST ONE of the specified content measures**  
+   - The study reports functional outcomes related to postural verticality via change in the total SCP score.
+   - **Meets**: It provides quantitative details regarding functional outcomes (SCP score change).
+
+#### Exclusion Criteria:
+1. **Pathogen: Not about Stroke**  
+   **Does not apply**: The study is about stroke.
+
+2. **Language: Non-English**  
+   **Does not apply**: The study is in English.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   **Does not apply**: The abstract appears to be part of a larger original study rather than a conference proceeding or similar.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   **Does not apply**: The study involves human subjects.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   **Does not apply**: This study involves human subjects, excluding it from this criterion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   **Does not apply**: This study does not relate to outbreak transmission.
+
+### Conclusion
+All inclusion criteria are met while none of the exclusion criteria apply. The study appears relevant and could contribute valuable insights into functional outcomes related to stroke rehabilitation.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939721
+PMID_42530688,PubMed,42530688,PMC6082705,10.1038/s41591-018-0092-9,A review of animal models of vascular dementia.,"Song, Yuanyu; Chen, Yinghua",Molecular biology reports,2026,"Vascular dementia (VD) is characterized by the presence of cerebrovascular lesions, specifically hemorrhagic or ischemic lesions within the brain parenchyma, with ischemic lesions being more prevalent. The resultant progressive decline in cognitive abilities and memory poses a significant challenge to public health and quality of life. Consequently, a growing number of researchers have focused on exploring the pathogenesis, prevention, and treatment strategies for VD. The establishment of suitable animal models for investigating the underlying mechanisms of VD treatment and assessing therapeutic efficacy has emerged as a focal point in this area of research. This review systematically compares the construction methods, pathological features, and behavioral phenotypes of classical and modified VD animal models, while analyzing their respective advantages and limitations. Key obstacles to clinical translation presented by the existing models are highlighted, including species differences, behavioral confounding factors, and issues related to methodological reproducibility. Furthermore, this article offers a reference framework for model selection based on various research objectives, aimed at enhancing the translational value of preclinical VD investigations.",https://pubmed.ncbi.nlm.nih.gov/42530688/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria outlined for the systematic review on Stroke.
+
+### Inclusion Criteria Evaluation:
+1. **Pathogen: Must be about Stroke**  
+   - **Evaluation:** The abstract discusses vascular dementia (VD), which is related to cerebrovascular issues, but it does not specifically focus on ischemic or hemorrhagic stroke itself. Thus, it does not meet this criterion fully.  
+   
+2. **Language: English only**  
+   - **Evaluation:** The abstract is in English, so it meets this criterion.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - **Evaluation:** This abstract describes a review of animal models, but since it's not original research focused directly on stroke outcomes or patient populations, it does not fit this criterion.
+
+4. **Population: Human subjects (animal studies acceptable if reporting EITHER)**  
+   - **Evaluation:** The abstract pertains to animal models of vascular dementia, not human subjects. Since it does not report on transmission parameters relevant to stroke, this criterion is not met.
+
+5. **Content: Must contain AT LEAST ONE of the specified measures or estimates**  
+   - **Evaluation:** The content does not provide quantitative details on stroke or relevant statistical measures pertaining to the treatment or outcomes of strokes specifically. Therefore, this criterion is also not met.
+
+### Exclusion Criteria Evaluation:
+1. **Pathogen: Not about Stroke**  
+   - **Evaluation:** The abstract is focused on vascular dementia, which, while related, does not specifically address stroke itself. Therefore, this criterion applies.
+
+2. **Language: Non-English**  
+   - **Evaluation:** The abstract is in English, so it does not meet this exclusion criterion.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - **Evaluation:** This abstract is likely part of a review paper, not a standalone original study. However, it is absent of patient human data, leaning toward exclusion.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - **Evaluation:** The abstract discusses animal studies, so it does not fit this exclusion criterion.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - **Evaluation:** The study is solely about animal models and does not report relevant parameters for stroke. Therefore, this criterion applies, leading to exclusion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - **Evaluation:** This criterion does not apply to the context of this abstract.
+
+### Conclusion
+Considering all evaluations:
+- The abstract primarily focuses on vascular dementia, not on stroke itself, and largely discusses animal models without addressing human clinical outcomes related to stroke.
+- Thus, the essential inclusion criteria regarding the focus on stroke are not met, and it meets multiple exclusion criteria.
+
+Hence, the study should be excluded from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939780
+PMID_42529513,PubMed,42529513,PMC11973529,10.5551/jat.64984,Diagnostic value of cardiovascular biomarkers for cerebral-cardiac syndrome risk in acute ischemic stroke.,"Liu, Zegang; Zhao, Ying; Wang, Mei; Li, Chenwei; Zhu, Xurong; Wang, Peirui; Wang, Ke",Frontiers in medicine,2026,"BACKGROUND: Cerebral-cardiac syndrome (CCS) is a complication commonly observed following an ischemic stroke, which results in increased morbidity and mortality. Timely diagnosis of CCS is of prognostic significance. This study investigates the significance of multiple cardiovascular biomarkers for CCS in patients with acute ischemic stroke (AIS).
+METHODS: This study retrospectively analyzed 177 patients with AIS admitted to Yongchuan People's Hospital of Chongqing from March 2022 to March 2023. Plasma levels of BNP (B-type natriuretic peptide), cTnI (cardiac Troponin I), Myo (myoglobin), CK-MB (creatine kinase isoenzyme), D-Dimer (DD), FDP (fibrin degradation product), and CRP (C-reactive protein) were measured. Multivariable Firth's penalized logistic regression was used to identify independent risk factors for CCS, and receiver operating characteristic analysis and bootstrap validation were performed to evaluate the diagnostic performance.
+RESULTS: CCS occurred in 97 patients (54.8%). BNP, DD, cTnI, Myo, and CK-MB were significantly elevated in the CCS group compared to the non-CCS group (all p < 0.001). After adjustment for covariates, age (OR = 1.047, p = 0.036), BNP (OR = 1.028, p < 0.001), and Myo (OR = 1.003, p = 0.048) remained as independent risk factors. The combined model incorporating age, BNP, and Myo yielded an area under the curve of 0.945 (95% CI: 0.914-0.977), with bootstrap-adjusted AUC = 0.941, indicating excellent discriminatory ability of the model and strong concordance with the clinical diagnosis.
+CONCLUSION: Age, BNP, and Myo constitute a robust diagnostic model for the early identification of CCS in AIS patients. This panel may facilitate timely risk stratification and intervention in the clinical management of CCS.",https://pubmed.ncbi.nlm.nih.gov/42529513/,,,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract step by step against the predefined inclusion and exclusion criteria.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**  
+   - The study is about acute ischemic stroke (AIS) and its complications (CCS). This criterion is met.
+
+2. **Language: English only**  
+   - The abstract is in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   - The study appears to be original research as it presents new findings from a retrospective analysis. This criterion is met.
+
+4. **Population: Human subjects**  
+   - The study involves 177 patients with AIS, confirming it includes human subjects. This criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   - a) **Quantitative details of concluded/ongoing human outbreak**: Not applicable, as this is not about an outbreak.
+   - b) **Mathematical or statistical model of disease transmission**: Not applicable; the focus is on biomarkers and not transmission.
+   - c) **Measures/estimates of transmission parameters**: Not applicable; this criterion does not relate as it pertains to disease transmission.
+   - d) **Measures/estimates of timing parameters**: Not applicable; not provided in the abstract.
+   - e) **Measures/estimates of severity**: The study discusses morbidity and mortality related to CCS, which correlates, but this is a secondary outcome.
+   - f) **Measures/estimates of genetic evolution**: Not applicable.
+   - g) **Measures of overdispersion or superspreading**: Not applicable.
+   - h) **Seroprevalence data or serological surveys**: Not applicable.
+   - i) **Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)**: **Yes**, the study identifies age, BNP, and Myo as independent risk factors.
+   - j) **Measures/estimates of vector parameters**: Not applicable.
+
+#### The study does contain relevant content regarding risk factors for a complication (CS) after AIS. 
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   - The study is about stroke, so this criterion is not applicable.
+
+2. **Language: Non-English**  
+   - The abstract is in English. This criterion is not applicable.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   - The type of publication is not specified as being an abstract presented at a conference; it appears to be original research. This criterion is not applicable.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   - The study involves human patients. This criterion is not applicable.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   - There are no animal studies involved. This criterion is not applicable.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   - The study does not relate to laboratory outbreaks. This criterion is not applicable.
+
+### Conclusion
+The study focuses on biomarkers significant for a specific complication post-stroke, providing important information regarding risk factors and diagnostic models relevant for clinical management. It meets all inclusion criteria and none of the exclusion criteria.
+
+Overall, while the primary focus may be on a complication (CCS) rather than stroke recovery or treatment interventions directly, the information it presents on patient risk factors for significant outcomes still contributes to the broader understanding of stroke management.
+
+Thus, I conclude:
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939841
+PMID_41536190,EuropePMC,41536190,PMC13155221,10.11124/jbies-25-00112,Effectiveness of various dosage parameters of Wii Fit Plus exergames for enhancing balance and postural control among people post-stroke: a systematic review protocol.,"Pratihar S, Rajasekaran K, Janakiraman B.",,2026,"<h4>Objective</h4>The objective of this review is to synthesize the evidence on the effectiveness of various dosage parameters (session duration, frequency, and total intervention period), including their potential dose-response impact (if meta-analysis is feasible), on postural control and balance using Wii Fit Plus balance exergaming in patients post-stroke.<h4>Introduction</h4>Wii Fit Plus is an innovative exergaming tool that consists of interactive standing balance exercises to improve balance and postural control in patients with stroke. However, the optimal treatment effects and dosage response for achieving these outcomes remain unclear.<h4>Eligibility criteria</h4>This review will consider randomized controlled trials, quasi-experimental studies, and other types of experimental studies evaluating preliminary efficacy or effectiveness of Wii Fit Plus balance exergames for adults and older adults post-stroke. The comparators will include standard-care physiotherapy and alternative exergaming interventions. The outcomes of interest will be postural control and balance, quality of life, functional independence, gait performance, and functional mobility.<h4>Methods</h4>A systematic search will be conducted across PubMed, Embase, Scopus, PEDro, Web of Science, and CINAHL (EBSCOhost) for studies published from 2010 onward. The review will follow the JBI methodology for systematic reviews of effectiveness. Study selection, data extraction, and critical appraisal will be independently performed by 2 reviewers. Dose-response meta-analysis using a random effects model will be used to estimate pooled effect size, with subgroup analyses exploring dosing variations. If meta-analysis is not feasible, a narrative synthesis will be conducted. The overall strength of the evidence will be determined using the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach.<h4>Review registration</h4>PROSPERO CRD42025641558.",https://pubmed.ncbi.nlm.nih.gov/41536190/,,https://europepmc.org/articles/PMC13155221?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To screen the abstract provided for inclusion in the systematic review on Stroke, we need to evaluate it against the inclusion and exclusion criteria outlined.
+
+## Inclusion Criteria
+1. **Pathogen**: The study is about Stroke. **(Met)**
+2. **Language**: The abstract is in English. **(Met)**
+3. **Study type**: The study is described as a systematic review protocol, which is considered for special consideration. **(Met)**
+4. **Population**: The focus is on adults and older adults post-stroke. **(Met)**
+5. **Content**: The outcomes of interest include postural control and balance, which aligns with functional outcomes related to stroke patients. **(Met)**
+
+## Exclusion Criteria
+1. **Pathogen**: The study is about Stroke, not another pathogen. **(Did not apply)**
+2. **Language**: The abstract is in English. **(Did not apply)**
+3. **Publication type**: The study is a systematic review protocol, which may be subject to special consideration. **(Did not apply)**
+4. **Study design**: The study includes randomized controlled trials, which is acceptable. **(Did not apply)**
+5. **Study design**: It is not a solely animal study. **(Did not apply)**
+6. **Outbreak type**: Not applicable here, as this pertains to epidemiological studies on outbreaks. **(Did not apply)**
+
+Given that the study meets all of the inclusion criteria and does not meet any exclusion criteria, it has sufficient relevance for inclusion in the systematic review.
+
+Thus, the final decision is: 
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.939899
+PMID_42333325,EuropePMC,42333325,PMC13283347,10.7759/cureus.109425,Assessment of the Effectiveness of Early Versus Delayed Invasive Strategies in Non-ST Elevation Myocardial Infarction (NSTEMI): A Systematic Review and Meta-Analysis.,"Kamble A, Revunuru NR, Rangachari B, Bharat Patel V, Ullah I, Ahmed Z.",,2026,"In recent years, early invasive strategies for non-ST-elevation myocardial infarction (NSTEMI) have been increasingly studied as a means of promptly identifying and treating culprit coronary lesions. However, the optimal timing of invasive management remains uncertain, particularly because most available evidence is derived from developed or high-resource healthcare settings. This systematic review and meta-analysis compared early vs. delayed invasive strategies in adults with NSTEMI for major adverse cardiovascular events and key secondary outcomes. A Population, Intervention, Comparison, Outcome framework guided eligibility criteria, and relevant studies were identified through PubMed/MEDLINE, Cochrane, and Embase. Preferred Reporting Items for Systematic Review and Meta-Analysis guidelines were followed, and quantifiable outcomes were analyzed using RevMan v5.4.1 (The Cochrane Collaboration, London, UK). Ten studies were included. Overall, five of 10 studies reported significant benefits favoring early or immediate invasive strategies, four found no significant benefit in adjusted or long-term analyses, and one reported increased adverse events with early intervention. Meta-analysis showed that early intervention significantly reduced all-cause mortality (risk ratio (RR) = 0.68, 95% confidence interval (CI): 0.61-0.76, p < 0.00001) and rehospitalization due to heart failure (RR = 0.41, 95% CI: 0.29-0.58, p < 0.0001). However, no significant benefit was observed for nonfatal acute myocardial infarction (RR = 0.62, 95% CI: 0.18-2.11, p = 0.45) or cardiovascular death at five years (RR = 0.99, 95% CI: 0.66-1.48, p = 0.94). Early invasive intervention within 24 hours may improve selected NSTEMI outcomes, especially mortality and heart-failure rehospitalization. However, because the included studies were predominantly from developed countries, these findings may not be directly applicable to low-resource settings where catheterization facilities, specialists, and rapid referral systems are limited. Further evidence from low- and middle-income regions is needed.",https://pubmed.ncbi.nlm.nih.gov/42333325/,,https://europepmc.org/articles/PMC13283347?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To screen the abstract against the inclusion and exclusion criteria for the systematic review on *Stroke*, we will systematically evaluate each criterion.
+
+### Inclusion Criteria
+1. **Pathogen**: Must be about Stroke
+   - The study is focused on non-ST-elevation myocardial infarction (NSTEMI), which is a type of heart condition, not stroke. 
+   - **Assessment**: Not met.
+  
+2. **Language**: English only
+   - The abstract is in English.
+   - **Assessment**: Met.
+
+3. **Study type**: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)
+   - The abstract describes a systematic review and meta-analysis.
+   - **Assessment**: Met (as systematic reviews are noted for special consideration).
+
+4. **Population**: Human subjects
+   - The study involves adults with NSTEMI, not stroke.
+   - **Assessment**: Not met.
+
+5. **Content**: Must contain AT LEAST ONE of the specified measures
+   - The study measures outcomes related to myocardial infarction, including all-cause mortality and rehospitalization due to heart failure, but does not report on stroke outcomes or related measures.
+   - **Assessment**: Not met.
+
+### Exclusion Criteria
+1. **Pathogen**: Not about Stroke (exclude studies on other pathogens)
+   - The study is about NSTEMI, which is not stroke.
+   - **Assessment**: Apply exclusion.
+
+2. **Language**: Non-English
+   - The abstract is in English.
+   - **Assessment**: Not applicable for exclusion.
+
+3. **Publication type**: Conference proceedings, abstracts, posters, correspondence
+   - The abstract describes a systematic review, which likely falls under original research, not these categories.
+   - **Assessment**: Not applicable for exclusion.
+
+4. **Study design**: In-vitro studies only (no human or animal component)
+   - The study involves human subjects.
+   - **Assessment**: Not applicable for exclusion.
+
+5. **Study design**: Solely animal studies AND animal studies that do not report transmission parameters
+   - The study involves human subjects, so this does not apply.
+   - **Assessment**: Not applicable for exclusion.
+
+6. **Outbreak type**: Accidental laboratory outbreaks (not natural disease transmission)
+   - There is no mention of accidental laboratory outbreaks as this study does not pertain to an infectious disease; hence, not applicable.
+   - **Assessment**: Not applicable for exclusion.
+
+### Conclusion
+Based on the assessment, the study does not meet the inclusion criteria primarily because it is centered on myocardial infarction rather than stroke. Therefore, it should be excluded from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.939957
+PMID_41464657,EuropePMC,41464657,PMC12733553,10.3390/jcm14248755,Impact of Thyroid Hormone Imbalance on Electrocardiographic Parameters: Systematic Review and Meta-Analysis.,"Kłosowicz M, Urbańczuk M, Burbelka A, Gala-Błądzińska A, Balawender K.",,2025,"<b>Background:</b> Thyroid dysfunction is a prevalent endocrine disorder with significant cardiovascular consequences, particularly through its effects on cardiac electrophysiology. Electrocardiography (ECG), as a widely available and cost-effective diagnostic tool, provides valuable insight into these alterations. This systematic review and meta-analysis aimed to evaluate the relationship between thyroid hormone imbalance and ECG parameters. <b>Methods:</b> A comprehensive search of PubMed, ScienceDirect, and Google Scholar identified 1099 studies, of which 121 underwent full-text analysis. Ultimately, 37 studies with complete datasets were included in the quantitative synthesis, encompassing 167,074 participants across overt hyperthyroidism, subclinical and overt hypothyroidism, and euthyroid control groups. <b>Results:</b> Meta-analysis revealed significant alterations in key electrophysiological markers. Overt hyperthyroidism was associated with QTc and Tp-e prolongation, consistent with increased repolarization heterogeneity and arrhythmic risk. In overt hypothyroidism, QTc and Tp-e intervals were also prolonged, accompanied by reduced heart rate variability, reflecting autonomic imbalance. Subclinical forms demonstrated more variable results, though trends toward conduction and repolarization disturbances were observed. Importantly, several studies indicated that levothyroxine therapy or surgical treatment normalized abnormal ECG findings, underscoring their reversible nature. <b>Conclusions:</b> These results highlight the strong association between thyroid hormone abnormalities and ECG alterations, which may serve as early markers of arrhythmic risk and sudden cardiac death. Incorporating ECG screening into thyroid disease management could improve early detection, risk stratification, and cardiovascular prevention strategies.",https://pubmed.ncbi.nlm.nih.gov/41464657/,,https://europepmc.org/articles/PMC12733553?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To decide whether to include or exclude the abstract regarding ""Impact of Thyroid Hormone Imbalance on Electrocardiographic Parameters,"" we'll evaluate the study against the predefined inclusion and exclusion criteria step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - The paper is about thyroid hormone imbalance and its effects on electrocardiographic parameters, with no mention or relevance to stroke. **(Not met)**
+
+2. **Language: English only**
+   - The abstract is in English. **(Met)**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The study is a systematic review and meta-analysis, which is considered acceptable for inclusion. **(Met)**
+
+4. **Population: Human subjects (animal studies acceptable under specific parameters)**
+   - The study involves human participants. **(Met)**
+
+5. **Content: Must contain AT LEAST ONE of the specified parameters regarding stroke**
+   - The content discusses ECG parameters and thyroid dysfunction but does not relate to stroke or provide any of the specified content (e.g., functional outcomes related to stroke, outcomes of thrombolysis, rehabilitation). **(Not met)**
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - The study is not about stroke; it focuses on thyroid hormone and ECG parameters. **(Exclude)**
+
+2. **Language: Non-English**
+   - The abstract is in English. **(Not applicable)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The study is a systematic review and not any of the excluded types. **(Not applicable)**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study involves human subjects. **(Not applicable)**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - Not applicable since the study involves human participants. **(Not applicable)**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - Not applicable since this study does not focus on outbreaks. **(Not applicable)**
+
+### Conclusion
+The study primarily focuses on thyroid hormone imbalance and electrocardiographic changes without any relevance to stroke, thus failing to meet all inclusion criteria. The primary focus of the systemic review is stroke and its interventions, while this study does not address that. 
+
+Based on the criteria assessed, the decision is to exclude this study.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940016
+PMID_39885673,EuropePMC,39885673,PMC12296412,10.4103/nrr.nrr-d-24-01030,Electroacupuncture for the treatment of ischemic stroke: A preclinical meta-analysis and systematic review.,"Yang G, Guan C, Liu M, Lin Y, Xing Y, Feng Y, Li H, Wu Y, Wang N, Luo L.",,2026,"Stroke remains a leading cause of death and disability worldwide, and electroacupuncture has a long history of use in stroke treatment. This meta-analysis and systematic review aimed to evaluate the efficacy of electroacupuncture and explore its potential mechanisms in animal models of ischemic stroke. The PubMed, EMBASE, Web of Science, CENTRAL, and CINAHL databases were comprehensively searched up to May 1, 2024. This review included articles on preclinical investigations of the efficacy and mechanisms of electroacupuncture in treating ischemic stroke. Data from 70 eligible studies were analyzed in Stata 18.0, using a random-effects model to calculate the standardized mean difference (Hedge's g). The risk of bias was assessed using RevMan 5.4 software, and the quality of evidence was rated according to the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) system. Subgroup analyses were conducted to test the consistency of the results and sensitivity analyses were used to assess their robustness. The quality assessment revealed that most studies adequately handled incomplete data and selective reporting. However, several methodological limitations were identified: only 4 studies demonstrated a low risk of allocation concealment, 26 achieved a low risk of outcome assessment bias, and 9 had a high risk of randomization bias. Additionally, there was an unclear risk regarding participant blinding and other methodological aspects. The GRADE assessment rated 12 outcomes as moderate quality and 6 as low quality. The mechanisms of electroacupuncture treatment for ischemic stroke can be categorized as five primary pathways: (1) Electroacupuncture significantly reduced infarct volume and apoptotic cell death ( P < 0.01) in ischemic stroke models; (2) electroacupuncture significantly decreased the levels of pro-inflammatory factors ( P < 0.01) while increasing the levels of anti-inflammatory factors ( P = 0.02); (3) electroacupuncture reduced the levels of oxidative stress indicators ( P < 0.01) and enhanced the expression of antioxidant enzymes ( P < 0.01); (4) electroacupuncture significantly promoted nerve regeneration ( P < 0.01); and (5) electroacupuncture influenced blood flow remodeling ( P < 0.01) and angiogenesis ( P < 0.01). Subgroup analyses indicated that electroacupuncture was most effective in the transient middle cerebral artery occlusion model ( P < 0.01) and in post-middle cerebral artery occlusion intervention ( P < 0.01). Dispersive waves were found to outperform continuous waves with respect to neuroprotection and anti-inflammatory effects ( P < 0.01), while scalp acupoints demonstrated greater efficacy than body acupoints ( P < 0.01). The heterogeneity among the included studies was minimal, and sensitivity analyses indicated stable results. Their methodological quality was generally satisfactory. In conclusion, electroacupuncture is effective in treating cerebral ischemia by modulating cell apoptosis, oxidative stress, inflammation, stroke-induced nerve regeneration, blood flow remodeling, and angiogenesis. The efficacy of electroacupuncture may be influenced by factors such as the middle cerebral artery occlusion model, the timing of intervention onset, waveform, and acupoint selection. Despite the moderate to low quality of evidence, these findings suggest that electroacupuncture has clinical potential for improving outcomes in ischemic stroke.",https://pubmed.ncbi.nlm.nih.gov/39885673/,,https://europepmc.org/articles/PMC12296412?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine the inclusion or exclusion of the study titled ""Electroacupuncture for the treatment of ischemic stroke: A preclinical meta-analysis and systematic review,"" we will systematically assess the abstract against the inclusion and exclusion criteria.
+
+### Inclusion Criteria Assessment
+1. **Pathogen: Must be about Stroke** - The study clearly discusses ischemic stroke, so this criterion is met.
+2. **Language: English only** - The abstract is in English, so this criterion is met.
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)** - The study is described as a meta-analysis and systematic review, which falls under the category of systematic reviews and can be given special consideration. This criterion is met.
+4. **Population: Human subjects (animal studies acceptable if reporting EITHER...vars)** - The study is focused on ""animal models,"" which does not meet the inclusion criteria for human subjects. This criterion is **not met**. 
+5. **Content: Must contain AT LEAST ONE of...** - The abstract discusses various outcomes related to electroacupuncture and ischemic stroke, including measures of infarct volume and apoptosis. However, since it involves preclinical animal models and not human subjects, the relevance of this point is less significant in the context of inclusion.
+
+### Exclusion Criteria Assessment
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)** - The study is about stroke, so this criterion is not applicable.
+2. **Language: Non-English** - The abstract is in English, so this criterion is not applicable.
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence** - The abstract does not fall into any of these categories, so this criterion is not applicable.
+4. **Study design: In-vitro studies only (no human or animal component)** - The study is not an in-vitro study; it involves animal studies. So this criterion is not applicable.
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters...** - The study is solely focused on animal models and does not report on any human outcomes, as it assesses the efficacy of electroacupuncture in animal models. This criterion warrants exclusion due to the focus on animal studies, which do not meet our inclusion criteria.
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)** - This criterion is not applicable.
+
+### Conclusion
+Based on the assessment, the study does not meet the inclusion criteria due to its focus on animal models rather than human subjects. Therefore, it should be excluded from the systematic review.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940075
+PMID_39781317,EuropePMC,39781317,PMC11707721,10.47176/mjiri.38.103,Cost-effectiveness of Telemedicine Intervention for Acute Myocardial Infarction: A Systematic Review.,"Abedinejad M, Hadian M, Hadian M, Behrooj S, Bagheri Faradonbeh S, Saniee N.",,2024,"<h4>Background</h4>One of the most important causes of mortality in the world is acute myocardial infarction. There are two general treatments including thrombolytic drugs and percutaneous coronary interventions. But, monitoring outpatient AMI treatment from a remote or rural location has emerged as a successful telemedicine technique. So, the present study aimed to review the economic evaluation studies of telemedicine in patients with acute myocardial infarction.<h4>Methods</h4>This study was conducted based on Preferred Reporting Items for Systematic Reviews and Meta-Analysis checklist (PRISMA is a 27-item checklist used to improve transparency in systematic reviews) guidelines in 2022. PubMed, Scopus, Web of Science, Proquest, Iranian databases (SID, Magiran), and Google Scholar were searched with the keywords of telemedicine and myocardial infarction from 2000 to 2022. After eliminating duplicates, titles and abstracts were screened based on inclusion and exclusion criteria, details, and the most important results of eligible studies were recorded in the data collection form.<h4>Results</h4>904 records were identified in this search, of which 147 were duplicates. Finally, 6 records were included in this study. Among these studies, 4 were cost-effectiveness, one was cost analysis, and one was cost-utility. The willingness to pay threshold was between 20,000 and 100,000, and the outcomes were measured with QALY (Quality-adjusted life-years). The reviewed studies showed that telemedicine can improve outcomes such as quality of life and reduce disease costs.<h4>Conclusion</h4>The results showed that telemedicine interventions for acute myocardial infarction can be helpful, and cost-effective. However in some cases, it can cause increased costs and may not have a significant difference in effectiveness with other methods because of the condition and stage of the disease.",https://pubmed.ncbi.nlm.nih.gov/39781317/,,https://europepmc.org/articles/PMC11707721?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To screen the provided abstract against the inclusion and exclusion criteria, I'll evaluate each criterion step by step.
+
+### Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - **Evaluation**: The study focuses on acute myocardial infarction, not on stroke.
+   - **Status**: Not met.
+
+2. **Language: English only**
+   - **Evaluation**: The abstract is in English.
+   - **Status**: Met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - **Evaluation**: The study is described as a systematic review, which falls under the special consideration.
+   - **Status**: Met.
+
+4. **Population: Human subjects**
+   - **Evaluation**: The subjects involved are patients with acute myocardial infarction.
+   - **Status**: Not met (it must be patients with stroke).
+
+5. **Content: Must contain AT LEAST ONE of specified intervention/outcome measures**
+   - **Evaluation**: The study discusses telemedicine interventions, but they pertain to myocardial infarction outcomes rather than outcomes related to stroke (e.g., mRS, Barthel Index, NIHSS).
+   - **Status**: Not met.
+
+### Exclusion Criteria
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - **Evaluation**: The study is about acute myocardial infarction, not stroke.
+   - **Status**: Exclusion criterion applies.
+
+2. **Language: Non-English**
+   - **Evaluation**: The abstract is in English.
+   - **Status**: Not applicable for exclusion.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - **Evaluation**: This is an abstract related to a systematic review.
+   - **Status**: Not applicable for exclusion.
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - **Evaluation**: The study discusses human subjects (acute myocardial infarction patients) and doesn't involve in-vitro studies.
+   - **Status**: Not applicable for exclusion.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - **Evaluation**: No animal studies are involved as the focus is on human patients.
+   - **Status**: Not applicable for exclusion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - **Evaluation**: Not relevant to the study about myocardial infarction.
+   - **Status**: Not applicable for exclusion.
+
+### Conclusion
+Since the abstract does not meet the key inclusion criteria (specifically, it does not pertain to stroke), but does meet an exclusion criterion (it is not about stroke), the decision is clear.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940126
+PMID_36611421,EuropePMC,36611421,PMC9818280,10.3390/diagnostics13010128,Clinical Applications of Quantitative Perfusion Imaging with a C-Arm Flat-Panel Detector-A Systematic Review.,"Zaid Al-Kaylani AHA, Schuurmann RCL, Maathuis WD, Slart RHJA, De Vries JPM, Bokkers RPH.",,2022,"C-arm systems with digital flat-panel detectors are used in interventional radiology and hybrid operating rooms for visualizing and performing interventions on three-dimensional structures. Advances in C-arm technology have enabled intraoperative quantitative perfusion imaging with these scanners. This systematic review provides an overview of flat-panel detector C-arm techniques for quantifying perfusion, their clinical applications, and their validation. A systematic search was performed for articles published between January 2000 and October 2022 in which a flat-panel detector C-arm technique for quantifying perfusion was compared with a reference technique. Nine articles were retrieved describing two techniques: two-dimensional perfusion angiography (n = 5) and dual-phase cone beam computed tomography perfusion (n = 4). A quality assessment revealed no concerns about the applicability of the studies. The risk of bias was relatively high for the index and reference tests. Both techniques demonstrated potential for clinical application; however, weak-to-moderate correlations were reported between them and the reference techniques. In conclusion, both techniques could add new possibilities to treatment planning and follow-up; however, the available literature is relatively scarce and heterogeneous. Larger-scale randomized prospective studies focusing on clinical outcomes and standardization are required for the full understanding and clinical implementation of these techniques.",https://pubmed.ncbi.nlm.nih.gov/36611421/,,https://www.mdpi.com/2075-4418/13/1/128/pdf?version=1672398908,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria systematically.
+
+### Inclusion Criteria Evaluation
+
+1. **Pathogen: Must be about Stroke**
+   - The abstract does not mention stroke; it focuses on quantitative perfusion imaging using C-arm systems.
+   - **Not met.**
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Met.**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The abstract indicates that this is a systematic review, which is acceptable for consideration.
+   - **Met.**
+
+4. **Population: Human subjects (animal studies acceptable if reporting specified parameters)**
+   - The abstract does not provide information about the population studied concerning stroke patients.
+   - **Not met.**
+
+5. **Content: Must contain AT LEAST ONE of the specified quantitative measures related to stroke**
+   - The abstract discusses perfusion imaging techniques but does not provide measures related to stroke outcomes, transmission, or any relevant clinical metrics.
+   - **Not met.**
+
+### Exclusion Criteria Evaluation
+
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**
+   - The content is not relevant to stroke.
+   - **Met for exclusion.**
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Not met for exclusion.**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The paper is a systematic review.
+   - **Not met for exclusion.**
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study focuses on imaging techniques and does not indicate in-vivo studies of human subjects with stroke.
+   - **Met for exclusion (as it does not involve patients with stroke).**
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - This study does not involve animal studies.
+   - **Not met for exclusion.**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This criterion is not applicable here since the content does not pertain to disease outbreaks.
+   - **Not met for exclusion.**
+
+### Conclusion
+The abstract does not meet the inclusion criteria as it does not focus on stroke or relevant clinical outcomes related to stroke. It is not pertinent to the systematic review's aims and therefore warrants exclusion.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940177
+PMID_29233831,EuropePMC,29233831,PMC5728303,10.1136/bmjopen-2017-016739,The Efficacy of the proprioceptive neuromuscular facilitation (PNF) approach in stroke rehabilitation to improve basic activities of daily living and quality of life: a systematic review and meta-analysis protocol.,"Guiu-Tula FX, Cabanas-Valdés R, Sitjà-Rabert M, Urrútia G, Gómara-Toldrà N.",,2017,"<h4>Introduction</h4>Proprioceptive neuromuscular facilitation (PNF) is a widely used rehabilitation concept, although its efficacy has not yet been demonstrated in stroke survivors. The aim of this systematic review is to identify, assess and synthesise the potential benefits of using PNF to improve the activities of daily living (ADL) and quality of life (QoL) of individuals with stroke.<h4>Methods and analysis</h4>A systematic electronic search will be conducted in MEDLINE, Embase, CENTRAL and PEDro. We will include randomised or quasi-randomised controlled trials of PNF interventions conducted in stroke survivors up to April 2017. Two review authors will independently select relevant studies and will extract data using the Cochrane handbook for systematic reviews of interventions approach and the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P). The methodological quality will be assessed by using the PEDro scale. Finally, with the permitted numeric data, we will carry out a meta-analysis.<h4>Ethics and dissemination</h4>Ethical considerations will not be required. Results will be disseminated in a peer-review journal. This systematic review aims to examine the effects of PNF (neurophysiological approach) in order to clarify its efficacy in improving ADL and QoL in the rehabilitation process of stroke survivors.<h4>Prospero registration number</h4>CRD42016039135.",https://pubmed.ncbi.nlm.nih.gov/29233831/,,https://europepmc.org/articles/PMC5728303?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's systematically evaluate the provided abstract against each criterion:
+
+## Inclusion Criteria
+1. **Pathogen: Must be about Stroke**
+   - The abstract focuses on stroke rehabilitation using proprioceptive neuromuscular facilitation (PNF). It is clearly about stroke.
+   - **Criteria Met**: Yes
+
+2. **Language: English only**
+   - The abstract is written in English.
+   - **Criteria Met**: Yes
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**
+   - The title indicates it is a systematic review and meta-analysis protocol. Systematic reviews are considered for inclusion.
+   - **Criteria Met**: Yes
+
+4. **Population: Human subjects**
+   - The study involves stroke survivors, which meets the population requirement.
+   - **Criteria Met**: Yes
+
+5. **Content: Must contain AT LEAST ONE of the specified measures/estimates**
+   - The abstract indicates the study will assess the efficacy of PNF in improving activities of daily living (ADL) and quality of life (QoL) for stroke survivors. This implies quantitative measurement related to functional outcomes, which could include measures like the Barthel Index or mRS. However, specific outcome measures are not explicitly detailed in the abstract.
+   - **Criteria Met**: Uncertain, but likely Yes based on implied ADL improvements.
+
+## Exclusion Criteria
+1. **Pathogen: Not about Stroke**
+   - The study is about stroke.
+   - **Criteria Met**: No (not applicable)
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Criteria Met**: No (not applicable)
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - This abstract is a protocol for a systematic review and meta-analysis; thus, it is not merely a conference abstract or a poster.
+   - **Criteria Met**: No (not applicable)
+
+4. **Study design: In-vitro studies only (no human or animal component)**
+   - The study pertains to human subjects (stroke survivors).
+   - **Criteria Met**: No (not applicable)
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study is not about animals; it focuses solely on human stroke survivors.
+   - **Criteria Met**: No (not applicable)
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**
+   - This study does not pertain to outbreaks or pathogen transmission; it is focused on rehabilitation.
+   - **Criteria Met**: No (not applicable)
+
+## Conclusion
+Based on the evaluation against the inclusion and exclusion criteria, the abstract is found to meet the primary requirements necessary for inclusion in the systematic review. Although there was some uncertainty regarding specific measures, the implications are favorable and worthy of consideration given the objective to document key clinical outcome measures related to stroke.
+
+Therefore, I conclude that this abstract should be included.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.940228
+PMID_31549743,EuropePMC,31549743,PMC6757514,10.1002/14651858.cd013201.pub2,Stem cell-based interventions for the prevention and treatment of germinal matrix-intraventricular haemorrhage in preterm infants.,"Romantsik O, Bruschettini M, Moreira A, Thébaud B, Ley D.",,2019,"<h4>Background</h4>Germinal matrix-intraventricular haemorrhage (GMH-IVH) remains a substantial issue in neonatal intensive care units worldwide. Current therapies to prevent or treat GMH-IVH are limited. Stem cell-based therapies offer a potential therapeutic approach to repair, restore, and/or regenerate injured brain tissue. These preclinical findings have now culminated in ongoing human neonatal studies.<h4>Objectives</h4>To determine the benefits and harms of stem cell-based interventions for prevention or treatment of germinal matrix-intraventricular haemorrhage (GM-IVH) in preterm infants.<h4>Search methods</h4>We used the standard search strategy of Cochrane Neonatal to search the Cochrane Central Register of Controlled Trials (CENTRAL; 2019, Issue 1), in the Cochrane Library; MEDLINE via PubMed (1966 to 7 January 2019); Embase (1980 to 7 January 2019); and the Cumulative Index to Nursing and Allied Health Literature (CINAHL) (1982 to 7 January 2019). We also searched clinical trials databases, conference proceedings, and reference lists of retrieved articles for randomised controlled trials and quasi-randomised trials.<h4>Selection criteria</h4>We attempted to identify randomised controlled trials, quasi-randomised controlled trials, and cluster trials comparing (1) stem cell-based interventions versus control; (2) mesenchymal stromal cells (MSCs) of type or source versus MSCs of other type or source; (3) stem cell-based interventions other than MSCs of type or source versus stem cell-based interventions other than MSCs of other type or source; or (4) MSCs versus stem cell-based interventions other than MSCs. For prevention studies, we included extremely preterm infants (less than 28 weeks' gestation), 24 hours of age or less, without ultrasound diagnosis of GM-IVH; for treatment studies, we included preterm infants (less than 37 weeks' gestation), of any postnatal age, with ultrasound diagnosis of GM-IVH.<h4>Data collection and analysis</h4>For each of the included trials, two review authors independently planned to extract data (e.g. number of participants, birth weight, gestational age, type and source of MSCs, other stem cell-based interventions) and assess the risk of bias (e.g. adequacy of randomisation, blinding, completeness of follow-up). Primary outcomes considered in this review are all-cause neonatal mortality, major neurodevelopmental disability, GM-IVH, and extension of pre-existing non-severe GM-IVH. We planned to use the GRADE approach to assess the quality of evidence.<h4>Main results</h4>Our search strategy yielded 769 references. We did not find any completed studies for inclusion. One randomised controlled trial is currently registered and ongoing. Five phase 1 trials are described in the excluded studies.<h4>Authors' conclusions</h4>Currently no evidence is available to show the benefits or harms of stem cell-based interventions for treatment or prevention of GM-IVH in preterm infants.",https://pubmed.ncbi.nlm.nih.gov/31549743/,,https://europepmc.org/articles/PMC6757514?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract step by step against the predefined inclusion and exclusion criteria.
+
+### Inclusion Criteria
+1. **Pathogen**: The study is not about Stroke; it focuses on germinal matrix-intraventricular haemorrhage (GMH-IVH) in preterm infants. Thus, it does not meet this criterion.
+   
+2. **Language**: The abstract is in English, which meets this criterion.
+
+3. **Study type**: It discusses a systematic review of randomised controlled trials, which meets this criterion.
+
+4. **Population**: The subjects are preterm infants, not patients with confirmed ischaemic or haemorrhagic stroke. Therefore, this criterion is not met.
+
+5. **Content**: The study focuses on stem cell-based interventions for GMH-IVH, not on any interventions related to stroke or its related outcomes. Thus, this criterion is not met.
+
+### Exclusion Criteria
+1. **Pathogen**: As previously noted, the study is not about Stroke. This criterion applies, and thus we need to exclude the study.
+
+2. **Language**: The abstract is in English, so this does not apply to exclusion.
+
+3. **Publication type**: This is a peer-reviewed study and therefore does not meet exclusion.
+
+4. **Study design**: It discusses human subjects but focuses solely on a specialized neonatal condition, so it does not apply to exclusion on this design criterion.
+
+5. **Study design**: Applies only to animal studies or studies without reporting transmission parameters, which does not pertain here.
+
+6. **Outbreak type**: This does not pertain to this abstract as the research is not relevant to disease transmission.
+
+### Conclusion
+Given that the study does not meet the core inclusion criteria for focusing on Stroke and falls clearly under the exclusion criterion for not being related to the topic of Stroke, the decision is to exclude this abstract.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940280
+PMID_35957576,EuropePMC,35957576,PMC11010555,10.1017/s0031182022001081,Monotherapy and combination chemotherapy for Chagas disease treatment: a systematic review of clinical efficacy and safety based on randomized controlled trials.,"Santana Nogueira S, Cardoso Santos E, Oliveira Silva R, Vilela Gonçalves R, Lima GDA, Dias Novaes R.",,2022,"From a systematic review framework, we analysed the clinical evidence on the effectiveness and safety of monotherapy and combination chemotherapy for Chagas disease (ChD) treatment. The research protocol was based on the Preferred Reporting Items for Systematic Reviews and Meta-Analyses and patient, intervention, comparison and outcome strategy. Only randomized controlled trials (RCT) were retrieved from Embase, Medline, Scopus and Web of Science databases. Diagnostic tools, treatment protocols, seroconversion rates and adverse events were investigated. Fifteen RCT mainly concentrated in endemic countries were identified. ChD diagnosis was mainly based on haemagglutination, immunofluorescence, enzyme-linked immunosorbent assay and polymerase chain reaction. Benznidazole (BNZ), nifurtimox, fosravuconazole, posaconazole, allopurinol and thioctic acid were the identified drugs. The best negative seroconversion results (100, 96, 94 and 91.3%) were, respectively, based on BNZ (5 mg kg day<sup>−1</sup>, 200 mg day<sup>−1</sup>, 150 mg day<sup>−1</sup> and 2.5 mg kg<sup>−1</sup>) administration for 60 days. Negative seroconversion was not achieved with allopurinol (300 mg day<sup>−1</sup> for 60 days). Adverse reactions ranged from 5 to 73% in patients receiving antiparasitic chemotherapy. Treatment discontinuation (1.5–57%) was mainly associated with gastrointestinal, cutaneous and neurological manifestations. Current RCT-based evidence indicates that BNZ is the most viable option for ChD treatment. However, new protocols need to be developed to mitigate side effects and increase patient adherence to antiparasitic chemotherapy. Therefore, shorter regimens, lower concentrations and treatments combining BNZ with posaconazole, fosravuconazole or ravuconazole may be viable to ensure comparable efficacy to BZN-based monotherapy, contributing to reduce dose- and time-dependent toxicity reactions.",https://pubmed.ncbi.nlm.nih.gov/35957576/,,https://europepmc.org/articles/PMC11010555?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To assess whether the provided abstract meets the inclusion and exclusion criteria for the systematic review on stroke, we will evaluate each criterion step-by-step.
+
+## Inclusion Criteria
+ALL must be met:
+1. **Pathogen**: Must be about Stroke  
+   **Evaluation**: The abstract focuses on Chagas disease, which is unrelated to stroke.  
+   **Assessment**: Not met
+
+2. **Language**: English only  
+   **Evaluation**: The abstract is in English.  
+   **Assessment**: Met
+
+3. **Study type**: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)  
+   **Evaluation**: This is a systematic review of randomized controlled trials, which can be special considered for inclusion.  
+   **Assessment**: Met
+
+4. **Population**: Human subjects (animal studies acceptable if reporting certain parameters)  
+   **Evaluation**: The study involves human subjects diagnosed with Chagas disease.  
+   **Assessment**: Met
+
+5. **Content**: Must contain AT LEAST ONE of:  
+   a) Quantitative details of concluded/ongoing human outbreak...  
+   b) Mathematical or statistical model of disease transmission  
+   c) Measures/estimates of transmission parameters...  
+   d) Measures/estimates of timing parameters...  
+   e) Measures/estimates of severity...  
+   f) Measures/estimates of genetic evolution...  
+   g) Measures of overdispersion or superspreading...  
+   h) Seroprevalence data or serological surveys  
+   i) Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)  
+   j) Measures/estimates of vector parameters...  
+   **Evaluation**: The content of the abstract discusses the effectiveness and safety of treatments for Chagas disease but does not address stroke or any relevant parameters outlined in the inclusion.  
+   **Assessment**: Not met
+
+## Exclusion Criteria
+Exclude if ANY apply:
+1. **Pathogen**: Not about Stroke (exclude studies on other pathogens)  
+   **Evaluation**: The paper focuses on Chagas disease, not stroke.  
+   **Assessment**: Applies
+
+2. **Language**: Non-English  
+   **Evaluation**: The abstract is in English.  
+   **Assessment**: Not applicable
+
+3. **Publication type**: Conference proceedings, abstracts, posters, correspondence  
+   **Evaluation**: This is a systematic review/abstract, which is acceptable.  
+   **Assessment**: Not applicable
+
+4. **Study design**: In-vitro studies only (no human or animal component)  
+   **Evaluation**: This study involves human subjects; thus, it does not meet this exclusion criterion.  
+   **Assessment**: Not applicable
+
+5. **Study design**: Solely animal studies AND animal studies that do not report transmission parameters  
+   **Evaluation**: Not applicable, as there are no animal studies.  
+   **Assessment**: Not applicable
+
+6. **Outbreak type**: Accidental laboratory outbreaks (not natural disease transmission)  
+   **Evaluation**: Not applicable, the study discusses treatment for a disease, not focused on outbreak transmission.  
+   **Assessment**: Not applicable
+
+Since the study does not meet the primary inclusion criterion by focusing on chronic disease not related to stroke, it should be excluded.
+
+Based on the above evaluations:
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940332
+PMID_28489279,EuropePMC,28489279,PMC6481586,10.1002/14651858.cd012204.pub2,Dipeptidyl-peptidase (DPP)-4 inhibitors and glucagon-like peptide (GLP)-1 analogues for prevention or delay of type 2 diabetes mellitus and its associated complications in people at increased risk for the development of type 2 diabetes mellitus.,"Hemmingsen B, Sonne DP, Metzendorf MI, Richter B.",,2017,"<h4>Background</h4>The projected rise in the incidence of type 2 diabetes mellitus (T2DM) could develop into a substantial health problem worldwide. Whether dipeptidyl-peptidase (DPP)-4 inhibitors or glucagon-like peptide (GLP)-1 analogues are able to prevent or delay T2DM and its associated complications in people at risk for the development of T2DM is unknown.<h4>Objectives</h4>To assess the effects of DPP-4 inhibitors and GLP-1 analogues on the prevention or delay of T2DM and its associated complications in people with impaired glucose tolerance, impaired fasting blood glucose, moderately elevated glycosylated haemoglobin A1c (HbA1c) or any combination of these.<h4>Search methods</h4>We searched the Cochrane Central Register of Controlled Trials; MEDLINE; PubMed; Embase; ClinicalTrials.gov; the World Health Organization (WHO) International Clinical Trials Registry Platform; and the reference lists of systematic reviews, articles and health technology assessment reports. We asked investigators of the included trials for information about additional trials. The date of the last search of all databases was January 2017.<h4>Selection criteria</h4>We included randomised controlled trials (RCTs) with a duration of 12 weeks or more comparing DPP-4 inhibitors and GLP-1 analogues with any pharmacological glucose-lowering intervention, behaviour-changing intervention, placebo or no intervention in people with impaired fasting glucose, impaired glucose tolerance, moderately elevated HbA1c or combinations of these.<h4>Data collection and analysis</h4>Two review authors read all abstracts and full-text articles and records, assessed quality and extracted outcome data independently. One review author extracted data which were checked by a second review author. We resolved discrepancies by consensus or the involvement of a third review author. For meta-analyses, we planned to use a random-effects model with investigation of risk ratios (RRs) for dichotomous outcomes and mean differences (MDs) for continuous outcomes, using 95% confidence intervals (CIs) for effect estimates. We assessed the overall quality of the evidence using the GRADE instrument.<h4>Main results</h4>We included seven completed RCTs; about 98 participants were randomised to a DPP-4 inhibitor as monotherapy and 1620 participants were randomised to a GLP-1 analogue as monotherapy. Two trials investigated a DPP-4 inhibitor and five trials investigated a GLP-1 analogue. A total of 924 participants with data on allocation to control groups were randomised to a comparator group; 889 participants were randomised to placebo and 33 participants to metformin monotherapy. One RCT of liraglutide contributed 85% of all participants. The duration of the intervention varied from 12 weeks to 160 weeks. We judged none of the included trials at low risk of bias for all 'Risk of bias' domains and did not perform meta-analyses because there were not enough trials.One trial comparing the DPP-4 inhibitor vildagliptin with placebo reported no deaths (very low-quality evidence). The incidence of T2DM by means of WHO diagnostic criteria in this trial was 3/90 participants randomised to vildagliptin versus 1/89 participants randomised to placebo (very low-quality evidence). Also, 1/90 participants on vildagliptin versus 2/89 participants on placebo experienced a serious adverse event (very low-quality evidence). One out of 90 participants experienced congestive heart failure in the vildagliptin group versus none in the placebo group (very low-quality evidence). There were no data on non-fatal myocardial infarction, stroke, health-related quality of life or socioeconomic effects reported.All-cause and cardiovascular mortality following treatment with GLP-1 analogues were rarely reported; one trial of exenatide reported that no participant died. Another trial of liraglutide 3.0 mg showed that 2/1501 in the liraglutide group versus 2/747 in the placebo group died after 160 weeks of treatment (very low-quality evidence).The incidence of T2DM following treatment with liraglutide 3.0 mg compared to placebo after 160 weeks was 26/1472 (1.8%) participants randomised to liraglutide versus 46/738 (6.2%) participants randomised to placebo (very low-quality evidence). The trial established the risk for (diagnosis of) T2DM as HbA1c 5.7% to 6.4% (6.5% or greater), fasting plasma glucose 5.6 mmol/L or greater to 6.9 mmol/L or less (7.0 mmol/L or greater) or two-hour post-load plasma glucose 7.8 mmol/L or greater to 11.0 mmol/L (11.1 mmol/L). Altogether, 70/1472 (66%) participants regressed from intermediate hyperglycaemia to normoglycaemia compared with 268/738 (36%) participants in the placebo group. The incidence of T2DM after the 12-week off-treatment extension period (i.e. after 172 weeks) showed that five additional participants were diagnosed T2DM in the liraglutide group, compared with one participant in the placebo group. After 12-week treatment cessation, 740/1472 (50%) participants in the liraglutide group compared with 263/738 (36%) participants in the placebo group had normoglycaemia.One trial used exenatide and 2/17 participants randomised to exenatide versus 1/16 participants randomised to placebo developed T2DM (very low-quality evidence). This trial did not provide a definition of T2DM. One trial reported serious adverse events in 230/1524 (15.1%) participants in the liraglutide 3.0 mg arm versus 96/755 (12.7%) participants in the placebo arm (very low quality evidence). There were no serious adverse events in the trial using exenatide. Non-fatal myocardial infarction was reported in 1/1524 participants in the liraglutide arm and in 0/55 participants in the placebo arm at 172 weeks (very low-quality evidence). One trial reported congestive heart failure in 1/1524 participants in the liraglutide arm and in 1/755 participants in the placebo arm (very low-quality evidence). Participants receiving liraglutide compared with placebo had a small mean improvement in the physical component of the 36-item Short Form scale showing a difference of 0.87 points (95% CI 0.17 to 1.58; P = 0.02; 1 trial; 1791 participants; very low-quality evidence). No trial evaluating GLP-1-analogues reported data on stroke, microvascular complications or socioeconomic effects.<h4>Authors' conclusions</h4>There is no firm evidence that DPP-4 inhibitors or GLP-1 analogues compared mainly with placebo substantially influence the risk of T2DM and especially its associated complications in people at increased risk for the development of T2DM. Most trials did not investigate patient-important outcomes.",https://pubmed.ncbi.nlm.nih.gov/28489279/,,https://europepmc.org/articles/pmc6481586?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To evaluate this abstract against the predefined inclusion and exclusion criteria for a systematic review on stroke, we will proceed as follows:
+
+## Inclusion Criteria Assessment
+1. **Pathogen:** The abstract does not mention stroke or any related conditions; it is focused on type 2 diabetes mellitus (T2DM). This criterion is **NOT met**.
+2. **Language:** The abstract is in English. This criterion is **met**.
+3. **Study type:** The study discusses randomized controlled trials (RCTs) and mentions peer-reviewed original research. However, it does not involve stroke, thus the primary focus is **NOT met**.
+4. **Population:** The population discussed consists of individuals at risk for T2DM, not stroke patients. This criterion is **NOT met**.
+5. **Content:** The abstract does not contain any information relevant to stroke, functional outcomes of stroke, thrombolysis, thrombectomy, or rehabilitation related to stroke. This criterion is **NOT met**.
+
+## Exclusion Criteria Assessment
+1. **Pathogen:** The study is not about stroke; it focuses on T2DM. This exclusion criterion **applies**.
+2. **Language:** The abstract is in English, so it does **not apply**.
+3. **Publication type:** The abstract is part of a systematic review of RCTs which is acceptable, so it does **not apply**.
+4. **Study design:** The research is not solely in-vitro and involves human subjects, so it does **not apply**.
+5. **Study design:** The study is not an animal study. This does **not apply**.
+6. **Outbreak type:** There are no laboratory outbreaks mentioned, so this criterion **does not apply**.
+
+### Conclusion
+Given that the abstract does not meet the primary focus on stroke, it should be excluded based on the first exclusion criterion. Other criteria regarding language, publication type, and study design do not affect the decision since the study is not relevant to stroke outcomes.
+
+Based on the assessment:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940385
+PMID_27412989,EuropePMC,27412989,PMC4946327,10.3238/arztebl.2016.0445,Ezetimibe-Statin Combination Therapy.,"Nußbaumer B, Glechner A, Kaminski-Hartenthaler A, Mahlknecht P, Gartlehner G.",,2016,"<h4>Background</h4>To date, most clinical comparisons of ezetimibe-statin combination therapy versus statin monotherapy have relied entirely on surrogate variables. In this systematic review, we study the efficacy and safety of ezetimibe-statin combination therapy in comparison to statin monotherapy in terms of the prevention of cardiovascular events in hyperlipidemic patients with atherosclerosis and/or diabetes mellitus.<h4>Methods</h4>This review is based on a systematic literature search (1995 to July 2015) in PubMed, the Excerpta Medica Database (EMBASE), the Cochrane Library, and the ClinicalTrials.gov registry.<h4>Results</h4>Nine randomized, controlled trials with data from a total of 19 461 patients were included. Ezetimibe-statin combination therapy was associated with a lower risk of cardiovascular events than statin monotherapy: 33% of the patients treated with ezetimibe and a statin, and 35% of those treated with a statin alone, had a cardiovascular event within seven years (number needed to treat [NNT]: 50 over 7 years). Combination therapy was also significantly more effective in preventing a composite endpoint consisting of death due to cardiovascular disease, nonfatal myocardial infarction, unstable angina pectoris, coronary revascularization, and nonfatal stroke (hazard ratio [HR] 0.94, 95% confidence interval [0,89; 0,99]; p = 0.016). Diabetic patients benefited from combination therapy rather than monotherapy with respect to cardiovascular morbidity (HR 0.87 [0.78; 0.94]). On the other hand, the addition of ezetimibe to statin therapy did not lessen either cardiovascular or overall mortality. Serious undesired events occurred in 38% of the patients taking ezetimibe and a statin nd in 39% of the patients taking a statin alone (relative risk 1.09 [0.77; 1.55]).<h4>Conclusion</h4>In high-risk patients with an acute coronary syndrome, combination therapy with ezetimibe and a statin lowered the risk of cardiovascular events in comparison to statin monotherapy. The risk of dying or suffering an adverse drug effect was similar in the two treatment groups.",https://pubmed.ncbi.nlm.nih.gov/27412989/,,https://europepmc.org/articles/pmc4946327?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To assess whether the paper should be included in the systematic review on Stroke, we will evaluate it against the predefined inclusion and exclusion criteria systematically.
+
+## Inclusion Criteria Assessment
+1. **Pathogen: Must be about Stroke** 
+   - The study focuses on cardiovascular events and mentions nonfatal stroke as part of composite endpoints, but it does not target interventions specifically for stroke or study patients specifically diagnosed with stroke. **(Not met)**
+
+2. **Language: English only** 
+   - The abstract is in English. **(Met)**
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)** 
+   - The abstract indicates that it is based on a systematic review of randomized controlled trials, which qualifies as systematic review/meta-analysis. However, it does not appear to be original research. **(Special consideration does not apply here as the study focuses on a broader cardiovascular context)** **(Not met)**
+
+4. **Population: Human subjects (animal studies acceptable if reporting specified parameters)** 
+   - The study involves human subjects, as it reports on trials that include patients. **(Met)**
+
+5. **Content: Must contain AT LEAST ONE of:** 
+   - a) **Quantitative details of concluded/ongoing human outbreak**: This is not applicable as it pertains to stroke and cardiovascular events rather than outbreaks. **(Not met)** 
+   - b) **Mathematical or statistical model of disease transmission**: This does not pertain to the study. **(Not met)**
+   - c) **Measures/estimates of transmission parameters**: Not applicable. **(Not met)** 
+   - d) **Measures/estimates of timing parameters**: Not applicable. **(Not met)** 
+   - e) **Measures/estimates of severity**: The study reports risk ratios, but they are related to cardiovascular events and not measures of stroke severity directly. **(Not met)** 
+   - f) **Measures/estimates of genetic evolution**: Not applicable. **(Not met)** 
+   - g) **Measures of overdispersion or superspreading**: Not applicable. **(Not met)** 
+   - h) **Seroprevalence data or serological surveys**: Not applicable. **(Not met)** 
+   - i) **Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)**: The study does mention risk factors related to cardiovascular events but not stroke specifically. **(Not met)** 
+   - j) **Measures/estimates of vector parameters**: Not applicable. **(Not met)**
+
+## Exclusion Criteria Assessment
+1. **Pathogen: Not about Stroke** 
+   - The abstract does involve stroke as part of a cardiovascular composite endpoint but is not primarily focused on stroke. **(Not clearly applicable)**
+
+2. **Language: Non-English** 
+   - The study is in English. **(Not applicable)**
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence** 
+   - This seems to be a systematic review rather than a conference proceeding or similar. **(Not applicable)**
+
+4. **Study design: In-vitro studies only (no human or animal component)** 
+   - The study involves human subjects and is not an in-vitro study. **(Not applicable)**
+
+5. **Study design: Solely animal studies and animal studies that do not report transmission parameters** 
+   - Not applicable, as human studies are involved. **(Not applicable)**
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)** 
+   - Not applicable. **(Not applicable)**
+
+## Conclusion
+The primary focus of this study is on cardiovascular outcomes rather than specific stroke interventions or patient outcomes following a stroke. It only includes stroke in a broader context of cardiovascular disease without addressing stroke-specific data. The systematic review does not meet the inclusion criteria focusing on stroke outcomes, leading to exclusion.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940436
+PMID_34631130,EuropePMC,34631130,PMC8488455,10.1002/osp4.519,"Changes in body mass index, obesity, and overweight in Southern Africa development countries, 1990 to 2019: Findings from the Global Burden of Disease, Injuries, and Risk Factors Study.","Gona PN, Kimokoti RW, Gona CM, Ballout S, Rao SR, Mapoma CC, Lo J, Mokdad AH.",,2021,"<h4>Background</h4>High body mass index (BMI) is associated with stroke, ischemic heart disease (IHD), and type 2 diabetes mellitus (T2DM). An epidemiological analysis of the prevalence of high BMI, stroke, IHD, and T2DM was conducted for 16 Southern Africa Development Community (SADC) using Global Burden of Diseases, Injuries, and Risk Factors (GBD) Study data.<h4>Methods</h4>GBD obtained data from vital registration, verbal autopsy, and ICD codes. Prevalence of high BMI (≥25 kg/m<sup>2</sup>), stroke, IHD, and T2DM attributed to high BMI were calculated. Cause of Death Ensemble Model and Spatiotemporal Gaussian regression was used to estimate mortality due to stroke, IHD, and T2DM attributable to high BMI.<h4>Results</h4>Obesity in adult females increased 1.54-fold from 12.0% (uncertainty interval [UI]: 11.5-12.4) to 18.5% (17.9-19.0), whereas in adult males, obesity nearly doubled from 4.5 (4.3-4.8) to 8.8 (8.5-9.2). In children, obesity more than doubled in both sexes, and overweight increased by 27.4% in girls and by 37.4% in boys. Mean BMI increased by 0.7 from 22.4 (21.6-23.1) to 23.1 (22.3-24.0) in adult males, and by 1.0 from 23.8 (22.9-24.7) to 24.8 (23.8-25.8) in adult females. South Africa 44.7 (42.5-46.8), Swaziland 33.9 (31.7-36.0) and Lesotho 31.6 (29.8-33.5) had the highest prevalence of obesity in 2019. The corresponding prevalence in males for the three countries were 19.1 (17.5-20.7), 19.3 (17.7-20.8), and 9.2 (8.4-10.1), respectively. The DRC and Madagascar had the least prevalence of adult obesity, from 5.6 (4.8-6.4) and 7.0 (6.1-7.9), respectively in females in 2019, and in males from 4.9 (4.3-5.4) in the DRC to 3.9 (3.4-4.4) in Madagascar.<h4>Conclusions</h4>The prevalence of high BMI is high in SADC. Obesity more than doubled in adults and nearly doubled in children. The 2019 mean BMI for adult females in seven countries exceeded 25 kg/m<sup>2</sup>. SADC countries are unlikely to meet UN2030 SDG targets. Prevalence of high BMI should be studied locally to help reduce morbidity.",https://pubmed.ncbi.nlm.nih.gov/34631130/,,https://europepmc.org/articles/PMC8488455?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To determine the inclusion or exclusion of the abstract provided, we will analyze it against the systematic review's inclusion and exclusion criteria in a systematic manner.
+
+### Inclusion Criteria
+
+1. **Pathogen: Must be about Stroke**
+   - The study discusses stroke in the context of high body mass index (BMI), but it does not present original research specifically on interventions or outcomes related to stroke treatment, management, or rehabilitation. It primarily focuses on prevalence data of high BMI and its association with stroke.
+   - **Decision**: Does not meet this criterion.
+
+2. **Language: English only**
+   - The abstract is in English.
+   - **Decision**: Meets this criterion.
+
+3. **Study type: Peer-reviewed, original research**
+   - The abstract mentions it is from a cohort of studies (the Global Burden of Disease Study), which is a form of original research, but the focus is more on epidemiological data rather than intervention studies.
+   - **Decision**: May meet this criterion, but relevance is low since it does not focus on the clinical aspects typically of interest to the review.
+
+4. **Population: Human subjects**
+   - The study involves human subjects as it focuses on populations in Southern Africa.
+   - **Decision**: Meets this criterion.
+
+5. **Content: Must contain AT LEAST ONE of:**
+   - The abstract discusses the prevalence of BMI and its association with stroke but does not provide specific functional outcome measures (e.g., mRS, Barthel Index, NIHSS), nor does it explore pharmacological or non-pharmacological interventions related directly to stroke.
+   - **Decision**: Does not meet this criterion since it does not directly present any intervention measures.
+
+### Exclusion Criteria
+
+1. **Pathogen: Not about Stroke**
+   - The study does discuss stroke; however, it is secondary to its primary discussion of BMI.
+   - **Decision**: Does not apply; the study is about stroke, albeit indirectly.
+
+2. **Language: Non-English**
+   - The abstract is in English.
+   - **Decision**: Does not apply.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**
+   - The nature of the paper is unclear but given that it does not seem to represent an original peer-reviewed study directly addressing stroke intervention, this may fit into the category of non-qualified publication types if it were not classified strictly as original research. However, this is less relevant considering the other criteria.
+   - **Decision**: Does not apply.
+
+4. **Study design: In-vitro studies only**
+   - The study includes human participants, so it does not fall under this category.
+   - **Decision**: Does not apply.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**
+   - The study involves human participants, so it does not fall under this category.
+   - **Decision**: Does not apply.
+
+6. **Outbreak type: Accidental laboratory outbreaks**
+   - The study does not discuss any accidental laboratory outbreaks.
+   - **Decision**: Does not apply.
+
+### Conclusion
+After thorough consideration of inclusion and exclusion criteria, it is clear that this abstract does not sufficiently address the key focus points of the systematic review. It discusses associations and epidemiological data related to BMI and stroke without providing meaningful insights into interventions or functional outcomes that are critical to the objectives of the review.
+
+Thus, I conclude with:
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940488
+PMID_29341066,EuropePMC,29341066,PMC6491319,10.1002/14651858.cd010947.pub2,Cerebral near-infrared spectroscopy (NIRS) for perioperative monitoring of brain oxygenation in children and adults.,"Yu Y, Zhang K, Zhang L, Zong H, Meng L, Han R.",,2018,"<h4>Background</h4>Various techniques have been employed for the early detection of perioperative cerebral ischaemia and hypoxia. Cerebral near-infrared spectroscopy (NIRS) is increasingly used in this clinical scenario to monitor brain oxygenation. However, it is unknown whether perioperative cerebral NIRS monitoring and the subsequent treatment strategies are of benefit to patients.<h4>Objectives</h4>To assess the effects of perioperative cerebral NIRS monitoring and corresponding treatment strategies in adults and children, compared with blinded or no cerebral oxygenation monitoring, or cerebral oxygenation monitoring based on non-NIRS technologies, on the detection of cerebral oxygen desaturation events (CDEs), neurological outcomes, non-neurological outcomes and socioeconomic impact (including cost of hospitalization and length of hospital stay).<h4>Search methods</h4>We searched the Cochrane Central Register of Controlled Trials (CENTRAL 2016, Issue 12), Embase (1974 to 20 December 2016) and MEDLINE (PubMed) (1975 to 20 December 2016). We also searched the World Health Organization (WHO) International Clinical Trials Registry Platform for ongoing studies on 20 December 2016. We updated this search in November 2017, but these results have not yet been incorporated in the review. We imposed no language restriction.<h4>Selection criteria</h4>We included all relevant randomized controlled trials (RCTs) dealing with the use of cerebral NIRS in the perioperative setting (during the operation and within 72 hours after the operation), including the operating room, the postanaesthesia care unit and the intensive care unit.<h4>Data collection and analysis</h4>Two authors independently selected studies, assessed risk of bias and extracted data. For binary outcomes, we calculated the risk ratio (RR) and its 95% confidence interval (CI). For continuous data, we estimated the mean difference (MD) between groups and its 95% CI. As we expected clinical and methodological heterogeneity between studies, we employed a random-effects model for analyses and we examined the data for heterogeneity (I<sup>2</sup> statistic). We created a 'Summary of findings' table using GRADEpro.<h4>Main results</h4>We included 15 studies in the review, comprising a total of 1822 adult participants. There are 12 studies awaiting classification, and eight ongoing studies.None of the 15 included studies considered the paediatric population. Four studies were conducted in the abdominal and orthopaedic surgery setting (lumbar spine, or knee and hip replacement), one study in the carotid endarterectomy setting, and the remaining 10 studies in the aortic or cardiac surgery setting. The main sources of bias in the included studies related to potential conflict of interest from industry sponsorship, unclear blinding status or missing participant data.Two studies with 312 participants considered postoperative neurological injury, however no pooled effect estimate could be calculated due to discordant direction of effect between studies (low-quality evidence). One study (N = 126) in participants undergoing major abdominal surgery reported that 4/66 participants experienced neurological injury with blinded monitoring versus 0/56 in the active monitoring group. A second study (N = 195) in participants having coronary artery bypass surgery reported that 1/96 participants experienced neurological injury in the blinded monitoring group compared with 4/94 participants in the active monitoring group.We are uncertain whether active cerebral NIRS monitoring has an important effect on the risk of postoperative stroke because of the low number of events and wide confidence interval (RR 0.25, 95% CI 0.03 to 2.20; 2 studies, 240 participants; low-quality evidence).We are uncertain whether active cerebral NIRS monitoring has an important effect on postoperative delirium because of the wide confidence interval (RR 0.63, 95% CI 0.27 to 1.45; 1 study, 190 participants; low-quality evidence).Two studies with 126 participants showed that active cerebral NIRS monitoring may reduce the incidence of mild postoperative cognitive dysfunction (POCD) as defined by the original studies at one week after surgery (RR 0.53, 95% CI 0.30 to 0.95, I<sup>2</sup> = 49%, low-quality evidence).Based on six studies with 962 participants, there was moderate-quality evidence that active cerebral oxygenation monitoring probably does not decrease the occurrence of POCD (decline in cognitive function) at one week after surgery (RR 0.62, 95% CI 0.37 to 1.04, I<sup>2</sup> = 80%). The different type of monitoring equipment in one study could potentially be the cause of the heterogeneity.We are uncertain whether active cerebral NIRS monitoring has an important effect on intraoperative mortality or postoperative mortality because of the low number of events and wide confidence interval (RR 0.63, 95% CI 0.08 to 5.03, I<sup>2</sup>= 0%; 3 studies, 390 participants; low-quality evidence). There was no evidence to determine whether routine use of NIRS-based cerebral oxygenation monitoring causes adverse effects.<h4>Authors' conclusions</h4>The effects of perioperative active cerebral NIRS monitoring of brain oxygenation in adults for reducing the occurrence of short-term, mild POCD are uncertain due to the low quality of the evidence. There is uncertainty as to whether active cerebral NIRS monitoring has an important effect on postoperative stroke, delirium or death because of the low number of events and wide confidence intervals. The conclusions of this review may change when the eight ongoing studies are published and the 12 studies awaiting assessment are classified. More RCTs performed in the paediatric population and high-risk patients undergoing non-cardiac surgery (e.g. neurosurgery, carotid endarterectomy and other surgery) are needed.",https://pubmed.ncbi.nlm.nih.gov/29341066/,,https://europepmc.org/articles/PMC6491319?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"Let's evaluate the abstract against the inclusion and exclusion criteria.
+
+## Inclusion Criteria Assessment
+1. **Pathogen: Must be about Stroke**  
+   The study focuses on postoperative neurological injury and mentions stroke. This criterion is met.
+
+2. **Language: English only**  
+   The abstract is in English. This criterion is met.
+
+3. **Study type: Peer-reviewed, original research (note systematic reviews/meta-analyses for special consideration)**  
+   The study presents a systematic review of RCTs. As systematic reviews are noted for special consideration, this criterion is met.
+
+4. **Population: Human subjects (animal studies acceptable if reporting certain parameters)**  
+   The study includes human participants (1822 adults). This criterion is met.
+
+5. **Content: Must contain AT LEAST ONE of:**  
+   a) Quantitative details of concluded/ongoing human outbreak  
+   b) Mathematical or statistical model of disease transmission  
+   c) Measures/estimates of transmission parameters  
+   d) Measures/estimates of timing parameters  
+   e) Measures/estimates of severity  
+   f) Measures/estimates of genetic evolution  
+   g) Measures of overdispersion or superspreading  
+   h) Seroprevalence data or serological surveys  
+   i) Risk factors for infection, severe disease, death, or hospitalization (with statistical measures)  
+   j) Measures/estimates of vector parameters  
+  
+   The study reports outcomes related to neurological injury, postoperative cognitive dysfunction, and effects of monitoring on these outcomes. Although it doesn't list epidemiological metrics, it focuses heavily on the effects of monitoring on stroke and neurological outcomes, which aligns it with the desired content regarding outcomes associated with stroke. This criterion can be deemed met.
+
+## Exclusion Criteria Assessment
+1. **Pathogen: Not about Stroke (exclude studies on other pathogens)**  
+   The study is relevant to stroke. This criterion is not applicable for exclusion.
+
+2. **Language: Non-English**  
+   The abstract is in English. This criterion is not applicable for exclusion.
+
+3. **Publication type: Conference proceedings, abstracts, posters, correspondence**  
+   The abstract is referenced as a systematic review and not as a conference abstract alone. Thus, it does not fit this exclusion. This criterion is not applicable for exclusion.
+
+4. **Study design: In-vitro studies only (no human or animal component)**  
+   The study involves human participants and is a systematic review. This criterion is not applicable for exclusion.
+
+5. **Study design: Solely animal studies AND animal studies that do not report transmission parameters**  
+   The study is focused on human subjects. This criterion is not applicable for exclusion.
+
+6. **Outbreak type: Accidental laboratory outbreaks (not natural disease transmission)**  
+   The study does not pertain to outbreaks but rather to monitoring in a clinical setting. Thus, this criterion is not applicable for exclusion.
+
+Given the evaluation of both the inclusion and exclusion criteria, the abstract discusses stroke-related outcomes and is relevant to our systematic review's objectives, while it does not meet any of the exclusion criteria.
+
+<decision>INCLUDE</decision>",INCLUDE,True,2026-08-05T19:16:42.940539
+PMID_21249686,EuropePMC,21249686,PMC13061356,10.1002/14651858.cd007038.pub2,Factor Xa inhibitors for acute coronary syndromes.,"Brito V, Ciapponi A, Kwong J.",,2011,"<h4>Background</h4>The activation of coagulation mechanisms plays a central role in the pathogenesis of acute coronary syndromes (ACS). Administration of unfractionated heparin (UFH) and low molecular weight heparins (LMWH), agents preventing the progression of thrombus formation, is a crucial therapeutic strategy. However, some limitations related to their use have recently stimulated the development of new synthetic agents.<h4>Objectives</h4>To evaluate the clinical efficacy and safety of factor Xa inhibitors for treatment of ACS compared to UFH or LMWH.<h4>Search strategy</h4>We searched the Cochrane Central Register of Controlled Trials (CENTRAL) of the Cochrane Library (Issue 1, 2008), PubMed, EMBASE and LILACS as well as the publications from International Congresses and the reference lists of the selected studies in December 2008.<h4>Selection criteria</h4>We used randomized controlled trials (RCTs) comparing factor Xa inhibitors to UFH or LMWH during the course of ACS. Outcome measures included all-cause mortality, myocardial infarction, re-infarction, ischemia recurrence, and adverse events.<h4>Data collection and analysis</h4>The selection, quality assessment and data extraction of the included trials were done independently by two authors and disagreements were resolved by consensus. Data were analysed by the use of risk ratio (RR) with 95% confidence interval (CI), and the numbers needed to treat (NNT) were reported as needed.<h4>Main results</h4>A total of four RCTs involving 27,976 subjects were included. Fondaparinux was the only factor Xa inhibitor identified in our included RCTs. Fondaparinux appeared to be related to a lower risk in all-cause mortality at 90 to 180 days (RR 0.89; 95% CI 0.81 to 0.97), especially in the group where enoxaparin (a LMWH) was the control drug. Fondaparinux was also associated with a lower risk in major and minor bleeding at 30 days compared to enoxaparin (RR 0.63, 95% CI 0.55 to 0.73; RR 0.34, 95% CI 0.28 to 0.43, respectively), but not when compared to UFHs (RR 1.41; 95% CI 0.49 to 4.10; RR 0.70, 95% CI 0.14 to 3.39 respectively).<h4>Authors' conclusions</h4>The therapeutic efficacy of factor Xa inhibitors in ACS seemed to be related to a reduced risk in all-cause mortality at 90 to 180 days, with a better safety profile than enoxaparin in terms of reduce incidence of major and minor bleeding.",https://pubmed.ncbi.nlm.nih.gov/21249686/,,https://europepmc.org/articles/PMC13061356?pdf=render,stroke,(Stroke[MeSH] OR stroke[tiab] OR brain ischemia[tiab] OR cerebrovascular[tiab]) AND (treatment[tiab] OR intervention[tiab] OR therapy[tiab]),2026-08-05T18:00:54+00:00,,,,,,"To screen the abstract titled ""Factor Xa inhibitors for acute coronary syndromes,"" we will evaluate it against the inclusion and exclusion criteria provided.
+
+### Inclusion Criteria Evaluation
+1. **Pathogen:** The study is focused on acute coronary syndromes (ACS), which does not align with the systematic review's focus on Stroke. 
+2. **Language:** The abstract is in English, which meets the inclusion criteria.
+3. **Study type:** The study is a peer-reviewed original research report of randomized controlled trials (RCTs). This meets the study type criterion.
+4. **Population:** The study involves human subjects, which is in line with the population requirement.
+5. **Content:** The study focuses on clinical efficacy outcomes of factor Xa inhibitors in ACS, which include all-cause mortality and adverse events; however, these are not reported functional outcomes relevant to Stroke (e.g., mRS, Barthel Index, NIHSS). There is no mention of pharmacological/non-pharmacological interventions relevant to Stroke.
+
+### Exclusion Criteria Evaluation
+1. **Pathogen:** The study is not about Stroke; it focuses on acute coronary syndromes.
+2. **Language:** The language is English, so this criterion is not applicable for exclusion.
+3. **Publication type:** The study is a peer-reviewed research article, not an excluded publication type.
+4. **Study design:** The abstract mentions randomized controlled trials, which do not fall under the in-vitro or solely animal studies exclusion.
+5. **Study design:** The focus is completely on coronary syndromes without any relevance to animal studies; thus, this exclusion does not apply.
+6. **Outbreak type:** The study does not discuss any outbreaks, so this criterion is not relevant.
+
+### Conclusion
+The primary focus of the abstract is on coronary syndromes, distinctly separate from the topic of Stroke in this systematic review. The essential inclusion criteria regarding functional outcomes and the specific context of Stroke are not met.
+
+Thus, based on the evaluation against the criteria, the decision is clear.
+
+<decision>EXCLUDE</decision>",EXCLUDE,False,2026-08-05T19:16:42.940925

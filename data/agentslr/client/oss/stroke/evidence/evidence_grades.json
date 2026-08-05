@@ -1,0 +1,92 @@
+[
+  {
+    "article_id": "PMID_42545629",
+    "title": "Efficacy and Safety of an Early Aggressive Lipid-Lowering Strategy Using Triple Therapy After Mechanical Thrombectomy.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=197",
+    "justification": "The study is a retrospective analysis of patients with acute ischemic stroke who underwent mechanical thrombectomy, comparing outcomes between two treatment groups, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42535224",
+    "title": "Effectiveness and Safety of Minimally Invasive Surgery for Infratentorial Hemorrhages: A Meta-Analysis of Clinical and Technical Outcomes.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=17 studies",
+    "justification": "The study is a systematic review and meta-analysis that synthesizes data from multiple studies, which is the highest level of evidence. However, it does not specify if the included studies were randomized controlled trials.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42534689",
+    "title": "Mechanistic and clinical investigation of Jiajiang Xuming decoction in multi-modal programmed cell death in stroke-associated pneumonia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=100",
+    "justification": "The study is a single-centre retrospective cohort study comparing outcomes in stroke-associated pneumonia patients with a control group, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42531250",
+    "title": "A Multiagent Large Language Model Framework for Emergency Treatment Recommendation in Acute Ischemic Stroke: Development and Validation Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective and prospective cohort study",
+    "sample_size": "n=1055 (group A), n=721 (group B), n=144 (group C), n=161 (group D)",
+    "justification": "The study involves the evaluation of a multiagent LLM framework using both retrospective and prospective cases, which fits the definition of a cohort study. It assesses treatment recommendations and decision-making accuracy among physicians without randomization.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42530894",
+    "title": "Effect of Visual Modification by Video See-Through Augmented Reality with REHA-Glasses on Postural Verticality in Individuals with Post-Stroke Lateropulsion.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Single-arm exploratory interventional study",
+    "sample_size": "n=24",
+    "justification": "The study is a single-arm exploratory interventional study without a control group, which does not meet the criteria for higher levels of evidence such as randomized controlled trials or cohort studies.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42529513",
+    "title": "Diagnostic value of cardiovascular biomarkers for cerebral-cardiac syndrome risk in acute ischemic stroke.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=177",
+    "justification": "The study is a retrospective analysis of patients with acute ischemic stroke, which fits the definition of a cohort study. It evaluates the diagnostic value of biomarkers for a specific condition in a defined patient population.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41536190",
+    "title": "Effectiveness of various dosage parameters of Wii Fit Plus exergames for enhancing balance and postural control among people post-stroke: a systematic review protocol.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review protocol",
+    "sample_size": "unknown",
+    "justification": "The paper outlines a systematic review protocol aimed at synthesizing evidence from various studies, including randomized controlled trials, which aligns with Level 1 evidence. However, the actual sample size is not mentioned as this is a protocol and not a completed study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_29233831",
+    "title": "The Efficacy of the proprioceptive neuromuscular facilitation (PNF) approach in stroke rehabilitation to improve basic activities of daily living and quality of life: a systematic review and meta-analysis protocol.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis protocol",
+    "sample_size": "unknown",
+    "justification": "The paper describes a protocol for a systematic review and meta-analysis that will include randomised or quasi-randomised controlled trials, which aligns with Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_29341066",
+    "title": "Cerebral near-infrared spectroscopy (NIRS) for perioperative monitoring of brain oxygenation in children and adults.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomized controlled trials",
+    "sample_size": "n=1822",
+    "justification": "The paper is a systematic review that includes multiple randomized controlled trials assessing the effects of cerebral NIRS monitoring, which qualifies it for Level 1 evidence. The sample size of 1822 participants indicates a comprehensive analysis of the available data.",
+    "confidence": 0.8
+  }
+]
