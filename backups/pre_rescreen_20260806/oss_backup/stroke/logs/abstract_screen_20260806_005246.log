@@ -1,0 +1,9 @@
+2026-08-06 00:52:47,639 - INFO - Loading abstract screening input from: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/stroke/harvest_metadata.csv
+2026-08-06 00:52:47,657 - INFO - Screening 348 metadata rows without download filtering
+2026-08-06 00:52:47,660 - INFO - Sampling 80 of 348 abstract-screening rows with seed=7
+2026-08-06 00:52:47,660 - INFO - Screening 80 papers
+2026-08-06 00:52:47,661 - INFO - Reasoning traces will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/stroke/logs/abstract_screening_dumps_2026-08-06_00-52-47
+2026-08-06 00:52:47,684 - INFO - Results will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/stroke/screening/abstract_screening.csv
+2026-08-06 00:52:47,684 - INFO - Run ID: 2026-08-06_00-52-47
+2026-08-06 01:00:07,001 - INFO - Included 19 papers for full-text review
+2026-08-06 01:00:07,001 - INFO - Abstract screening summary: total=80 included=19 excluded=61

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "AD1",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve cognitive function (ADAS-Cog score) in patients with mild-to-severe Alzheimer's disease after 24-26 weeks compared to placebo?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, donepezil has been shown to improve cognitive function in patients with mild-to-severe Alzheimer's disease compared to placebo, as measured by the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog). A systematic review of randomized controlled trials indicated that donepezil treatment resulted in a statistically significant reduction in ADAS-Cog scores, with effect sizes typically ranging from 0.3 to 0.5, indicating a moderate effect. Specifically, in studies lasting 24-26 weeks, donepezil demonstrated improvements in cognitive function, with mean differences in ADAS-Cog scores often exceeding 2 points compared to placebo, which is considered clinically meaningful.",
+    "timestamp": "2026-08-06T21:47:49.391206"
+  },
+  {
+    "id": "AD2",
+    "condition": "alzheimers",
+    "question": "What quality of evidence supports donepezil's benefit for activities of daily living in Alzheimer's disease?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review of randomized controlled trials (RCTs) indicates that donepezil has a modest effect on activities of daily living (ADLs) in patients with Alzheimer's disease. The evidence suggests a standardized mean difference (SMD) of approximately 0.25 to 0.30 in favor of donepezil compared to placebo, indicating a small but statistically significant improvement in ADLs. However, the quality of evidence is generally rated as moderate due to limitations in study design and variability in outcomes measured across trials. Overall, while donepezil may provide some benefit in maintaining ADLs, the clinical significance of this effect can vary among individuals.",
+    "timestamp": "2026-08-06T21:47:53.065917"
+  },
+  {
+    "id": "AD3",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve patient-reported quality of life in Alzheimer's disease?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review of randomized controlled trials indicates that donepezil may have a modest effect on patient-reported quality of life in Alzheimer's disease. Specifically, studies have shown that donepezil treatment is associated with a small to moderate improvement in quality of life measures, with effect sizes typically ranging from 0.2 to 0.4 on standardized scales such as the Quality of Life in Alzheimer's Disease (QoL-AD) scale. However, the clinical significance of these improvements can be debated, and the benefits may vary among individuals. Overall, while donepezil can enhance cognitive function, its impact on quality of life is less pronounced and should be considered alongside other treatment goals.",
+    "timestamp": "2026-08-06T21:47:56.259765"
+  },
+  {
+    "id": "AD4",
+    "condition": "alzheimers",
+    "question": "Which cognitive enhancer combination shows the greatest MMSE improvement in Alzheimer's disease according to network meta-analysis?",
+    "baseline": "B2_gpt_raw",
+    "response": "According to a network meta-analysis published in 2021, the combination of donepezil and memantine showed the greatest improvement in Mini-Mental State Examination (MMSE) scores in patients with Alzheimer's disease. The effect size for this combination was reported as a standardized mean difference of approximately 0.45 (95% CI: 0.25 to 0.65) compared to placebo. This combination was found to be more effective than either drug alone, highlighting the potential benefits of dual therapy in managing cognitive decline in Alzheimer's disease.",
+    "timestamp": "2026-08-06T21:48:00.439387"
+  },
+  {
+    "id": "AD5",
+    "condition": "alzheimers",
+    "question": "Is donepezil cost-neutral in terms of total healthcare costs for Alzheimer's treatment?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review of economic evaluations regarding donepezil for Alzheimer's treatment indicates mixed results regarding cost neutrality. Some studies suggest that while donepezil may improve cognitive function and quality of life, the associated healthcare costs can be higher due to the drug's price and potential increased healthcare utilization. For instance, a study reported an incremental cost-effectiveness ratio (ICER) of approximately $50,000 per quality-adjusted life year (QALY) gained, which is often considered a threshold for cost-effectiveness. However, the overall impact on total healthcare costs varies significantly based on the healthcare system and patient population studied. Thus, while donepezil may provide clinical benefits, its cost-effectiveness is not universally established as cost-neutral.",
+    "timestamp": "2026-08-06T21:48:04.052216"
+  },
+  {
+    "id": "AD6",
+    "condition": "alzheimers",
+    "question": "How many participants were included in the most recent Cochrane update on donepezil for dementia?",
+    "baseline": "B2_gpt_raw",
+    "response": "The most recent Cochrane review on donepezil for dementia, updated in 2022, included data from 34 studies with a total of 5,200 participants. This review assessed the efficacy and safety of donepezil in individuals with Alzheimer's disease and other types of dementia, providing a comprehensive analysis of its effects on cognitive function and overall clinical outcomes.",
+    "timestamp": "2026-08-06T21:48:07.300371"
+  },
+  {
+    "id": "PD1",
+    "condition": "parkinsons",
+    "question": "Does adjuvant therapy (added to levodopa) reduce 'off-time' in Parkinson's disease patients with motor complications?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, adjuvant therapies added to levodopa can significantly reduce 'off-time' in Parkinson's disease patients with motor complications. A systematic review and meta-analysis indicated that the use of dopamine agonists, COMT inhibitors, or MAO-B inhibitors as adjuvant therapies can lead to a reduction in 'off-time' by approximately 1 to 2 hours per day compared to levodopa alone. For instance, studies have shown that adding a COMT inhibitor like entacapone can reduce 'off-time' by about 1.5 hours daily (effect size ~0.5). These findings highlight the efficacy of adjuvant therapies in managing motor fluctuations in Parkinson's disease.",
+    "timestamp": "2026-08-06T21:48:10.732295"
+  },
+  {
+    "id": "PD2",
+    "condition": "parkinsons",
+    "question": "What are the trade-offs of adjuvant therapy for Parkinson's motor complications?",
+    "baseline": "B2_gpt_raw",
+    "response": "Adjuvant therapy for Parkinson's motor complications, such as the addition of dopamine agonists or MAO-B inhibitors, can improve motor symptoms and reduce \"off\" time. However, these therapies may also lead to increased side effects, including dyskinesias, hallucinations, and impulse control disorders. A systematic review indicated that while dopamine agonists can reduce \"off\" time by approximately 1-2 hours per day, they may increase the risk of dyskinesias by about 20-30% compared to levodopa alone. Therefore, the trade-off involves balancing improved motor control against the potential for adverse effects that can significantly impact quality of life.",
+    "timestamp": "2026-08-06T21:48:14.262580"
+  },
+  {
+    "id": "PD3",
+    "condition": "parkinsons",
+    "question": "How many randomised trials and participants were included in the Cochrane review of adjuvant Parkinson's therapy?",
+    "baseline": "B2_gpt_raw",
+    "response": "The Cochrane review on adjuvant therapies for Parkinson's disease included 33 randomized controlled trials with a total of 5,000 participants. The review assessed various adjuvant treatments, such as dopamine agonists and COMT inhibitors, and provided insights into their efficacy and safety in managing motor symptoms and complications associated with Parkinson's disease. The findings highlighted the importance of individualized treatment approaches based on patient needs and responses.",
+    "timestamp": "2026-08-06T21:48:16.850513"
+  },
+  {
+    "id": "PD4",
+    "condition": "parkinsons",
+    "question": "Which drug class may provide more effective symptomatic control than COMTI and MAOBI therapy in Parkinson's disease?",
+    "baseline": "B2_gpt_raw",
+    "response": "Dopamine agonists (DAs) may provide more effective symptomatic control than catechol-O-methyltransferase inhibitors (COMTIs) and monoamine oxidase B inhibitors (MAOBIs) in Parkinson's disease. A systematic review indicated that DAs, such as pramipexole and ropinirole, can improve motor symptoms and quality of life, with effect sizes ranging from moderate to large (Cohen's d = 0.5 to 0.8) compared to placebo. Additionally, DAs can be used as adjunct therapy to levodopa, potentially reducing motor fluctuations more effectively than COMTIs or MAOBIs alone. However, the risk of side effects, such as impulse control disorders, should be considered when prescribing these medications.",
+    "timestamp": "2026-08-06T21:48:20.306084"
+  },
+  {
+    "id": "PD5",
+    "condition": "parkinsons",
+    "question": "Is there significant evidence of efficacy differences between individual drugs within the same drug class for Parkinson's motor complications?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, there is evidence suggesting efficacy differences among individual drugs within the same class for managing motor complications in Parkinson's disease. For instance, a systematic review comparing dopamine agonists found that pramipexole and ropinirole had different effects on motor symptoms, with pramipexole showing a greater reduction in the Unified Parkinson's Disease Rating Scale (UPDRS) scores (effect size of approximately 0.4) compared to ropinirole. Additionally, studies have indicated that the addition of entacapone to levodopa therapy can significantly improve motor fluctuations, with a mean difference in ON time of about 1.5 hours per day. However, individual responses can vary, and the choice of medication should be tailored to the patient's specific symptoms and side effect profiles.",
+    "timestamp": "2026-08-06T21:48:23.831960"
+  },
+  {
+    "id": "PD6",
+    "condition": "parkinsons",
+    "question": "What further research does the Cochrane review recommend for Parkinson's adjuvant therapies?",
+    "baseline": "B2_gpt_raw",
+    "response": "The Cochrane review on adjuvant therapies for Parkinson's disease highlights the need for further research to evaluate the long-term efficacy and safety of various adjuvant treatments, particularly in diverse populations. It emphasizes the importance of conducting large-scale, high-quality randomized controlled trials (RCTs) that assess the impact of these therapies on quality of life, motor symptoms, and non-motor symptoms. Additionally, the review calls for studies that explore the mechanisms of action of these therapies and their effects in early versus advanced stages of Parkinson's disease. Overall, there is a need for more robust evidence to guide clinical practice and inform treatment decisions.",
+    "timestamp": "2026-08-06T21:48:26.857592"
+  },
+  {
+    "id": "MS1",
+    "condition": "multiple_sclerosis",
+    "question": "Does mitoxantrone reduce disability progression in worsening multiple sclerosis compared to placebo?",
+    "baseline": "B2_gpt_raw",
+    "response": "Mitoxantrone has been shown to reduce disability progression in patients with worsening multiple sclerosis compared to placebo. A systematic review of clinical trials indicated that mitoxantrone can lead to a significant reduction in the risk of disability progression, with a relative risk reduction of approximately 30-40% over a treatment period of 2-3 years. However, the treatment is associated with potential serious side effects, including cardiotoxicity and secondary malignancies, which necessitate careful patient selection and monitoring. Overall, while mitoxantrone can be effective, its use must be weighed against these risks.",
+    "timestamp": "2026-08-06T21:48:30.039210"
+  },
+  {
+    "id": "MS2",
+    "condition": "multiple_sclerosis",
+    "question": "How much do interferon beta and glatiramer acetate reduce relapses in the first year of relapsing-remitting MS treatment?",
+    "baseline": "B2_gpt_raw",
+    "response": "Interferon beta and glatiramer acetate have been shown to significantly reduce relapse rates in patients with relapsing-remitting multiple sclerosis (RRMS). A systematic review indicated that interferon beta can reduce the annualized relapse rate by approximately 30% to 40% compared to placebo in the first year of treatment. Similarly, glatiramer acetate has been associated with a reduction in relapse rates of about 30% compared to placebo. The effect sizes can vary based on specific formulations and patient populations, but these figures provide a general estimate of their efficacy in the early treatment phase.",
+    "timestamp": "2026-08-06T21:48:33.311321"
+  },
+  {
+    "id": "MS3",
+    "condition": "multiple_sclerosis",
+    "question": "Is there evidence of benefit from interferon beta or glatiramer acetate in MS beyond 1 year of treatment?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, there is evidence supporting the continued benefit of interferon beta and glatiramer acetate in multiple sclerosis (MS) beyond one year of treatment. A systematic review indicated that both therapies are associated with a reduction in relapse rates and disability progression over extended periods. For instance, studies have shown that interferon beta can reduce annualized relapse rates by approximately 30% compared to placebo over several years, while glatiramer acetate has demonstrated similar efficacy. Long-term data suggest that these treatments maintain their effectiveness, with sustained benefits observed in disability measures over 2 to 5 years of treatment.",
+    "timestamp": "2026-08-06T21:48:36.873414"
+  },
+  {
+    "id": "MS4",
+    "condition": "multiple_sclerosis",
+    "question": "Do disease-modifying therapies (DMTs) reduce the risk of disability progression in relapsing-remitting MS compared to placebo?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, disease-modifying therapies (DMTs) significantly reduce the risk of disability progression in relapsing-remitting multiple sclerosis (RRMS) compared to placebo. A systematic review of clinical trials indicated that DMTs such as interferon beta and glatiramer acetate reduce the risk of disability progression by approximately 30-40% over two years compared to placebo. For instance, in the pivotal trials for interferon beta-1a, the hazard ratio for disability progression was reported as 0.66 (95% CI: 0.50-0.87), indicating a substantial protective effect. Overall, DMTs are considered effective in delaying disability progression in RRMS.",
+    "timestamp": "2026-08-06T21:48:40.272267"
+  },
+  {
+    "id": "MS5",
+    "condition": "multiple_sclerosis",
+    "question": "Does the route of administration (injectable vs oral) affect the efficacy of disease-modifying therapies on disability progression in MS?",
+    "baseline": "B2_gpt_raw",
+    "response": "Systematic reviews indicate that the route of administration can influence the efficacy of disease-modifying therapies (DMTs) in multiple sclerosis (MS), particularly regarding disability progression. Injectable therapies, such as interferon beta and glatiramer acetate, have shown moderate effects on reducing disability progression, with effect sizes typically around 30% reduction in the risk of disability worsening compared to placebo. In contrast, oral therapies like fingolimod and dimethyl fumarate have demonstrated more robust efficacy, with some studies reporting up to a 50% reduction in disability progression. However, the choice of therapy should also consider individual patient factors and side effect profiles, as these can significantly impact treatment adherence and overall outcomes.",
+    "timestamp": "2026-08-06T21:48:44.265019"
+  },
+  {
+    "id": "MS6",
+    "condition": "multiple_sclerosis",
+    "question": "Which disease-modifying therapies show high-confidence evidence of reducing new or enlarging T2 brain lesions in MS?",
+    "baseline": "B2_gpt_raw",
+    "response": "High-confidence evidence from systematic reviews indicates that several disease-modifying therapies (DMTs) significantly reduce new or enlarging T2 brain lesions in multiple sclerosis (MS). Notably, natalizumab has shown a substantial effect, with a relative reduction in new T2 lesions of approximately 68% compared to placebo (95% CI: 56-77%). Fingolimod also demonstrates a significant reduction, with about a 54% decrease in new lesions (95% CI: 41-64%). Additionally, ocrelizumab has been associated with a 47% reduction in new or enlarging T2 lesions (95% CI: 36-56%). These findings are supported by large-scale clinical trials and meta-analyses, providing robust evidence for the efficacy of these therapies in managing MS.",
+    "timestamp": "2026-08-06T21:48:47.442863"
+  },
+  {
+    "id": "EP1",
+    "condition": "epilepsy",
+    "question": "What proportion of people with epilepsy can achieve seizure freedom using a single antiepileptic drug (AED) as monotherapy?",
+    "baseline": "B2_gpt_raw",
+    "response": "Approximately 50-70% of individuals with newly diagnosed epilepsy can achieve seizure freedom with a single antiepileptic drug (AED) as monotherapy. A systematic review indicated that the likelihood of achieving seizure freedom varies based on factors such as the type of epilepsy and the specific AED used. For instance, studies have shown that first-line AEDs like lamotrigine and levetiracetam have a higher efficacy, with around 60-70% of patients achieving seizure control within the first year of treatment. However, long-term seizure freedom rates may decrease over time, with about 30-40% maintaining seizure freedom after several years.",
+    "timestamp": "2026-08-06T21:48:50.029707"
+  },
+  {
+    "id": "EP2",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drugs show the best treatment failure and seizure control profile for focal onset seizures?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review of antiepileptic drugs (AEDs) for focal onset seizures indicates that lamotrigine and levetiracetam are among the most effective options, with lamotrigine showing a median retention rate of approximately 60-70% at 12 months. In terms of seizure control, levetiracetam has demonstrated a responder rate (\u226550% seizure reduction) of around 50-60% in clinical trials. Additionally, carbamazepine and oxcarbazepine are also effective, with responder rates of about 50-55%, but they may have higher rates of treatment discontinuation due to side effects. Overall, lamotrigine and levetiracetam are often preferred due to their favorable balance of efficacy and tolerability.",
+    "timestamp": "2026-08-06T21:48:53.940865"
+  },
+  {
+    "id": "EP3",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drug has the best profile for generalised tonic-clonic seizures?",
+    "baseline": "B2_gpt_raw",
+    "response": "Based on systematic reviews, lamotrigine and levetiracetam are often highlighted as effective first-line treatments for generalized tonic-clonic seizures (GTCS). A meta-analysis indicated that lamotrigine has a moderate effect size (Cohen's d = 0.5) in reducing seizure frequency compared to placebo. Levetiracetam also shows a favorable profile, with a significant reduction in seizure frequency and a lower incidence of side effects compared to older antiepileptic drugs. However, individual response can vary, and treatment should be tailored based on patient-specific factors.",
+    "timestamp": "2026-08-06T21:48:57.005817"
+  },
+  {
+    "id": "EP4",
+    "condition": "epilepsy",
+    "question": "How many AEDs were compared in the 2022 Cochrane network meta-analysis of epilepsy monotherapy?",
+    "baseline": "B2_gpt_raw",
+    "response": "The 2022 Cochrane network meta-analysis of epilepsy monotherapy compared 12 antiepileptic drugs (AEDs). This comprehensive analysis aimed to evaluate the efficacy and tolerability of these medications in treating focal and generalized epilepsy. The study provided insights into the relative effectiveness of each AED, with effect sizes indicating varying levels of seizure control and side effects among the different treatments.",
+    "timestamp": "2026-08-06T21:48:59.628905"
+  },
+  {
+    "id": "EP5",
+    "condition": "epilepsy",
+    "question": "What percentage of people with epilepsy experience refractory or drug-resistant seizures despite treatment?",
+    "baseline": "B2_gpt_raw",
+    "response": "Approximately 30% of individuals with epilepsy experience refractory or drug-resistant seizures despite treatment. This statistic is supported by systematic reviews indicating that around one-third of patients do not achieve adequate seizure control with available antiepileptic drugs. The definition of drug-resistant epilepsy typically involves failure of two or more appropriately chosen and used antiepileptic medications.",
+    "timestamp": "2026-08-06T21:49:04.542363"
+  },
+  {
+    "id": "EP6",
+    "condition": "epilepsy",
+    "question": "What guidelines currently recommend carbamazepine or lamotrigine as first-line treatment for focal seizures?",
+    "baseline": "B2_gpt_raw",
+    "response": "Current guidelines, including those from the International League Against Epilepsy (ILAE) and the National Institute for Health and Care Excellence (NICE), recommend both carbamazepine and lamotrigine as first-line treatments for focal seizures. A systematic review indicated that carbamazepine has a response rate of approximately 60-70% in achieving seizure freedom, while lamotrigine shows a similar efficacy with a response rate around 50-60%. The choice between these medications often depends on patient-specific factors, including side effect profiles and comorbid conditions.",
+    "timestamp": "2026-08-06T21:49:07.512671"
+  },
+  {
+    "id": "ST1",
+    "condition": "stroke",
+    "question": "Does thrombolysis with alteplase improve functional outcome after acute ischaemic stroke compared to no treatment?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, thrombolysis with alteplase significantly improves functional outcomes after acute ischemic stroke compared to no treatment. A systematic review and meta-analysis of randomized controlled trials indicated that patients receiving alteplase had a higher likelihood of achieving a favorable functional outcome (defined as a modified Rankin Scale score of 0-1) at 90 days, with an odds ratio of approximately 1.75 (95% CI: 1.50-2.05). Additionally, the treatment window for alteplase is typically within 4.5 hours of symptom onset, and the benefits are most pronounced in patients treated early. However, the risk of symptomatic intracranial hemorrhage is increased, with an incidence of about 6.4% in treated patients compared to 0.6% in controls.",
+    "timestamp": "2026-08-06T21:49:10.659346"
+  },
+  {
+    "id": "ST2",
+    "condition": "stroke",
+    "question": "Within what time window is alteplase licensed for use in acute ischaemic stroke in most European countries?",
+    "baseline": "B2_gpt_raw",
+    "response": "Alteplase is licensed for use in acute ischemic stroke within a time window of 4.5 hours from the onset of symptoms in most European countries. This recommendation is based on evidence from clinical trials, including the ECASS III study, which demonstrated that treatment within this timeframe can significantly improve outcomes, with a number needed to treat (NNT) of approximately 8 to achieve favorable outcomes (defined as a modified Rankin Scale score of 0-1) at 90 days. However, some countries may have specific protocols that allow for treatment up to 3 hours or have additional criteria for extending the window in certain cases.",
+    "timestamp": "2026-08-06T21:49:13.861651"
+  },
+  {
+    "id": "ST3",
+    "condition": "stroke",
+    "question": "How does reteplase compare to alteplase for functional outcomes in acute ischaemic stroke?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review and meta-analysis comparing reteplase and alteplase for acute ischemic stroke found that both thrombolytics are effective, but alteplase is generally preferred due to its established efficacy and safety profile. The studies indicated that alteplase (0.9 mg/kg) is associated with a higher rate of favorable functional outcomes (measured by the modified Rankin Scale) at 90 days, with an odds ratio of approximately 1.5 (95% CI: 1.2-1.9) compared to reteplase. However, reteplase may offer a quicker administration due to its bolus dosing, which could be beneficial in certain clinical scenarios. Overall, while reteplase shows promise, alteplase remains the standard treatment based on current evidence.",
+    "timestamp": "2026-08-06T21:49:16.750467"
+  },
+  {
+    "id": "ST4",
+    "condition": "stroke",
+    "question": "Is there a difference in mortality outcomes between different thrombolytic agents for acute ischaemic stroke?",
+    "baseline": "B2_gpt_raw",
+    "response": "A systematic review of thrombolytic agents for acute ischemic stroke indicates that there is no significant difference in mortality outcomes between different agents, such as alteplase and tenecteplase. For instance, a meta-analysis including multiple randomized controlled trials found that the odds ratio for mortality at 90 days was similar across these agents, with confidence intervals typically overlapping (e.g., OR 0.95, 95% CI 0.75-1.20). However, tenecteplase may offer advantages in terms of ease of administration and potential for better functional outcomes, but these do not translate into significant differences in mortality rates. Further studies are needed to clarify long-term outcomes and specific patient populations.",
+    "timestamp": "2026-08-06T21:49:19.799827"
+  },
+  {
+    "id": "ST5",
+    "condition": "stroke",
+    "question": "What serious risk is associated with thrombolytic therapy in acute ischaemic stroke?",
+    "baseline": "B2_gpt_raw",
+    "response": "Thrombolytic therapy, particularly with tissue plasminogen activator (tPA), is associated with an increased risk of symptomatic intracranial hemorrhage (sICH) in patients with acute ischemic stroke. Systematic reviews indicate that the incidence of sICH ranges from 6% to 7% in patients treated with tPA compared to approximately 0.5% to 1% in those receiving placebo. The number needed to treat to benefit from thrombolysis while accepting the risk of sICH is estimated to be around 10 to 15, highlighting the need for careful patient selection and monitoring.",
+    "timestamp": "2026-08-06T21:49:23.108789"
+  },
+  {
+    "id": "ST6",
+    "condition": "stroke",
+    "question": "Does tenecteplase show significantly better functional outcomes than alteplase at 90 days post-stroke?",
+    "baseline": "B2_gpt_raw",
+    "response": "Yes, tenecteplase has been shown to provide significantly better functional outcomes compared to alteplase at 90 days post-stroke. A systematic review and meta-analysis indicated that tenecteplase is associated with a higher rate of favorable outcomes, with an odds ratio of approximately 1.25 for achieving a modified Rankin Scale score of 0-2 at 90 days. Additionally, the EXTEND-IA trial and other studies suggest that tenecteplase may have a more favorable safety profile, with similar rates of symptomatic intracranial hemorrhage compared to alteplase.",
+    "timestamp": "2026-08-06T21:49:25.951113"
+  }
+]

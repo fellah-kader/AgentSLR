@@ -1,0 +1,26 @@
+2026-08-05 18:36:12,675 - INFO - Running harvest stage for pathogen=multiple_sclerosis mode=full
+2026-08-05 18:36:12,675 - INFO - Harvest root: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis
+2026-08-05 18:36:12,675 - INFO - PDF output dir: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/pdfs
+2026-08-05 18:36:12,675 - INFO - Harvest metadata path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/harvest_metadata.csv
+2026-08-05 18:36:12,675 - INFO - Harvest downloaded path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/harvest_downloaded_pdfs.csv
+2026-08-05 18:36:12,675 - INFO - [2026-08-05T17:36:12+00:00] Harvest start: multiple_sclerosis
+2026-08-05 18:36:12,969 - INFO - [2026-08-05T17:36:12+00:00] OpenAlex harvested total: 0
+2026-08-05 18:36:15,174 - INFO - [2026-08-05T17:36:15+00:00] PubMed harvested total: 200
+2026-08-05 18:36:15,837 - INFO - [2026-08-05T17:36:15+00:00] EuropePMC harvested total: 16
+2026-08-05 18:36:15,890 - INFO - [2026-08-05T17:36:15+00:00] Final dedup: 216 -> 207 records
+2026-08-05 18:36:15,901 - INFO - [2026-08-05T17:36:15+00:00] Metadata rows ready for download: 207
+2026-08-05 18:36:15,904 - INFO - [2026-08-05T17:36:15+00:00] Total records: 207
+2026-08-05 18:36:15,904 - INFO - [2026-08-05T17:36:15+00:00] Already downloaded (flagged): 0
+2026-08-05 18:36:15,904 - INFO - [2026-08-05T17:36:15+00:00] To process: 207
+2026-08-05 18:36:15,904 - INFO - [2026-08-05T17:36:15+00:00] Starting downloads with 8 workers
+2026-08-05 18:36:24,458 - INFO - [2026-08-05T17:36:24+00:00] Progress: [50/207] (success: 10)
+2026-08-05 18:36:30,709 - INFO - [2026-08-05T17:36:30+00:00] Progress: [100/207] (success: 21)
+2026-08-05 18:36:37,149 - INFO - [2026-08-05T17:36:37+00:00] Progress: [150/207] (success: 32)
+2026-08-05 18:37:17,991 - INFO - [2026-08-05T17:37:17+00:00] Progress: [200/207] (success: 44)
+2026-08-05 18:38:00,385 - INFO - Complete: multiple_sclerosis
+2026-08-05 18:38:00,385 - INFO - Total records: 207
+2026-08-05 18:38:00,385 - INFO - Successfully downloaded: 50
+2026-08-05 18:38:00,385 - INFO - Failed: 157
+2026-08-05 18:38:00,385 - INFO - Metadata saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/harvest_metadata.csv
+2026-08-05 18:38:00,385 - INFO - Downloaded output saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/harvest_downloaded_pdfs.csv
+2026-08-05 18:38:00,385 - INFO - Progress saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/multiple_sclerosis/metadata_progress.csv

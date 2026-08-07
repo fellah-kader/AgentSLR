@@ -1,22 +1,252 @@
 [
   {
+    "article_id": "PMID_42554413",
+    "title": "Impact of Physical Activity on Stroke and Mortality in Individuals With and Without Atrial Fibrillation: The HUNT Study and the Tromsø Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=87340",
+    "justification": "The study is based on two population-based studies and analyzes the association between physical activity and outcomes in a large cohort, which fits the criteria for a cohort study. It does not involve randomization, thus it is not a randomized controlled trial.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42553969",
+    "title": "Carotid Web as a Treatable Etiology of Recurrent Cryptogenic Ischemic Stroke Highlighting Neurointervention: A Case Report and Literature Review.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "n=1",
+    "justification": "This study presents a single case report of a patient with carotid web and recurrent ischemic stroke, which does not provide generalizable evidence but highlights a specific clinical scenario.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42553456",
+    "title": "Comparison of risks and costs of undiagnosed and diagnosed chronic kidney disease patients after the initiation of kidney replacement therapy in subsequent years. A Hungarian nationwide study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=38,013",
+    "justification": "This study compares outcomes between two cohorts of patients based on their CKD diagnosis status, making it a retrospective cohort study. The large sample size strengthens the findings.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42553169",
+    "title": "Construction and validation of a tracheostomy prediction model in mechanically ventilated stroke patients and the impact of early versus late tracheostomy on clinical outcomes: an IPTW-based analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=508",
+    "justification": "The study is a retrospective cohort analysis of mechanically ventilated stroke patients, assessing predictors for tracheostomy and outcomes based on treatment timing. It does not involve randomization, which is characteristic of cohort studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42552962",
+    "title": "Development and Upgrade of a Robot That Enables Three-Dimensional Trunk Motion and Lower Limb Exercise for Stroke Patients: A Pilot Clinical Investigation Including a User Feasibility Test.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Single-arm, before-after trial",
+    "sample_size": "n=20",
+    "justification": "The study design is a single-arm, before-after trial without a control group, which limits the ability to draw causal inferences. Therefore, it fits best under Level 5.",
+    "confidence": 0.8
+  },
+  {
     "article_id": "PMID_42551957",
     "title": "CT Perfusion improves Detection and Exclusion of Clinically Relevant Medium or Distal Vessel Occlusions - A Multi-Reader Diagnostic Accuracy Study.",
     "cebm_level": 3,
-    "cebm_label": "Cohort study",
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective multi-reader diagnostic accuracy study",
     "sample_size": "n=100",
-    "justification": "The study evaluates the diagnostic accuracy of CT perfusion in detecting DMVOs using a retrospective design with paired-reader assessments, which fits the criteria for a cohort study.",
+    "justification": "The study is a retrospective analysis evaluating diagnostic accuracy among multiple readers, which fits the criteria for a cohort study rather than a randomized controlled trial or case-control study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42551778",
+    "title": "Association between PCSK9 targeted therapy and the risk of stroke and dementia: A Meta-Analysis of Randomized Controlled Trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-Analysis of Randomized Controlled Trials",
+    "sample_size": "n=64116",
+    "justification": "The study is a meta-analysis that synthesizes data from 22 randomized controlled trials, which provides a high level of evidence regarding the association between PCSK9 targeted therapy and stroke risk.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42551753",
+    "title": "Endoscopic Hematoma Evacuation for Spontaneous Intracerebral Hemorrhage: A Single-Center Retrospective Analysis of 136 Consecutive Cases.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=136",
+    "justification": "The study is a retrospective analysis of consecutive cases, which fits the definition of a cohort study. It does not involve randomization or a control group, thus it is not a higher level of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42551184",
+    "title": "Exploring delta/alpha and theta/alpha ratios as longitudinal treatment-response biomarkers in post-stroke rehabilitation.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=21",
+    "justification": "The study is based on a double-blind, sham-controlled randomized trial involving a specific intervention and control group, which qualifies it as an individual RCT. The sample size is explicitly mentioned as 21 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42550692",
+    "title": "Pediatric hemorrhagic stroke in southern China: Analysis of 159 cases.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=159",
+    "justification": "The study is a retrospective cohort analysis of pediatric patients with hemorrhagic stroke, which fits the criteria for a Level 3 evidence study. It reviews medical records rather than conducting a randomized controlled trial.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42550213",
+    "title": "Cost-effectiveness of CT perfusion, low-field MRI, and delayed high-field MRI in emergency department patients with dizziness concerning for stroke.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Markov decision-analytic model",
+    "sample_size": "unknown",
+    "justification": "The study utilizes a decision-analytic model rather than empirical data from a clinical trial or observational study, which does not fit higher levels of evidence. The sample size is not mentioned, indicating a lack of direct patient data.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42549517",
+    "title": "Incidence and Predictors of Extracranial Bleeding on Oral Anticoagulants for Stroke Prevention in Patients With Atrial Fibrillation: A COMBINE-AF Analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=73737",
+    "justification": "The study analyzes data from multiple randomized trials but focuses on observational outcomes related to extracranial bleeding in a large cohort of patients receiving oral anticoagulants. It does not involve a new randomized controlled trial.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42549211",
+    "title": "Treatment of a Symptomatic Carotid Web: A Case Report and Review of the Literature.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study is a case report detailing the clinical presentation and treatment of a single patient with a carotid web, which does not provide generalizable evidence or involve a comparative study design.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42548762",
+    "title": "Association between plasma ADAMTS13 levels/activity and the risk of ischemic stroke and outcomes of recanalization therapies: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=8993",
+    "justification": "The study is a systematic review and meta-analysis that synthesizes observational evidence from multiple studies, which qualifies it for Level 1 evidence. It includes a large sample size of 8,993 participants across 18 studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42548511",
+    "title": "Microcirculatory failure after successful recanalization in ischemic stroke: insights into mechanisms, imaging, and therapeutic strategies.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review that discusses mechanisms, imaging, and therapeutic strategies related to microcirculatory failure after recanalization in ischemic stroke, without presenting original research data or a specific study sample.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42547965",
+    "title": "Access and timeliness of acute stroke reperfusion after cluster-wide protocol standardisation: an interrupted time-series study in Hong Kong.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Interrupted time-series study",
+    "sample_size": "unknown",
+    "justification": "This study evaluates changes in access and timeliness of acute stroke reperfusion using an interrupted time-series design, which is a form of observational cohort study. The sample size is not specified in the abstract.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42547919",
+    "title": "Syphilis and cerebral stroke: a case report and systematic review.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report and systematic review",
+    "sample_size": "n=98 (from systematic review)",
+    "justification": "The study includes a case report of an individual patient and a systematic review of existing literature, but it does not involve randomized controlled trials or cohort studies that would provide higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42547890",
+    "title": "Preliminary effects of myofascial release on chest mobility and trunk impairmentin patients with chronic stroke: a pilotRandomized controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomized controlled trial",
+    "sample_size": "n=20",
+    "justification": "This study is a randomized controlled trial with a defined intervention and control group, making it suitable for Level 2 evidence. The sample size is small, which may limit the generalizability of the findings.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42546862",
+    "title": "Neurocognitive Outcomes and Survival with High- vs Low-Intensity Statins in Stroke Survivors: A Propensity Score-Matched Cohort (2010-2025).",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective propensity-matched cohort study",
+    "sample_size": "n=206,416",
+    "justification": "This study is a retrospective cohort study that uses propensity score matching to compare outcomes between two groups of stroke survivors receiving different intensities of statin therapy. It does not involve randomization, which is why it is classified as a Level 3 study.",
     "confidence": 0.85
   },
   {
-    "article_id": "PMID_42548587",
-    "title": "Autophagy in ischemic stroke: pathophysiology, therapeutics, and challenges ahead.",
+    "article_id": "PMID_42546807",
+    "title": "CKLF1 Upregulation Exacerbates Secondary Brain Injury after Intracerebral Hemorrhage by Promoting Neuronal Ferroptosis and Oxidative Stress.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Narrative review",
+    "study_design": "Animal study and in vitro study",
     "sample_size": "unknown",
-    "justification": "The paper is a narrative review synthesizing preclinical and emerging clinical evidence rather than presenting original research data or a systematic review of RCTs. It does not provide a specific sample size as it discusses various studies and concepts.",
+    "justification": "The study employs an animal model and in vitro experiments to investigate the role of CKLF1 in secondary brain injury after intracerebral hemorrhage, which fits the criteria for Level 5 evidence.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42546603",
+    "title": "Neuroimaging biomarkers of non-invasive brain stimulation in post-stroke recovery: EEG and fMRI perspectives.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review of neuroimaging studies",
+    "sample_size": "unknown",
+    "justification": "The paper is a review synthesizing existing studies rather than presenting original research or a systematic review of RCTs. It does not provide new data or a specific sample size.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42546495",
+    "title": "Interpretable Machine Learning Model Using Oxygenation and Respiratory Variability to Predict Hemorrhagic Stroke Mortality: A Multicenter Validation Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=4260 (2262 for internal validation and 2076 for external validation)",
+    "justification": "The study is a retrospective cohort study that evaluates the prognostic value of certain variables in predicting mortality in hemorrhagic stroke patients, using data from two different ICU databases.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42546365",
+    "title": "Early antihypertensive therapy in acute ischemic stroke: A Meta-analysis of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of randomized controlled trials",
+    "sample_size": "n=15521",
+    "justification": "The study is a meta-analysis that synthesizes data from multiple randomized controlled trials, which is the highest level of evidence according to the CEBM hierarchy.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42546311",
+    "title": "In large-core ischemic stroke with onset in the past 24 h, EVT vs. medical therapy improves functional outcomes and reduces mortality at 90 d.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "unknown",
+    "justification": "The paper discusses the comparison of EVT and medical therapy in large-core ischemic stroke, indicating it is likely based on a randomised controlled trial design. However, the sample size is not mentioned in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42546025",
+    "title": "Antithrombotic strategy according to age in patients with atrial fibrillation and drug-eluting stents: a post hoc analysis of the ADAPT AF-DES randomised trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Post hoc analysis of a randomised controlled trial",
+    "sample_size": "n=960",
+    "justification": "The study is a secondary analysis of a randomised controlled trial (ADAPT AF-DES), which provides high-quality evidence. Although it is a post hoc analysis, it is still based on a well-designed RCT.",
     "confidence": 0.9
   },
   {
@@ -26,7 +256,7 @@
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective cohort study",
     "sample_size": "n=197",
-    "justification": "The study is a retrospective analysis of patients classified into two treatment groups, which fits the definition of a cohort study. It does not involve randomization, thus it cannot be classified as an RCT.",
+    "justification": "The study is a retrospective analysis of patients classified into two treatment groups, which fits the definition of a cohort study. It does not involve randomization, thus it cannot be classified as a higher level of evidence.",
     "confidence": 0.9
   },
   {
@@ -36,7 +266,27 @@
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective cohort study",
     "sample_size": "n=506,746",
-    "justification": "The study is a nationwide retrospective cohort analysis using health insurance data, which fits the criteria for a cohort study. It examines the risk factors for subdural hematoma in ischemic stroke survivors over a large sample size.",
+    "justification": "The study is a nationwide retrospective cohort analysis using health insurance data, which fits the criteria for a cohort study. It assesses risk factors for subdural hematoma in ischemic stroke survivors, making it observational in nature.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42545430",
+    "title": "Thrombolytic resistance: an important factor leading to the failure of intravenous thrombolytic therapy.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review or expert opinion",
+    "sample_size": "unknown",
+    "justification": "The paper discusses thrombolytic resistance and its mechanisms without presenting original research data or a systematic review of existing studies, indicating it is likely a review or opinion piece.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42545303",
+    "title": "The Impact of Animal-Assisted Treatment on Inpatient Stroke Rehabilitation.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=50",
+    "justification": "The study involved a randomized controlled trial design with a clearly defined experimental and control group, assessing the effects of animal-assisted treatment on stroke rehabilitation outcomes.",
     "confidence": 0.9
   },
   {
@@ -44,30 +294,40 @@
     "title": "Clinical effect of kinesio taping combined with dry needling to myofascial trigger point on shoulder-hand syndrome in hemiplegia patients: a randomized controlled trial.",
     "cebm_level": 2,
     "cebm_label": "Individual randomised controlled trial (RCT)",
-    "study_design": "Randomized Controlled Trial",
+    "study_design": "Randomised Controlled Trial",
     "sample_size": "n=84",
-    "justification": "The study is a prospective, double-blind randomized controlled trial with a clearly defined intervention and control groups, making it an individual RCT. The sample size of 84 participants is explicitly mentioned.",
+    "justification": "The study is a prospective, double-blind randomized controlled trial with a clearly defined intervention and control groups, making it fit for Level 2 evidence. The sample size of 84 participants is explicitly mentioned.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42544349",
-    "title": "Comparison of KAFO and AFO for extension thrust pattern after stroke: a randomized N-of-1 trial.",
-    "cebm_level": 5,
-    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "N-of-1 trial",
-    "sample_size": "n=1",
-    "justification": "This study is an N-of-1 trial involving a single participant, which does not meet the criteria for higher levels of evidence such as randomized controlled trials or cohort studies. Therefore, it is classified as a case report.",
+    "article_id": "PMID_42544504",
+    "title": "Standard Antiplatelet Therapy Versus Thrombolysis in Acute Spontaneous Spinal Cord Infarction: A Propensity Score-Matched Analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=192 (after matching)",
+    "justification": "This study is a retrospective cohort analysis comparing outcomes between two treatment groups, which fits the criteria for a Level 3 evidence study. The sample size is specified as 192 patients after propensity score matching.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42542614",
-    "title": "Delayed M1 Dissection After Thrombectomy Treated With Rescue Stenting and Tirofiban: A Case Report.",
-    "cebm_level": 5,
-    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Case report",
-    "sample_size": "n=1",
-    "justification": "This study describes a single case of delayed M1 dissection after thrombectomy, which is characteristic of a case report. There are no comparisons or controls, and it does not involve a systematic review or trial.",
-    "confidence": 1.0
+    "article_id": "PMID_42542723",
+    "title": "Sex-specific effects of methylprednisolone on outcomes after endovascular treatment for acute ischemic stroke due to large vessel occlusion: A secondary analysis of the MARVEL trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Secondary analysis of a Randomised Controlled Trial",
+    "sample_size": "n=1680",
+    "justification": "The study is a secondary analysis of the MARVEL trial, which is a randomized controlled trial, thus it fits under Level 2. The sample size is explicitly mentioned as 1680 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42540601",
+    "title": "Effects of tai chi on balance function among stroke patients: a meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of Randomised Controlled Trials",
+    "sample_size": "n=1296",
+    "justification": "The study is a meta-analysis that synthesizes data from multiple RCTs, which qualifies it for Level 1 evidence. However, the authors note methodological limitations in the included trials, which suggests caution in interpreting the results.",
+    "confidence": 0.8
   },
   {
     "article_id": "PMID_42539642",
@@ -76,8 +336,48 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review and meta-analysis protocol",
     "sample_size": "unknown",
-    "justification": "The paper outlines a protocol for a systematic review and meta-analysis of RCTs, which is considered the highest level of evidence in the CEBM hierarchy. However, the actual sample size will be determined during the review process and is not specified in the abstract.",
+    "justification": "The paper outlines a protocol for a systematic review and meta-analysis of RCTs, which is classified as Level 1 evidence. However, the actual sample size will be determined once the review is conducted.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42539479",
+    "title": "Imaging patterns of hemorrhagic transformation after tenecteplase versus alteplase in real-world practice.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=95",
+    "justification": "The study is a retrospective cohort analysis comparing two treatment groups (tenecteplase and alteplase) in a real-world setting, which fits the criteria for a Level 3 evidence study. The sample size is explicitly mentioned as 95 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42538741",
+    "title": "Safety of cardiac rehabilitation following cerebrovascular accident: a systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=12 studies included",
+    "justification": "The paper is a systematic review that evaluates multiple studies, including randomized controlled trials, which qualifies it for Level 1 evidence. It synthesizes data from various studies to assess the safety and efficacy of cardiac rehabilitation in stroke survivors.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42537913",
+    "title": "Serum ketone body levels and risk of incident kidney and cardiovascular events among patients with type 2 diabetes: a prospective cohort study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective cohort study",
+    "sample_size": "n=1392",
+    "justification": "This study is a prospective cohort analysis evaluating associations between serum ketone body levels and kidney and cardiovascular outcomes in patients with type 2 diabetes, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42537729",
+    "title": "Intravenous thrombolysis for ischemic stroke in extended time window selected with CT perfusion: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=2358 (1182 treated with IVT and 1176 receiving BMT)",
+    "justification": "The study is a systematic review and meta-analysis of multiple RCTs, which provides a high level of evidence regarding the efficacy and safety of intravenous thrombolysis in a specific patient population.",
+    "confidence": 1.0
   },
   {
     "article_id": "PMID_42537727",
@@ -86,8 +386,88 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review and Bayesian network meta-analysis",
     "sample_size": "n=50,349",
-    "justification": "The study is a systematic review and meta-analysis that synthesizes data from multiple randomized controlled trials, which is the highest level of evidence in the CEBM hierarchy.",
+    "justification": "This study is a systematic review and meta-analysis that synthesizes data from multiple randomized controlled trials, making it the highest level of evidence according to CEBM criteria.",
     "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42537726",
+    "title": "Mental simulation practices in stroke rehabilitation reorganize brain connectivity: a systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=249",
+    "justification": "The paper is a systematic review of 8 randomized controlled trials evaluating the effects of Mental Simulation Practices on stroke rehabilitation, which qualifies it for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42537311",
+    "title": "Minimal invasive surgery for primary brainstem intracerebral hemorrhage: a critical mini review.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=457",
+    "justification": "The paper reviews multiple retrospective studies and presents data on outcomes from these studies, which fits the criteria for a cohort study. It does not involve randomization or a systematic review of RCTs.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42536760",
+    "title": "Elevating cerebellar theta oscillations boosts noninvasively induced motor plasticity.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "unknown",
+    "justification": "The study describes an intervention that was tested in both young healthy adults and chronic stroke survivors, suggesting a controlled experimental design typical of RCTs. However, the sample size is not specified in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42536577",
+    "title": "Effect of mirror therapy combined with transcranial direct current stimulation on upper limb motor function in stroke patients: A meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of randomized controlled trials",
+    "sample_size": "n=1024",
+    "justification": "The paper presents a systematic review and meta-analysis of multiple randomized controlled trials, which is the highest level of evidence according to CEBM criteria.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42536526",
+    "title": "Retrospective analysis of bleeding risk with tirofiban in patients with acute ischemic stroke and diabetes mellitus.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=100",
+    "justification": "This study is a retrospective cohort study analyzing the bleeding risk associated with tirofiban in patients with acute ischemic stroke and diabetes mellitus, which fits the criteria for a Level 3 evidence study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42536265",
+    "title": "Effects of Antioxidant DI-3-N-Butylphthalide on Hemorrhagic Transformation Assessed by Propensity Score Matching in a Real-World Thrombolyzed Ischemic Stroke Patient Setting.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study using propensity score matching",
+    "sample_size": "n=1541",
+    "justification": "This study analyzes a cohort of patients treated with different therapies and uses propensity score matching to control for confounding variables, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42535884",
+    "title": "Primary versus elective percutaneous transluminal angioplasty with stenting for symptomatic intracranial atherosclerotic stenosis: a 18-centre retrospective cohort study using the pEGASUS-HPC stent.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=141",
+    "justification": "This study is a retrospective cohort study comparing outcomes of two groups (primary vs elective PTAS) in patients with symptomatic intracranial atherosclerotic stenosis. It does not involve randomization, which is why it is classified as a Level 3 study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42535538",
+    "title": "Isosorbide Mononitrate/Cilostazol for Lacunar Cerebral Small Vessel Disease-Outcomes at 6 Months in the LACI-2 Randomized Controlled Trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=363",
+    "justification": "The study is a randomized controlled trial assessing the effects of isosorbide mononitrate and cilostazol on outcomes in patients with lacunar stroke, with a clearly defined sample size of 363 participants.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42535224",
@@ -96,17 +476,67 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review and meta-analysis",
     "sample_size": "n=17 studies",
-    "justification": "The paper is a systematic review and meta-analysis that synthesizes data from multiple studies, which is the highest level of evidence. However, it does not specify if the included studies were RCTs, which is necessary for a Level 1 classification.",
+    "justification": "The study is a systematic review and meta-analysis that synthesizes data from multiple studies, which is the highest level of evidence. However, it does not specify if the included studies were randomized controlled trials.",
     "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42535185",
+    "title": "Acute Stroke Care in a Thrombolysis-Capable Emergency Department in Iraq: Patient Characteristics, Risk Factors, and Reperfusion Metrics From a One-Year Registry.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective observational study",
+    "sample_size": "n=339",
+    "justification": "This study is a retrospective observational analysis of registry data, which fits the criteria for a cohort study. It does not involve randomization or controlled trials, thus it is classified at Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42534727",
+    "title": "Effects of intravenous human albumin, enteral cilostazol, and combination therapy on the reduction of delayed cerebral ischemia in patients with aneurysmal subarachnoid hemorrhage.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Bayesian simulation study",
+    "sample_size": "unknown",
+    "justification": "The study uses Bayesian prior-predictive simulation rather than actual clinical trial data, and it does not report any observed outcomes or sample sizes from a randomized controlled trial. Therefore, it does not meet the criteria for higher levels of evidence.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42534726",
     "title": "The association between social support and quality of life in patients with severe stroke: a chain mediation analysis of resilience and self-efficacy.",
-    "cebm_level": 3,
-    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
     "study_design": "Cross-sectional study",
     "sample_size": "n=272",
-    "justification": "The study is a cross-sectional observational study that examines associations between variables rather than establishing causation, fitting the criteria for a cohort study level. It does not involve randomization or control groups typical of higher-level evidence.",
+    "justification": "The study is cross-sectional, which typically provides observational data rather than causal relationships, fitting it into the case-control category. It does not involve randomization or a longitudinal follow-up.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42534689",
+    "title": "Mechanistic and clinical investigation of Jiajiang Xuming decoction in multi-modal programmed cell death in stroke-associated pneumonia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=100",
+    "justification": "The study is a single-centre retrospective cohort study comparing outcomes in patients with stroke-associated pneumonia and non-SAP sepsis, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42534297",
+    "title": "Correlation Between Interatrial Septal In Situ Thrombus and Stroke Evaluated by Transesophageal Echocardiography.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=3343",
+    "justification": "The study is a retrospective analysis of patients who underwent transesophageal echocardiography, categorizing them based on the presence of in situ thrombus and correlating it with clinical outcomes, which fits the definition of a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42533365",
+    "title": "Impact of brain frailty on language recovery in patients with acute post-stroke aphasia: a post-hoc analysis of the LEXI randomized controlled trial.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Post-hoc analysis of a randomized controlled trial",
+    "sample_size": "n=56",
+    "justification": "This study is a post-hoc analysis of a randomized controlled trial, which typically would be classified as a cohort study due to its observational nature in assessing outcomes based on previously collected data. The sample size is explicitly mentioned as 56 patients.",
     "confidence": 0.8
   },
   {
@@ -116,27 +546,27 @@
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Multi-Institutional Propensity Score-Matched Analysis",
     "sample_size": "n=604 (302 in each group after matching)",
-    "justification": "The study is a retrospective cohort analysis using propensity score matching to compare outcomes between two treatment groups, which fits the criteria for a cohort study rather than a randomized controlled trial.",
+    "justification": "This study is a retrospective cohort analysis using propensity score matching to compare outcomes between two treatment groups, which fits the criteria for a cohort study rather than a randomized controlled trial.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42531250",
-    "title": "A Multiagent Large Language Model Framework for Emergency Treatment Recommendation in Acute Ischemic Stroke: Development and Validation Study.",
-    "cebm_level": 3,
-    "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Retrospective and prospective cohort study",
-    "sample_size": "n=1055 (group A), n=721 (group B), n=144 (group C), n=161 (group D)",
-    "justification": "The study involves the evaluation of a multiagent large language model framework using both retrospective and prospective cases, which fits the definition of a cohort study. It assesses treatment recommendations and decision-making accuracy among physicians, but does not involve randomization.",
-    "confidence": 0.85
+    "article_id": "PMID_42532565",
+    "title": "Preventing the next stroke: nurse-led decision and adherence coaching to empower people with stroke (StrokeCompass) versus usual care - study protocol for a stepped-wedge pilot trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Stepped-wedge cluster-randomised controlled trial",
+    "sample_size": "n=452",
+    "justification": "The study is a pilot trial designed to test the feasibility and acceptability of a nurse-led intervention compared to usual care, which fits the criteria for an individual RCT. The sample size of 452 patients is explicitly mentioned.",
+    "confidence": 0.9
   },
   {
-    "article_id": "PMID_42531182",
-    "title": "Management of Shamblin Type III Carotid Body Tumor With Preoperative Embolization, Surgical Resection, and Rescue Endovascular Stroke Treatment: A Case Report.",
-    "cebm_level": 5,
-    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Case report",
-    "sample_size": "n=1",
-    "justification": "This study describes a single case of a patient with a carotid body tumor and its management, which fits the criteria for a case report. There are no comparative groups or broader data analysis involved.",
+    "article_id": "PMID_42531336",
+    "title": "Models Containing the Braden Scale Predict Activities of Daily Living Improvement in Post-Stroke Hemiplegia: A Single Center Retrospective Cohort Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=324",
+    "justification": "This study is a retrospective cohort analysis of patients with post-stroke hemiplegia, which fits the criteria for a Level 3 evidence study. It evaluates predictors of recovery and the effectiveness of a rehabilitation program based on observational data.",
     "confidence": 0.9
   },
   {
@@ -150,13 +580,243 @@
     "confidence": 0.8
   },
   {
+    "article_id": "PMID_42530625",
+    "title": "Antithrombogenic coated self-expanding stent (pEGASUS-HPC) for the treatment of intracranial dissections of the cerebral arteries in acute stroke: a multicenter study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=36",
+    "justification": "The study is a multicenter retrospective cohort study evaluating the outcomes of a specific treatment in a defined patient population, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42530243",
+    "title": "Neutrophil Extracellular Traps in Aortic and Cerebrovascular Diseases: Biomarkers, Immunomodulation, and Device-Related Strategies.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Narrative review",
+    "sample_size": "unknown",
+    "justification": "The paper is a narrative review synthesizing existing evidence rather than presenting original research data or a systematic analysis of studies. It does not provide a sample size as it does not involve a specific study population.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42529809",
+    "title": "Impact of antithrombotic therapy on outcomes of incidental unruptured intracranial aneurysms in patients with ischemic stroke.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=197",
+    "justification": "This study is a retrospective cohort study evaluating the impact of antithrombotic therapy on outcomes in patients with ischemic stroke and incidental unruptured intracranial aneurysms. It does not involve randomization or a systematic review, which places it at Level 3.",
+    "confidence": 0.9
+  },
+  {
     "article_id": "PMID_42529513",
     "title": "Diagnostic value of cardiovascular biomarkers for cerebral-cardiac syndrome risk in acute ischemic stroke.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective cohort study",
     "sample_size": "n=177",
-    "justification": "The study analyzes data from a cohort of patients with acute ischemic stroke to identify risk factors for cerebral-cardiac syndrome, which fits the criteria for a cohort study. It is not a randomized controlled trial or a systematic review.",
+    "justification": "The study is a retrospective analysis of patients with acute ischemic stroke, which fits the criteria for a cohort study. It evaluates the diagnostic value of biomarkers for a specific condition within this patient population.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42529300",
+    "title": "Self-expanding open-cell carotid stent for symptomatic moderate-to-severe vertebral artery origin atherosclerotic stenosis: a single-center retrospective study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=34",
+    "justification": "The study is a single-center retrospective analysis of a cohort of patients who underwent stent implantation for vertebral artery origin stenosis, which fits the criteria for a cohort study. It does not involve randomization or a control group.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42529263",
+    "title": "Intensive versus standard statin therapy in acute ischemic stroke: a comparative study on the risk of pneumonia and multidrug-resistant bacterial infections.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=3199",
+    "justification": "The study is a retrospective analysis of patient data comparing outcomes between two groups, which fits the definition of a cohort study. It does not involve randomization, thus it is not a higher level of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42075580",
+    "title": "Effectiveness and Safety of Acupuncture for Post-Stroke Neurogenic Bladder: A Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic Review and Meta-Analysis",
+    "sample_size": "n=727",
+    "justification": "The study is a systematic review and meta-analysis of ten randomized controlled trials, which qualifies it for Level 1 evidence. However, the authors note substantial uncertainty and low certainty of evidence due to methodological heterogeneity.",
+    "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_41536190",
+    "title": "Effectiveness of various dosage parameters of Wii Fit Plus exergames for enhancing balance and postural control among people post-stroke: a systematic review protocol.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review protocol",
+    "sample_size": "unknown",
+    "justification": "The paper outlines a systematic review protocol aimed at synthesizing evidence from various studies, including RCTs, which aligns with Level 1 evidence. However, the actual sample size is not mentioned as this is a protocol and not a completed study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41470130",
+    "title": "Elevated Epicardial Adipose Tissue and Ischemic Stroke Risk: A Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=7412",
+    "justification": "The study is a systematic review and meta-analysis that includes multiple study designs, including RCTs, and provides pooled estimates of effect, which aligns with Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41377452",
+    "title": "Umbrella review of anticoagulation strategies for secondary prevention of cardioembolic stroke in atrial fibrillation: efficacy, safety, and knowledge gaps.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Umbrella review of systematic reviews and meta-analyses",
+    "sample_size": "6893-94,656 participants across included reviews",
+    "justification": "The paper is an umbrella review that synthesizes evidence from multiple systematic reviews and meta-analyses, which qualifies it as a Level 1 evidence according to CEBM criteria.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41180533",
+    "title": "Electroacupuncture for post-stroke depression: a systematic review and meta-analysis of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "sample_size": "n=853",
+    "justification": "This study is a systematic review and meta-analysis that evaluates multiple randomized controlled trials, which qualifies it for the highest level of evidence according to CEBM criteria.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41383232",
+    "title": "Systemic inflammation-based hematological indices and 90-day functional outcomes after intravenous thrombolysis in acute ischemic stroke: a systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=4000",
+    "justification": "The paper is a systematic review that synthesizes data from multiple observational cohort studies, which is a higher level of evidence than individual cohort studies alone. Although it does not include RCTs, it systematically reviews existing studies to draw conclusions.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40297857",
+    "title": "Acupuncture for stroke survivors with cardiovascular comorbidities: protocol of a pooled analysis of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "pooled analysis of randomized controlled trials",
+    "sample_size": "unknown",
+    "justification": "The paper outlines a protocol for a pooled analysis of RCTs, which is a systematic review/meta-analysis approach. However, the actual sample size is not mentioned as the study is still in the protocol stage.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_38162382",
+    "title": "Rapid Arterial Occlusion Evaluation (RACE) Tool in Detecting Large Cerebral Vessel Occlusions; a Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=43",
+    "justification": "The study is a systematic review and meta-analysis that evaluates the diagnostic performance of the RACE tool across multiple studies, which qualifies it for Level 1 evidence. It synthesizes data from 43 studies to assess the tool's effectiveness in detecting large vessel occlusions.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_38202306",
+    "title": "Telerehabilitation for Neurological Motor Impairment: A Systematic Review and Meta-Analysis on Quality of Life, Satisfaction, and Acceptance in Stroke, Multiple Sclerosis, and Parkinson's Disease.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=28 studies included in the review, 16 studies in the meta-analysis",
+    "justification": "The paper is a systematic review and meta-analysis that synthesizes data from multiple studies, which is the highest level of evidence according to CEBM. It specifically assesses the effects of telerehabilitation on quality of life in patients with neurological conditions.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_37994736",
+    "title": "Stem cell-based interventions for the treatment of stroke in newborn infants.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "No completed or ongoing randomized trials identified",
+    "sample_size": "n=10 for the phase 1 trial mentioned",
+    "justification": "The paper reports on the lack of completed randomized controlled trials and only references a small phase 1 trial with limited follow-up, which does not provide sufficient evidence for higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_34946431",
+    "title": "Effect of Transcranial Direct Current Stimulation Combined with Rehabilitation on Arm and Hand Function in Stroke Patients: A Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "sample_size": "n=28 studies for systematic review, n=20 studies for meta-analysis",
+    "justification": "The paper is a systematic review and meta-analysis that synthesizes data from multiple randomized controlled trials, which is the highest level of evidence according to CEBM.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_37181679",
+    "title": "Evaluation on the Efficacy and Safety of Panax Notoginseng Saponins in the Treatment of Stroke among Elderly People: A Systematic Review and Meta-Analysis of 206 Randomized Controlled Trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic Review and Meta-Analysis of Randomised Controlled Trials",
+    "sample_size": "n=21759",
+    "justification": "The study is a systematic review and meta-analysis that includes 206 randomized controlled trials, which qualifies it for Level 1 evidence according to CEBM criteria.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_34840581",
+    "title": "Comparison of Different Physical Therapies Combined with Acupuncture for Poststroke Cognitive Impairment: a Network Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis of randomized controlled trials",
+    "sample_size": "n=1288",
+    "justification": "The study is a network meta-analysis that synthesizes data from multiple randomized controlled trials, which qualifies it as a systematic review of RCTs. The sample size of 1288 patients indicates a robust analysis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_34724964",
+    "title": "Effect of tranexamic acid on thrombotic events and seizures in bleeding patients: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=102681",
+    "justification": "The study is a systematic review and meta-analysis that includes data from 234 randomized controlled trials, making it a high-level evidence study. The large sample size further supports its robustness.",
+    "confidence": 0.95
+  },
+  {
+    "article_id": "PMID_33178810",
+    "title": "Treatment of the extracranial carotid artery in tandem lesions during endovascular treatment of acute ischemic stroke: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=21 studies (16 iCAS and 5 comparative studies)",
+    "justification": "The paper presents a systematic review and meta-analysis comparing treatment strategies for tandem lesions during endovascular treatment, which qualifies it as Level 1 evidence. The inclusion of multiple studies strengthens the findings.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_33530189",
+    "title": "Efficacy and safety of massage in the treatment of poststroke depression: A systematic review and meta-analysis of protocols.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "unknown",
+    "justification": "The paper describes a systematic review and meta-analysis of randomized controlled trials and cohort studies, which fits the criteria for Level 1 evidence. However, the sample size is not mentioned in the abstract.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_32256649",
+    "title": "Acupuncture plus Rehabilitation for Unilateral Neglect after Stroke: A Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic Review and Meta-Analysis",
+    "sample_size": "n=542",
+    "justification": "The study is a systematic review and meta-analysis that includes multiple randomised controlled trials, which qualifies it for the highest level of evidence according to CEBM criteria.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_30376678",
+    "title": "Predicting Thromboembolic and Bleeding Event Risk in Patients with Non-Valvular Atrial Fibrillation: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=61 studies for thromboembolic risk and n=38 studies for bleeding risk",
+    "justification": "The paper is a systematic review that summarizes and evaluates multiple studies on risk stratification tools for patients with atrial fibrillation, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
   },
   {
@@ -165,8 +825,8 @@
     "cebm_level": 1,
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Meta-analysis",
-    "sample_size": "n=121,105",
-    "justification": "The study is a meta-analysis that synthesizes data from multiple randomized clinical trials to assess sex disparities in enrollment, which qualifies it as a systematic review of RCTs.",
+    "sample_size": "n=121,105 randomized patients",
+    "justification": "The study is a meta-analysis that synthesizes data from multiple randomized clinical trials to assess the enrollment disparities of women in acute stroke trials, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
   },
   {
@@ -180,13 +840,23 @@
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_29341066",
-    "title": "Cerebral near-infrared spectroscopy (NIRS) for perioperative monitoring of brain oxygenation in children and adults.",
+    "article_id": "PMID_23543566",
+    "title": "Non-pharmacological interventions for preventing secondary vascular events after stroke or transient ischemic attack.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Pilot trial",
+    "sample_size": "n=48",
+    "justification": "The study identified is a pilot trial with a small sample size of 48 participants, and it does not provide sufficient evidence to draw definitive conclusions or implications for practice. Therefore, it fits the lowest level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_26310586",
+    "title": "Combined oral contraceptives: the risk of myocardial infarction and ischemic stroke.",
     "cebm_level": 1,
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
-    "study_design": "Systematic review of randomized controlled trials",
-    "sample_size": "n=1822",
-    "justification": "The paper is a systematic review that includes multiple randomized controlled trials assessing the effects of cerebral NIRS monitoring, which qualifies it for Level 1 evidence. However, the overall quality of the evidence is low due to issues such as bias and heterogeneity.",
-    "confidence": 0.7
+    "study_design": "Meta-analysis of observational studies",
+    "sample_size": "28 publications reporting on 24 studies",
+    "justification": "The paper is a meta-analysis that synthesizes data from multiple observational studies to estimate the risk associated with combined oral contraceptives, which qualifies it for Level 1 evidence.",
+    "confidence": 0.9
   }
 ]

@@ -1,0 +1,65 @@
+2026-07-27 16:34:14,429 - INFO - Running harvest stage for pathogen=alzheimers mode=full
+2026-07-27 16:34:14,429 - INFO - Harvest root: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/alzheimers
+2026-07-27 16:34:14,429 - INFO - PDF output dir: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/alzheimers/pdfs
+2026-07-27 16:34:14,429 - INFO - Harvest metadata path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/alzheimers/harvest_metadata.csv
+2026-07-27 16:34:14,430 - INFO - Harvest downloaded path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/alzheimers/harvest_downloaded_pdfs.csv
+2026-07-27 16:34:14,430 - INFO - [2026-07-27T15:34:14+00:00] Harvest start: alzheimers
+2026-07-27 16:34:15,157 - INFO - [2026-07-27T15:34:15+00:00] OpenAlex harvested total: 0
+2026-07-27 16:34:20,621 - INFO - [2026-07-27T15:34:20+00:00] PubMed harvested: 500
+2026-07-27 16:34:28,799 - INFO - [2026-07-27T15:34:28+00:00] PubMed harvested: 1000
+2026-07-27 16:34:33,015 - INFO - [2026-07-27T15:34:33+00:00] PubMed harvested: 1500
+2026-07-27 16:34:38,643 - INFO - [2026-07-27T15:34:38+00:00] PubMed harvested: 2000
+2026-07-27 16:34:43,795 - INFO - [2026-07-27T15:34:43+00:00] PubMed harvested: 2500
+2026-07-27 16:34:50,649 - INFO - [2026-07-27T15:34:50+00:00] PubMed harvested: 3000
+2026-07-27 16:34:54,270 - INFO - [2026-07-27T15:34:54+00:00] PubMed harvested: 3500
+2026-07-27 16:35:00,552 - INFO - [2026-07-27T15:35:00+00:00] PubMed harvested: 4000
+2026-07-27 16:35:04,800 - INFO - [2026-07-27T15:35:04+00:00] PubMed harvested: 4500
+2026-07-27 16:35:10,630 - INFO - [2026-07-27T15:35:10+00:00] PubMed harvested: 5000
+2026-07-27 16:35:14,547 - INFO - [2026-07-27T15:35:14+00:00] PubMed harvested: 5500
+2026-07-27 16:35:20,813 - INFO - [2026-07-27T15:35:20+00:00] PubMed harvested: 6000
+2026-07-27 16:35:25,204 - INFO - [2026-07-27T15:35:25+00:00] PubMed harvested: 6500
+2026-07-27 16:35:31,772 - INFO - [2026-07-27T15:35:31+00:00] PubMed harvested: 7000
+2026-07-27 16:35:37,501 - INFO - [2026-07-27T15:35:37+00:00] PubMed harvested: 7500
+2026-07-27 16:35:44,160 - INFO - [2026-07-27T15:35:44+00:00] PubMed harvested: 8000
+2026-07-27 16:35:50,515 - INFO - [2026-07-27T15:35:50+00:00] PubMed harvested: 8500
+2026-07-27 16:35:57,097 - INFO - [2026-07-27T15:35:57+00:00] PubMed harvested: 9000
+2026-07-27 16:36:01,090 - INFO - [2026-07-27T15:36:01+00:00] PubMed harvested: 9500
+2026-07-27 16:36:06,367 - ERROR - [2026-07-27T15:36:06+00:00] PubMed error: PubMed efetch HTTP 400: <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eEfetchResult PUBLIC "-//NLM//DTD efetch 20131226//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20131226/efetch.dtd">
+<eFetchResult>
+	<ERROR>Search backend cannot retrieve history data. Reason: Exception: &apos;retstart&apos; cannot be larger than 9998. For PubMed, ESearch can only retrieve the first 9,999 records matching the query. To obtain m
+2026-07-27 16:36:07,950 - INFO - [2026-07-27T15:36:07+00:00] EuropePMC harvested total: 10
+2026-07-27 16:36:08,557 - INFO - [2026-07-27T15:36:08+00:00] Final dedup: 9999 -> 9607 records
+2026-07-27 16:36:08,844 - INFO - [2026-07-27T15:36:08+00:00] Metadata rows ready for download: 9607
+2026-07-27 16:36:08,922 - INFO - [2026-07-27T15:36:08+00:00] Total records: 9607
+2026-07-27 16:36:08,922 - INFO - [2026-07-27T15:36:08+00:00] Already downloaded (flagged): 0
+2026-07-27 16:36:08,923 - INFO - [2026-07-27T15:36:08+00:00] To process: 9607
+2026-07-27 16:36:08,923 - INFO - [2026-07-27T15:36:08+00:00] Starting downloads with 8 workers
+2026-07-27 16:36:23,232 - INFO - [2026-07-27T15:36:23+00:00] Progress: [50/9607] (success: 10)
+2026-07-27 16:36:41,210 - INFO - [2026-07-27T15:36:41+00:00] Progress: [100/9607] (success: 18)
+2026-07-27 16:37:24,815 - INFO - [2026-07-27T15:37:24+00:00] Progress: [150/9607] (success: 28)
+2026-07-27 16:37:58,671 - INFO - [2026-07-27T15:37:58+00:00] Progress: [200/9607] (success: 37)
+2026-07-27 16:38:16,994 - INFO - [2026-07-27T15:38:16+00:00] Progress: [250/9607] (success: 46)
+2026-07-27 16:38:35,367 - INFO - [2026-07-27T15:38:35+00:00] Progress: [300/9607] (success: 56)
+2026-07-27 16:39:22,733 - INFO - [2026-07-27T15:39:22+00:00] Progress: [350/9607] (success: 70)
+2026-07-27 16:39:28,674 - INFO - [2026-07-27T15:39:28+00:00] Progress: [400/9607] (success: 79)
+2026-07-27 16:40:17,265 - INFO - [2026-07-27T15:40:17+00:00] Progress: [450/9607] (success: 95)
+2026-07-27 16:40:53,009 - INFO - [2026-07-27T15:40:53+00:00] Progress: [500/9607] (success: 104)
+2026-07-27 16:42:09,976 - INFO - [2026-07-27T15:42:09+00:00] Progress: [550/9607] (success: 119)
+2026-07-27 16:42:53,965 - INFO - [2026-07-27T15:42:53+00:00] Progress: [600/9607] (success: 135)
+2026-07-27 16:44:24,805 - INFO - [2026-07-27T15:44:24+00:00] Progress: [650/9607] (success: 152)
+2026-07-27 16:46:02,851 - INFO - [2026-07-27T15:46:02+00:00] Progress: [700/9607] (success: 171)
+2026-07-27 16:46:58,408 - INFO - [2026-07-27T15:46:58+00:00] Progress: [750/9607] (success: 187)
+2026-07-27 16:48:26,100 - INFO - [2026-07-27T15:48:26+00:00] Progress: [800/9607] (success: 204)
+2026-07-27 16:49:19,946 - INFO - [2026-07-27T15:49:19+00:00] Progress: [850/9607] (success: 220)
+2026-07-27 16:50:38,761 - INFO - [2026-07-27T15:50:38+00:00] Progress: [900/9607] (success: 233)
+2026-07-27 16:52:07,458 - INFO - [2026-07-27T15:52:07+00:00] Progress: [950/9607] (success: 255)
+2026-07-27 16:53:39,410 - INFO - [2026-07-27T15:53:39+00:00] Progress: [1000/9607] (success: 273)
+2026-07-27 16:54:40,861 - INFO - [2026-07-27T15:54:40+00:00] Progress: [1050/9607] (success: 285)
+2026-07-27 16:56:11,661 - INFO - [2026-07-27T15:56:11+00:00] Progress: [1100/9607] (success: 309)
+2026-07-27 16:57:18,361 - INFO - [2026-07-27T15:57:18+00:00] Progress: [1150/9607] (success: 322)
+2026-07-27 16:58:37,187 - INFO - [2026-07-27T15:58:37+00:00] Progress: [1200/9607] (success: 339)
+2026-07-27 17:00:14,993 - INFO - [2026-07-27T16:00:14+00:00] Progress: [1250/9607] (success: 360)
+2026-07-27 17:01:52,888 - INFO - [2026-07-27T16:01:52+00:00] Progress: [1300/9607] (success: 378)
+2026-07-27 17:04:03,705 - INFO - [2026-07-27T16:04:03+00:00] Progress: [1350/9607] (success: 401)
+2026-07-27 17:05:19,371 - INFO - [2026-07-27T16:05:19+00:00] Progress: [1400/9607] (success: 415)

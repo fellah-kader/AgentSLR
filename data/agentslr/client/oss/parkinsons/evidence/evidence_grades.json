@@ -1,23 +1,153 @@
 [
   {
+    "article_id": "PMID_42552767",
+    "title": "Longitudinal Associations between Depression, Daytime Sleepiness, and Caregiver Strain in Parkinson's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Longitudinal cohort study",
+    "sample_size": "unknown",
+    "justification": "The study examines the longitudinal relationships between variables in a cohort of Parkinson's disease patients and their caregivers, which fits the definition of a cohort study. The sample size is not mentioned in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42550256",
+    "title": "Add-on safinamide and amantadine in Filipino Parkinson's disease patients with motor fluctuations: a retrospective exploratory cohort study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective exploratory cohort study",
+    "sample_size": "n=30",
+    "justification": "This study is a retrospective cohort study comparing outcomes among different treatment groups, but it has limitations such as small sample size and non-randomized treatment allocation, which prevent strong conclusions about treatment efficacy.",
+    "confidence": 0.8
+  },
+  {
     "article_id": "PMID_42550252",
     "title": "Comparative pharmacovigilance of Levodopa and Pramipexole: a disproportionality analysis of the FAERS database.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Disproportionality analysis using real-world data from FAERS",
     "sample_size": "n=12,304 (5,410 Levodopa and 6,894 Pramipexole reports)",
-    "justification": "This study analyzes adverse event reports from a large database, making it an observational cohort study rather than a randomized controlled trial or systematic review.",
+    "justification": "This study analyzes adverse event reports from a large database, which is characteristic of observational cohort studies rather than experimental designs like RCTs. The use of real-world data supports its classification as a cohort study.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42550250",
+    "title": "Psychological and neurological benefits of physical activity: impact on mental health, Parkinson's disease, and Alzheimer's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review",
+    "sample_size": "unknown",
+    "justification": "The paper is a review synthesizing existing evidence rather than presenting original research data or a specific study with a defined sample size. It discusses findings from various studies without conducting new experiments or trials.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42549611",
+    "title": "Outcomes of rehabilitation following device-aided therapy start in parkinson's disease: a randomized controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Open randomized controlled intervention trial",
+    "sample_size": "n=54",
+    "justification": "The study is a randomized controlled trial comparing two groups, which fits the criteria for Level 2 evidence. The sample size is explicitly mentioned in the abstract.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42549269",
+    "title": "Examining the Effects of Bright Light Therapy on Sleep and Resting-State Brain Activity in Parkinson's Disease: A Randomized Crossover Pilot Study.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomized Crossover Pilot Study",
+    "sample_size": "n=27",
+    "justification": "This study is a randomized controlled trial with a crossover design, comparing the effects of bright light therapy to dim light therapy in patients with Parkinson's disease. The sample size is explicitly mentioned as 27 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42549265",
+    "title": "Machine learning-based prediction of excessive daytime sleepiness in patients with Parkinson's disease: findings from the PPMI cohort with external validation.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=676 for development cohort, n=180 for external validation cohort",
+    "justification": "The study involves a retrospective analysis of patient data to develop and validate a predictive model, which fits the criteria for a cohort study. It does not involve randomization or controlled trials.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42547893",
+    "title": "Parkinsonian gait improvement through vibratory stride parameter feedback.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study with feedback intervention",
+    "sample_size": "n=33",
+    "justification": "The study involves two cohorts of participants receiving feedback on gait parameters, but it does not describe a randomised controlled trial design. It compares the effects of feedback against control walks, which aligns with cohort study characteristics.",
+    "confidence": 0.8
   },
   {
     "article_id": "PMID_42545552",
     "title": "Transition dynamics modeling of pre-trained accelerometry representations for time to diagnosis of Parkinson's disease.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Observational study using accelerometry data from the UK Biobank",
+    "study_design": "Observational study using accelerometry data",
     "sample_size": "unknown",
-    "justification": "The study utilizes accelerometer data to assess Parkinson's disease risk, indicating a cohort design where individuals are monitored over time. However, the sample size is not specified in the abstract.",
+    "justification": "The study utilizes accelerometer data from the UK Biobank to model Parkinson's disease risk, indicating a cohort study design. However, the sample size is not specified in the abstract.",
     "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42543892",
+    "title": "Beyond motor fluctuations: Understanding the clinical correlates of OFF burden in Parkinson's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=430",
+    "justification": "The study analyzes data from a cohort of participants to identify clinical features associated with OFF burden in Parkinson's disease, which fits the criteria for a cohort study design.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42543698",
+    "title": "Multicenter Retrospective Study of LCIG Therapy in Japan: Efficacy, Factors Associated with Discontinuation, and Case-based Insights.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=37",
+    "justification": "The study is a retrospective analysis of clinical data from patients receiving LCIG therapy, which fits the definition of a cohort study. The sample size is explicitly mentioned as 37 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42541556",
+    "title": "Non-pharmacological and non-surgical therapies in advanced Parkinson's disease: a narrative review and call to action.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Narrative review",
+    "sample_size": "unknown",
+    "justification": "The paper is a narrative review that synthesizes existing literature and expert consensus rather than presenting original research or data from a specific study. Therefore, it does not meet the criteria for higher levels of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42541416",
+    "title": "Burst deep brain stimulation for Parkinson's disease: A systematic review of efficacy and safety.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=19 studies",
+    "justification": "The paper is a systematic review that evaluates multiple studies on burst deep brain stimulation for Parkinson's disease, which includes both preclinical and clinical studies. However, it does not exclusively focus on randomized controlled trials, which is why it is assigned Level 1 but with caution.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42539935",
+    "title": "Onset of Motor Complications and Medication Dose in Newly Diagnosed and Treated Parkinson's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=120",
+    "justification": "The study follows a cohort of newly diagnosed Parkinson's disease patients over time to assess the onset of motor complications and medication doses, which aligns with the characteristics of a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42539816",
+    "title": "Effectiveness of mixed reality-based rehabilitation on motor function in Parkinson's disease. A two-arm randomized trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=30",
+    "justification": "The study is a two-arm randomized trial comparing mixed reality rehabilitation to traditional physiotherapy, which fits the criteria for an individual RCT. The sample size of 30 participants is explicitly mentioned.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42539673",
@@ -26,28 +156,158 @@
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
     "study_design": "Case series",
     "sample_size": "n=17",
-    "justification": "This study is a case series involving a small number of patients (17) and does not include a control group or randomization, which limits the strength of the evidence.",
+    "justification": "This study is a case series involving a small number of patients (17) and lacks a control group or randomization, which limits the strength of the evidence.",
     "confidence": 0.8
   },
   {
-    "article_id": "PMID_42533668",
-    "title": "Movement dependent neural substates within levodopa-induced dyskinesia in Parkinson's disease.",
+    "article_id": "PMID_42537603",
+    "title": "Retinal neurovascular signatures in response to 6-month yoga exercise in patients with Parkinson's Disease.",
     "cebm_level": 3,
-    "cebm_label": "Cohort study",
-    "study_design": "Observational study of patients with Parkinson's disease",
-    "sample_size": "n=22",
-    "justification": "The study involves observing and analyzing neural oscillations in a cohort of patients with Parkinson's disease during different behavioral states, which fits the criteria for a cohort study. It does not involve randomization or a control group, thus it is not a higher level of evidence.",
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational study",
+    "sample_size": "n=17",
+    "justification": "This study involves a small group of patients with Parkinson's disease undergoing a yoga intervention, and it assesses outcomes without randomization, fitting the criteria for a cohort study.",
     "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42536231",
+    "title": "Oleuropein regulates neuronal survival and Histone acetylation in Parkinson's disease: cellular and epigenetic insights.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study investigates the effects of oleuropein in a mouse model of Parkinson's disease, which classifies it as an animal study. There is no mention of a sample size, indicating it may not be a controlled trial or observational study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42535142",
+    "title": "Neuropsychological Outcomes of Long-Term STN-DBS in Parkinson's Disease: A Multidomain Study in a Turkish Cohort.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Single-center, cross-sectional study",
+    "sample_size": "n=56",
+    "justification": "This study compares neuropsychological outcomes between two groups of patients with Parkinson's disease, one receiving STN-DBS and the other receiving standard medical therapy, which fits the definition of a cohort study. The sample size is explicitly mentioned as 56 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42535066",
+    "title": "Gait and balance outcomes of group-based music therapy, physiotherapy, and simplified dance training in patients with Parkinson's disease.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=48",
+    "justification": "The study involves random allocation of participants to different intervention groups, which is characteristic of a randomized controlled trial. The sample size is explicitly mentioned as 48 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42533644",
+    "title": "Predictive Models for Motor Outcomes From Deep Brain Stimulation in Parkinson's Disease: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=19 studies",
+    "justification": "The paper is a systematic review that evaluates multiple studies on predictive models for motor outcomes from deep brain stimulation in Parkinson's disease, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42533232",
     "title": "Efficacy and safety of fecal microbiota transplantation in Parkinson's disease: a systematic review and meta-analysis of randomized controlled trials with GRADE assessment.",
     "cebm_level": 1,
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
-    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "study_design": "Systematic review and meta-analysis",
     "sample_size": "n=318",
-    "justification": "The study is a systematic review and meta-analysis that evaluates multiple randomized controlled trials, which provides a high level of evidence regarding the efficacy and safety of fecal microbiota transplantation in Parkinson's disease.",
+    "justification": "The study is a systematic review and meta-analysis that evaluates multiple randomized controlled trials, which qualifies it for the highest level of evidence according to CEBM criteria.",
     "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42530397",
+    "title": "Natural Frequencies of Levodopa-Induced Dyskinesia in Parkinson's Disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Observational study using transcranial magnetic stimulation and electroencephalography",
+    "sample_size": "unknown",
+    "justification": "The study does not describe a randomized controlled trial or a cohort study, and it appears to be observational in nature without a specified sample size.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42530039",
+    "title": "Sarsasapogenin Improves Pathological Phenotypes in MPTP/MPP+-Induced Parkinson's Disease Models: Synergistic Actions of Neurite Outgrowth, Neurotransmitter Modulation, and Anti-Inflammation.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and in-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study evaluates the effects of sarsasapogenin in preclinical models of Parkinson's disease using animal and in-vitro methods, which are categorized under Level 5 evidence. There is no mention of a sample size for the animal studies or in vitro experiments.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42529480",
+    "title": "Comparative efficacy of traditional Chinese medicine qigong exercise on motor and non-motor outcomes in Parkinson's disease: a network meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis of randomized controlled trials",
+    "sample_size": "n=3743",
+    "justification": "This study is a network meta-analysis that synthesizes data from multiple randomized controlled trials, which qualifies it for Level 1 evidence. The large sample size of 3,743 patients further supports the robustness of the findings.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42529089",
+    "title": "Which exercise intervention is most promising for Parkinson's balance? A network meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis",
+    "sample_size": "n=5948",
+    "justification": "The study is a network meta-analysis that synthesizes data from multiple randomized controlled trials to compare the efficacy of different exercise interventions for balance in Parkinson's disease, which qualifies it as a systematic review of RCTs.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42528864",
+    "title": "Effects of wearable devices on gait, balance, and motor function in people with Parkinson's disease: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "sample_size": "n=380",
+    "justification": "The study is a systematic review and meta-analysis that includes multiple randomized controlled trials, which qualifies it for the highest level of evidence according to CEBM criteria.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42528465",
+    "title": "A pickleball program for people living with Parkinson disease: a feasibility and preliminary results study.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Mixed-method, single-group, prospective intervention study",
+    "sample_size": "n=16",
+    "justification": "This study is a single-group intervention without a control group, which limits the ability to draw causal conclusions. It primarily assesses feasibility and preliminary outcomes rather than providing robust evidence from a controlled trial.",
+    "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_42522567",
+    "title": "Distinct roles of the human cuneiform and pedunculopontine nuclei in gait and freezing of gait.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case series",
+    "sample_size": "n=4",
+    "justification": "The study involves local field potential recordings and biomechanical analyses from a small number of patients (n=4), which does not meet the criteria for higher levels of evidence such as cohort studies or randomized controlled trials.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42519191",
+    "title": "Neurophysiological effects of transcranial alternating current stimulation combined with multidisciplinary rehabilitation in Parkinson's disease.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=30",
+    "justification": "The study is based on a randomized controlled trial and involves a specific intervention with a defined sample size of 30 patients. It assesses the effects of a treatment on outcomes in a controlled manner.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42517718",
+    "title": "Social interaction enhances the pleasurable urge to move to music in people with Parkinson's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Observational study",
+    "sample_size": "n=76 (40 individuals with PD and 36 age-matched controls)",
+    "justification": "The study does not describe a randomized controlled trial or a systematic review, and it appears to be observational in nature, focusing on the effects of social interaction and rhythmic complexity on movement responses in a specific population.",
+    "confidence": 0.8
   },
   {
     "article_id": "PMID_42516801",
@@ -56,8 +316,48 @@
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective cohort study",
     "sample_size": "n=60",
-    "justification": "The study is a retrospective cohort analysis without a control group, which fits the criteria for Level 3 evidence. While it shows promising results, the lack of randomization and control limits the strength of the conclusions.",
-    "confidence": 0.7
+    "justification": "The study is a retrospective cohort analysis of clinical data without a control group, which fits the criteria for a Level 3 evidence study. The findings are preliminary and require further validation through randomized controlled trials.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42515380",
+    "title": "A Self-Administered, Digitized Approach to Quantifying the Cardinal Motor Symptoms in Parkinson's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study assessing validity of a digital assessment tool",
+    "sample_size": "n=19",
+    "justification": "The study involves an observational design where the performance of a new assessment tool is compared against established clinical measures in a cohort of patients with Parkinson's disease. It does not involve randomization or control groups typical of higher-level evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42515329",
+    "title": "A Smart Shoe System for Gait Analysis and Remote Monitoring in Parkinson's Disease-A Validation Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Validation study with observational cohort",
+    "sample_size": "n=32",
+    "justification": "The study involves a comparison of gait parameters in a cohort of individuals with Parkinson's Disease and healthy older adults, without randomization or control groups typical of RCTs. It assesses measurement agreement, which aligns with cohort study characteristics.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42514173",
+    "title": "Sex-Specific Association of Rasagiline with Motor Progression in GBA1-Associated Parkinson's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=259",
+    "justification": "This study is a retrospective cohort analysis evaluating the association between rasagiline use and motor progression in patients with GBA1-associated Parkinson's disease, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42512473",
+    "title": "Effects of Continuous Infusion Therapies on Non-Motor Symptoms in Advanced Parkinson's Disease: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=4157 at baseline, n=2919 at follow-up",
+    "justification": "The study is a systematic review that evaluates multiple studies on the effects of continuous infusion therapies on non-motor symptoms in advanced Parkinson's disease, which aligns with Level 1 evidence.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42509706",
@@ -66,17 +366,117 @@
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
     "study_design": "Review article",
     "sample_size": "unknown",
-    "justification": "The paper is a review summarizing existing knowledge on Parkinson's Disease rather than presenting original research data or a systematic review of trials. Therefore, it fits the lowest level of evidence.",
+    "justification": "The paper is a review summarizing existing knowledge on molecular mechanisms and therapeutic strategies in Parkinson's Disease, rather than presenting original research data or a systematic review of RCTs.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42500962",
-    "title": "A novel approach to the management of levodopa-induced dyskinesia using deep transcranial magnetic stimulation: A case report.",
+    "article_id": "PMID_42507749",
+    "title": "Dietitian-led intervention to manage constipation in Parkinson's disease: Study protocol for a parallel-group randomized controlled trial (NUTRI-GUT-PD).",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=54",
+    "justification": "This study is a parallel-group randomized controlled trial designed to evaluate the effectiveness of a dietitian-led intervention compared to usual care in managing constipation in Parkinson's disease patients. The sample size of 54 participants is explicitly mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42506700",
+    "title": "Botulinum Toxin in Parkinson's Disease Tremor: A Critical Evaluation of the Evidence and Clinical Practice.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Case report",
-    "sample_size": "n=2",
-    "justification": "This study reports on two individual cases without a control group or randomization, making it a case report. The findings are preliminary and require further investigation in larger studies.",
+    "study_design": "Narrative critical review",
+    "sample_size": "n=30 for the positive RCT mentioned",
+    "justification": "The paper is a narrative critical review that synthesizes existing literature rather than presenting new primary research. It references a single positive RCT with a small sample size but does not constitute a systematic review or meta-analysis.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42503072",
+    "title": "Clinical outcomes at 6 months after MRgFUS thalamotomy in Parkinson's disease: a large longitudinal cohort study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective observational cohort study",
+    "sample_size": "n=107",
+    "justification": "The study is a single-center, prospective, observational cohort study assessing clinical outcomes in patients undergoing MRgFUS for Parkinson's disease, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42499378",
+    "title": "An application of weighted support vector machines to individualized second-line therapy selection after levodopa in Parkinson's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational study using clinical data from previous studies",
+    "sample_size": "n=205 (84 and 121 from two cohorts)",
+    "justification": "The study analyzes clinical data from existing cohorts to develop individualized treatment strategies, which aligns with cohort study methodology. The sample sizes are specified but are relatively small.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42499269",
+    "title": "Theta tACS Over the Medial Frontal Cortex Modulates Executive Function in Parkinson's Disease: A Randomized, Sham-Controlled Study.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomized, sham-controlled study",
+    "sample_size": "n=28",
+    "justification": "The study is a randomized controlled trial investigating the effects of HD-tACS on executive function in Parkinson's disease, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42499083",
+    "title": "Effect of vitamin D supplementation on clinical outcomes of patients with Parkinson disease: A randomized controlled study.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=120",
+    "justification": "The study is a randomized controlled trial evaluating the effects of vitamin D supplementation on patients with Parkinson disease, which fits the criteria for Level 2 evidence. The sample size is explicitly mentioned as 60 patients with PD and 60 healthy controls.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42497977",
+    "title": "Targeting DYNC1I1 attenuates Parkinsonian neurodegeneration and α-synuclein accumulation in cellular and mouse models.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and in-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study involves cellular and mouse models to investigate the effects of targeting DYNC1I1, which classifies it as an animal and in-vitro study rather than a clinical trial or observational study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42497857",
+    "title": "Dissecting divergent outcomes in stem cell-derived dopamine cell therapy trials for Parkinson's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review of clinical trials and outcomes",
+    "sample_size": "unknown",
+    "justification": "The abstract discusses outcomes from various clinical trials without presenting original data or a specific study design, indicating it is more of a review or commentary on existing research rather than a primary study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42495865",
+    "title": "Multimodel Diffusion MRI Signatures in Atypical Parkinsonian Disorders.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=113",
+    "justification": "The study analyzes distinct microstructural alterations in atypical parkinsonian disorders compared to controls, using a cohort of participants rather than randomization, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42495570",
+    "title": "The Efficacy and Safety of Monoclonal Antibodies That Target Alpha-Synuclein in Parkinson's Disease: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=13 studies",
+    "justification": "The paper is a systematic review that evaluates multiple studies on monoclonal antibodies targeting alpha-synuclein in Parkinson's disease, which qualifies it for Level 1 evidence. It synthesizes data from various studies, although some had high risks of bias.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42495269",
+    "title": "Freezing of gait and the effects of vibrotactile cueing in Parkinson's disease-a study protocol of a cross-sectional multimodal brain imaging approach in virtual walking scenarios.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Study protocol for a cross-sectional multimodal brain imaging approach",
+    "sample_size": "n=30",
+    "justification": "This paper describes a study protocol rather than presenting completed research findings. It outlines a planned investigation without providing results, which fits the lowest level of evidence.",
     "confidence": 0.8
   },
   {
@@ -90,24 +490,64 @@
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42487050",
-    "title": "Preferences for Parkinson's Disease Treatments: A Scoping Literature Review.",
+    "article_id": "PMID_42491823",
+    "title": "Bioinformatics identification of forkhead box O3 and the proto-oncogene tyrosine-protein kinase receptor RET as aging-associated biomarkers linked to immune cell infiltration in Parkinson's disease.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Scoping literature review",
-    "sample_size": "n=12 studies",
-    "justification": "This paper is a scoping literature review that synthesizes findings from multiple studies rather than presenting original research data or a systematic review of RCTs. Therefore, it fits the lowest level of evidence.",
+    "study_design": "Bioinformatics study with in vitro and in vivo validation",
+    "sample_size": "unknown",
+    "justification": "The study primarily involves bioinformatics analysis and validation in cellular and animal models, which does not fit into higher levels of evidence such as RCTs or cohort studies. The sample size is not specified in the abstract.",
     "confidence": 0.8
   },
   {
-    "article_id": "PMID_40659664",
-    "title": "Circadian clock dysfunction in Parkinson's disease: mechanisms, consequences, and therapeutic strategy.",
-    "cebm_level": 5,
-    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Review article",
-    "sample_size": "unknown",
-    "justification": "The paper is a review that summarizes existing literature on circadian clock dysfunction in Parkinson's disease rather than presenting original research data or a systematic review of trials. Therefore, it fits the lowest level of evidence.",
+    "article_id": "PMID_42490867",
+    "title": "GLP-1 receptor agonists in Parkinson's disease: a meta-analysis revealing motor benefit and highlighting mood improvement.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of randomized controlled trials",
+    "sample_size": "n=850",
+    "justification": "The study is a meta-analysis that synthesizes data from multiple randomized controlled trials, which provides a higher level of evidence compared to individual studies or observational designs.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42489906",
+    "title": "Large language models as a screening tool for the qualification of patients with Parkinson's disease for device-aided therapies.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective single-center study",
+    "sample_size": "n=279",
+    "justification": "The study is a retrospective analysis of a cohort of patients, comparing the performance of large language models with specialist assessments and an established screening tool. This design fits the criteria for a cohort study.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42489905",
+    "title": "Plant-derived therapies in Parkinson's disease: a systematic review of clinical evidence.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "23 studies included",
+    "justification": "The paper is a systematic review that evaluates multiple studies assessing plant-derived therapies for Parkinson's disease, which fits the criteria for Level 1 evidence. It synthesizes findings from various studies to provide a comprehensive overview of the clinical evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42484650",
+    "title": "Effect of continuous subcutaneous foslevodopa/foscarbidopa infusion on gait in advanced Parkinson's disease: a real-world wearable-based study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study",
+    "sample_size": "unknown",
+    "justification": "The study evaluates the effects of continuous subcutaneous foslevodopa/foscarbidopa infusion on gait parameters in patients with advanced Parkinson's disease over time, using real-world data from wearable sensors, which aligns with a cohort study design.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42484026",
+    "title": "The influence of cholesterol on the 5-year all-cause mortality of Parkinson patients with or without deep brain stimulation.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cross-sectional study",
+    "sample_size": "n=212",
+    "justification": "The study is a retrospective analysis of patient data, which fits the criteria for a cohort study. It examines the association between cholesterol levels and mortality in Parkinson's patients over a 5-year period.",
+    "confidence": 0.85
   },
   {
     "article_id": "PMID_36009865",
@@ -116,7 +556,7 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review and meta-analysis",
     "sample_size": "n=32 studies (14 human studies and 18 animal studies)",
-    "justification": "The paper is a systematic review and meta-analysis that evaluates multiple studies, including randomized controlled trials, to assess the effects of Whole-Body Vibration in Parkinson's Disease. This qualifies it for the highest level of evidence.",
+    "justification": "The paper is a systematic review and meta-analysis that evaluates multiple studies, including randomized controlled trials, which qualifies it for Level 1 evidence. It synthesizes findings from both human and animal studies to assess the effects of Whole-Body Vibration in Parkinson's Disease.",
     "confidence": 0.9
   }
 ]

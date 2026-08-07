@@ -1,13 +1,113 @@
 [
   {
+    "article_id": "PMID_42553959",
+    "title": "Refractory Temporal Gelastic Seizure: A Case Report.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study presents a single case report of a patient with refractory temporal gelastic seizures, which does not provide generalizable evidence or a controlled comparison typical of higher-level studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42552664",
+    "title": "Claustrum Involvement in New Onset Refractory Status Epilepticus: A Systematic Review.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Systematic review of observational studies",
+    "sample_size": "n=206",
+    "justification": "The paper is a systematic review that includes individual patient data from multiple observational studies, focusing on clinical characteristics and outcomes in patients with and without the claustrum sign in NORSE. This fits the criteria for a cohort study as it compares outcomes between groups based on a specific characteristic.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42552475",
+    "title": "Guidelines for Seizure Prophylaxis in Patients with Aneurysmal Subarachnoid Hemorrhage: A Statement for Healthcare Professionals from the Neurocritical Care Society.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=10 (articles included in the recommendations)",
+    "justification": "The study is a systematic review and meta-analysis that evaluates multiple studies assessing antiseizure medication prophylaxis in patients with aneurysmal subarachnoid hemorrhage, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42551463",
+    "title": "Nonlinear neurodynamics of N2 sleep EEG predict outcomes of anterior nucleus of the thalamus deep brain stimulation in epilepsy: A pilot study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=26",
+    "justification": "This study is a retrospective analysis of preoperative EEG data from patients who underwent ANT-DBS, classifying them as responders or non-responders based on postoperative outcomes, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42549377",
+    "title": "Hypomelanosis of Ito with Local Overgrowth due to a Somatic Complex MTOR Gene Variant Consistent with Smith-Kingsmore Syndrome in One of Monozygotic Twins Detectable Only by RNA Sequencing: A Case Report.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study presents a single case of a monozygotic twin with a rare condition, which is characteristic of a case report. There is no comparison group or broader population studied.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42546484",
+    "title": "SCN1A-related epilepsy with spike-wave activation in sleep: A retrospective cohort and literature review.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=19",
+    "justification": "The study is a retrospective cohort analysis of patients with SCN1A-related epilepsy, which fits the criteria for a cohort study. The sample size is explicitly mentioned as 19 patients.",
+    "confidence": 0.9
+  },
+  {
     "article_id": "PMID_42545895",
     "title": "Changes in effectiveness and safety in patients with Lennox-Gastaut syndrome transitioning from the fenfluramine randomized controlled trial to open-label extension study.",
     "cebm_level": 3,
-    "cebm_label": "Cohort study",
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Post hoc analysis of a randomized controlled trial and open-label extension study",
     "sample_size": "n=151",
-    "justification": "This study analyzes outcomes from patients transitioning from a randomized controlled trial to an open-label extension, which is characteristic of a cohort study design rather than a randomized controlled trial.",
+    "justification": "The study analyzes data from patients transitioning from a randomized controlled trial to an open-label extension, focusing on effectiveness and safety outcomes, which aligns with cohort study characteristics rather than a new RCT.",
     "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42545023",
+    "title": "Focal Hippocampal Onset and its Effect on Surgical Outcomes: A Case Report and Case Series.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case series",
+    "sample_size": "n=18",
+    "justification": "The study presents a case report and a retrospective case series, which are not designed to establish causality or generalizable conclusions, thus fitting the lowest level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42542632",
+    "title": "Safety and feasibility of oral zinc for patients with GNAO1-related disorders (ZINCGNAO1): an open-label, single-arm, single-centre, pilot trial in Germany.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Open-label, single-arm pilot trial",
+    "sample_size": "n=13",
+    "justification": "This study is a pilot trial with a small sample size and lacks a control group, which limits its ability to draw definitive conclusions about efficacy. Therefore, it fits best under Level 5.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42541470",
+    "title": "Molecular Analysis of SCN1A Gene Variants Associated with Dravet Syndrome: Implications for Diagnosis and Management.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=18",
+    "justification": "The study is a retrospective analysis of children with suspected Dravet syndrome who underwent genetic testing, fitting the criteria for a cohort study. The sample size is explicitly mentioned as 18 patients with identified SCN1A variants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42541365",
+    "title": "The gut microbiome and drug-resistant epilepsy: Microbiome-antiseizure medication interactions and implications for pharmacoresistance.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Narrative review",
+    "sample_size": "unknown",
+    "justification": "The paper is a narrative review synthesizing existing evidence rather than presenting original research data or a systematic review of RCTs. It discusses concepts and proposes frameworks without empirical data.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42541350",
@@ -20,34 +120,84 @@
     "confidence": 0.9
   },
   {
+    "article_id": "PMID_42540542",
+    "title": "Everolimus initiated in the neonatal period for refractory seizures associated with tuberous sclerosis complex: long-term clinical outcome.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "n=1",
+    "justification": "This study describes the clinical course and outcomes of a single neonate treated with everolimus, which qualifies it as a case report. There is no comparison group or randomization involved.",
+    "confidence": 0.9
+  },
+  {
     "article_id": "PMID_42539742",
     "title": "Effective Treatment of Anti-GAD65 Limbic Encephalitis-Associated Epilepsy Despite Delayed Immunotherapy: A Brief Report.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
     "study_design": "Case report",
     "sample_size": "n=1",
-    "justification": "This study describes a single case of a patient with anti-GAD65 limbic encephalitis and the effects of immunotherapy, which fits the criteria for a case report. There are no comparisons or controls involved.",
+    "justification": "This study describes a single patient's response to treatment, which is characteristic of a case report. There is no comparison group or randomization involved.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_42537854",
-    "title": "Distinct Theta-gamma network reorganization differentiates hippocampal sclerosis and MRI-negative mesial temporal lobe epilepsy.",
+    "article_id": "PMID_42538810",
+    "title": "Intracranial EEG synchrony tracks antiseizure medication load in drug-resistant epilepsy.",
     "cebm_level": 3,
     "cebm_label": "Cohort study",
-    "study_design": "Observational cohort study",
-    "sample_size": "n=60",
-    "justification": "This study involves the comparison of patients with mesial temporal lobe epilepsy (MTLE) and healthy controls, assessing their cognitive performance and brain network alterations, which fits the criteria for a cohort study design.",
-    "confidence": 0.85
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=80",
+    "justification": "The study is a retrospective analysis of patients with drug-resistant epilepsy, examining the relationship between intracranial EEG synchrony and antiseizure medication load, which fits the criteria for a cohort study design.",
+    "confidence": 0.9
   },
   {
-    "article_id": "PMID_42534493",
-    "title": "Disease detection and classification in temporal lobe epilepsy: step-wise versus simultaneous AI decision models in a multisite neuroimaging study.",
+    "article_id": "PMID_42537571",
+    "title": "Febrile Infection-Related Epilepsy Syndrome: Duration of Therapeutic Coma and Treatment Intensity Correlate With Poorer Functional Outcome.",
     "cebm_level": 3,
-    "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Multisite neuroimaging study comparing AI models",
-    "sample_size": "n=3676",
-    "justification": "The study analyzes data from multiple sites and compares the performance of different AI models in classifying temporal lobe epilepsy, which aligns with cohort study characteristics. It does not involve randomization or control groups typical of RCTs.",
-    "confidence": 0.85
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=93",
+    "justification": "The study is a retrospective analysis of data from a cohort of children with FIRES, assessing associations between treatment intensity and functional outcomes, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42537228",
+    "title": "Diagnostic utility of bilateral stereoelectroencephalography sampling in temporal lobe epilepsy.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=54",
+    "justification": "The study is a retrospective review of data from patients who underwent bilateral SEEG, which classifies it as a cohort study. It does not involve randomization or a control group, thus fitting Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42537226",
+    "title": "Thalamic neuromodulation for pediatric drug-resistant epilepsy: a case series evaluating deep brain stimulation and responsive neurostimulation.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case series",
+    "sample_size": "n=26",
+    "justification": "This study is a case series that evaluates the outcomes of thalamic neuromodulation in a specific cohort of pediatric patients, lacking a control group or randomization, which fits the criteria for Level 5 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42531696",
+    "title": "Vagus nerve stimulation for refractory status epilepticus: A systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=61",
+    "justification": "The paper is a systematic review synthesizing evidence from multiple studies on vagus nerve stimulation for refractory status epilepticus, which qualifies it for Level 1 evidence. However, it lacks RCTs, which is a limitation.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42530840",
+    "title": "Long-term neuropsychiatric outcomes after neuromodulation in epilepsy patients: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=2418",
+    "justification": "The study is a systematic review and meta-analysis that compiles and quantitatively synthesizes data from multiple studies, including randomized controlled trials, to assess long-term neuropsychiatric outcomes after neuromodulation in epilepsy patients.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42526306",
@@ -60,13 +210,33 @@
     "confidence": 0.9
   },
   {
+    "article_id": "PMID_42526162",
+    "title": "Neurodevelopmental Risk Factors and Comparative Efficacy of Ketogenic Diet in Children With Spike-Wave Activation in Sleep: A Cohort Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=134",
+    "justification": "This study is a retrospective cohort study analyzing treatment outcomes in children with spike-wave activation in sleep, which fits the criteria for Level 3 evidence. The sample size is explicitly mentioned as 134 children.",
+    "confidence": 0.9
+  },
+  {
     "article_id": "PMID_42524749",
     "title": "Cumulative electroconvulsive therapy sessions and focal epilepsy: A nationwide cohort study in Japan.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Retrospective cohort study",
     "sample_size": "n=3733",
-    "justification": "This study is a retrospective cohort study examining the association between cumulative ECT sessions and the incidence of focal epilepsy in a large cohort of patients. It does not involve randomization or a control group, which aligns it with Level 3 evidence.",
+    "justification": "This study is a retrospective cohort study examining the association between cumulative ECT sessions and the development of focal epilepsy in a large cohort. It does not involve randomization or a control group, which is why it is classified as Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42523897",
+    "title": "Elevated serum plasminogen activator inhibitor-1 is associated with seizure burden, drug resistance, and neuroinflammatory markers in pediatric epilepsy.",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
+    "study_design": "Case-control study",
+    "sample_size": "n=300 (200 pediatric patients with epilepsy and 100 healthy controls)",
+    "justification": "The study compares serum PAI-1 levels between pediatric epilepsy patients and healthy controls, which is characteristic of a case-control design. It does not involve randomization or follow-up typical of cohort studies.",
     "confidence": 0.9
   },
   {
@@ -76,8 +246,148 @@
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Prospective cohort study",
     "sample_size": "n=40",
-    "justification": "The study follows a group of children with drug-resistant epilepsy over time to assess the effects of the ketogenic diet on various outcomes, which aligns with a cohort study design.",
+    "justification": "The study follows a group of children with drug-resistant epilepsy over time to assess the effects of the ketogenic diet on various outcomes, which aligns with the characteristics of a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42516612",
+    "title": "50 Hz Cortical stimulation increases interictal epileptiform discharges at the seizure onset zone.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study with a cohort of patients",
+    "sample_size": "n=30",
+    "justification": "The study evaluates the effects of cortical stimulation on interictal epileptiform discharges in a cohort of patients with drug-resistant epilepsy, without randomization or control groups, fitting the criteria for a cohort study.",
     "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42516558",
+    "title": "Association of TPH2 polymorphisms with valproic acid efficacy and neurological adverse events in pediatric epilepsy.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=199",
+    "justification": "This study is a retrospective cohort study investigating the association between TPH2 polymorphisms and valproic acid efficacy and adverse events in pediatric epilepsy, which fits the criteria for Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42516410",
+    "title": "Pyridoxine-dependent and other pyridoxine-responsive epilepsies-insights into phenotype overlapping and the long-term outcome in a cohort of 21 children.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=21",
+    "justification": "The study evaluates a cohort of children with pyridoxine-responsive seizures, analyzing various clinical parameters and outcomes, which fits the definition of a cohort study. It does not involve randomization or control groups typical of RCTs.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42516310",
+    "title": "Novel ALG13 Variants and an Expanded Neurodevelopmental Spectrum: Genotype-Phenotype Correlations.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case series and in-vitro study",
+    "sample_size": "n=5",
+    "justification": "The study reports on five patients with ALG13 variants, which constitutes a case series, and includes in-vitro analysis using organoid models. There is no randomization or control group, placing it at a lower level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42513263",
+    "title": "From Acute Symptomatic Seizures to Post-Stroke Epilepsy: A Narrative Review of Diagnosis and Management.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Narrative review",
+    "sample_size": "unknown",
+    "justification": "The paper is a narrative review, which synthesizes existing evidence rather than presenting original research data or a systematic analysis of studies. Therefore, it does not meet the criteria for higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42507503",
+    "title": "A Study on Protocol-based Treatment Change in Drug-resistant Epilepsy Patients in a Tertiary Care Center in Eastern India.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective observational study",
+    "sample_size": "n=138",
+    "justification": "The study is a prospective observational cohort study assessing the efficacy of treatment changes in drug-resistant epilepsy patients, which fits the criteria for Level 3 evidence. It does not involve randomization or a control group, which are necessary for higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42501662",
+    "title": "Clinical characteristics and factors associated with preoperative neurodevelopment in children with Rasmussen encephalitis: A single-centre retrospective study of 51 patients.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=51",
+    "justification": "The study is a retrospective analysis of clinical data from a cohort of patients with Rasmussen encephalitis, focusing on associations between clinical features and neurodevelopmental outcomes.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42501325",
+    "title": "Focal epilepsy expands the phenotype of FUS-associated amyotrophic lateral sclerosis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "n=1",
+    "justification": "This study describes a single case of a patient with FUS-ALS and comorbid focal epilepsy, which fits the criteria for a case report. There are no comparative groups or broader data analysis involved.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42501318",
+    "title": "Emergency treatment delay and underdosing are associated with poor outcome in non-convulsive status epilepticus.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=74",
+    "justification": "The study is an observational cohort study that examines the association between treatment timing, dosing, and outcomes in patients with non-convulsive status epilepticus. It does not involve randomization or a control group, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42501045",
+    "title": "Comparative multicenter evaluation of thalamic neuromodulation for treatment-resistant epilepsy in children.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=221",
+    "justification": "The study is a retrospective cohort analysis of children who underwent thalamic neuromodulation for drug-resistant epilepsy, which fits the criteria for a cohort study. It does not involve randomization or a systematic review, thus it is classified as Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42497593",
+    "title": "Evaluation of EEG findings in pediatric patients presenting with dizziness.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=736",
+    "justification": "This study is a retrospective review of medical records, which classifies it as a cohort study. It evaluates the frequency of EEG findings in a specific population of pediatric patients presenting with dizziness.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42496185",
+    "title": "Perampanel Monotherapy in Epileptic Children: A Systematic Review with Pooled Descriptive Analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Systematic review with pooled descriptive analysis of observational studies",
+    "sample_size": "n=850",
+    "justification": "The study is a systematic review of 12 observational studies, including both retrospective and prospective designs, which do not provide the high level of evidence associated with randomized controlled trials. Therefore, it is classified as Level 3.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42495800",
+    "title": "The effectiveness of adding on or switching antiseizure medications after the first fails to control focal epilepsy: A systematic review of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomized controlled trials",
+    "sample_size": "n=961",
+    "justification": "The study is a systematic review that synthesizes evidence from multiple randomized controlled trials, which qualifies it for Level 1 evidence. Although it did not perform a meta-analysis due to heterogeneity, it still systematically reviewed RCTs.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42492456",
+    "title": "Predicting the efficacy of classic ketogenic diet therapy in children with refractory epilepsy using dynamic changes in the glucose-ketone index (GKI).",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=189",
+    "justification": "The study analyzes data from a cohort of children with refractory epilepsy who underwent a specific treatment (classic ketogenic diet) and assesses outcomes based on their responses, fitting the criteria for a cohort study.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_42492305",
@@ -86,18 +396,48 @@
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
     "study_design": "Systematic review of observational studies and case reports",
     "sample_size": "n=16",
-    "justification": "The study is a systematic review that includes case reports, a case series, and a cohort study, which are all lower levels of evidence. The sample size of women included in the review is small (n=16), indicating limited generalizability.",
+    "justification": "The study is a systematic review that includes case reports, a case series, and a cohort study, but the overall evidence is based on a very small sample size of 16 women. Therefore, it fits best under Level 5.",
     "confidence": 0.8
   },
   {
-    "article_id": "PMID_42485909",
-    "title": "Electroclinical and behavioral outcomes of add-on ethosuximide in children with developmental and epileptic encephalopathy with spike-wave activation in sleep (D/EE-SWAS): A prospective observational study.",
+    "article_id": "PMID_42492303",
+    "title": "Valproate vs levetiracetam in juvenile myoclonic epilepsy: systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=1009",
+    "justification": "The study is a systematic review and meta-analysis that includes randomized controlled trials and comparative observational studies, which qualifies it for Level 1 evidence. However, the presence of substantial heterogeneity and bias in the included studies suggests caution in interpretation.",
+    "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_42487138",
+    "title": "Efficacy of oxcarbazepine in treating focal epilepsy based on resting-state EEG functional connectivity and power spectral analyses.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "prospective observational cohort study",
-    "sample_size": "n=39",
-    "justification": "This study is a prospective observational cohort study evaluating the outcomes of add-on ethosuximide in children with D/EE-SWAS, which fits the criteria for a Level 3 evidence study. The sample size is explicitly mentioned as 39 children.",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=27",
+    "justification": "This study is a retrospective cohort study examining the efficacy of oxcarbazepine in patients with focal epilepsy, which fits the criteria for Level 3 evidence. The sample size is explicitly mentioned as 27 patients.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42486997",
+    "title": "Peripheral blood inflammatory biomarkers and response to vagus nerve stimulation in pediatric drug-resistant epilepsy: A retrospective cohort study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=108",
+    "justification": "The study is a retrospective cohort analysis examining associations between inflammatory biomarkers and treatment response in pediatric drug-resistant epilepsy, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485910",
+    "title": "Long-term prognostic value of early post-operative electroencephalogram in patients with drug-resistant temporal lobe epilepsy associated with hippocampal sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=168",
+    "justification": "The study is a retrospective analysis of patients who underwent surgery for drug-resistant temporal lobe epilepsy, assessing the prognostic value of early postoperative EEG findings. This design fits the criteria for a cohort study as it follows a group of patients over time based on their exposure (postoperative EEG results).",
+    "confidence": 0.85
   },
   {
     "article_id": "PMID_42485908",
@@ -106,8 +446,38 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review and individual-patient data analysis",
     "sample_size": "n=169 (151 for RHS, 9 for LITT, 9 for VNS)",
-    "justification": "The study is a systematic review that includes individual-patient data analysis, synthesizing outcomes from multiple studies, which qualifies it for Level 1 evidence. It provides comprehensive insights into surgical outcomes after failed hemispheric disconnection surgery.",
+    "justification": "This study is a systematic review that includes individual-patient data analysis, synthesizing outcomes from multiple studies, which qualifies it for Level 1 evidence. It provides comprehensive insights into surgical strategies after failed hemispheric disconnection surgery.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485907",
+    "title": "Forecasting and real-time detection of neonatal seizures: A machine learning perspective.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Machine learning model development and validation study",
+    "sample_size": "n=82 for single-channel dataset, n=79 for multi-channel dataset",
+    "justification": "The study presents a machine learning model developed and tested on specific datasets without a randomized controlled trial or observational cohort design, fitting the criteria for level 5 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42479261",
+    "title": "Effiformer: a unified data-efficient vision transformer-CNN framework for interpretable epileptic seizure detection.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Machine learning model development and validation",
+    "sample_size": "n=22",
+    "justification": "The study describes the development of a machine learning model for seizure detection using a dataset, but it does not involve a clinical trial or observational study design. The focus is on model performance rather than patient outcomes.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42476001",
+    "title": "Vigabatrin therapy for infantile epileptic spasms syndrome with periventricular leukomalacia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=7",
+    "justification": "The study is a retrospective analysis of patients treated with vigabatrin, which fits the criteria for a cohort study. The small sample size of 7 patients limits the generalizability of the findings.",
+    "confidence": 0.8
   },
   {
     "article_id": "PMID_42474867",
@@ -116,17 +486,127 @@
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
     "study_design": "Mendelian randomization and functional validation study",
     "sample_size": "unknown",
-    "justification": "The study employs Mendelian randomization and functional validation in animal models, which are considered lower levels of evidence compared to RCTs or cohort studies. The sample size for the genetic analysis is not specified.",
+    "justification": "The study employs Mendelian randomization and functional validation in animal models, which are considered lower levels of evidence compared to clinical trials or cohort studies. The sample size for the genetic analysis is not specified.",
     "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42474247",
+    "title": "Does stereoelectroencephalographic depth electrode insertion alter seizure frequency? A baseline versus endpoint analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=51",
+    "justification": "The study is a retrospective analysis of clinical data from patients who underwent a specific intervention (electrode insertion) and assessed outcomes over time, fitting the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42474097",
+    "title": "Monitoring Antiseizure Medication Change Using Ultra Long-Term Electroencephalogram: A Multicenter Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective multicenter cohort study",
+    "sample_size": "n=65",
+    "justification": "The study is a retrospective cohort study comparing seizure frequency detected by sqEEG and patient-reported diaries, which fits the criteria for Level 3 evidence. It does not involve randomization or a systematic review, thus it is not higher than Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42473715",
+    "title": "Individualized perampanel response and efficacy in patients with refractory epilepsy: the need for ATP-binding cassette B1 genotyping and therapeutic drug monitoring to work in tandem.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=115",
+    "justification": "The study analyzes the correlation between gene polymorphisms and drug efficacy in a group of patients, which is characteristic of a cohort study design. It does not involve randomization or control groups typical of RCTs.",
+    "confidence": 0.85
   },
   {
     "article_id": "PMID_42473671",
     "title": "Immune context and treatment timing associated with seizure freedom after rituximab in autoimmune limbic encephalitis.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Retrospective cohort study",
+    "study_design": "Retrospective single-center cohort study",
     "sample_size": "n=107",
-    "justification": "The study is a retrospective cohort study examining the association between treatment timing and seizure outcomes in patients with autoimmune limbic encephalitis. It does not involve randomization or a control group, which is characteristic of cohort studies.",
+    "justification": "This study is a retrospective cohort study examining the association between treatment timing and immune context with seizure freedom in patients with autoimmune limbic encephalitis. It does not involve randomization or a control group, which aligns it with Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42473187",
+    "title": "Akkermansia muciniphila enhances washed microbiota transplantation in the treatment of epilepsy.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective, single-center, open-label cohort study",
+    "sample_size": "n=21",
+    "justification": "This study is a prospective cohort study evaluating the efficacy and safety of washed microbiota transplantation in patients with epilepsy, which fits the criteria for Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42471769",
+    "title": "Ten-year cognitive outcomes following epilepsy surgery: Temporal lobectomy versus selective amygdalohippocampectomy.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=48",
+    "justification": "This study compares cognitive outcomes in different groups of patients with temporal lobe epilepsy who underwent different surgical interventions or received no surgery, which is characteristic of a cohort study design. The sample size is explicitly mentioned as 48 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42470914",
+    "title": "Childhood Absence Epilepsy with Coexisting Centrotemporal Spikes: Frequency, Electroclinical Course and Prognosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=276",
+    "justification": "The study is a retrospective analysis of patient charts, evaluating the frequency and prognosis of a specific condition, which fits the criteria for a cohort study. It does not involve randomization or control groups typical of higher-level evidence.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_35980668",
+    "title": "Anti-seizure efficacy and retention rate of carbamazepine is highly variable in randomized controlled trials: A meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of randomized controlled trials",
+    "sample_size": "n=30 RCTs",
+    "justification": "The study is a meta-analysis that synthesizes data from multiple randomized controlled trials to assess the efficacy and retention rate of carbamazepine in epilepsy treatment, fitting the criteria for Level 1 evidence.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_37361715",
+    "title": "Variation in prognosis and treatment outcome in juvenile myoclonic epilepsy: a Biology of Juvenile Myoclonic Epilepsy Consortium proposal for a practical definition and stratified medicine classifications.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study based on clinical data and literature review",
+    "sample_size": "unknown",
+    "justification": "The study analyzes clinical data collected by a consortium and proposes a predictive model based on observed variations in juvenile myoclonic epilepsy, which aligns with cohort study characteristics. However, the sample size is not specified.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_31823350",
+    "title": "Losigamone add-on therapy for focal epilepsy.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomized controlled trials",
+    "sample_size": "n=467",
+    "justification": "The paper is a systematic review that includes multiple randomized controlled trials assessing the efficacy and tolerability of losigamone as an add-on therapy for focal epilepsy, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_27150433",
+    "title": "Immediate antiepileptic drug treatment, versus placebo, deferred, or no treatment for first unprovoked seizure.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of RCTs",
+    "sample_size": "unknown",
+    "justification": "The paper is a systematic review that includes multiple randomised controlled trials and provides a meta-analysis of their results, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_29355908",
+    "title": "Losigamone add-on therapy for focal epilepsy.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomized controlled trials",
+    "sample_size": "n=467",
+    "justification": "The paper is a systematic review that includes multiple randomized controlled trials assessing the efficacy and safety of losigamone as an add-on therapy for focal epilepsy, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
   },
   {
@@ -134,9 +614,19 @@
     "title": "Deep brain and cortical stimulation for epilepsy.",
     "cebm_level": 1,
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
-    "study_design": "Systematic review of RCTs",
+    "study_design": "Systematic review of randomised controlled trials",
     "sample_size": "n=109 (largest trial) and various smaller trials",
     "justification": "The paper is an updated systematic review that assesses multiple RCTs comparing deep brain and cortical stimulation for epilepsy, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_24595491",
+    "title": "Cannabinoids for epilepsy.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Randomized Controlled Trials (RCTs) with low quality",
+    "sample_size": "n=48",
+    "justification": "The study is based on four randomized trials with a very small sample size and low quality, and it does not provide reliable conclusions about the efficacy of cannabinoids for epilepsy. Therefore, it fits the criteria for Level 5 evidence.",
+    "confidence": 0.8
   }
 ]

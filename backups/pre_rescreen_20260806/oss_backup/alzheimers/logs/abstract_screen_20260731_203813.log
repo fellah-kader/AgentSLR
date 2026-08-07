@@ -1,0 +1,7 @@
+2026-07-31 20:38:14,512 - INFO - Loading abstract screening input from: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/alzheimers/harvest_metadata.csv
+2026-07-31 20:38:14,661 - INFO - Screening 9607 metadata rows without download filtering
+2026-07-31 20:38:14,663 - INFO - Sampling 10 of 9607 abstract-screening rows with seed=7
+2026-07-31 20:38:14,664 - INFO - Screening 10 papers
+2026-07-31 20:38:14,664 - INFO - Reasoning traces will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/alzheimers/logs/abstract_screening_dumps_2026-07-31_20-38-14
+2026-07-31 20:38:14,686 - INFO - Results will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/alzheimers/screening/abstract_screening.csv
+2026-07-31 20:38:14,686 - INFO - Run ID: 2026-07-31_20-38-14

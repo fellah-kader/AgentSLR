@@ -1,5 +1,225 @@
 [
   {
+    "article_id": "PMID_42554308",
+    "title": "The effect of online physical activity monitoring on physical activity level, psychological health, fatigue, and quality of life in patients with multiple sclerosis: a randomized controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=42",
+    "justification": "The study is a randomized controlled trial with a defined intervention and control group, assessing the effects of an intervention on specific outcomes in patients with multiple sclerosis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42553257",
+    "title": "Association of therapeutic plasma exchange with functional outcomes in selected neurological disorders: a retrospective cohort study from a single tertiary center in Saudi Arabia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=133",
+    "justification": "This study is a retrospective cohort analysis evaluating the outcomes of therapeutic plasma exchange in patients with various neurological disorders, which fits the criteria for a Level 3 evidence study. The design does not allow for causal inferences due to its retrospective nature.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42553000",
+    "title": "Measurements and management of multiple sclerosis-related fatigue: an umbrella review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Umbrella review and meta-analysis of systematic reviews",
+    "sample_size": "n=287 primary studies",
+    "justification": "The study synthesizes and appraises multiple systematic reviews with meta-analyses that assess interventions for MS-related fatigue, which qualifies it as a systematic review of RCTs.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42550249",
+    "title": "Microglial 5-LOX-activating protein antagonism alleviates leukotriene-driven neuroinflammation.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and in-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study involves pharmacological antagonism in an animal model (EAE) and in vitro experiments with iPSC-derived microglia, which are not randomized controlled trials or observational studies. Therefore, it fits the criteria for Level 5 evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42548876",
+    "title": "Association between peripheral blood T cell subsets and clinical disability in multiple sclerosis patients.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cross-sectional study",
+    "sample_size": "n=48",
+    "justification": "This study is a cross-sectional analysis of associations between T cell subsets and clinical disability in MS patients, which fits the criteria for a cohort study design. The sample size of 48 patients is explicitly mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42548205",
+    "title": "Long-term efficacy of cladribine tablets: Results from the MAGNIFY-MS Extension study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Phase IV Extension study",
+    "sample_size": "n=219",
+    "justification": "The study is a Phase IV extension study evaluating long-term efficacy, which is observational in nature and does not involve randomization. It analyzes outcomes in a cohort of participants over time.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42547698",
+    "title": "Neural Stem Cells in Multiple Sclerosis: A Comprehensive Review of Preclinical and Clinical Evidence for CNS Repair and Translational Hurdles.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Comprehensive review",
+    "sample_size": "unknown",
+    "justification": "The paper is a comprehensive review of preclinical and clinical evidence rather than a primary research study, which typically falls under Level 5. It summarizes existing studies without presenting new data or a systematic analysis of RCTs.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42546452",
+    "title": "Chitinase-1 in cerebrospinal fluid and white matter injury in patients with progressive multiple sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cross-sectional exploratory and confirmatory studies with longitudinal follow-up",
+    "sample_size": "n=104",
+    "justification": "The study includes multiple substudies that are observational in nature, correlating biomarker levels with clinical and imaging outcomes in patients with progressive multiple sclerosis, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42545715",
+    "title": "Serum Glial Fibrillary Acidic Protein Dynamics, Disease Progression, and Therapy Response in Multiple Sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective observational study",
+    "sample_size": "n=2329",
+    "justification": "The study is a prospective observational cohort study involving two large MS cohorts, which fits the criteria for a Level 3 evidence study design. It evaluates associations between serum GFAP levels and disease progression in multiple sclerosis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42543909",
+    "title": "Multiple sclerosis outcomes after cancer diagnosis in people with recorded chemotherapy exposure: A real-world MSBase study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=363",
+    "justification": "The study follows a cohort of individuals with multiple sclerosis who have been diagnosed with cancer and received chemotherapy, analyzing their outcomes over time. This observational design fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42543771",
+    "title": "Efficacy and safety of cannabinoids in the treatment of spasticity in multiple sclerosis: A systematic review of randomized clinical trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomized clinical trials",
+    "sample_size": ">3000 participants",
+    "justification": "The study is a systematic review that includes multiple randomized controlled trials, which qualifies it for the highest level of evidence. Despite the low certainty of evidence noted, the design itself is a systematic review of RCTs.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42542074",
+    "title": "Incidence and prevalence of multiple sclerosis in Qatar: A population-based study from 2016 to 2024.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Retrospective, population-based study",
+    "sample_size": "n=1017",
+    "justification": "This study is a retrospective cohort study that analyzes the incidence and prevalence of multiple sclerosis in a defined population over a specific time period. It does not involve randomization or controlled trials, which places it at Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42538767",
+    "title": "Predictors of Multiple Sclerosis After Clinically Isolated Syndrome: A Systematic Review and Meta-Analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of observational studies",
+    "sample_size": "n=9915",
+    "justification": "This paper is a systematic review and meta-analysis that synthesizes data from multiple observational studies, which provides a higher level of evidence than individual studies alone. Although it does not include RCTs, the systematic approach to analyzing observational data warrants a Level 1 classification.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42538730",
+    "title": "Combined Whole-Body Cryotherapy and Exercise vs Exercise Alone for Lower Limb Strength and Mobility in Multiple Sclerosis.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=60",
+    "justification": "The study involves a randomised controlled trial design with three groups, comparing the effects of combined whole-body cryotherapy and exercise against exercise alone and cryotherapy alone. The sample size is explicitly mentioned as 60 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42538096",
+    "title": "HLA-dependent association between EBNA1 antibody levels and disability progression in multiple sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study (prospective or retrospective, observational)",
+    "sample_size": "n=5706",
+    "justification": "The study analyzed a large cohort of patients with multiple sclerosis from population-based studies, assessing the association between EBNA1 antibody levels and disability progression, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42530333",
+    "title": "Two Years of Ocrelizumab Treatment in Black and Hispanic People with Multiple Sclerosis in CHIMES: A Single-Arm Clinical Trial.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Single-arm clinical trial",
+    "sample_size": "n=182",
+    "justification": "The study is a single-arm clinical trial evaluating the effectiveness and safety of ocrelizumab in a specific population, which aligns with cohort study characteristics. It does not involve randomization, thus fitting Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42528603",
+    "title": "Fumarate and fumarate hydratase: an immunometabolite regulator of inflammation and diseases.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review article that synthesizes existing literature on fumarate and its immunometabolic roles, rather than presenting original research data or a specific study with a sample size.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42525900",
+    "title": "Value of Annual MRI Monitoring in Patients With Multiple Sclerosis Treated With Ocrelizumab: A Number Needed to Scan Analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=342",
+    "justification": "The study is observational and analyzes a cohort of patients treated with ocrelizumab, assessing the frequency of radiologic disease activity through routine MRI scans. It does not involve randomization or a control group, which aligns it with cohort study design.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42525242",
+    "title": "Prognostic factors in paediatric-onset multiple sclerosis: a narrative review.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Narrative review",
+    "sample_size": "unknown",
+    "justification": "The study is a narrative review that summarizes existing literature without conducting original research or providing a systematic analysis, thus fitting the lowest level of evidence. No sample size is mentioned as it reviews previously published studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42522253",
+    "title": "Disease Course After Anti-CD20 Discontinuation in Secondary Progressive Multiple Sclerosis-A Multicenter Long-Term Longitudinal Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=55",
+    "justification": "The study is a retrospective analysis of data from multiple centers focusing on long-term outcomes in a specific patient population, which fits the definition of a cohort study. It does not involve randomization or a control group.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42520508",
+    "title": "Treatment satisfaction during personalized extended interval dosing of natalizumab in patients with multiple sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective cohort study",
+    "sample_size": "n=427",
+    "justification": "The study analyzes data from participants in two prospective trials, focusing on treatment satisfaction without randomization, which classifies it as a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42517750",
+    "title": "Clinical Efficacy and Brain Volumetric Changes in Pediatric-Onset Multiple Sclerosis Under Teriflunomide Treatment.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective longitudinal study",
+    "sample_size": "n=16",
+    "justification": "This study is a retrospective cohort study evaluating brain volumetric changes in pediatric-onset multiple sclerosis patients treated with teriflunomide, without a control group. The sample size is small, which limits the generalizability of the findings.",
+    "confidence": 0.8
+  },
+  {
     "article_id": "PMID_42515675",
     "title": "Fluorescence HPLC Analysis of Teriflunomide in Human Plasma Following Derivatization with 4-Chloro-7-Nitrobenzofurazan: Method Development and Application to a Prototype Pharmacokinetic Evaluation.",
     "cebm_level": 5,
@@ -10,13 +230,273 @@
     "confidence": 0.9
   },
   {
+    "article_id": "PMID_42509429",
+    "title": "Late complications after autologous HSCT for autoimmune diseases: a retrospective survey from the autoimmune diseases working party (ADWP), transplant complications working party (TCWP) and paediatric diseases working party (PDWP) of the european society for blood and marrow transplantation (EBMT).",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=579",
+    "justification": "The study is a retrospective analysis of data collected from a registry, assessing long-term outcomes in patients who underwent autologous HSCT for autoimmune diseases, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42506315",
+    "title": "Nabiximols in Multiple Sclerosis: Beyond Spasticity-An Exploratory Systematic Review and Meta-Analysis of Symptomatic Outcomes.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=2949",
+    "justification": "The study is a systematic review and meta-analysis that includes data from multiple randomized controlled trials, which qualifies it for Level 1 evidence. However, the authors note that the evidence certainty was low to very low.",
+    "confidence": 0.6
+  },
+  {
+    "article_id": "PMID_42504388",
+    "title": "Real-world data on the prevalence and therapy of symptomatic bladder dysfunction in people with multiple sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective, cross-sectional study",
+    "sample_size": "n=10,572",
+    "justification": "The study is a retrospective analysis of data from a large cohort of individuals with multiple sclerosis, which fits the criteria for a cohort study. It does not involve randomization or controlled trials, thus it is classified at Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42502707",
+    "title": "Family planning and multiple sclerosis - part 2: Does real-world practice align with Swedish treatment guidelines?",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=130 women (153 pregnancies)",
+    "justification": "The study examines real-world treatment practices in a cohort of women with multiple sclerosis during pregnancy, linking survey responses to a registry, which aligns with the characteristics of a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42501585",
+    "title": "Modified Delphi consensus on the use of cladribine tablets in relapsing-remitting multiple sclerosis in North-West Africa.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Modified Delphi consensus",
+    "sample_size": "unknown",
+    "justification": "The study is based on expert consensus rather than empirical data from clinical trials or observational studies, which places it at a lower level of evidence. No specific sample size is mentioned.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42497800",
+    "title": "Asymptomatic spinal cord lesions in Multiple Sclerosis: A systematic review and meta-analysis of subclinical disease activity.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=1637",
+    "justification": "The study is a systematic review and meta-analysis that synthesizes data from multiple studies to estimate the proportion of patients with new asymptomatic spinal cord lesions, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42496160",
+    "title": "Treatment escalation after clinically silent MRI lesions in relapsing-remitting multiple sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study and emulated target trial",
+    "sample_size": "n=10,232",
+    "justification": "This study is a cohort study that analyzes outcomes based on treatment escalation in participants with silent MRI lesions, using registry data. It does not involve randomization, which is why it is classified as Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42493540",
+    "title": "A novel small molecule remyelination therapy for multiple sclerosis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study involves a phenotypic screen and experiments conducted on mouse oligodendrocyte progenitor cells, indicating it is an animal study rather than a clinical trial or observational study. No human subjects or clinical data are mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42492767",
+    "title": "Steroid-dependent regulation of central nervous system remyelination: From gonadal hormones to chemokine signaling.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study is based on experimental findings from mouse models and does not involve human randomized controlled trials or observational studies. It primarily discusses mechanisms observed in animal studies.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42490845",
+    "title": "Comprehensive Analysis of Ozanimod-Related Adverse Events Based on the FAERS Database.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Pharmacovigilance study using FAERS database",
+    "sample_size": "n=15,910",
+    "justification": "This study analyzes adverse event reports from a database rather than conducting a controlled trial or observational study, which aligns it with lower levels of evidence. It primarily provides descriptive data and signals rather than causal relationships.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42486519",
+    "title": "Potential benefits of music-based therapies on rehabilitation outcomes in people with multiple sclerosis: a systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=955",
+    "justification": "This paper is a systematic review that synthesizes data from multiple studies, including clinical trials, to assess the effectiveness of music-based therapies in people with multiple sclerosis. It meets the criteria for Level 1 evidence as it reviews randomized controlled trials and other controlled studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485588",
+    "title": "Child Neurology: A Case of Concurrent Neurofibromatosis Type 1 and Multiple Sclerosis by 2024 Criteria.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study presents a single case of a pediatric patient with concurrent neurofibromatosis type 1 and multiple sclerosis, which fits the criteria for a case report. There is no mention of a larger sample size or comparative analysis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42482223",
+    "title": "Targeting progressive multiple sclerosis: Toward mechanism-informed precision medicine.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Expert opinion and review of existing literature",
+    "sample_size": "unknown",
+    "justification": "The paper discusses various aspects of multiple sclerosis and proposes treatment strategies based on existing evidence but does not present original research data or a specific study with a defined sample size.",
+    "confidence": 0.8
+  },
+  {
     "article_id": "PMID_42479470",
     "title": "Causal effects of multiple sclerosis therapies in left-truncated registry data.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
     "study_design": "Observational cohort study using registry data",
     "sample_size": "n=5588",
-    "justification": "The study analyzes data from a large cohort of patients tracked over time to assess the impact of left-truncation on treatment effect estimates, which fits the criteria for a cohort study.",
+    "justification": "The study analyzes data from a large cohort of patients tracked over time to assess the impact of left-truncation on treatment effect estimates, which aligns with cohort study methodology.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42476739",
+    "title": "Clinical and cost-effectiveness of the iStep-MS physical activity and sedentary behaviour intervention for managing fatigue in people with multiple sclerosis: protocol for a multicentre randomised controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=198",
+    "justification": "The study is a multicentre, two-arm randomised controlled trial designed to evaluate the effectiveness of the iStep-MS intervention for managing fatigue in people with multiple sclerosis, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42470870",
+    "title": "Coordinated oxidative shift during relapse and recovery in multiple sclerosis: A paired analysis of multiple biomarkers.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=50",
+    "justification": "The study evaluates changes in oxidative stress markers in patients with relapsing-remitting MS during relapse and after recovery, using paired analyses, which is characteristic of a cohort study design. It does not involve randomization or control groups in the traditional sense of an RCT.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42461014",
+    "title": "Vidofludimus calcium for the treatment of multiple sclerosis: development rationale, mechanism of action, and early trial data.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Expert opinion and preliminary trial data discussion",
+    "sample_size": "unknown",
+    "justification": "The paper discusses the mechanism of action and early trial data without presenting a systematic review or individual RCT results. It primarily provides expert opinion and preliminary findings from phase 2 trials.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42455218",
+    "title": "Efficacy and Safety of Intermittent Negative Pressure Treatment on Spasticity and Spasticity-Related Symptoms in Patients with Multiple Sclerosis: A Two-Arm Randomized Trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomized, two-arm multicenter trial",
+    "sample_size": "unknown",
+    "justification": "The study is a randomized controlled trial comparing two treatment groups, which fits the criteria for Level 2 evidence. The sample size is not mentioned in the abstract.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42452581",
+    "title": "From Clinical Trial Efficacy to Real-World Effectiveness and Safety: Two-Year Outcomes of Cladribine in Relapsing-Remitting Multiple Sclerosis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective single-center observational cohort study",
+    "sample_size": "n=71",
+    "justification": "This study is a retrospective cohort study evaluating the effectiveness and safety of cladribine in patients with relapsing-remitting multiple sclerosis, which fits the criteria for Level 3 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42440661",
+    "title": "Investigating the treatment of vascular risk with simvastatin in secondary progressive multiple sclerosis: analysis from the MS-STAT2 randomized controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=964",
+    "justification": "The study is based on the MS-STAT2 trial, which is a randomized controlled trial involving a large sample size of 964 patients. It investigates the effects of simvastatin on secondary progressive multiple sclerosis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42439933",
+    "title": "Efficacy and safety of amantadine in the treatment of fatigue in multiple sclerosis: a systematic review and meta-analysis of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis of randomized controlled trials",
+    "sample_size": "n=1210",
+    "justification": "The study is a systematic review and meta-analysis that includes multiple randomized controlled trials, which provides a high level of evidence regarding the efficacy and safety of amantadine in treating fatigue in multiple sclerosis.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42439831",
+    "title": "Factors influencing quality of life in multiple sclerosis patients in Northwest Ethiopia: a multicentre cross-sectional study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cross-sectional study",
+    "sample_size": "n=427",
+    "justification": "This study is a cross-sectional observational study that assesses factors influencing quality of life in multiple sclerosis patients, which fits the criteria for a cohort study design. It does not involve randomization or control groups typical of higher-level evidence.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42437810",
+    "title": "Effects of transcranial direct current stimulation on motor function in patients with multiple sclerosis: a systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "n=299",
+    "justification": "The study is a systematic review and meta-analysis of randomized controlled trials, which is the highest level of evidence according to CEBM. It synthesizes data from multiple RCTs to assess the effectiveness of tDCS in MS patients.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_42437103",
+    "title": "Multiple Sclerosis in a Person With Hirschprung's Disease: A Case Report.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Case report",
+    "sample_size": "unknown",
+    "justification": "This study presents a single case of multiple sclerosis in a patient with Hirschsprung's disease, which qualifies it as a case report. There is no mention of a sample size, indicating it is focused on an individual case.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41303170",
+    "title": "Disease-Modifying Treatment Options in Very Early Onset Multiple Sclerosis-What Choices Are There for Onset Under 5 Years of Age? A Systematic Review.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Systematic review",
+    "sample_size": "n=101",
+    "justification": "The study is a systematic review of existing literature on very early pediatric-onset multiple sclerosis, which includes a case series of 101 patients. However, it does not include randomized controlled trials or cohort studies, placing it at a lower level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_39651635",
+    "title": "Azathioprine for people with multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=2105 (1076 from RCTs and 1029 from NRSIs)",
+    "justification": "The paper is a systematic review that includes multiple RCTs and NRSIs to evaluate the effects of azathioprine in multiple sclerosis, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_39254048",
+    "title": "Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis of randomised controlled trials",
+    "sample_size": "n=10167",
+    "justification": "The study is a systematic review and network meta-analysis that synthesizes data from multiple RCTs to compare the efficacy and safety of various treatments for progressive multiple sclerosis.",
     "confidence": 0.9
   },
   {
@@ -24,9 +504,19 @@
     "title": "Alemtuzumab for multiple sclerosis.",
     "cebm_level": 1,
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
-    "study_design": "Systematic review of randomised controlled trials",
+    "study_design": "Systematic review of Randomised Controlled Trials",
     "sample_size": "n=1713",
-    "justification": "The paper is a systematic review that includes multiple RCTs comparing alemtuzumab to other treatments in multiple sclerosis, which fits the criteria for Level 1 evidence.",
+    "justification": "The paper is a systematic review that includes multiple RCTs comparing alemtuzumab to other treatments for multiple sclerosis, which qualifies it for Level 1 evidence. The sample size is explicitly mentioned as 1713 participants across the included studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_32428983",
+    "title": "Dietary interventions for multiple sclerosis-related outcomes.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=30 trials",
+    "justification": "The paper is a systematic review that evaluates multiple randomized controlled trials (RCTs) on dietary interventions for multiple sclerosis, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
   },
   {
@@ -36,7 +526,27 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review of randomised controlled trials",
     "sample_size": "n=2551",
-    "justification": "The paper evaluates multiple RCTs and synthesizes their findings, which qualifies it as a systematic review. It includes a comprehensive analysis of the benefits and harms of ocrelizumab in multiple sclerosis.",
+    "justification": "The paper evaluates multiple RCTs and synthesizes their findings, which qualifies it as a systematic review. It includes a substantial sample size across the included studies.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_38174776",
+    "title": "Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis of randomised controlled trials",
+    "sample_size": "n=36,541",
+    "justification": "This paper is a systematic review and network meta-analysis that synthesizes data from multiple RCTs to compare the efficacy and safety of various treatments for relapsing-remitting multiple sclerosis. The large sample size and the rigorous methodology support its classification as Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_17943809",
+    "title": "Azathioprine for multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=698",
+    "justification": "The study is a systematic review that includes multiple randomised controlled trials comparing azathioprine to placebo, which fits the criteria for Level 1 evidence.",
     "confidence": 0.9
   },
   {
@@ -46,7 +556,27 @@
     "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
     "study_design": "Systematic review of randomised controlled trials",
     "sample_size": "n=144",
-    "justification": "The paper is a systematic review that evaluates multiple randomised controlled trials (RCTs) on the efficacy and safety of aminopyridines for symptomatic treatment in multiple sclerosis. Although the review includes data from several RCTs, the overall conclusions indicate uncertainty due to publication bias and the lack of data from unpublished studies.",
+    "justification": "The paper is a systematic review that evaluates multiple randomised controlled trials (RCTs) on the efficacy and safety of aminopyridines for treating symptoms in multiple sclerosis. Although the review includes data from several RCTs, the authors conclude that the evidence is insufficient due to publication bias and the lack of data from unpublished studies.",
     "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_14974004",
+    "title": "Hyperbaric oxygen therapy for multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=504",
+    "justification": "The paper is a systematic review that evaluates multiple randomised controlled trials regarding the efficacy of hyperbaric oxygen therapy for multiple sclerosis, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_11687131",
+    "title": "Interferon in relapsing-remitting multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Cochrane review of randomised controlled trials",
+    "sample_size": "n=1215",
+    "justification": "The paper is a systematic review of multiple randomised controlled trials assessing the efficacy of interferon in relapsing-remitting multiple sclerosis, which qualifies it for Level 1 evidence.",
+    "confidence": 0.9
   }
 ]

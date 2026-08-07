@@ -1,0 +1,538 @@
+[
+  {
+    "id": "AD1",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve cognitive function (ADAS-Cog score) in patients with mild-to-severe Alzheimer's disease after 24-26 weeks compared to placebo?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "donepezil",
+      "improve",
+      "cognitive",
+      "function",
+      "adas-cog",
+      "patients",
+      "mild-to-severe",
+      "alzheimer's"
+    ],
+    "response": "TITLE: Efficacy of donepezil combined with rehabilitation training in the treatment of Alzheimer's disease.\nABSTRACT: OBJECTIVE: To examine the efficacy of donepezil combined with rehabilitation training for treating Alzheimer's disease (AD) and its impact on nerve growth factor (NGF) and brain-derived neurotrophic factor (BDNF).\nMETHODS: This single center retrospective analysis was conducted at the First Affiliated Hospital of Chongqing Medical and Pharmaceutical College and included 184 patients with AD treate...\n---\nTITLE: Combined Effects of Donepezil and Memantine on Behavioral and Psychological Symptoms, Cognitive Function, and Daily Living Abilities in Patients With Alzheimer's Disease.\nABSTRACT: Aims/Background Combined with memantine, donepezil has a beneficial impact on the treatment of moderate to severe Alzheimer's disease (AD), but it can potentially increase the risk of adverse events. The aim of this study is to compare the effects of low-dose and high-dose donepezil combined with memantine on the behavioral and psychological symptoms, cognitive function, and daily living abilities...\n---\nTITLE: Comparative Effectiveness of Rivastigmine and Donepezil in Patients With Alzheimer's Disease: A Retrospective Cohort Study.\nABSTRACT: This is a retrospective cohort study comparing the effectiveness of rivastigmine and donepezil in Alzheimer's disease (AD) patients. Of the 250 subjects, 127 (50.8%) were men, while 123 (49.2%) were women. Baseline cognitive function was assessed using the Mini-Mental State Examination (MMSE), Clinical Dementia Rating (CDR), and Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog). T...",
+    "timestamp": "2026-08-06T21:53:59.332793"
+  },
+  {
+    "id": "AD2",
+    "condition": "alzheimers",
+    "question": "What quality of evidence supports donepezil's benefit for activities of daily living in Alzheimer's disease?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "quality",
+      "evidence",
+      "supports",
+      "donepezil's",
+      "benefit",
+      "activities",
+      "daily",
+      "living"
+    ],
+    "response": "TITLE: Cognitive improvement by non-pharmacological electrical stimulation modalities in mild cognitive impairment: a protocol for systematic review and network meta-analysis.\nABSTRACT: OBJECTIVE: Mild cognitive impairment, characterized by progressive cognitive decline, represents a prevalent transitional state among the global aging population and demonstrates high conversion rates to Alzheimer's disease, establishing itself as a critical window for preventive interventions against AD. Although growing evidence supports the efficacy of various non-pharmacological therapies in e...\n---\nTITLE: Efficacy and Safety of Mesenchymal Stem Cell Therapy for Alzheimer's Disease: A Systematic Review and Meta-Analysis.\nABSTRACT: Alzheimer's disease (AD) is the leading cause of dementia, and effective disease-modifying therapies remain limited. Mesenchymal stem cells (MSCs) have shown therapeutic potential because of their neuroprotective and immunomodulatory properties, but clinical evidence remains inconclusive. We systematically evaluated the efficacy and safety of MSC therapy in AD. Following the PRISMA 2020 guidelines...\n---\nTITLE: Efficacy of non-invasive brain stimulation in Alzheimer's disease: An umbrella review of meta-analyses.\nABSTRACT: This umbrella review integrates systematic reviews and meta-analyses to evaluate the efficacy of non-invasive brain stimulation (NIBS) in Alzheimer's disease (AD). We searched seven databases from inception to 20 June 2025 for relevant literature. Effect sizes and 95% confidence intervals were extracted using a structured approach and visualized through effect size heatmaps and evidence mapping. M...",
+    "timestamp": "2026-08-06T21:53:59.656701"
+  },
+  {
+    "id": "AD3",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve patient-reported quality of life in Alzheimer's disease?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "donepezil",
+      "improve",
+      "patient-reported",
+      "quality",
+      "life",
+      "alzheimer's",
+      "disease"
+    ],
+    "response": "TITLE: Donepezil for cancer-related cognitive impairment: systematic review and meta-analysis.\nABSTRACT: Cancer-related cognitive impairment (CRCI) affects a significant proportion of cancer patients and survivors, impacting their memory, focus, mood, and quality of life. While non-pharmacological interventions have shown effectiveness in managing this condition, some studies have also explored various pharmacological agents, including donepezil, a reversible acetylcholinesterase inhibitor. This comp...\n---\nTITLE: Evaluation of the safety and efficacy of a donepezil depot injection in dogs with canine cognitive dysfunction.\nABSTRACT: Canine cognitive dysfunction (CCD) is an age-related neurodegenerative disorder for which effective treatments remain limited, and objective diagnostic and therapeutic assessment tools using biomarkers or neuroimaging are still lacking compared with human Alzheimer's disease. This study evaluated the safety and efficacy of a long-acting donepezil depot injection in dogs with CCD, using behavioral ...\n---\nTITLE: Synthesis and biological evaluation of novel hydrazone derivatives for the treatment of Alzheimer's disease.\nABSTRACT: In recent years, Alzheimer's disease has emerged as a silent epidemic neurodegenerative disorder. Due to its complex pathophysiology, there has been significant scientific interest in developing effective treatments that go beyond symptomatic relief. The main aim is to improve patients' quality of life and lower the death rate associated with Alzheimer's disease. Since this has not yet been achiev...",
+    "timestamp": "2026-08-06T21:53:59.967652"
+  },
+  {
+    "id": "AD4",
+    "condition": "alzheimers",
+    "question": "Which cognitive enhancer combination shows the greatest MMSE improvement in Alzheimer's disease according to network meta-analysis?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "cognitive",
+      "enhancer",
+      "combination",
+      "shows",
+      "greatest",
+      "mmse",
+      "improvement",
+      "alzheimer's"
+    ],
+    "response": "TITLE: The adjunctive efficacy of repetitive transcranial magnetic stimulation with non-pharmacological interventions in cognitive disorders: A meta-analysis of randomized sham-controlled trials.\nABSTRACT: OBJECTIVE: This meta-analysis aimed to systematically evaluate the specific, adjunctive efficacy of repetitive transcranial magnetic stimulation (rTMS) when combined with non-pharmacological interventions-namely, transcranial direct current stimulation (tDCS), Tai Chi, or cognitive training (CT)-in patients with Alzheimer's disease (AD) or mild cognitive impairment (MCI). The goal is to isolate th...\n---\nTITLE: Neuroprotective Effects of Cilomilast and Chlorogenic Acid Against Scopolamine-Induced Memory Deficits via Modulation of the cAMP/PKA-CREB-BDNF Pathway.\nABSTRACT: Alzheimer's disease (AD) is a neurodegenerative disorder characterized by cognitive decline, neuroinflammation and neuronal damage. This study aimed to investigate the neuroprotective effects of cilomilast (CILO), a phosphodiesterase-4 (PDE4) inhibitor, alone and in combination with chlorogenic acid (CGA), a natural polyphenol, against scopolamine (SCOP)-induced cognitive impairment in mice. Forty...\n---\nTITLE: Influence of patient characteristics on efficacy and safety of anti-amyloid monoclonal antibodies in Alzheimer's disease: A systematic review and meta-analysis.\nABSTRACT: BACKGROUND: Lecanemab and donanemab are the first anti-amyloid monoclonal antibodies (mAbs) clinically available as disease-modifying therapies for Alzheimer's disease (AD). However, it remains unclear whether their treatment effects differ across demographic, clinical, or genetic subgroups.\nOBJECTIVE: This systematic review aimed to explore how patient characteristics modify the efficacy, safety ...",
+    "timestamp": "2026-08-06T21:54:00.290478"
+  },
+  {
+    "id": "AD5",
+    "condition": "alzheimers",
+    "question": "Is donepezil cost-neutral in terms of total healthcare costs for Alzheimer's treatment?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "donepezil",
+      "cost-neutral",
+      "terms",
+      "total",
+      "healthcare",
+      "costs",
+      "alzheimer's",
+      "treatment"
+    ],
+    "response": "TITLE: Patient management pathways in dementia - Resource utilisation, diagnosis and drug treatment in the Stockholm region, Sweden.\nABSTRACT: BACKGROUND: New diagnostic and therapeutic options for Alzheimer's disease are beginning to be introduced and expected igto become more widely available in the coming years. Improved understanding of current pathways in diagnosis and initial care of patients with dementia can help inform choices around how best to integrate new technologies in existing care structures.\nOBJECTIVES: The aim of this ...\n---\nTITLE: Utilization of potentially inappropriate sedative-hypnotic and atypical antipsychotic medications among elderly individuals with insomnia and Alzheimer's disease.\nABSTRACT: STUDY OBJECTIVES: This study assessed the utilization of potentially inappropriate medications (PIM) including oral sedative-hypnotic and atypical antipsychotic (OSHAA), healthcare resource utilization (HCRU), and costs among elderly individuals with insomnia and in the subpopulation with Alzheimer's disease (AD) who also had a diagnosis of insomnia.\nMETHODS: Using a claims database containing Int...\n---\nTITLE: Donepezil Research in Cognitive Impairment: A Bibliometric and Scientometric Analysis of Global Trends and Pharmacological Perspectives.\nABSTRACT: BACKGROUND: Cognitive impairment (CI) greatly affects global health and quality of life. Donepezil, a widely used treatment for CI, particularly in Alzheimer's disease, has been extensively studied; however, a comprehensive bibliometric analysis summarizing global research trends remains limited.\nMETHODS: Relevant English-language articles and reviews published between 2000 and 2025 were retrieved...",
+    "timestamp": "2026-08-06T21:54:00.613218"
+  },
+  {
+    "id": "AD6",
+    "condition": "alzheimers",
+    "question": "How many participants were included in the most recent Cochrane update on donepezil for dementia?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "many",
+      "participants",
+      "were",
+      "included",
+      "recent",
+      "cochrane",
+      "update",
+      "donepezil"
+    ],
+    "response": "TITLE: The Role of PET Detection of Biomarkers in Early Diagnosis, Progression, and Prognosis of Alzheimer's Disease: A Systematic Review.\nABSTRACT: Alzheimer's disease (AD) is a chronic neurologic disease characterized by the deposition of A\u03b2 amyloid and tau protein in the neural tissue, which leads to gradual and irreversible deterioration of memory. Positron emission tomography (PET) showed high potential in diagnosing AD. It provided a unique opportunity to assess cerebral amyloid plaques and tau neurofibrillary tangle deposits in the brai...\n---\nTITLE: Antidementia drugs and nursing home placement: a systematic review and meta-analysis.\nABSTRACT: PURPOSE: The association between antidementia drugs (ADDs) use and the risk of nursing home placement (NHP) remains inconclusive. This study aimed to investigate the effects of ADDs, including cholinesterase inhibitors (CEIs) and memantine, on NHP among individuals with dementia.\nMETHODS: A systematic search of PubMed, Embase, Cochrane Library and ClinicalTrials.gov was conducted up to 16 March 20...\n---\nTITLE: Systematic review and meta-analysis of antipsychotic discontinuation in dementia.\nABSTRACT: INTRODUCTION: Antipsychotics are used to treat behavioral and psychological symptoms of dementia (BPSD). However, treatment is associated with adverse outcomes. A 2018 Cochrane review found low-quality evidence that discontinuation may have little effect on BPSD by primarily comparing the difference in number of study non-completers between treatment groups and did not report a pooled effect size ...",
+    "timestamp": "2026-08-06T21:54:00.938146"
+  },
+  {
+    "id": "PD1",
+    "condition": "parkinsons",
+    "question": "Does adjuvant therapy (added to levodopa) reduce 'off-time' in Parkinson's disease patients with motor complications?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "adjuvant",
+      "therapy",
+      "added",
+      "levodopa",
+      "reduce",
+      "'off-time'",
+      "parkinson's",
+      "disease"
+    ],
+    "response": "TITLE: Multicenter Retrospective Study of LCIG Therapy in Japan: Efficacy, Factors Associated with Discontinuation, and Case-based Insights.\nABSTRACT: Introduction Levodopa-carbidopa intestinal gel (LCIG) reduces the \"off\" time and improves the quality of life in people with Parkinson's disease (PwPD). However, real-world data from Asian populations, particularly Japan, are limited. Methods We retrospectively collected clinical data from PwPD who received LCIG across nine institutions in Kyushu, Japan. Patients who were assessed for key clinical...\n---\nTITLE: Effect of continuous subcutaneous foslevodopa/foscarbidopa infusion on gait in advanced Parkinson's disease: a real-world wearable-based study.\nABSTRACT: BACKGROUND: In patients with advanced Parkinson's disease (PD), spatiotemporal gait parameters and freezing of gait (FoG) show a variable responsiveness to levodopa, with FoG often exacerbated by motor fluctuations. Continuous subcutaneous foslevodopa/foscarbidopa (LDp/CDp) infusion effectively reduces motor fluctuations; however, its effects on gait remain incompletely explored.\nOBJECTIVES: To pr...\n---\nTITLE: Beyond motor fluctuations: Understanding the clinical correlates of OFF burden in Parkinson's disease.\nABSTRACT: BackgroundHistorically, OFF burden in Parkinson's disease has been primarily attributed to motor features. Recent studies highlight that non-motor symptoms, and the predictability of OFF episodes also drive functional impairment, yet they are rarely measured in clinical practice.ObjectiveTo identify which clinical features are most closely associated with OFF time and OFF impact, and to quantify t...",
+    "timestamp": "2026-08-06T21:54:00.946956"
+  },
+  {
+    "id": "PD2",
+    "condition": "parkinsons",
+    "question": "What are the trade-offs of adjuvant therapy for Parkinson's motor complications?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "trade-offs",
+      "adjuvant",
+      "therapy",
+      "parkinson's",
+      "motor",
+      "complications"
+    ],
+    "response": "TITLE: Large language models as a screening tool for the qualification of patients with Parkinson's disease for device-aided therapies.\nABSTRACT: Motor complications become increasingly prominent as Parkinson's disease (PD) progresses. Although device-aided therapies (DAT) improve symptoms control in advanced PD, referral practices remain inconsistent, partly due to unequal access to specialist centers. Screening tools such as MANAGE-PD help identify patients who may benefit from DAT, while large language models (LLMs) are emerging as scala...\n---\nTITLE: A novel approach to the management of levodopa-induced dyskinesia using deep transcranial magnetic stimulation: A case report.\nABSTRACT: Levodopa-induced dyskinesia remains one of the most prevalent and disabling complications in patients with Parkinson's disease receiving long-term levodopa therapy. Although levodopa-induced dyskinesia can substantially impair the quality of life, therapeutic strategies are often limited to levodopa dose adjustment, amantadine, or deep brain stimulation. These treatment options may be ineffective,...\n---\nTITLE: Molecular Mechanisms and Therapeutic Strategies in Parkinson's Disease: From Pathogenic Signaling to Drug Development.\nABSTRACT: Parkinson's Disease (PD) is the second most common neurodegenerative disease after Alzheimer's Disease (AD), yet no effective disease-modifying therapy is currently available. Its pathogenesis is highly complex, involving multiple interacting pathological processes, which poses substantial challenges for therapeutic intervention. Moreover, PD often has a prolonged prodromal phase and lacks suffici...",
+    "timestamp": "2026-08-06T21:54:00.954193"
+  },
+  {
+    "id": "PD3",
+    "condition": "parkinsons",
+    "question": "How many randomised trials and participants were included in the Cochrane review of adjuvant Parkinson's therapy?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "many",
+      "randomised",
+      "trials",
+      "participants",
+      "were",
+      "included",
+      "cochrane",
+      "review"
+    ],
+    "response": "TITLE: Efficacy and safety of fecal microbiota transplantation in Parkinson's disease: a systematic review and meta-analysis of randomized controlled trials with GRADE assessment.\nABSTRACT: BACKGROUND: Parkinson's disease (PD) is a common neurodegenerative disease that is a growing public health challenge. Recent evidence showed that gut microbiota dysbiosis is involved in the pathogenesis of PD, prompting interest in fecal microbiota transplantation (FMT) as a potential disease-modifying intervention. This systematic review and meta-analysis aim to evaluate the efficacy and safety o...\n---\nTITLE: Non-Pharmacological Interventions for Managing Apathy in Older Adults with Neurocognitive Disorders: A Systematic Review of Randomized Controlled Trials.\nABSTRACT: BACKGROUND/OBJECTIVES: Apathy is among the most common neuropsychiatric features of late-life neurocognitive disorders and predicts functional decline and greater caregiver burden. As no treatment is formally established, identifying effective interventions is a priority. We systematically reviewed non-pharmacological randomized controlled trials (RCTs) targeting apathy in older adults with neuroc...\n---\nTITLE: Plant-derived therapies in Parkinson's disease: a systematic review of clinical evidence.\nABSTRACT: Levodopa remains the cornerstone of Parkinson's disease (PD) treatment; however, long-term use is associated with motor complications, including fluctuations and dyskinesia. Non-motor symptoms also worsen over time, reflecting both disease progression and treatment-related effects. These limitations have prompted interest in plant-derived therapies as potential adjunctive options, although clinica...",
+    "timestamp": "2026-08-06T21:54:00.961951"
+  },
+  {
+    "id": "PD4",
+    "condition": "parkinsons",
+    "question": "Which drug class may provide more effective symptomatic control than COMTI and MAOBI therapy in Parkinson's disease?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "drug",
+      "class",
+      "provide",
+      "effective",
+      "symptomatic",
+      "control",
+      "comti",
+      "maobi"
+    ],
+    "response": "TITLE: Emerging non-D2 receptor-based therapies for schizophrenia: a focus on muscarinic and glutamatergic pathways.\nABSTRACT: Schizophrenia remains a highly disabling neuropsychiatric disorder, particularly due to the paucity of effective therapeutic interventions for negative symptoms and cognitive deficits. For more than seven decades, antipsychotic drug development has been overwhelmingly centered on dopamine D2 receptor antagonism. A paradigm shift occurred in 2024 with the FDA approval of KarXT, a first-in-class mus...\n---\nTITLE: Molecular Mechanisms and Therapeutic Strategies in Parkinson's Disease: From Pathogenic Signaling to Drug Development.\nABSTRACT: Parkinson's Disease (PD) is the second most common neurodegenerative disease after Alzheimer's Disease (AD), yet no effective disease-modifying therapy is currently available. Its pathogenesis is highly complex, involving multiple interacting pathological processes, which poses substantial challenges for therapeutic intervention. Moreover, PD often has a prolonged prodromal phase and lacks suffici...\n---\nTITLE: Multiple stimulations of chemoluminescent-expressing mesenchymal-derived dopaminergic transplants safely reinforce limb-use control restoration during swimming in a unilateral Parkinson's disease model.\nABSTRACT: In Parkinson's disease (PD), dopaminergic (DA) neurons deteriorate within the substantia nigra pars compacta (SNc), causing movement difficulties. This deterioration can be modeled in rats given large, unilateral DA-depleting lesions of the nigrostriatal pathway using the neurotoxin 6-hydroxydopamine. The behavioral benefits promoted by classic L-DOPA pharmacotherapy typically do not include skill...",
+    "timestamp": "2026-08-06T21:54:00.969638"
+  },
+  {
+    "id": "PD5",
+    "condition": "parkinsons",
+    "question": "Is there significant evidence of efficacy differences between individual drugs within the same drug class for Parkinson's motor complications?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "significant",
+      "evidence",
+      "efficacy",
+      "differences",
+      "individual",
+      "drugs",
+      "within",
+      "same"
+    ],
+    "response": "TITLE: Amantadine Use in Severe Traumatic Brain Injury.\nABSTRACT: Amantadine, a weak noncompetitive N-methyl-D-aspartate (NMDA) receptor antagonist with dopaminergic activity, has emerged as a promising adjunctive therapy in the management of traumatic brain injury (TBI), particularly in patients with disorders of consciousness. Although historically utilized for the treatment of Influenza A and Parkinson's disease, growing evidence supports its role in promotin...\n---\nTITLE: Botulinum toxin A for sialorrhea in adults with neurological disorders: a narrative review of aspiration pneumonia risk.\nABSTRACT: BACKGROUND: Aspiration pneumonia (AP), a serious condition resulting from the inhalation of foreign materials into the lungs, is a significant concern for patients with compromised swallowing mechanisms, especially those with neurological disorders. Sialorrhea (hypersalivation) exacerbates the risk of aspiration, and botulinum neurotoxin type A (BoNT-A) has been identified as a potential treatment...\n---\nTITLE: Gait and balance outcomes of group-based music therapy, physiotherapy, and simplified dance training in patients with Parkinson's disease.\nABSTRACT: INTRODUCTION: To compare the effects of group-based music therapy, physiotherapy, and simplified dance training on gait, balance, and lower limb force production in individuals with moderate Parkinson's disease.\nMETHODS: Forty-eight participants (Hoehn & Yahr stages 2.0-3.0) were randomly allocated to music therapy (n\u2009=\u200914), physiotherapy (n\u2009=\u200914), simplified dance training (n\u2009=\u200910), or control (n...",
+    "timestamp": "2026-08-06T21:54:00.977293"
+  },
+  {
+    "id": "PD6",
+    "condition": "parkinsons",
+    "question": "What further research does the Cochrane review recommend for Parkinson's adjuvant therapies?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "further",
+      "research",
+      "cochrane",
+      "review",
+      "recommend",
+      "parkinson's",
+      "adjuvant",
+      "therapies"
+    ],
+    "response": "TITLE: Management of non-motor symptoms in Parkinson's disease: Lessons through a cultural lens.\nABSTRACT: Parkinson's disease (PD) affects individuals across diverse cultural, linguistic, and socioeconomic backgrounds worldwide. While non-motor symptoms (NMS) are among the most disabling features of PD, the influence of culture on their recognition, reporting, and management remains underexplored. This review examines cultural factors that shape the experience and care of NMS in PD, with particular at...\n---\nTITLE: Non-pharmacological and non-surgical therapies in advanced Parkinson's disease: a narrative review and call to action.\nABSTRACT: Non-pharmacological and non-surgical interventions are increasingly recognised as essential components of management of Parkinson's disease (PD). However, as PD progresses to its advanced stages, limited mobility, cognitive impairment, treatment-refractory symptoms, and increasing dependence on care partners dominate. However, the evidence base for therapies in this stage becomes scarce. Most clin...\n---\nTITLE: The Efficacy and Safety of Monoclonal Antibodies That Target Alpha-Synuclein in Parkinson's Disease: A Systematic Review.\nABSTRACT: BACKGROUND: Parkinson's disease is a progressive neurodegenerative disorder with no currently approved disease-modifying therapies. Alpha-synuclein targeting monoclonal antibodies provide a potential therapeutic strategy.\nOBJECTIVES: To evaluate published studies of the efficacy and/or safety of monoclonal antibodies that target alpha-synuclein in human subjects.\nMETHODS: A systematic review of pe...",
+    "timestamp": "2026-08-06T21:54:00.985106"
+  },
+  {
+    "id": "MS1",
+    "condition": "multiple_sclerosis",
+    "question": "Does mitoxantrone reduce disability progression in worsening multiple sclerosis compared to placebo?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "mitoxantrone",
+      "reduce",
+      "disability",
+      "progression",
+      "worsening",
+      "multiple",
+      "sclerosis",
+      "placebo"
+    ],
+    "response": "TITLE: Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>In recent years a broader range of immunomodulatory and immunosuppressive treatment options have emerged for people with progressive forms of multiple sclerosis (PMS). While consensus supports these options as reducing relapses, their relative benefit and safety profiles remain unclear due to a lack of direct comparison trials.<h4>Objectives</h4>To compare through network meta-a...\n---\nTITLE: Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>Different therapeutic strategies are available for the treatment of people with relapsing-remitting multiple sclerosis (RRMS), including immunomodulators, immunosuppressants and biological agents. Although each one of these therapies reduces relapse frequency and slows disability accumulation compared to no treatment, their relative benefit remains unclear. This is an update of ...\n---\nTITLE: HLA-dependent association between EBNA1 antibody levels and disability progression in multiple sclerosis.\nABSTRACT: BACKGROUND: Epstein-Barr virus (EBV) is strongly implicated in the development of multiple sclerosis (MS) but whether EBV-related immune responses are also relevant for disease progression after diagnosis remains unclear. We investigated whether Epstein-Barr nuclear antigen 1 (EBNA1) antibody levels are associated with disability progression in MS and whether this association is modified by human ...",
+    "timestamp": "2026-08-06T21:54:00.993807"
+  },
+  {
+    "id": "MS2",
+    "condition": "multiple_sclerosis",
+    "question": "How much do interferon beta and glatiramer acetate reduce relapses in the first year of relapsing-remitting MS treatment?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "much",
+      "interferon",
+      "beta",
+      "glatiramer",
+      "acetate",
+      "reduce",
+      "relapses",
+      "year"
+    ],
+    "response": "TITLE: Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>Different therapeutic strategies are available for the treatment of people with relapsing-remitting multiple sclerosis (RRMS), including immunomodulators, immunosuppressants and biological agents. Although each one of these therapies reduces relapse frequency and slows disability accumulation compared to no treatment, their relative benefit remains unclear. This is an update of ...\n---\nTITLE: Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>In recent years a broader range of immunomodulatory and immunosuppressive treatment options have emerged for people with progressive forms of multiple sclerosis (PMS). While consensus supports these options as reducing relapses, their relative benefit and safety profiles remain unclear due to a lack of direct comparison trials.<h4>Objectives</h4>To compare through network meta-a...\n---\nTITLE: Azathioprine for multiple sclerosis.\nABSTRACT: <h4>Background</h4>Azathioprine is the most widely used immunosuppressive treatment in multiple sclerosis (MS). It is an alternative to interferon beta for treating MS also because it is less expensive. Concerns about its safety, mainly a possible increased risk of malignancy, has limited its use. This systematic review aimed to determine the trade off between the benefits and risks of azathioprin...",
+    "timestamp": "2026-08-06T21:54:01.002089"
+  },
+  {
+    "id": "MS3",
+    "condition": "multiple_sclerosis",
+    "question": "Is there evidence of benefit from interferon beta or glatiramer acetate in MS beyond 1 year of treatment?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "evidence",
+      "benefit",
+      "interferon",
+      "beta",
+      "glatiramer",
+      "acetate",
+      "beyond",
+      "year"
+    ],
+    "response": "TITLE: Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>In recent years a broader range of immunomodulatory and immunosuppressive treatment options have emerged for people with progressive forms of multiple sclerosis (PMS). While consensus supports these options as reducing relapses, their relative benefit and safety profiles remain unclear due to a lack of direct comparison trials.<h4>Objectives</h4>To compare through network meta-a...\n---\nTITLE: Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>Different therapeutic strategies are available for the treatment of people with relapsing-remitting multiple sclerosis (RRMS), including immunomodulators, immunosuppressants and biological agents. Although each one of these therapies reduces relapse frequency and slows disability accumulation compared to no treatment, their relative benefit remains unclear. This is an update of ...\n---\nTITLE: Azathioprine for people with multiple sclerosis.\nABSTRACT: <h4>Background</h4>Multiple sclerosis (MS) is an immune-mediated, chronic, inflammatory demyelinating disease of the central nervous system, impacting around 2.8 million people worldwide. Characterised by recurrent relapses or progression, or both, it represents a substantial global health burden, affecting people, predominantly women, at a young age (the mean age of diagnosis is 32 years). Azathi...",
+    "timestamp": "2026-08-06T21:54:01.010288"
+  },
+  {
+    "id": "MS4",
+    "condition": "multiple_sclerosis",
+    "question": "Do disease-modifying therapies (DMTs) reduce the risk of disability progression in relapsing-remitting MS compared to placebo?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "disease-modifying",
+      "therapies",
+      "dmts",
+      "reduce",
+      "risk",
+      "disability",
+      "progression",
+      "relapsing-remitting"
+    ],
+    "response": "TITLE: Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.\nABSTRACT: <h4>Background</h4>Different therapeutic strategies are available for the treatment of people with relapsing-remitting multiple sclerosis (RRMS), including immunomodulators, immunosuppressants and biological agents. Although each one of these therapies reduces relapse frequency and slows disability accumulation compared to no treatment, their relative benefit remains unclear. This is an update of ...\n---\nTITLE: Alemtuzumab for multiple sclerosis.\nABSTRACT: <h4>Background</h4>Multiple sclerosis (MS) is an autoimmune, T-cell-dependent, inflammatory, demyelinating disease of the central nervous system, with an unpredictable course. Current MS therapies focus on treating and preventing exacerbations, and avoiding the progression of disability. At present, there is no treatment that is capable of safely and effectively reaching these objectives. Clinical...\n---\nTITLE: Azathioprine for people with multiple sclerosis.\nABSTRACT: <h4>Background</h4>Multiple sclerosis (MS) is an immune-mediated, chronic, inflammatory demyelinating disease of the central nervous system, impacting around 2.8 million people worldwide. Characterised by recurrent relapses or progression, or both, it represents a substantial global health burden, affecting people, predominantly women, at a young age (the mean age of diagnosis is 32 years). Azathi...",
+    "timestamp": "2026-08-06T21:54:01.018328"
+  },
+  {
+    "id": "MS5",
+    "condition": "multiple_sclerosis",
+    "question": "Does the route of administration (injectable vs oral) affect the efficacy of disease-modifying therapies on disability progression in MS?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "route",
+      "administration",
+      "injectable",
+      "oral",
+      "affect",
+      "efficacy",
+      "disease-modifying",
+      "therapies"
+    ],
+    "response": "TITLE: Treatment satisfaction during personalized extended interval dosing of natalizumab in patients with multiple sclerosis.\nABSTRACT: BACKGROUND: Extended interval dosing (EID) of natalizumab is increasingly used in clinical practice for patients with multiple sclerosis, driven by growing evidence supporting its sustained efficacy and associated benefits. However, it remains unclear whether EID, particularly at dosing intervals beyond six weeks, affects treatment satisfaction.\nOBJECTIVES: To investigate whether natalizumab dosin...\n---\nTITLE: Ferritin-ApoE nanocarrier for targeted therapy of neuromyelitis optica spectrum disorder in mice.\nABSTRACT: BACKGROUND: Neuromyelitis optica spectrum disorder (NMOSD) is a chronic inflammatory autoimmune disease affecting the central nervous system (CNS), characterized by anti-aquaporin 4 (AQP4) antibody-mediated damage to astrocytes, resulting in subsequent demyelination. Our prior work identified the protective effects of the apolipoprotein E130-149 (ApoE130-149) peptide in NMOSD mice by promoting ast...\n---\nTITLE: Autoimmune nodopathies: a clinical review.\nABSTRACT: Autoimmune nodopathies are a subgroup of peripheral neuropathies characterized by autoantibodies targeting nodal and paranodal proteins such as neurofascin-155 (NF155), contactin-1 (CNTN1), and Contactin-associated protein 1 (Caspr1). Unlike chronic inflammatory demyelinating polyradiculoneuropathy (CIDP), these conditions involve direct disruption of the node of Ranvier rather than demyelination,...",
+    "timestamp": "2026-08-06T21:54:01.026656"
+  },
+  {
+    "id": "MS6",
+    "condition": "multiple_sclerosis",
+    "question": "Which disease-modifying therapies show high-confidence evidence of reducing new or enlarging T2 brain lesions in MS?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "disease-modifying",
+      "therapies",
+      "show",
+      "high-confidence",
+      "evidence",
+      "reducing",
+      "new",
+      "enlarging"
+    ],
+    "response": "TITLE: Endothelial-to-mesenchymal Transition at the Blood-brain Barrier: Molecular Mechanisms and Pathological Roles Across Brain Diseases.\nABSTRACT: Endothelial-to-Mesenchymal Transition (EndMT) is a significant contributor to Blood- Brain Barrier (BBB) dysfunction in various brain diseases. The majority of current therapies, aimed at reducing BBB dysfunction, focus on preventing inflammation or stabilizing tight junctions. In most cases, these therapies do not provide adequate or long-lasting vascular protection. Endothelial cells undergo phe...\n---\nTITLE: Ocrelizumab for multiple sclerosis.\nABSTRACT: <h4>Background</h4>Ocrelizumab is a humanised anti-CD20 monoclonal antibody developed for the treatment of multiple sclerosis (MS). It was approved by the Food and Drug Administration (FDA) in March 2017 for using in adults with relapsing-remitting multiple sclerosis (RRMS) and primary progressive multiple sclerosis (PPMS). Ocrelizumab is the only disease-modifying therapy (DMT) approved for PPMS....\n---\nTITLE: Alemtuzumab for multiple sclerosis.\nABSTRACT: <h4>Background</h4>Multiple sclerosis (MS) is an autoimmune, T-cell-dependent, inflammatory, demyelinating disease of the central nervous system, with an unpredictable course. Current MS therapies focus on treating and preventing exacerbations, and avoiding the progression of disability. At present, there is no treatment that is capable of safely and effectively reaching these objectives. Clinical...",
+    "timestamp": "2026-08-06T21:54:01.034623"
+  },
+  {
+    "id": "EP1",
+    "condition": "epilepsy",
+    "question": "What proportion of people with epilepsy can achieve seizure freedom using a single antiepileptic drug (AED) as monotherapy?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "proportion",
+      "people",
+      "epilepsy",
+      "achieve",
+      "seizure",
+      "freedom",
+      "single",
+      "antiepileptic"
+    ],
+    "response": "TITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...\n---\nTITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...\n---\nTITLE: Ten-year cognitive outcomes following epilepsy surgery: Temporal lobectomy versus selective amygdalohippocampectomy.\nABSTRACT: OBJECTIVE: This study aimed to assess long-term memory outcomes in patients with temporal lobe epilepsy (TLE) who underwent anterior temporal lobectomy (ATL) or selective amygdalohippocampectomy (SAH), compared to nonoperated TLE over a 10-year follow-up period.\nMETHODS: A total of 48 participants were studied: 10 ATL, 26 SAH, and 12 patients with nonoperated mesial temporal lobe epilepsy (MTLE). ...",
+    "timestamp": "2026-08-06T21:54:01.044881"
+  },
+  {
+    "id": "EP2",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drugs show the best treatment failure and seizure control profile for focal onset seizures?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "antiepileptic",
+      "drugs",
+      "show",
+      "best",
+      "treatment",
+      "failure",
+      "seizure",
+      "control"
+    ],
+    "response": "TITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...\n---\nTITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...\n---\nTITLE: The effectiveness of adding on or switching antiseizure medications after the first fails to control focal epilepsy: A\u00a0systematic review of randomized controlled trials.\nABSTRACT: Focal epilepsy constitutes 60-70% of epilepsy, and up to half of patients do not achieve seizure freedom with their first antiseizure medication (ASM). When the first ASM fails, evidence guiding whether to switch or add-on another ASM and which ASMs to use is limited. This review synthesized evidence from randomized controlled trials (RCTs) on the comparative effectiveness of subsequent ASMs after...",
+    "timestamp": "2026-08-06T21:54:01.054764"
+  },
+  {
+    "id": "EP3",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drug has the best profile for generalised tonic-clonic seizures?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "antiepileptic",
+      "drug",
+      "best",
+      "profile",
+      "generalised",
+      "tonic-clonic",
+      "seizures"
+    ],
+    "response": "TITLE: Immediate antiepileptic drug treatment, versus placebo, deferred, or no treatment for first unprovoked seizure.\nABSTRACT: <h4>Background</h4>There is considerable disagreement about the risk of recurrence following a first unprovoked epileptic seizure. A decision about whether to start antiepileptic drug treatment following a first seizure should be informed by information on the size of any reduction in risk of future seizures, the impact on long-term seizure remission, and the risk of adverse effects.<h4>Objectives...\n---\nTITLE: Deep brain and cortical stimulation for epilepsy.\nABSTRACT: <h4>Background</h4>Despite optimal medical treatment, including epilepsy surgery, many epilepsy patients have uncontrolled seizures. Since the 1970s interest has grown in invasive intracranial neurostimulation as a treatment for these patients. Intracranial stimulation includes both deep brain stimulation (DBS) (stimulation through depth electrodes) and cortical stimulation (subdural electrodes). ...\n---\nTITLE: Seizure As the Sentinel Event: An Atypical Presentation of Anti-N-Methyl-D-Aspartate (NMDA) Receptor Encephalitis in a Young Adult Male.\nABSTRACT: This case report details an atypical presentation of anti-N-methyl-D-aspartate (NMDA) receptor encephalitis in a 21-year-old male, characterized by a \"seizure-first\" phenotype. The patient's initial generalized tonic-clonic seizure led to a misdiagnosis of epilepsy, and subsequent psychiatric symptoms were incorrectly attributed to the side effects of antiepileptic medication or a new, undiagnosed...",
+    "timestamp": "2026-08-06T21:54:01.064053"
+  },
+  {
+    "id": "EP4",
+    "condition": "epilepsy",
+    "question": "How many AEDs were compared in the 2022 Cochrane network meta-analysis of epilepsy monotherapy?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "many",
+      "aeds",
+      "were",
+      "2022",
+      "cochrane",
+      "network",
+      "meta-analysis",
+      "epilepsy"
+    ],
+    "response": "TITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...\n---\nTITLE: Deep brain and cortical stimulation for epilepsy.\nABSTRACT: <h4>Background</h4>Despite optimal medical treatment, including epilepsy surgery, many epilepsy patients have uncontrolled seizures. Since the 1970s interest has grown in invasive intracranial neurostimulation as a treatment for these patients. Intracranial stimulation includes both deep brain stimulation (DBS) (stimulation through depth electrodes) and cortical stimulation (subdural electrodes). ...\n---\nTITLE: Losigamone add-on therapy for focal epilepsy.\nABSTRACT: <h4>Background</h4>Epilepsy is a common neurologic disorder, affecting approximately 50 million people worldwide; nearly a third of these people have epilepsy that is not well controlled by a single antiepileptic drug (AED) and they usually require treatment with a combination of two or more AEDs. In recent years, many newer AEDs have been investigated as add-on therapy for focal epilepsy; losigam...",
+    "timestamp": "2026-08-06T21:54:01.073549"
+  },
+  {
+    "id": "EP5",
+    "condition": "epilepsy",
+    "question": "What percentage of people with epilepsy experience refractory or drug-resistant seizures despite treatment?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "percentage",
+      "people",
+      "epilepsy",
+      "experience",
+      "refractory",
+      "drug-resistant",
+      "seizures",
+      "despite"
+    ],
+    "response": "TITLE: Ordinary Differential Equation-Based Individualized Pharmacokinetic Simulation for Dose Optimization in an Infant with Global Developmental Delay and Drug-Resistant Epilepsy.\nABSTRACT: In children with epilepsy associated with global developmental delay (GDD), around 10-20% experience refractory epilepsy, often requiring multiple antiseizure drugs (ASDs). These ASDs have narrow therapeutic indices. Therapeutic drug monitoring is crucial for optimizing ASD therapy. In this case, an infant with GDD with TBC1D24 mutation and refractory seizures was admitted with uncontrolled seizur...\n---\nTITLE: Deep brain and cortical stimulation for epilepsy.\nABSTRACT: <h4>Background</h4>Despite optimal medical treatment, including epilepsy surgery, many epilepsy patients have uncontrolled seizures. Since the 1970s interest has grown in invasive intracranial neurostimulation as a treatment for these patients. Intracranial stimulation includes both deep brain stimulation (DBS) (stimulation through depth electrodes) and cortical stimulation (subdural electrodes). ...\n---\nTITLE: The gut microbiome and drug-resistant epilepsy: Microbiome-antiseizure medication interactions and implications for pharmacoresistance.\nABSTRACT: Drug-resistant epilepsy (DRE) affects approximately one-third of patients with epilepsy and represents a major unmet clinical need. While traditional hypotheses of pharmacoresistance have focused on alterations in drug targets, efflux transporter overexpression, and intrinsic disease severity, the gut microbiome has recently emerged as a potentially modifiable factor that may function as a systems...",
+    "timestamp": "2026-08-06T21:54:01.082816"
+  },
+  {
+    "id": "EP6",
+    "condition": "epilepsy",
+    "question": "What guidelines currently recommend carbamazepine or lamotrigine as first-line treatment for focal seizures?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "guidelines",
+      "currently",
+      "recommend",
+      "carbamazepine",
+      "lamotrigine",
+      "first-line",
+      "treatment",
+      "focal"
+    ],
+    "response": "TITLE: The effectiveness of adding on or switching antiseizure medications after the first fails to control focal epilepsy: A\u00a0systematic review of randomized controlled trials.\nABSTRACT: Focal epilepsy constitutes 60-70% of epilepsy, and up to half of patients do not achieve seizure freedom with their first antiseizure medication (ASM). When the first ASM fails, evidence guiding whether to switch or add-on another ASM and which ASMs to use is limited. This review synthesized evidence from randomized controlled trials (RCTs) on the comparative effectiveness of subsequent ASMs after...\n---\nTITLE: Refractory Temporal Gelastic Seizure: A Case Report.\nABSTRACT: Gelastic seizures are rare epileptic events characterized by sudden, unprovoked bursts of laughter that are typically associated with hypothalamic hamartomas but may also arise from cortical epileptogenic foci. We report the case of an eight-year-old boy born prematurely at 28 weeks' gestation who presented with a two-year history of recurrent hypermotor seizures, loss of consciousness, behavioral...\n---\nTITLE: Anticonvulsants for cocaine dependence.\nABSTRACT: <h4>Background</h4>Cocaine dependence is a major public health problem that is characterised by recidivism and a host of medical and psychosocial complications. Although effective pharmacotherapy is available for alcohol and heroin dependence, none is currently available for cocaine dependence, despite two decades of clinical trials primarily involving antidepressant, anticonvulsivant and dopamine...",
+    "timestamp": "2026-08-06T21:54:01.092312"
+  },
+  {
+    "id": "ST1",
+    "condition": "stroke",
+    "question": "Does thrombolysis with alteplase improve functional outcome after acute ischaemic stroke compared to no treatment?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "thrombolysis",
+      "alteplase",
+      "improve",
+      "functional",
+      "outcome",
+      "acute",
+      "ischaemic",
+      "stroke"
+    ],
+    "response": "TITLE: Effects of Antioxidant DI-3-N-Butylphthalide on Hemorrhagic Transformation Assessed by Propensity Score Matching in a Real-World Thrombolyzed Ischemic Stroke Patient Setting.\nABSTRACT: BACKGROUND: Hemorrhagic transformation (HT) remains a major complication limiting the clinical utility of intravenous thrombolysis with alteplase in acute ischemic stroke (AIS) patients. Dl-3-N-butylphthalide (dl-NBP), a neuroprotective agent, which has beneficial effects on post-ischemic microcirculation, oxidative stress, and blood-brain barrier integrity, may potentially mitigate this risk.\nMET...\n---\nTITLE: Access and timeliness of acute stroke reperfusion after cluster-wide protocol standardisation: an interrupted time-series study in Hong Kong.\nABSTRACT: BACKGROUND: Protocol standardisation is widely used to improve the quality and consistency of acute stroke reperfusion, but evidence from routine public hospital practice remains limited, particularly on whether gains are sustained during later periods of service stress. We evaluated changes in access to and timeliness of intravenous thrombolysis after cluster-wide protocol standardisation in a Ho...\n---\nTITLE: Systemic inflammation-based hematological indices and 90-day functional outcomes after intravenous thrombolysis in acute ischemic stroke: a systematic review.\nABSTRACT: <h4>Background</h4>Acute ischemic stroke (AIS) is one of the leading causes of mortality and long-term disability worldwide. Intravenous thrombolysis (IVT) with recombinant tissue plasminogen activator (rt-PA) remains the standard treatment for eligible patients; however, considerable inter-individual variability exists in post-treatment functional outcomes. Increasing evidence suggests that syste...",
+    "timestamp": "2026-08-06T21:54:01.110686"
+  },
+  {
+    "id": "ST2",
+    "condition": "stroke",
+    "question": "Within what time window is alteplase licensed for use in acute ischaemic stroke in most European countries?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "within",
+      "time",
+      "window",
+      "alteplase",
+      "licensed",
+      "acute",
+      "ischaemic",
+      "stroke"
+    ],
+    "response": "TITLE: Access and timeliness of acute stroke reperfusion after cluster-wide protocol standardisation: an interrupted time-series study in Hong Kong.\nABSTRACT: BACKGROUND: Protocol standardisation is widely used to improve the quality and consistency of acute stroke reperfusion, but evidence from routine public hospital practice remains limited, particularly on whether gains are sustained during later periods of service stress. We evaluated changes in access to and timeliness of intravenous thrombolysis after cluster-wide protocol standardisation in a Ho...\n---\nTITLE: Intravenous thrombolysis for ischemic stroke in extended time window selected with CT perfusion: a systematic review and meta-analysis.\nABSTRACT: PURPOSE: Recent randomized controlled trials (RCTs) have provided new evidence regarding the efficacy and safety of intravenous thrombolysis (IVT) in patients with acute ischemic stroke (AIS) presenting within the extended time window (ETW). We performed a systematic review and meta-analysis to evaluate the efficacy and safety of IVT, in patients treated within the ETW and selected with perfusion ...\n---\nTITLE: Effects of Antioxidant DI-3-N-Butylphthalide on Hemorrhagic Transformation Assessed by Propensity Score Matching in a Real-World Thrombolyzed Ischemic Stroke Patient Setting.\nABSTRACT: BACKGROUND: Hemorrhagic transformation (HT) remains a major complication limiting the clinical utility of intravenous thrombolysis with alteplase in acute ischemic stroke (AIS) patients. Dl-3-N-butylphthalide (dl-NBP), a neuroprotective agent, which has beneficial effects on post-ischemic microcirculation, oxidative stress, and blood-brain barrier integrity, may potentially mitigate this risk.\nMET...",
+    "timestamp": "2026-08-06T21:54:01.124684"
+  },
+  {
+    "id": "ST3",
+    "condition": "stroke",
+    "question": "How does reteplase compare to alteplase for functional outcomes in acute ischaemic stroke?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "reteplase",
+      "compare",
+      "alteplase",
+      "functional",
+      "outcomes",
+      "acute",
+      "ischaemic",
+      "stroke"
+    ],
+    "response": "TITLE: Imaging patterns of hemorrhagic transformation after tenecteplase versus alteplase in real-world practice.\nABSTRACT: BACKGROUND: While randomized trials have demonstrated noninferiority of tenecteplase compared with alteplase in terms of functional outcomes and symptomatic intracranial hemorrhage (sICH), differences in hemorrhagic imaging phenotypes remain insufficiently explored in real-world practice.\nMETHODS: We conducted a retrospective real-world cohort study of consecutive patients with acute ischemic stro...\n---\nTITLE: Effects of Antioxidant DI-3-N-Butylphthalide on Hemorrhagic Transformation Assessed by Propensity Score Matching in a Real-World Thrombolyzed Ischemic Stroke Patient Setting.\nABSTRACT: BACKGROUND: Hemorrhagic transformation (HT) remains a major complication limiting the clinical utility of intravenous thrombolysis with alteplase in acute ischemic stroke (AIS) patients. Dl-3-N-butylphthalide (dl-NBP), a neuroprotective agent, which has beneficial effects on post-ischemic microcirculation, oxidative stress, and blood-brain barrier integrity, may potentially mitigate this risk.\nMET...\n---\nTITLE: Primary versus elective percutaneous transluminal angioplasty with stenting for symptomatic intracranial atherosclerotic stenosis: a 18-centre retrospective cohort study using the pEGASUS-HPC stent.\nABSTRACT: INTRODUCTION: To describe the safety and effectiveness of percutaneous transluminal angioplasty with pEGASUS-HPC stenting (PTAS) for symptomatic intracranial atherosclerotic stenosis (sICAS) and compare primary versus elective use.\nPATIENTS AND METHODS: We retrospectively included consecutive adults with sICAS \u226550% treated with pEGASUS-HPC PTAS at 18 neurovascular centres (May 2021-February 2025)....",
+    "timestamp": "2026-08-06T21:54:01.138153"
+  },
+  {
+    "id": "ST4",
+    "condition": "stroke",
+    "question": "Is there a difference in mortality outcomes between different thrombolytic agents for acute ischaemic stroke?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "difference",
+      "mortality",
+      "outcomes",
+      "different",
+      "thrombolytic",
+      "agents",
+      "acute",
+      "ischaemic"
+    ],
+    "response": "TITLE: Standard Antiplatelet Therapy Versus Thrombolysis in Acute Spontaneous Spinal Cord Infarction: A Propensity Score-Matched Analysis.\nABSTRACT: BACKGROUND: Spinal cord infarction (SCI) is a rare stroke subtype with no established acute treatment guidelines. Thrombolytic therapy has been used empirically based on extrapolation from cerebral stroke protocols, but comparative effectiveness data are lacking. We compared outcomes between standard care and thrombolysis in acute spontaneous SCI.\nMETHODS: This retrospective cohort study used data...\n---\nTITLE: Sex-specific effects of methylprednisolone on outcomes after endovascular treatment for acute ischemic stroke due to large vessel occlusion: A secondary analysis of the MARVEL trial.\nABSTRACT: BACKGROUND: Sex-based differences in treatment response to neuroprotective strategies during endovascular treatment (EVT) for acute ischemic stroke remain poorly understood.\nOBJECTIVES: This study aimed to evaluate sex-specific effects of methylprednisolone on outcomes after EVT for acute ischemic stroke due to large vessel occlusion.\nDESIGN: Secondary analysis of the MARVEL (Methylprednisolone as...\n---\nTITLE: Cost-effectiveness of Telemedicine Intervention for Acute Myocardial Infarction: A Systematic Review.\nABSTRACT: <h4>Background</h4>One of the most important causes of mortality in the world is acute myocardial infarction. There are two general treatments including thrombolytic drugs and percutaneous coronary interventions. But, monitoring outpatient AMI treatment from a remote or rural location has emerged as a successful telemedicine technique. So, the present study aimed to review the economic evaluation ...",
+    "timestamp": "2026-08-06T21:54:01.151437"
+  },
+  {
+    "id": "ST5",
+    "condition": "stroke",
+    "question": "What serious risk is associated with thrombolytic therapy in acute ischaemic stroke?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "serious",
+      "risk",
+      "associated",
+      "thrombolytic",
+      "therapy",
+      "acute",
+      "ischaemic",
+      "stroke"
+    ],
+    "response": "TITLE: Primary versus elective percutaneous transluminal angioplasty with stenting for symptomatic intracranial atherosclerotic stenosis: a 18-centre retrospective cohort study using the pEGASUS-HPC stent.\nABSTRACT: INTRODUCTION: To describe the safety and effectiveness of percutaneous transluminal angioplasty with pEGASUS-HPC stenting (PTAS) for symptomatic intracranial atherosclerotic stenosis (sICAS) and compare primary versus elective use.\nPATIENTS AND METHODS: We retrospectively included consecutive adults with sICAS \u226550% treated with pEGASUS-HPC PTAS at 18 neurovascular centres (May 2021-February 2025)....\n---\nTITLE: Effects of Antioxidant DI-3-N-Butylphthalide on Hemorrhagic Transformation Assessed by Propensity Score Matching in a Real-World Thrombolyzed Ischemic Stroke Patient Setting.\nABSTRACT: BACKGROUND: Hemorrhagic transformation (HT) remains a major complication limiting the clinical utility of intravenous thrombolysis with alteplase in acute ischemic stroke (AIS) patients. Dl-3-N-butylphthalide (dl-NBP), a neuroprotective agent, which has beneficial effects on post-ischemic microcirculation, oxidative stress, and blood-brain barrier integrity, may potentially mitigate this risk.\nMET...\n---\nTITLE: Early in-hospital initiation of angiotensin-receptor-neprilysin inhibitor in post-acute myocardial infarction patients with impaired left ventricular systolic function: a systematic review and meta-analysis of randomized controlled trials.\nABSTRACT: AIMS: Heart failure (HF) is a common and serious complication following acute myocardial infarction (AMI), particularly in patients with impaired left ventricular systolic function [left ventricular ejection fraction (LVEF)\u2009<\u200950%] during hospitalization. Although angiotensin-receptor-neprilysin inhibitor (ARNI) therapy has proven benefit in chronic HF, evidence supporting its initiation during the...",
+    "timestamp": "2026-08-06T21:54:01.164552"
+  },
+  {
+    "id": "ST6",
+    "condition": "stroke",
+    "question": "Does tenecteplase show significantly better functional outcomes than alteplase at 90 days post-stroke?",
+    "baseline": "B1_keyword_search",
+    "keywords_used": [
+      "tenecteplase",
+      "show",
+      "significantly",
+      "better",
+      "functional",
+      "outcomes",
+      "alteplase",
+      "days"
+    ],
+    "response": "TITLE: Standard Antiplatelet Therapy Versus Thrombolysis in Acute Spontaneous Spinal Cord Infarction: A Propensity Score-Matched Analysis.\nABSTRACT: BACKGROUND: Spinal cord infarction (SCI) is a rare stroke subtype with no established acute treatment guidelines. Thrombolytic therapy has been used empirically based on extrapolation from cerebral stroke protocols, but comparative effectiveness data are lacking. We compared outcomes between standard care and thrombolysis in acute spontaneous SCI.\nMETHODS: This retrospective cohort study used data...\n---\nTITLE: Development and Upgrade of a Robot That Enables Three-Dimensional Trunk Motion and Lower Limb Exercise for Stroke Patients: A Pilot Clinical Investigation Including a User Feasibility Test.\nABSTRACT: BACKGROUND: Stroke impairs functional independence including gait ability. While robot-aided rehabilitation techniques have been developed, there is a need for a robotic system that promotes three-dimensional (3D) movement of the trunk and gait ability while providing automatic function evaluation and individually optimized prescriptions for stroke patients.\nOBJECTIVE: To assess the efficacy and s...\n---\nTITLE: Antithrombogenic coated self-expanding stent (pEGASUS-HPC) for the treatment of intracranial dissections of the cerebral arteries in acute stroke: a multicenter study.\nABSTRACT: BACKGROUND: Intracranial artery dissection (IADS) is an uncommon cause of acute ischemic stroke (AIS). In hyperacute settings, stenting is constrained by the need for intensive antiplatelet therapy. This study evaluated the antithrombogenic hydrophilic polymer-coated pEGASUS-HPC self-expanding stent for IADS-related AIS.\nMETHODS: This multicenter retrospective cohort study across seven stroke cent...",
+    "timestamp": "2026-08-06T21:54:01.178117"
+  }
+]

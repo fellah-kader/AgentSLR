@@ -1,0 +1,6 @@
+2026-08-01 06:20:27,902 - INFO - Starting contradiction analysis for alzheimers with 8 included papers
+2026-08-01 06:21:47,100 - INFO - Contradiction analysis complete:
+2026-08-01 06:21:47,101 - INFO -   Total pairs analysed: 28
+2026-08-01 06:21:47,101 - INFO -   Contradictions found: 2
+2026-08-01 06:21:47,101 - INFO -   [MAJOR] PMID_42201543 vs PMID_41520099: effect direction
+2026-08-01 06:21:47,101 - INFO -   [MAJOR] PMID_41634240 vs PMID_41520099: treatment effectiveness

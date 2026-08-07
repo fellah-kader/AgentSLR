@@ -1,0 +1,26 @@
+2026-08-05 18:46:50,728 - INFO - Running harvest stage for pathogen=epilepsy mode=full
+2026-08-05 18:46:50,728 - INFO - Harvest root: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy
+2026-08-05 18:46:50,728 - INFO - PDF output dir: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/pdfs
+2026-08-05 18:46:50,728 - INFO - Harvest metadata path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/harvest_metadata.csv
+2026-08-05 18:46:50,728 - INFO - Harvest downloaded path: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/harvest_downloaded_pdfs.csv
+2026-08-05 18:46:50,728 - INFO - [2026-08-05T17:46:50+00:00] Harvest start: epilepsy
+2026-08-05 18:46:51,387 - INFO - [2026-08-05T17:46:51+00:00] OpenAlex harvested total: 0
+2026-08-05 18:46:53,054 - INFO - [2026-08-05T17:46:53+00:00] PubMed harvested total: 199
+2026-08-05 18:46:53,854 - INFO - [2026-08-05T17:46:53+00:00] EuropePMC harvested total: 45
+2026-08-05 18:46:53,907 - INFO - [2026-08-05T17:46:53+00:00] Final dedup: 244 -> 238 records
+2026-08-05 18:46:53,919 - INFO - [2026-08-05T17:46:53+00:00] Metadata rows ready for download: 238
+2026-08-05 18:46:53,921 - INFO - [2026-08-05T17:46:53+00:00] Total records: 238
+2026-08-05 18:46:53,921 - INFO - [2026-08-05T17:46:53+00:00] Already downloaded (flagged): 0
+2026-08-05 18:46:53,921 - INFO - [2026-08-05T17:46:53+00:00] To process: 238
+2026-08-05 18:46:53,921 - INFO - [2026-08-05T17:46:53+00:00] Starting downloads with 8 workers
+2026-08-05 18:47:05,573 - INFO - [2026-08-05T17:47:05+00:00] Progress: [50/238] (success: 10)
+2026-08-05 18:47:38,891 - INFO - [2026-08-05T17:47:38+00:00] Progress: [100/238] (success: 17)
+2026-08-05 18:47:47,519 - INFO - [2026-08-05T17:47:47+00:00] Progress: [150/238] (success: 22)
+2026-08-05 18:48:17,309 - INFO - [2026-08-05T17:48:17+00:00] Progress: [200/238] (success: 33)
+2026-08-05 18:52:44,182 - INFO - Complete: epilepsy
+2026-08-05 18:52:44,184 - INFO - Total records: 238
+2026-08-05 18:52:44,184 - INFO - Successfully downloaded: 64
+2026-08-05 18:52:44,185 - INFO - Failed: 174
+2026-08-05 18:52:44,185 - INFO - Metadata saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/harvest_metadata.csv
+2026-08-05 18:52:44,185 - INFO - Downloaded output saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/harvest_downloaded_pdfs.csv
+2026-08-05 18:52:44,185 - INFO - Progress saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/metadata_progress.csv

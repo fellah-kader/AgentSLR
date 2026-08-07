@@ -1,0 +1,52 @@
+[
+  {
+    "article_id": "PMID_42515675",
+    "title": "Fluorescence HPLC Analysis of Teriflunomide in Human Plasma Following Derivatization with 4-Chloro-7-Nitrobenzofurazan: Method Development and Application to a Prototype Pharmacokinetic Evaluation.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Method development study",
+    "sample_size": "unknown",
+    "justification": "The study focuses on the development of a laboratory method for analyzing teriflunomide in plasma rather than evaluating clinical outcomes or patient data, which does not fit higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42479470",
+    "title": "Causal effects of multiple sclerosis therapies in left-truncated registry data.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study using registry data",
+    "sample_size": "n=5588",
+    "justification": "The study analyzes data from a large cohort of patients tracked over time to assess the impact of left-truncation on treatment effect estimates, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_37272540",
+    "title": "Alemtuzumab for multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=1713",
+    "justification": "The paper is a systematic review that includes multiple RCTs comparing alemtuzumab to other treatments in multiple sclerosis, which fits the criteria for Level 1 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_35583174",
+    "title": "Ocrelizumab for multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=2551",
+    "justification": "The paper evaluates multiple RCTs and synthesizes their findings, which qualifies it as a systematic review. It includes a comprehensive analysis of the benefits and harms of ocrelizumab in multiple sclerosis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_11687106",
+    "title": "Aminopyridines for symptomatic treatment in multiple sclerosis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review of randomised controlled trials",
+    "sample_size": "n=144",
+    "justification": "The paper is a systematic review that evaluates multiple randomised controlled trials (RCTs) on the efficacy and safety of aminopyridines for symptomatic treatment in multiple sclerosis. Although the review includes data from several RCTs, the overall conclusions indicate uncertainty due to publication bias and the lack of data from unpublished studies.",
+    "confidence": 0.7
+  }
+]

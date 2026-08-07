@@ -1,0 +1,242 @@
+[
+  {
+    "id": "AD1",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve cognitive function (ADAS-Cog score) in patients with mild-to-severe Alzheimer's disease after 24-26 weeks compared to placebo?",
+    "cochrane_answer": "Yes. Donepezil produces a statistically significant improvement in ADAS-Cog score (mean difference -2.67, 95% CI -3.31 to -2.02) compared to placebo after 26 weeks.",
+    "source": "Birks JS, Cochrane Database Syst Rev 2018, CD001190",
+    "key_facts": ["donepezil", "ADAS-Cog", "-2.67 mean difference", "26 weeks", "statistically significant improvement"]
+  },
+  {
+    "id": "AD2",
+    "condition": "alzheimers",
+    "question": "What quality of evidence supports donepezil's benefit for activities of daily living in Alzheimer's disease?",
+    "cochrane_answer": "Moderate-quality evidence shows small benefits in activities of daily living for people with mild, moderate, or severe dementia treated with donepezil for 12-24 weeks.",
+    "source": "Birks JS, Cochrane Database Syst Rev 2018, CD001190",
+    "key_facts": ["moderate-quality evidence", "small benefit", "activities of daily living", "12-24 weeks"]
+  },
+  {
+    "id": "AD3",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve patient-reported quality of life in Alzheimer's disease?",
+    "cochrane_answer": "No. There does not appear to be an effect on quality of life, despite improvements in cognition and daily living activities.",
+    "source": "Birks JS, Cochrane Database Syst Rev 2018, CD001190",
+    "key_facts": ["no effect", "quality of life", "despite cognitive improvement"]
+  },
+  {
+    "id": "AD4",
+    "condition": "alzheimers",
+    "question": "Which cognitive enhancer combination shows the greatest MMSE improvement in Alzheimer's disease according to network meta-analysis?",
+    "cochrane_answer": "Donepezil combined with memantine showed the largest MMSE improvement (mean difference 2.57, 95% CI 0.07 to 5.07) compared to placebo.",
+    "source": "IPD Network Meta-Analysis, PMC9045061",
+    "key_facts": ["donepezil plus memantine", "MMSE", "2.57 mean difference", "combination therapy"]
+  },
+  {
+    "id": "AD5",
+    "condition": "alzheimers",
+    "question": "Is donepezil cost-neutral in terms of total healthcare costs for Alzheimer's treatment?",
+    "cochrane_answer": "Yes, in terms of total healthcare costs, the use of donepezil appears cost neutral.",
+    "source": "Birks JS, Cochrane Database Syst Rev 2018, CD001190",
+    "key_facts": ["cost neutral", "healthcare costs", "donepezil"]
+  },
+  {
+    "id": "AD6",
+    "condition": "alzheimers",
+    "question": "How many participants were included in the most recent Cochrane update on donepezil for dementia?",
+    "cochrane_answer": "Thirty studies with data available for 8,257 participants were examined in the updated review, including four newly added studies.",
+    "source": "Birks JS, Cochrane Database Syst Rev 2018, CD001190",
+    "key_facts": ["30 studies", "8,257 participants", "4 newly added studies"]
+  },
+  {
+    "id": "PD1",
+    "condition": "parkinsons",
+    "question": "Does adjuvant therapy (added to levodopa) reduce 'off-time' in Parkinson's disease patients with motor complications?",
+    "cochrane_answer": "Yes. Compared to placebo, add-on therapy significantly reduces patient off-time, reduces required levodopa dose, and improves UPDRS disability scores.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["off-time reduction", "reduced levodopa dose", "UPDRS improvement", "add-on therapy"]
+  },
+  {
+    "id": "PD2",
+    "condition": "parkinsons",
+    "question": "What are the trade-offs of adjuvant therapy for Parkinson's motor complications?",
+    "cochrane_answer": "While adjuvant therapy improves off-time and UPDRS scores, it is at the expense of increased dyskinesia and side-effects such as constipation, hallucinations, and vomiting.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["increased dyskinesia", "constipation", "hallucinations", "vomiting", "trade-off"]
+  },
+  {
+    "id": "PD3",
+    "condition": "parkinsons",
+    "question": "How many randomised trials and participants were included in the Cochrane review of adjuvant Parkinson's therapy?",
+    "cochrane_answer": "Forty-four randomised trials, involving 8,436 participants, were identified as suitable for the review.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["44 randomised trials", "8,436 participants"]
+  },
+  {
+    "id": "PD4",
+    "condition": "parkinsons",
+    "question": "Which drug class may provide more effective symptomatic control than COMTI and MAOBI therapy in Parkinson's disease?",
+    "cochrane_answer": "Indirect comparisons suggest dopamine agonists may provide more effective symptomatic control than COMTI and MAOBI therapy, which have comparable efficacy to each other.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["dopamine agonists", "more effective", "COMTI", "MAOBI", "comparable efficacy"]
+  },
+  {
+    "id": "PD5",
+    "condition": "parkinsons",
+    "question": "Is there significant evidence of efficacy differences between individual drugs within the same drug class for Parkinson's motor complications?",
+    "cochrane_answer": "No significant evidence of differences in efficacy between individual drugs within the drug classes was found, other than tolcapone appearing more effective than entacapone.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["no significant difference within class", "tolcapone more effective than entacapone", "exception"]
+  },
+  {
+    "id": "PD6",
+    "condition": "parkinsons",
+    "question": "What further research does the Cochrane review recommend for Parkinson's adjuvant therapies?",
+    "cochrane_answer": "Direct head-to-head randomised trials assessing the impact of different drug classes on overall patient-rated quality of life are needed, as indirect comparisons should be interpreted with caution.",
+    "source": "Cochrane Movement Disorders Group, CD007166",
+    "key_facts": ["head-to-head trials needed", "quality of life", "indirect comparisons caution"]
+  },
+  {
+    "id": "MS1",
+    "condition": "multiple_sclerosis",
+    "question": "Does mitoxantrone reduce disability progression in worsening multiple sclerosis compared to placebo?",
+    "cochrane_answer": "Yes. At 2 years, mitoxantrone significantly reduced disability progression from baseline compared to placebo (odds ratio 0.3).",
+    "source": "Cochrane Review 2005, cited in Managed Healthcare Executive",
+    "key_facts": ["mitoxantrone", "disability progression", "OR 0.3", "2 years", "significant reduction"]
+  },
+  {
+    "id": "MS2",
+    "condition": "multiple_sclerosis",
+    "question": "How much do interferon beta and glatiramer acetate reduce relapses in the first year of relapsing-remitting MS treatment?",
+    "cochrane_answer": "Both interferon beta and glatiramer acetate result in approximately 30% reduction of relapses in the first year, with similar efficacy between the two treatments.",
+    "source": "Lancet Neurology, Confusing Cochrane reviews on treatment in MS",
+    "key_facts": ["30% reduction", "first year", "interferon beta", "glatiramer acetate", "similarly effective"]
+  },
+  {
+    "id": "MS3",
+    "condition": "multiple_sclerosis",
+    "question": "Is there evidence of benefit from interferon beta or glatiramer acetate in MS beyond 1 year of treatment?",
+    "cochrane_answer": "No. The Cochrane-informed departmental guidelines found no evidence of benefit beyond 1 year for either treatment.",
+    "source": "Lancet Neurology, Confusing Cochrane reviews on treatment in MS",
+    "key_facts": ["no evidence beyond 1 year", "limitation", "interferon beta", "glatiramer acetate"]
+  },
+  {
+    "id": "MS4",
+    "condition": "multiple_sclerosis",
+    "question": "Do disease-modifying therapies (DMTs) reduce the risk of disability progression in relapsing-remitting MS compared to placebo?",
+    "cochrane_answer": "Yes. DMTs show a significantly lower risk of disability progression compared to placebo (relative risk 0.72, 95% CI 0.66-0.79, p<0.001).",
+    "source": "Systematic Review and Meta-Analysis, PMC4671570",
+    "key_facts": ["RR 0.72", "disability progression", "significant reduction", "p<0.001"]
+  },
+  {
+    "id": "MS5",
+    "condition": "multiple_sclerosis",
+    "question": "Does the route of administration (injectable vs oral) affect the efficacy of disease-modifying therapies on disability progression in MS?",
+    "cochrane_answer": "No significant difference was found between injectable (RR 0.75) and oral (RR 0.74) disease-modifying therapies for disability progression outcomes.",
+    "source": "Systematic Review and Meta-Analysis, PMC4671570",
+    "key_facts": ["no difference", "injectable vs oral", "RR 0.75 vs 0.74", "route of administration"]
+  },
+  {
+    "id": "MS6",
+    "condition": "multiple_sclerosis",
+    "question": "Which disease-modifying therapies show high-confidence evidence of reducing new or enlarging T2 brain lesions in MS?",
+    "cochrane_answer": "Fingolimod, interferon beta-1a (44mcg subcutaneous 3x weekly), and natalizumab show high-confidence evidence of reducing new or enlarging T2 lesions compared to placebo.",
+    "source": "Comprehensive Systematic Review, Neurology Journal",
+    "key_facts": ["fingolimod", "interferon beta-1a", "natalizumab", "T2 lesions", "high confidence"]
+  },
+  {
+    "id": "EP1",
+    "condition": "epilepsy",
+    "question": "What proportion of people with epilepsy can achieve seizure freedom using a single antiepileptic drug (AED) as monotherapy?",
+    "cochrane_answer": "Approximately 70% of individuals with active epilepsy have the potential to become seizure-free using AED monotherapy, and around 60-70% achieve long-term remission.",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["70%", "seizure-free", "monotherapy", "60-70% remission"]
+  },
+  {
+    "id": "EP2",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drugs show the best treatment failure and seizure control profile for focal onset seizures?",
+    "cochrane_answer": "Carbamazepine, lamotrigine, and levetiracetam show the best profile in terms of treatment failure and seizure control as first-line treatments for focal onset seizures (high-certainty evidence).",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["carbamazepine", "lamotrigine", "levetiracetam", "focal onset seizures", "high-certainty evidence"]
+  },
+  {
+    "id": "EP3",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drug has the best profile for generalised tonic-clonic seizures?",
+    "cochrane_answer": "Sodium valproate has the best profile for generalised tonic-clonic seizures, with lamotrigine and levetiracetam as the most suitable alternatives when valproate is not appropriate.",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["sodium valproate", "generalised tonic-clonic seizures", "lamotrigine", "levetiracetam", "alternatives"]
+  },
+  {
+    "id": "EP4",
+    "condition": "epilepsy",
+    "question": "How many AEDs were compared in the 2022 Cochrane network meta-analysis of epilepsy monotherapy?",
+    "cochrane_answer": "Twelve antiepileptic drugs were compared: carbamazepine, phenytoin, sodium valproate, phenobarbitone, oxcarbazepine, lamotrigine, gabapentin, topiramate, levetiracetam, zonisamide, eslicarbazepine acetate, and lacosamide.",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["12 AEDs", "network meta-analysis", "individual participant data"]
+  },
+  {
+    "id": "EP5",
+    "condition": "epilepsy",
+    "question": "What percentage of people with epilepsy experience refractory or drug-resistant seizures despite treatment?",
+    "cochrane_answer": "Approximately 30% of individuals experience refractory or drug-resistant seizures, often requiring combinations of AEDs or alternative treatments such as epilepsy surgery.",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["30%", "drug-resistant", "refractory", "epilepsy surgery", "combination AEDs"]
+  },
+  {
+    "id": "EP6",
+    "condition": "epilepsy",
+    "question": "What guidelines currently recommend carbamazepine or lamotrigine as first-line treatment for focal seizures?",
+    "cochrane_answer": "NICE (National Institute for Health and Care Excellence) guidelines in the UK recommend carbamazepine or lamotrigine as first-line treatment options for newly diagnosed focal seizures.",
+    "source": "Nevitt SJ et al., Cochrane Database Syst Rev 2022, CD011412",
+    "key_facts": ["NICE guidelines", "carbamazepine", "lamotrigine", "first-line", "focal seizures"]
+  },
+  {
+    "id": "ST1",
+    "condition": "stroke",
+    "question": "Does thrombolysis with alteplase improve functional outcome after acute ischaemic stroke compared to no treatment?",
+    "cochrane_answer": "Yes. Thrombolytic drugs can restore blood flow before major brain damage occurs, meaning patients are more likely to make a good recovery, though with a risk of serious brain bleeding.",
+    "source": "Wardlaw JM, Cochrane Database Syst Rev 2014, CD000213",
+    "key_facts": ["restore blood flow", "improved recovery", "risk of bleeding", "alteplase", "thrombolysis"]
+  },
+  {
+    "id": "ST2",
+    "condition": "stroke",
+    "question": "Within what time window is alteplase licensed for use in acute ischaemic stroke in most European countries?",
+    "cochrane_answer": "Alteplase is licensed for use within 4.5 hours of stroke onset in most European countries, and within 3 hours in the USA and Canada.",
+    "source": "Wardlaw JM, Cochrane Database Syst Rev 2014, CD000213",
+    "key_facts": ["4.5 hours", "Europe", "3 hours", "USA and Canada", "time window"]
+  },
+  {
+    "id": "ST3",
+    "condition": "stroke",
+    "question": "How does reteplase compare to alteplase for functional outcomes in acute ischaemic stroke?",
+    "cochrane_answer": "Reteplase was associated with better functional outcomes compared to alteplase (odds ratio 1.37, 95% CI 1.06 to 1.77) in network meta-analysis.",
+    "source": "Network Meta-Analysis, Singapore Medical Journal 2025",
+    "key_facts": ["reteplase", "better outcomes", "OR 1.37", "compared to alteplase"]
+  },
+  {
+    "id": "ST4",
+    "condition": "stroke",
+    "question": "Is there a difference in mortality outcomes between different thrombolytic agents for acute ischaemic stroke?",
+    "cochrane_answer": "No. Network meta-analysis demonstrated no significant difference in mortality outcomes across different thrombolytic agents (alteplase, tenecteplase, reteplase).",
+    "source": "Network Meta-Analysis, PMC11746078",
+    "key_facts": ["no difference", "mortality", "alteplase", "tenecteplase", "reteplase"]
+  },
+  {
+    "id": "ST5",
+    "condition": "stroke",
+    "question": "What serious risk is associated with thrombolytic therapy in acute ischaemic stroke?",
+    "cochrane_answer": "Thrombolytic drugs can cause serious bleeding in the brain (intracranial haemorrhage), which can be fatal, despite the potential benefits for functional recovery.",
+    "source": "Wardlaw JM, Cochrane Database Syst Rev 2014, CD000213",
+    "key_facts": ["intracranial haemorrhage", "bleeding", "fatal risk", "serious adverse event"]
+  },
+  {
+    "id": "ST6",
+    "condition": "stroke",
+    "question": "Does tenecteplase show significantly better functional outcomes than alteplase at 90 days post-stroke?",
+    "cochrane_answer": "No. Tenecteplase showed an odds ratio of 1.08 for excellent functional outcome at 90 days versus alteplase, which was not statistically significant (95% CI 0.97-1.22).",
+    "source": "Network Meta-Analysis, PMC11746078",
+    "key_facts": ["tenecteplase", "OR 1.08", "not significant", "90 days", "alteplase comparison"]
+  }
+]

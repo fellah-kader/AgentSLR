@@ -1,53 +1,453 @@
 [
   {
-    "article_id": "PMID_42201543",
-    "title": "Development of a serverless, interactive application for Alzheimer's disease detection and visualization using MRI images.",
+    "article_id": "PMID_42490986",
+    "title": "Six-month real-world amyloid PET outcomes after lecanemab: Greater amyloid reduction at the MCI stage than in dementia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=50",
+    "justification": "The study examines real-world outcomes in a cohort of patients receiving lecanemab, focusing on amyloid PET outcomes and clinical trajectories, which aligns with cohort study characteristics. It does not involve randomization or a control group.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42485607",
+    "title": "Associations of Alzheimer Disease and Related Dementia Neuropathologies With Timely Diagnosis of Dementia in Healthcare Settings.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=500",
+    "justification": "This study is a retrospective cohort study that examines associations between neuropathologies and timely dementia diagnosis using existing data. It does not involve randomization or a control group typical of higher-level evidence studies.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42469913",
+    "title": "Multi-threshold polygenic risk improves hippocampal-based cognitive decline prediction.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=23997 for training, n=3000 for validation",
+    "justification": "The study utilizes a large cohort from the UK Biobank and validates findings on additional cohorts, indicating it is an observational cohort study rather than an RCT or case-control study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42436821",
+    "title": "Statistical inference for saved time based on disease progression curves in Alzheimer's disease research.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Computer-aided diagnosis system development and evaluation",
-    "sample_size": "n=1687",
-    "justification": "The study describes the development and evaluation of a diagnostic system rather than a traditional clinical study design like RCT or cohort study. It focuses on a technological approach and its application rather than direct clinical outcomes.",
+    "study_design": "Statistical inference study",
+    "sample_size": "unknown",
+    "justification": "The paper focuses on a statistical method for estimating saved time in Alzheimer's disease research rather than presenting original research data or a clinical trial. It does not involve a study design that fits higher levels of evidence.",
     "confidence": 0.8
   },
   {
-    "article_id": "PMID_41963962",
-    "title": "Clostridium butyricum ameliorates Toxoplasma gondii-induced neuropsychiatric disorders by attenuating glial-mediated synaptic pruning via the gut-brain axis.",
+    "article_id": "PMID_42377826",
+    "title": "Discovery of novel perillyl and myrtenyl nucleobase conjugates as dual anti-Alzheimer and antimicrobial agents.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Animal study",
+    "study_design": "In-vitro study",
     "sample_size": "unknown",
-    "justification": "The study involves animal models (mice) to investigate the effects of Clostridium butyricum on neuropsychiatric disorders, which classifies it as an animal study. There is no mention of a sample size for human participants.",
+    "justification": "The study involves the synthesis and evaluation of compounds in vitro without any clinical trials or patient data, which fits the criteria for level 5 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42366543",
+    "title": "Predicting cognitive function in Alzheimer's clinical trials via amyloid β-protein biomarkers.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Model-based meta-analysis of randomized controlled trials",
+    "sample_size": "n=93,417",
+    "justification": "The study conducts a model-based meta-analysis of data from multiple randomized controlled trials, which fits the criteria for a systematic review or meta-analysis of RCTs. It synthesizes findings from a large number of subjects to establish predictive models.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42366338",
+    "title": "Isolation and identification of hasubanan alkaloids having anti-cholinesterase and antioxidant activity from the stem Stephania japonica.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "In-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study focuses on the isolation and identification of compounds from a plant and evaluates their effects in vitro, which does not involve human subjects or randomized trials.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42318199",
+    "title": "A novel early screening approach for MCI due to AD based on a \"maze\" hand-interaction kinetic paradigm.",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
+    "study_design": "Case-control study comparing patients with MCI due to AD and healthy controls",
+    "sample_size": "n=80 (40 patients with MCI due to AD and 40 healthy controls)",
+    "justification": "The study compares two groups (patients with MCI due to AD and healthy controls) to identify digital biomarkers, which is characteristic of a case-control study design.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42282149",
+    "title": "Predicting the timing of first sustained cognitive worsening in Alzheimer's disease using real-world clinical data and machine learning.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational cohort study using electronic health records",
+    "sample_size": "n=27,614",
+    "justification": "The study utilizes a large cohort of Alzheimer's disease patients and applies machine learning to predict cognitive worsening based on real-world clinical data, which aligns with cohort study methodologies.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42184493",
+    "title": "Summary of the evidence on TCM nonpharmacological interventions for cognitive impairment in patients with Alzheimer's disease.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=10 articles",
+    "justification": "The paper is a systematic synthesis of evidence from multiple studies, including systematic reviews, which aligns with Level 1 evidence. However, it does not present new RCT data itself.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_42142416",
+    "title": "Multimodal intervention benefits: Responder analysis of J-MINT PRIME Kanagawa trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=188",
+    "justification": "The study describes an 18-month multimodal intervention trial with a defined intervention and control group, indicating it is a randomized controlled trial. The sample size is explicitly mentioned as 188 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_42082960",
+    "title": "Investigating causal associations among inflammatory proteins, blood metabolites, and Alzheimer's disease risk.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Mendelian Randomization study",
+    "sample_size": "n=1,091 metabolites and 736 inflammatory proteins",
+    "justification": "The study employs Mendelian Randomization to investigate associations between genetic instruments for metabolites and inflammatory proteins with Alzheimer's disease risk, which aligns with observational cohort study designs rather than experimental designs like RCTs.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_42037294",
+    "title": "An Empirical Evaluation of a Non-Directive Storytelling Program for Spiritual Well-Being and Quality of Life in Dementia.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Pilot evaluation study",
+    "sample_size": "n=6",
+    "justification": "This study is a pilot evaluation with a very small sample size and lacks a control group, making it more akin to a case series or expert opinion rather than a robust experimental design.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41966037",
+    "title": "Review of Donanemab and Lecanemab in Mild Dementia Stage of Alzheimer's Disease: Progress and Challenges.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review",
+    "sample_size": "unknown",
+    "justification": "This paper is a review of existing studies rather than a primary research study, which does not provide original data or a systematic analysis of randomized controlled trials. Therefore, it is classified at Level 5.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41965602",
+    "title": "Combined home-delivered transcranial direct current stimulation and cognitive training in older adults with mild cognitive impairment due to Alzheimer's disease: a randomized, single-blind, sham-controlled trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=41",
+    "justification": "This study is a randomized controlled trial evaluating the effectiveness of a combined intervention in a specific population, which fits the criteria for Level 2 evidence. The sample size is mentioned as 41 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41963989",
+    "title": "Continuum of Core 1 biomarkers in preclinical Alzheimer's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=222",
+    "justification": "The study evaluates associations between biomarkers and cognitive decline in a cohort of individuals identified as being in Biological Stage A of Alzheimer's disease, using longitudinal data. It does not involve randomization or a control group, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41953385",
+    "title": "Real-World Multimodal Day-Care Intervention for Mild Cognitive Impairment with Lewy Bodies: A Prospective 3-Year Comparative Cognitive Trajectory Study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective cohort study",
+    "sample_size": "n=74",
+    "justification": "The study is a prospective cohort study examining cognitive changes over time in individuals with MCI-LB and MCI-AD participating in a multimodal intervention, without randomization. The sample size is explicitly mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41921372",
+    "title": "Development and validation of an eye-tracking-based cognitive impairment screening system for older adults in China: a cross-sectional study.",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
+    "study_design": "Cross-sectional study",
+    "sample_size": "n=113",
+    "justification": "This study compares different groups (healthy controls, mild cognitive impairment, and Alzheimer's disease) at a single point in time, which aligns with a case-control design. It does not involve randomization or follow-up typical of higher-level evidence studies.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41865758",
+    "title": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=3808",
+    "justification": "The study is a multicentre, randomised, double-blind, placebo-controlled phase 3 trial, which qualifies it as an individual RCT. The sample size of 3808 participants is explicitly mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41834402",
+    "title": "Gait and movement analysis for discrimination between people with dementia and healthy control persons based on pose estimation and machine learning.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=131 (64 with dementia, 67 healthy controls)",
+    "justification": "The study evaluates the clinical utility of gait analysis in a cohort of individuals with dementia and healthy controls, making it an observational cohort study rather than a randomized controlled trial or case-control study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41809190",
+    "title": "Six-month randomized, double-blind trial of transcranial direct current stimulation in mild Alzheimer's dementia: domain-specific cognitive and neuropsychiatric signals.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomized, double-blind, sham-controlled trial",
+    "sample_size": "n=120",
+    "justification": "This study is a randomized controlled trial evaluating the efficacy of transcranial direct current stimulation in patients with mild Alzheimer's dementia, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41753577",
+    "title": "Probiotic and Dietary Supplements Intervention in Age-Related Neurodegenerative Disorders.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review that discusses preclinical and clinical research but does not present original data or a specific study with a defined sample size. Therefore, it falls under the lowest level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41749280",
+    "title": "Phase II clinical trial of KCHO-1 for Alzheimer's disease: study protocol for a multicenter, randomized, double-blind, multi-dose, placebo trial.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Phase II, multi-center, randomized controlled trial",
+    "sample_size": "n=60",
+    "justification": "This study is a phase II randomized controlled trial designed to evaluate the effects of KCHO-1 on Alzheimer's disease, which fits the criteria for Level 2 evidence. The sample size of 60 patients is explicitly mentioned.",
     "confidence": 0.9
   },
   {
     "article_id": "PMID_41728301",
     "title": "Predicting Preclinical Cognitive Decline Using Plasma P-tau217 and APOE Genotype in 8,582 Individuals From Different Ethnic Groups.",
     "cebm_level": 3,
-    "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Cohort study",
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study (prospective or retrospective, observational)",
     "sample_size": "n=8582",
-    "justification": "The study evaluates the association between plasma P-tau217 levels and cognitive impairment in a large cohort of individuals, making it an observational cohort study rather than a randomized controlled trial or case-control study.",
+    "justification": "The study evaluates associations between plasma P-tau217 levels and cognitive impairment in a large cohort of individuals, making it an observational cohort study rather than an experimental design like an RCT.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_41634240",
-    "title": "Multi-Modal Fusion with Supervised Contrastive Learning Model for Early Alzheimer's Disease Diagnosis and Multi-Modal Biomarker Identification.",
+    "article_id": "PMID_41668187",
+    "title": "Aerobic exercise facilitates p300 nuclear translocation via ADRB2-AMPKα signaling, leading to enhanced histone acetylation and mitigation of cognitive decline in APP/PS1 mice.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Experimental study using machine learning techniques",
-    "sample_size": "unknown",
-    "justification": "The study presents a novel machine learning framework and validates it on a dataset, but it does not involve a randomized controlled trial, cohort, or case-control design. The sample size is not specified in the abstract.",
+    "study_design": "Animal study and observational analysis",
+    "sample_size": "n=1511 for NHANES cohort and n=APP/PS1 mice (exact number not specified)",
+    "justification": "The study includes an animal model (APP/PS1 mice) and observational analysis of a cohort, which does not meet the criteria for higher levels of evidence such as RCTs or cohort studies focused solely on human subjects.",
     "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41639293",
+    "title": "Comparative analysis of supervised and ensemble models with unsupervised exploration for alzheimer's disease prediction.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Comparative analysis of machine learning models",
+    "sample_size": "unknown",
+    "justification": "The study does not involve a randomized controlled trial, cohort, or case-control design, but rather a comparative analysis of machine learning models using existing data. The sample size is not specified in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41605825",
+    "title": "Rationale and design of a multidomain lifestyle program for mild cognitive impairment.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Program design and conceptual framework description",
+    "sample_size": "unknown",
+    "justification": "The paper describes the rationale and design of a multidomain lifestyle program but does not present any empirical data or results from a study, thus fitting the lowest level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41605509",
+    "title": "Electron Transfer Mechanism-Mediated Host-Guest Nanoswitch Powered Amplification-Free CRISPR/Cas12a-Electrochemiluminescence Bioassay for Alzheimer's Disease Diagnosis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "In-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study describes the development of a novel biosensing platform for Alzheimer's disease diagnosis based on in-vitro techniques without involving human subjects or randomized trials.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41603333",
+    "title": "Association of yoga with cognitive and gut microbiome changes in Alzheimer's disease: An exploratory case-control study.",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
+    "study_design": "Case-control study",
+    "sample_size": "n=33 (16 AD patients and 17 cognitively healthy controls)",
+    "justification": "This study compares two groups (AD patients and cognitively healthy controls) to evaluate the effects of a yoga intervention, which fits the case-control design. It does not involve randomization, thus it is not a higher level of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41569242",
+    "title": "Long-Term Effect of Acetylcholinesterase Inhibitors on Behavioral and Psychological Symptoms of Dementia.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=1408",
+    "justification": "The study involved a cohort of patients with dementia, comparing those treated with acetylcholinesterase inhibitors to those not treated, which fits the definition of a cohort study. It is not a randomized controlled trial, hence it is classified as Level 3.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41568736",
+    "title": "The impact of cholinesterase inhibitors on cognitive trajectories in mild cognitive impairment patients based on amyloid beta status.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=558",
+    "justification": "The study examines the impact of cholinesterase inhibitors on cognitive trajectories in a cohort of mild cognitive impairment patients, making it an observational cohort study rather than a randomized controlled trial.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41555522",
+    "title": "CAPS Plus: A Clinical Biomarker Scoring System to Predict Aβ Positivity and Facilitate Enrollment in Anti-Amyloid Clinical Trials.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=44",
+    "justification": "The study evaluates a clinical biomarker scoring system in a cohort of patients to predict Aβ positivity, which aligns with the characteristics of a cohort study. It does not involve randomization or control groups typical of RCTs.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41542678",
+    "title": "Testing effects of paced breathing on plasma Aβ and brain perivascular spaces.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=62",
+    "justification": "The study involves a randomized assignment of participants to different breathing interventions, which is characteristic of a randomized controlled trial. The sample size is explicitly mentioned in the abstract.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_41520099",
     "title": "Real world clinical practice of lecanemab at PUMCH dementia cohort: focus on dynamic imaging and biomarker evolution.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Single-center, real-world cohort study",
+    "study_design": "Real-world observational cohort study",
     "sample_size": "n=42",
     "justification": "The study evaluates the efficacy and safety of lecanemab in a cohort of patients with early Alzheimer's disease, using observational methods without randomization, which fits the criteria for a cohort study.",
     "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41512015",
+    "title": "ACSS2 upregulation enhances neuronal resilience to aging and tau-associated neurodegeneration.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study involves experiments conducted on transgenic mouse models and primary hippocampal neurons, which are characteristic of animal studies. There is no mention of a sample size, indicating it is likely a preliminary or exploratory study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41484644",
+    "title": "Impact of dose and compliance of antidementia medications on long-term outcomes in Alzheimer's disease: a nationwide real-world study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Nationwide real-world cohort study",
+    "sample_size": "n=466,773",
+    "justification": "This study analyzes data from a large cohort of patients with Alzheimer's disease to assess the impact of medication dosage and compliance on long-term outcomes, fitting the criteria for a cohort study. It does not involve randomization, which is necessary for higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41476457",
+    "title": "AlzStack: Forecasting early-onset Alzheimer's with an explainable AI system using multiple data balancing techniques.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Predictive modeling study using machine learning techniques",
+    "sample_size": "n=2149",
+    "justification": "The study presents a machine learning model for predicting Alzheimer's disease but does not involve a randomized controlled trial, cohort study, or case-control study design. It focuses on algorithm development and validation rather than clinical outcomes.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41473419",
+    "title": "Critical evaluation of real-world evidence of repurposable medicines in the Alzheimer's disease drug development pipeline using a target trial emulation.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study using trial emulation approach",
+    "sample_size": "n=91 drugs evaluated (38 in MCI cohort, 53 in over-70 cohort)",
+    "justification": "The study utilizes a cohort design by analyzing real-world data from a claims database to evaluate the effects of repurposed drugs on Alzheimer's incidence, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41465832",
+    "title": "The Role of Glucagon-like Peptide-1 Receptor Agonists in Alzheimer's and Parkinson's Disease: A Literature Review of Clinical Trials.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Literature review of clinical trials",
+    "sample_size": "unknown",
+    "justification": "The paper is a narrative review analyzing results from multiple clinical trials rather than presenting original research data or a systematic review. It does not provide a new dataset or a comprehensive synthesis of RCTs.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41458258",
+    "title": "Heterotrimetallic Au@Cu2Se nanozymes target inflamed neurons via suppression of oxidative stress and apoptosis to alleviate Alzheimer's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and in vitro study",
+    "sample_size": "unknown",
+    "justification": "The study involves in vitro experiments and in vivo results in AD model mice, which are characteristic of animal studies and laboratory research rather than human clinical trials.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41451412",
+    "title": "Comprehensive safety assessment of donepezil: pharmacovigilance analysis based on the FDA adverse event reporting system.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Pharmacovigilance analysis using adverse event reporting data",
+    "sample_size": "n=26,120",
+    "justification": "This study analyzes adverse event reports from a large database, making it an observational cohort study rather than a randomized controlled trial or systematic review. The sample size is substantial, indicating a comprehensive analysis of donepezil's safety profile.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41424816",
+    "title": "Predicting dementia risk using neuroimaging and cognitive assessment.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=312",
+    "justification": "The study evaluates the predictive ability of neuroimaging and cognitive assessments in a cohort of older adults, making it an observational cohort study rather than an RCT or case-control study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41398677",
+    "title": "The effect of repetitive transcranial magnetic stimulation on immediate and long-term cognitive functions in Alzheimer's dementia and mild cognitive impairment: a meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Meta-analysis of randomized controlled trials",
+    "sample_size": "n=31 RCTs included",
+    "justification": "The paper is a meta-analysis that synthesizes data from multiple randomized controlled trials, which is the highest level of evidence according to CEBM guidelines.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_41364453",
+    "title": "Surface-based but not voxel-based morphometry reveals structural abnormalities in individuals with subjective cognitive decline.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=107",
+    "justification": "This study compares structural brain imaging findings across different groups (SCD, aMCI, AD, and healthy participants) without randomization, fitting the criteria for a cohort study. The sample size is explicitly mentioned as 107 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41360445",
+    "title": "NeuroMusic: protocol for a randomised-controlled trial of keyboard and singing music training programmes for older adults with mild cognitive impairment.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "n=432",
+    "justification": "The study is a protocol for a randomised controlled trial designed to assess the efficacy of music training programmes in older adults with mild cognitive impairment, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
   },
   {
     "article_id": "PMID_41358624",
@@ -60,23 +460,513 @@
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_40611874",
-    "title": "Estimated Effects of Comorbidities on Risk of All-cause Dementia in Patients with Mild Cognitive Impairment.",
+    "article_id": "PMID_41345718",
+    "title": "Regional disparities of antidementia drug treatment in Germany: what can we learn for the new generation of Alzheimer's therapies.",
     "cebm_level": 3,
     "cebm_label": "Cohort study (prospective or retrospective, observational)",
-    "study_design": "Retrospective cohort study",
-    "sample_size": "n=19797",
-    "justification": "The study is a retrospective cohort study analyzing the effects of comorbidities on the risk of all-cause dementia in patients with mild cognitive impairment, which fits the criteria for Level 3 evidence.",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=53,753",
+    "justification": "The study analyzes claims data from a large cohort of individuals with Alzheimer's disease to evaluate associations between regional factors and antidementia drug prescriptions, fitting the criteria for a cohort study.",
     "confidence": 0.9
   },
   {
-    "article_id": "PMID_39683391",
-    "title": "Food Functional Factors in Alzheimer's Disease Intervention: Current Research Progress.",
+    "article_id": "PMID_41319153",
+    "title": "Combined use of plasma p-tau217, NfL, and GFAP predicts domain-specific cognitive decline in cognitively unimpaired and MCI individuals.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=523",
+    "justification": "The study evaluates the predictive utility of biomarkers in a cohort of individuals with mild cognitive impairment and cognitively unimpaired individuals, making it an observational cohort study rather than a randomized controlled trial.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41313999",
+    "title": "EEG-based stratification in Alzheimer's disease: Cognitive progression, pathological marker associations, and therapeutic interventions.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective cohort study",
+    "sample_size": "n=308 Alzheimer's patients",
+    "justification": "The study retrospectively validated EEG-based stratification in Alzheimer's patients and involved a large sample size, indicating it is an observational cohort study rather than a randomized controlled trial.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41303831",
+    "title": "ADAS-Cog Trajectories Differ from Expected Decline in Dementia Following Repeated Non-Invasive Interventions over 3 Years.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=73",
+    "justification": "This study follows a cohort of participants over time to observe the effects of non-invasive interventions on cognitive decline, without randomization, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41269690",
+    "title": "Alzheimer Disease Blood Biomarker Concentrations Across Race and Ethnicity Groups in Middle-Aged Adults.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study",
+    "sample_size": "n=4340",
+    "justification": "This study is a cohort study examining differences in plasma AD biomarker concentrations across race and ethnicity groups in a population-representative sample. The sample size is explicitly mentioned as 4340 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41245356",
+    "title": "Time-restricted eating in Alzheimer's disease: TREAD pilot trial design.",
     "cebm_level": 5,
     "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
-    "study_design": "Review of current research",
-    "sample_size": "unknown",
-    "justification": "The paper discusses various functional factors and their potential effects on Alzheimer's disease based on current research but does not present original data or a specific study design such as RCTs or cohort studies. It summarizes findings from existing literature without conducting new research.",
+    "study_design": "Pilot trial",
+    "sample_size": "n=30",
+    "justification": "The study is a pilot trial designed to evaluate feasibility and gather preliminary data, rather than a fully powered randomized controlled trial or observational study. It does not provide conclusive evidence on the efficacy of the intervention.",
     "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41220257",
+    "title": "Identifying a combination of biomarkers to predict treatment response to nabilone for agitation in Alzheimer's disease - an exploratory post hoc analysis.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Exploratory post hoc analysis of a trial",
+    "sample_size": "n=38",
+    "justification": "The study analyzes data from an original trial to identify predictors of treatment response, which aligns with cohort study characteristics. It does not involve a new randomized controlled trial but rather an analysis of existing data.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_41160464",
+    "title": "Alzheimer's disease diagnosis and treatment: From pathophysiological insights to therapeutic advances in the era of precision neurology (2025 review).",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review",
+    "sample_size": "unknown",
+    "justification": "This paper is a review article summarizing existing knowledge and advancements in Alzheimer's disease diagnosis and treatment, rather than presenting original research data or a specific study with a defined sample size.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41153028",
+    "title": "CT-derived brain volumes and plasma p-Tau217 for risk stratification of amyloid positivity in early-stage Alzheimer's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cohort study (prospective or retrospective, observational)",
+    "sample_size": "n=616",
+    "justification": "The study involves a cohort of participants with mild cognitive impairment and early dementia, assessing the predictive value of CT-derived brain volumes and plasma p-Tau217 for amyloid positivity, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41151129",
+    "title": "Discovery of novel 2,4,5,6-tetrahydro-7H-pyrazolo[3,4-c]pyridine-7-one derivatives as PDE2 inhibitors with Alzheimer's disease therapeutic potential.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study involves the development and testing of a compound in an animal model of Alzheimer's disease, which classifies it as an animal study. There are no randomized controlled trials or human studies mentioned.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41134992",
+    "title": "Artificial intelligence-driven eye tracker models for Alzheimer's disease diagnosis: A systematic review and meta-analysis.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and meta-analysis",
+    "sample_size": "unknown",
+    "justification": "The study is a systematic review and meta-analysis evaluating the diagnostic accuracy of AI-driven eye-tracking tools for Alzheimer's disease, which fits the criteria for Level 1 evidence. However, the sample size of the included studies is not specified in the abstract.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41121378",
+    "title": "Polygenic risk for Alzheimer's disease in healthy aging: age-related and APOE-driven effects on brain structures and cognition.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Cohort study",
+    "sample_size": "n=21,236",
+    "justification": "The study analyzes a large cohort of cognitively unimpaired individuals from the UK Biobank to investigate the relationship between polygenic risk scores and brain structures and cognition, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41044176",
+    "title": "An ensemble model based on transfer learning for the early detection of Alzheimer's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Deep learning model development and validation",
+    "sample_size": "unknown",
+    "justification": "The study presents a novel deep learning framework for early detection of Alzheimer's disease but does not involve a clinical trial or observational study with a defined sample size. It focuses on model performance rather than patient outcomes in a clinical setting.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41040719",
+    "title": "State-Guided ICA of Functional Network Connectivity Reveals Temporal Signatures of Alzheimer's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational study using resting-state fMRI data",
+    "sample_size": "n=6960 dynamic features (not a direct sample size of participants, but indicates a large dataset used for classification)",
+    "justification": "The study utilizes data from existing datasets (UK Biobank, OASIS-3, ADNI) to analyze functional connectivity patterns in Alzheimer's disease and mild cognitive impairment, which aligns with cohort study characteristics.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41008329",
+    "title": "Transcranial Magnetic Stimulation as a Diagnostic Tool in Mild Cognitive Impairment: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=476",
+    "justification": "The paper is a systematic review that evaluates multiple studies on the diagnostic utility of TMS in MCI populations, which qualifies it for Level 1 evidence. It synthesizes findings from 14 studies involving 476 patients.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_41001445",
+    "title": "Intervention on Modifiable Lifestyle and Physiological Factors via Variational Autoencoder Reveals Changes in Functional Connectivity-Mediated Risk for Alzheimer's Disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Observational study using data from multiple cohorts",
+    "sample_size": "unknown",
+    "justification": "The study utilizes data from existing cohorts (HCP, UKB, ADNI) to investigate the relationship between early-life factors and AD risk, which aligns with cohort study characteristics. No randomized controlled trial or systematic review is indicated.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_41000545",
+    "title": "Correction: Impact of twice-a-day transcranial direct current stimulation intervention on cognitive function and motor cortex plasticity in patients with Alzheimer's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Correction of previous article",
+    "sample_size": "unknown",
+    "justification": "The paper is a correction of a previously published article and does not present new data or findings. Therefore, it does not fit into the higher levels of evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40990038",
+    "title": "The Brain Health Index: Integrating vulnerability, resilience, and cognitive function into a unified measure of cognitive health and risk of neurodegenerative disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=469",
+    "justification": "The study evaluates participants with varying cognitive statuses and assesses the Brain Health Index's correlations with cognitive and biomarker measures, indicating a cohort design rather than a randomized controlled trial.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40933191",
+    "title": "Plasma FGF2 and YAP1 as novel biomarkers for MCI in the elderly: analysis via bioinformatics and clinical study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study with a cohort of individuals diagnosed with MCI and a control group",
+    "sample_size": "n=200 (146 MCI, 54 control)",
+    "justification": "The study involves a cohort of individuals with mild cognitive impairment compared to a control group, assessing biomarker levels, which fits the criteria for a cohort study. It does not involve randomization or a systematic review.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40894002",
+    "title": "Longitudinal impact of cholinesterase inhibitors on cholinergic white matter integrity in mild cognitive impairment: A diffusion MRI study.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=108 (46 ChEI users and 62 untreated controls)",
+    "justification": "The study analyzes the effects of cholinesterase inhibitors on white matter integrity in a cohort of participants with mild cognitive impairment, using diffusion MRI data without randomization, which classifies it as a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40858488",
+    "title": "Hearing Loss, Hearing Aid Use, and Neuropsychiatric Symptoms Among Persons Living With Dementia: Findings From NACC.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Cross-sectional study",
+    "sample_size": "n=10054",
+    "justification": "The study analyzes cross-sectional data from a large cohort of participants to assess the associations between hearing loss, hearing aid use, and neuropsychiatric symptoms, which fits the criteria for a cohort study design.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40844208",
+    "title": "Associations Between Hippocampal Transverse Relaxation Time and Amyloid PET in Cognitively Normal Aging Adults.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Retrospective, longitudinal study",
+    "sample_size": "n=56",
+    "justification": "The study is a retrospective cohort study examining associations between hippocampal T2 changes and Aβ accumulation in cognitively normal adults, which fits the criteria for a Level 3 evidence study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40814948",
+    "title": "ZIF-8 Microswimmers Self-Fast Dynamic Destruction in Microliter Volumes of Cerebrospinal Fluid Samples: Toward a Selective Assessment of Amyloidosis.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "In-vitro study",
+    "sample_size": "unknown",
+    "justification": "The study describes the development and analytical performance of a novel detection method for Aβ1-42 peptides in CSF samples, which is an experimental approach rather than a clinical trial or observational study. There is no mention of a sample size for patient data, indicating it is primarily a laboratory-based investigation.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40799764",
+    "title": "Cross-tissue omics-guided drug repurposing triangulates novel targetable mechanisms for Alzheimer's disease and candidate genetic biomarkers for treatment stratification.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Observational study integrating omics data",
+    "sample_size": "unknown",
+    "justification": "The study appears to be observational in nature, integrating various omics data without a randomized controlled trial or cohort study design. It does not provide a specific sample size, indicating a lack of primary data collection.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40753124",
+    "title": "Integrating Time and Frequency Domain Features of fMRI Time Series for Alzheimer's Disease Classification Using Graph Neural Networks.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Methodological study using a novel algorithm",
+    "sample_size": "unknown",
+    "justification": "The study presents a novel algorithm for Alzheimer's classification based on fMRI data but does not involve a randomized controlled trial, cohort study, or case-control study design. It focuses on methodology and results from a dataset without specifying a sample size.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40659052",
+    "title": "Magnesium Depletion Score as a Novel Predictor of Cognitive Impairment: A Population-Based Cross-Sectional Study From NHANES.",
+    "cebm_level": 4,
+    "cebm_label": "Case-control study",
+    "study_design": "Cross-sectional analysis",
+    "sample_size": "n=2768",
+    "justification": "This study is a cross-sectional analysis examining the association between magnesium depletion score and cognitive impairment, which aligns with a case-control study design as it assesses outcomes based on exposure status at a single point in time.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40658276",
+    "title": "Effects of accelerated intermittent theta-burst stimulation combined with cognitive training on brain function in amnestic mild cognitive impairment patients.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Double-blinded randomized trial",
+    "sample_size": "n=24",
+    "justification": "The study is a double-blinded randomized controlled trial investigating the effects of an intervention on a specific patient population, which fits the criteria for Level 2 evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40650049",
+    "title": "Recent Advances in Antibody Therapy for Alzheimer's Disease: Focus on Bispecific Antibodies.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Review article",
+    "sample_size": "unknown",
+    "justification": "The paper is a review that discusses existing information about antibody-based therapy in Alzheimer's disease without presenting original research data or a specific study sample size.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40629265",
+    "title": "Efficacy of music therapy as a non-pharmacological measure to support alzheimer's disease patients: a systematic review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review",
+    "sample_size": "n=42 studies",
+    "justification": "The paper is a systematic review that analyzes multiple studies on the efficacy of music therapy in Alzheimer's disease patients, which qualifies it for Level 1 evidence. However, it does not mention if the included studies were all RCTs, which is a limitation.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40473116",
+    "title": "Comparisons of efficacy and safety of immunotherapies for Alzheimer's disease treatment: A network meta-analysis of randomised controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Network meta-analysis of randomised controlled trials",
+    "sample_size": "n=59",
+    "justification": "This study is a systematic review and network meta-analysis that includes multiple randomised controlled trials, which allows for a comprehensive comparison of the efficacy and safety of immunotherapies for Alzheimer's disease.",
+    "confidence": 1.0
+  },
+  {
+    "article_id": "PMID_40463636",
+    "title": "Digital biomarkers: Redefining clinical outcomes and the concept of meaningful change.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Expert opinion",
+    "sample_size": "unknown",
+    "justification": "The paper discusses concepts and challenges related to minimal clinically important difference (MCID) and digital biomarkers in Alzheimer's disease without presenting original research data or a specific study design, indicating it is more of an expert opinion or review.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40456307",
+    "title": "The effect of biperiden on episodic memory: Testing the serial position effect.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Double-blind randomized controlled trial",
+    "sample_size": "unknown",
+    "justification": "The study involves a double-blind randomized design, indicating it is an individual RCT. However, the sample size is not mentioned in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40420449",
+    "title": "[Change of subjective cognitive decline in first-degree relatives of patients with Alzheimer's disease: results of a 15-year prospective study].",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Prospective observational study",
+    "sample_size": "n=66",
+    "justification": "The study is a 15-year prospective observational cohort study evaluating cognitive decline in first-degree relatives of Alzheimer's patients, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40412481",
+    "title": "The effects of the Multicultural Healthy Diet on cognitive decline and Alzheimer's disease risk: a phase II randomized controlled trial in middle-aged adults.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Phase II pilot randomized clinical trial",
+    "sample_size": "n=290",
+    "justification": "This study is a phase II randomized controlled trial assessing the effects of a dietary intervention on cognitive decline, which fits the criteria for Level 2 evidence. The sample size is explicitly mentioned as 290 participants.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40394335",
+    "title": "Rapamycin treatment for Alzheimer's disease and related dementias: a pilot phase 1 clinical trial.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Open-label phase 1 clinical trial",
+    "sample_size": "n=10",
+    "justification": "This study is a pilot phase 1 clinical trial with a small sample size and lacks a control group, which limits the strength of the evidence. It primarily assesses safety and biological effects rather than efficacy.",
+    "confidence": 0.7
+  },
+  {
+    "article_id": "PMID_40341393",
+    "title": "Impact of vitamin A on aged people's cognition and Alzheimer's disease progression in an animal model.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and population-based cross-sectional study",
+    "sample_size": "n=1817 for population study, unknown for animal study",
+    "justification": "The study includes both an animal model and a population-based cross-sectional analysis, but it does not involve randomized controlled trials or cohort studies, placing it at a lower level of evidence.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40325889",
+    "title": "Correlations between agitation and other neuropsychiatric symptoms in each stage of Alzheimer's disease: A re-analysis of CATIE-AD.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study (prospective or retrospective, observational)",
+    "study_design": "Re-analysis of observational data from a cohort study",
+    "sample_size": "n=421",
+    "justification": "The study re-analyzes data from a cohort of patients with Alzheimer's disease to examine correlations between agitation and other neuropsychiatric symptoms, which fits the criteria for a cohort study.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40309796",
+    "title": "Expanding the Applicability of Cognitive Charts to the Entire Age Span.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=32,560",
+    "justification": "The study analyzes data from a large cohort of individuals to validate Cognitive Charts across the entire age span, making it an observational cohort study rather than an RCT or systematic review.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40293541",
+    "title": "Early involvement of D-serine in β-amyloid-dependent pathophysiology.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study uses a mouse model (5xFAD) to investigate the role of D-serine in Alzheimer's disease, which classifies it as an animal study. There is no mention of a sample size, indicating it is not a clinical trial or observational study.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_40269061",
+    "title": "Discovery of an ApoE4-targeted small-molecule SirT1 enhancer for the treatment of Alzheimer's disease.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study",
+    "sample_size": "unknown",
+    "justification": "The study describes the discovery and testing of a small molecule in a murine AD model, which classifies it as an animal study without mention of a specific sample size. It does not involve human subjects or randomized controlled trials.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_40234939",
+    "title": "Enhanced associations between subjective cognitive concerns and blood-based AD biomarkers using a novel EMA approach.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=254",
+    "justification": "The study examines associations between subjective cognitive concerns and blood-based AD biomarkers in a community-based sample, which aligns with the characteristics of a cohort study. It does not involve randomization or a control group typical of RCTs.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_40195333",
+    "title": "Clinical utility of cerebrospinal fluid Alzheimer's disease biomarkers in the diagnostic workup of complex patients with cognitive impairment.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=633",
+    "justification": "The study evaluates the impact of CSF biomarkers on diagnosis and treatment in a cohort of cognitively impaired patients, without randomization, making it a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39995734",
+    "title": "Diagnosis of Alzheimer's disease using transfer learning with multi-modal 3D Inception-v4.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Observational study using deep learning methods",
+    "sample_size": "unknown",
+    "justification": "The study employs a novel deep learning model for diagnosis but does not involve a randomized controlled trial or a cohort study design. It primarily focuses on model performance rather than patient outcomes in a controlled setting.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_39989971",
+    "title": "Systems-Level Interactome Mapping Reveals Actionable Protein Network Dysregulation Across the Alzheimer's Disease Spectrum.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Animal study and in-vitro study",
+    "sample_size": "n=100 human brain specimens, mouse models, and human neurons",
+    "justification": "The study involves mapping protein-protein interactions and pharmacological interventions in animal models and human neurons, which fits the criteria for level 5 evidence as it does not involve randomized controlled trials or observational studies.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_39981456",
+    "title": "The Role of PET Detection of Biomarkers in Early Diagnosis, Progression, and Prognosis of Alzheimer's Disease: A Systematic Review.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic Review",
+    "sample_size": "n=2203",
+    "justification": "The paper is a systematic review that summarizes findings from multiple studies on the use of PET in diagnosing Alzheimer's disease, adhering to PRISMA guidelines. It includes a substantial sample size from the included studies, which strengthens the evidence.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39945003",
+    "title": "Comparative the efficacy and safety of Gosuranemab, Semorinemab, Tilavonemab, and Zagotenemab in patients with Alzheimer's disease: a systematic review and network meta-analysis of randomized controlled trials.",
+    "cebm_level": 1,
+    "cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)",
+    "study_design": "Systematic review and network meta-analysis of randomized controlled trials",
+    "sample_size": "n=2193",
+    "justification": "This study is a systematic review and network meta-analysis that synthesizes data from multiple randomized controlled trials, which qualifies it for Level 1 evidence. The sample size of 2,193 patients indicates a robust analysis.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39935341",
+    "title": "Prevalence of subjective cognitive decline and its association with physical health problems among urban community dwelling elderly population in South India.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study",
+    "sample_size": "n=403",
+    "justification": "This study is observational in nature, assessing the prevalence of subjective cognitive decline among a specific population without randomization or control groups, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39924914",
+    "title": "Enlarged perivascular spaces correlate with blood-brain barrier leakage and cognitive impairment in Alzheimer's disease.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational cohort study",
+    "sample_size": "n=64",
+    "justification": "The study investigates the relationship between enlarged perivascular spaces, blood-brain barrier leakage, and cognitive impairment in Alzheimer's disease using a cohort of participants, which fits the criteria for a cohort study.",
+    "confidence": 0.9
+  },
+  {
+    "article_id": "PMID_39838927",
+    "title": "Mitochondria-Related Genome-Wide Mendelian Randomization Identifies Putatively Causal Genes for Neurodegenerative Diseases.",
+    "cebm_level": 5,
+    "cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study",
+    "study_design": "Mendelian randomization study",
+    "sample_size": "unknown",
+    "justification": "This study utilizes existing genome-wide association studies and does not involve a primary data collection or randomized controlled trial, placing it in the lowest level of evidence. The sample size is not specified in the abstract.",
+    "confidence": 0.8
+  },
+  {
+    "article_id": "PMID_39818524",
+    "title": "Lateralization of the Aberrant Amplitude of Low-Frequency Fluctuation within the Default Mode Network in Patients with Mild Cognitive Impairment.",
+    "cebm_level": 3,
+    "cebm_label": "Cohort study",
+    "study_design": "Observational study using resting-state functional MRI",
+    "sample_size": "n=62 (36 MCI patients and 26 normal controls)",
+    "justification": "The study compares brain activity between patients with mild cognitive impairment and normal controls, which fits the criteria for a cohort study. It does not involve randomization or a control trial design.",
+    "confidence": 0.85
+  },
+  {
+    "article_id": "PMID_39809343",
+    "title": "Multi-domain Online Therapeutic Investigation Of Neurocognition (MOTION) - A randomized comparative-effectiveness study of two remotely delivered mind-body interventions for older adults with cognitive decline.",
+    "cebm_level": 2,
+    "cebm_label": "Individual randomised controlled trial (RCT)",
+    "study_design": "Randomised Controlled Trial",
+    "sample_size": "unknown",
+    "justification": "The study is a randomized controlled trial comparing two interventions against a control group, which fits the criteria for Level 2 evidence. The sample size is not mentioned in the abstract.",
+    "confidence": 0.9
   }
 ]

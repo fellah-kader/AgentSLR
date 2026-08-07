@@ -1,0 +1,9 @@
+2026-08-05 18:53:30,982 - INFO - Loading abstract screening input from: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/harvests/epilepsy/harvest_metadata.csv
+2026-08-05 18:53:30,999 - INFO - Screening 238 metadata rows without download filtering
+2026-08-05 18:53:31,001 - INFO - Sampling 30 of 238 abstract-screening rows with seed=7
+2026-08-05 18:53:31,001 - INFO - Screening 30 papers
+2026-08-05 18:53:31,002 - INFO - Reasoning traces will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/epilepsy/logs/abstract_screening_dumps_2026-08-05_18-53-31
+2026-08-05 18:53:31,025 - INFO - Results will be saved to: /Users/fellahkader/Desktop/NeuroSLR/data/agentslr/client/oss/epilepsy/screening/abstract_screening.csv
+2026-08-05 18:53:31,025 - INFO - Run ID: 2026-08-05_18-53-31
+2026-08-05 18:56:55,750 - INFO - Included 7 papers for full-text review
+2026-08-05 18:56:55,751 - INFO - Abstract screening summary: total=30 included=7 excluded=23

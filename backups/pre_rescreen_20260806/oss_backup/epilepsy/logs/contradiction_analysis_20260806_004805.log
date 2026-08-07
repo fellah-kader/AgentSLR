@@ -1,0 +1,7 @@
+2026-08-06 00:48:05,763 - INFO - Starting contradiction analysis for epilepsy with 14 included papers
+2026-08-06 00:50:00,285 - INFO - Contradiction analysis complete:
+2026-08-06 00:50:00,285 - INFO -   Total pairs analysed: 50
+2026-08-06 00:50:00,285 - INFO -   Contradictions found: 3
+2026-08-06 00:50:00,285 - INFO -   [MAJOR] PMID_42541350 vs PMID_28718878: effectiveness
+2026-08-06 00:50:00,285 - INFO -   [MAJOR] PMID_42539742 vs PMID_42524749: effect direction
+2026-08-06 00:50:00,285 - INFO -   [MAJOR] PMID_42537854 vs PMID_28718878: effectiveness of treatment

@@ -1,0 +1,4 @@
+2026-08-01 05:47:53,902 - INFO - Starting contradiction analysis for alzheimers with 5 included papers
+2026-08-01 05:47:55,789 - INFO - Contradiction analysis complete:
+2026-08-01 05:47:55,790 - INFO -   Total pairs analysed: 10
+2026-08-01 05:47:55,790 - INFO -   Contradictions found: 0
