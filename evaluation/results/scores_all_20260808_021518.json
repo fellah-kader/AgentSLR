@@ -1,0 +1,941 @@
+{
+  "B1_keyword_search": {
+    "baseline": "B1_keyword_search",
+    "overall": {
+      "avg_completeness": 2.0,
+      "avg_accuracy": 96.0,
+      "total_hallucinations": 0,
+      "avg_epistemic_honesty": 0.67
+    },
+    "per_condition": {
+      "alzheimers": {
+        "avg_completeness": 0.0,
+        "avg_accuracy": 83.3,
+        "total_hallucinations": 0,
+        "avg_honesty": 0.67
+      },
+      "parkinsons": {
+        "avg_completeness": 0.0,
+        "avg_accuracy": 100.0,
+        "total_hallucinations": 0,
+        "avg_honesty": 0.83
+      },
+      "multiple_sclerosis": {
+        "avg_completeness": 0.0,
+        "avg_accuracy": 100.0,
+        "total_hallucinations": 0,
+        "avg_honesty": 0.5
+      },
+      "epilepsy": {
+        "avg_completeness": 10.0,
+        "avg_accuracy": 96.7,
+        "total_hallucinations": 0,
+        "avg_honesty": 0.67
+      },
+      "stroke": {
+        "avg_completeness": 0.0,
+        "avg_accuracy": 100.0,
+        "total_hallucinations": 0,
+        "avg_honesty": 0.67
+      }
+    },
+    "per_question": [
+      {
+        "id": "AD1",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the specific question about donepezil's effect on ADAS-Cog score after 24-26 weeks, nor does it provide any relevant findings from the gold standard answer."
+      },
+      {
+        "id": "AD2",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding donepezil's benefits for activities of daily living, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "AD3",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not address the specific question about donepezil's effect on quality of life in Alzheimer's disease, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty about the evidence."
+      },
+      {
+        "id": "AD4",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response did not address the question regarding donepezil and memantine, thus capturing none of the key findings. However, it did not fabricate any information and expressed no incorrect claims, leading to a high factual accuracy score."
+      },
+      {
+        "id": "AD5",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The system response does not address the question regarding donepezil's cost neutrality, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100. There are no hallucinations, but the response fails to express any uncertainty or limitations."
+      },
+      {
+        "id": "AD6",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response did not address the question regarding the number of participants in the Cochrane update on donepezil for dementia, thus capturing none of the key findings. However, it made no incorrect claims and expressed uncertainty by not providing fabricated information."
+      },
+      {
+        "id": "PD1",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding adjuvant therapy and its effects on 'off-time' in Parkinson's disease, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "PD2",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the specific trade-offs of adjuvant therapy for Parkinson's motor complications, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100. There are no hallucinations present, and the response appropriately expresses uncertainty by not providing unsupported claims."
+      },
+      {
+        "id": "PD3",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding the number of randomized trials and participants in the Cochrane review, thus failing to capture any key findings. However, it does not make any incorrect claims, leading to a score of 100 for factual accuracy."
+      },
+      {
+        "id": "PD4",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response did not address the question regarding drug classes for Parkinson's disease, thus capturing none of the key findings. However, it made no incorrect claims and expressed uncertainty by not providing a relevant answer."
+      },
+      {
+        "id": "PD5",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding efficacy differences between drugs for Parkinson's motor complications, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "PD6",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding further research recommended by the Cochrane review, thus scoring 0 for synthesis completeness. However, it does not make any incorrect claims, leading to a score of 100 for factual accuracy. There are no fabricated claims, resulting in a hallucination count of 0, and it appropriately expresses uncertainty by not providing unsupported information."
+      },
+      {
+        "id": "MS1",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding mitoxantrone and its effect on disability progression, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100. There are no hallucinations present, and the response appropriately expresses uncertainty by not providing unsupported claims."
+      },
+      {
+        "id": "MS2",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The system response does not address the specific question about the reduction of relapses by interferon beta and glatiramer acetate, resulting in a synthesis completeness score of 0. However, it does not make any incorrect claims, leading to a factual accuracy score of 100."
+      },
+      {
+        "id": "MS3",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding the evidence of benefit from interferon beta or glatiramer acetate beyond 1 year, thus failing to capture any key findings. However, it does not make any incorrect claims, leading to a high factual accuracy score."
+      },
+      {
+        "id": "MS4",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding the effectiveness of DMTs in reducing disability progression, thus capturing none of the key findings. However, it does not make any incorrect claims, leading to a high factual accuracy score."
+      },
+      {
+        "id": "MS5",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response did not address the question regarding the efficacy of disease-modifying therapies on disability progression in MS, thus capturing none of the key findings. However, it made no incorrect claims and expressed uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "MS6",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not address the question regarding specific therapies for reducing T2 lesions in MS, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "EP1",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding the proportion of people with epilepsy achieving seizure freedom with monotherapy, thus capturing none of the key findings. However, it does not make any incorrect claims, leading to a high factual accuracy score."
+      },
+      {
+        "id": "EP2",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not address the specific antiepileptic drugs mentioned in the gold standard answer, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims and acknowledges the limitations of evidence regarding treatment options."
+      },
+      {
+        "id": "EP3",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not address the question regarding the best antiepileptic drug for generalised tonic-clonic seizures, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "EP4",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not address the question about the number of AEDs compared in the 2022 Cochrane meta-analysis, resulting in a synthesis completeness of 0. However, it made no incorrect claims and expressed uncertainty by not providing fabricated information."
+      },
+      {
+        "id": "EP5",
+        "condition": "epilepsy",
+        "synthesis_completeness": 60,
+        "factual_accuracy": 80,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings, such as drug-resistant epilepsy and the mention of multiple antiseizure drugs, but it does not accurately reflect the percentage of individuals experiencing refractory seizures as stated in the gold standard. However, it does express uncertainty regarding the exact percentage and acknowledges the complexity of the condition."
+      },
+      {
+        "id": "EP6",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding guidelines for carbamazepine or lamotrigine as first-line treatments for focal seizures, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100."
+      },
+      {
+        "id": "ST1",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding thrombolysis with alteplase and its effects on functional outcomes, thus failing to capture any key findings. However, it does not make any incorrect claims, leading to a high factual accuracy score."
+      },
+      {
+        "id": "ST2",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not address the question regarding the time window for alteplase use in acute ischemic stroke, thus failing to capture any key findings. However, it does not make any incorrect claims, resulting in a high factual accuracy score."
+      },
+      {
+        "id": "ST3",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not address the question about reteplase and alteplase, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100. There are no hallucinations, and the response appropriately expresses uncertainty by not providing unsupported information."
+      },
+      {
+        "id": "ST4",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding mortality outcomes between thrombolytic agents, thus capturing none of the key findings. However, it does not make any incorrect claims and expresses uncertainty by not providing a definitive answer."
+      },
+      {
+        "id": "ST5",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response did not address the question regarding thrombolytic therapy and its associated risks, thus capturing none of the key findings. However, it did not fabricate any information and maintained a neutral stance, indicating a lack of evidence."
+      },
+      {
+        "id": "ST6",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The system response does not address the question regarding tenecteplase and alteplase, resulting in a synthesis completeness of 0. However, it does not make any incorrect claims, leading to a factual accuracy of 100. There are no hallucinations present, and the response appropriately expresses uncertainty by not providing unsupported claims."
+      }
+    ]
+  },
+  "B2_gpt_raw": {
+    "baseline": "B2_gpt_raw",
+    "overall": {
+      "avg_completeness": 63.7,
+      "avg_accuracy": 65.7,
+      "total_hallucinations": 41,
+      "avg_epistemic_honesty": 0.67
+    },
+    "per_condition": {
+      "alzheimers": {
+        "avg_completeness": 48.0,
+        "avg_accuracy": 51.7,
+        "total_hallucinations": 10,
+        "avg_honesty": 0.5
+      },
+      "parkinsons": {
+        "avg_completeness": 61.2,
+        "avg_accuracy": 63.3,
+        "total_hallucinations": 7,
+        "avg_honesty": 0.67
+      },
+      "multiple_sclerosis": {
+        "avg_completeness": 56.7,
+        "avg_accuracy": 55.0,
+        "total_hallucinations": 14,
+        "avg_honesty": 0.5
+      },
+      "epilepsy": {
+        "avg_completeness": 85.8,
+        "avg_accuracy": 91.7,
+        "total_hallucinations": 3,
+        "avg_honesty": 1.0
+      },
+      "stroke": {
+        "avg_completeness": 66.7,
+        "avg_accuracy": 66.7,
+        "total_hallucinations": 7,
+        "avg_honesty": 0.67
+      }
+    },
+    "per_question": [
+      {
+        "id": "AD1",
+        "condition": "alzheimers",
+        "synthesis_completeness": 80,
+        "factual_accuracy": 80,
+        "hallucination_count": 2,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures most key findings but does not provide the exact mean difference of -2.67 and introduces fabricated effect sizes (0.3 to 0.5). It appropriately expresses uncertainty by discussing typical results and acknowledges the evidence limitations."
+      },
+      {
+        "id": "AD2",
+        "condition": "alzheimers",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer and provides accurate claims about the evidence quality and effect size, while also acknowledging limitations in the evidence."
+      },
+      {
+        "id": "AD3",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response contradicts the gold standard answer by claiming donepezil has a modest effect on quality of life, which is not supported by the gold standard. It also fabricates specific effect sizes and fails to acknowledge the lack of evidence for a significant impact on quality of life."
+      },
+      {
+        "id": "AD4",
+        "condition": "alzheimers",
+        "synthesis_completeness": 75,
+        "factual_accuracy": 50,
+        "hallucination_count": 1,
+        "epistemic_honesty": 0,
+        "reasoning": "The response captures some key findings but misrepresents the effect size and confidence interval, leading to factual inaccuracies. It does not express uncertainty about the evidence, presenting incorrect information as fact."
+      },
+      {
+        "id": "AD5",
+        "condition": "alzheimers",
+        "synthesis_completeness": 33,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some aspects of the key findings but fails to clearly state that donepezil is cost neutral, leading to a low synthesis completeness score. It contains one fabricated claim regarding the ICER, which is not supported by the gold standard answer."
+      },
+      {
+        "id": "AD6",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response did not capture any of the key findings from the gold standard answer and provided incorrect figures for both the number of studies and participants, indicating a lack of factual accuracy and epistemic honesty."
+      },
+      {
+        "id": "PD1",
+        "condition": "parkinsons",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer and provides accurate claims about the effects of adjuvant therapy, while also expressing confidence in the evidence presented."
+      },
+      {
+        "id": "PD2",
+        "condition": "parkinsons",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer and provides accurate claims about the effects of adjuvant therapy, while appropriately discussing the trade-offs involved."
+      },
+      {
+        "id": "PD3",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response incorrectly states the number of trials and participants, fabricating details about the review's content and findings, and does not express uncertainty about the inaccuracies."
+      },
+      {
+        "id": "PD4",
+        "condition": "parkinsons",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer and expresses uncertainty regarding side effects, but it includes a fabricated effect size statistic that is not supported by the gold standard."
+      },
+      {
+        "id": "PD5",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response contradicts the gold standard by claiming evidence of efficacy differences where none were found, fabricating specific claims about pramipexole and ropinirole, and misrepresenting the role of entacapone. It does not express uncertainty or acknowledge the limitations of the evidence."
+      },
+      {
+        "id": "PD6",
+        "condition": "parkinsons",
+        "synthesis_completeness": 67,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings related to quality of life and the need for trials, but it does not specifically mention head-to-head trials or caution regarding indirect comparisons, leading to a synthesis completeness score of 67. However, all claims made are factually correct, and the response appropriately acknowledges the need for further research."
+      },
+      {
+        "id": "MS1",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 80,
+        "factual_accuracy": 90,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures most key findings but inaccurately states a relative risk reduction of 30-40% instead of the correct odds ratio of 0.3. It acknowledges the risks associated with mitoxantrone, demonstrating epistemic honesty."
+      },
+      {
+        "id": "MS2",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings but includes a fabricated claim about interferon beta reducing relapse rates by 30% to 40%, which is not supported by the gold standard answer."
+      },
+      {
+        "id": "MS3",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 5,
+        "epistemic_honesty": 0,
+        "reasoning": "The response contradicts the gold standard answer by claiming evidence of benefit beyond one year, fabricating statistics and study details, and does not acknowledge the lack of evidence as stated in the gold standard."
+      },
+      {
+        "id": "MS4",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer, but it includes a fabricated hazard ratio (0.66) that is not supported by the gold standard. It appropriately expresses confidence in the effectiveness of DMTs."
+      },
+      {
+        "id": "MS5",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 5,
+        "epistemic_honesty": 0,
+        "reasoning": "The response contradicts the gold standard by claiming a difference in efficacy between injectable and oral therapies, fabricating specific effect sizes and statistics that are not supported by the gold standard answer. It also fails to acknowledge the lack of significant difference, demonstrating a lack of epistemic honesty."
+      },
+      {
+        "id": "MS6",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 60,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 0,
+        "reasoning": "The response captures some key findings but introduces ocrelizumab, which is not mentioned in the gold standard answer, leading to a hallucination count of 1. It also lacks appropriate hedging regarding the evidence for ocrelizumab, indicating a lack of epistemic honesty."
+      },
+      {
+        "id": "EP1",
+        "condition": "epilepsy",
+        "synthesis_completeness": 75,
+        "factual_accuracy": 80,
+        "hallucination_count": 2,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures the general idea of seizure freedom and monotherapy but inaccurately states the percentage and introduces fabricated details about long-term rates and specific AEDs. It does express uncertainty regarding the variability of outcomes, which supports a score of 1 for epistemic honesty."
+      },
+      {
+        "id": "EP2",
+        "condition": "epilepsy",
+        "synthesis_completeness": 80,
+        "factual_accuracy": 90,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures most key findings, mentioning lamotrigine, levetiracetam, and carbamazepine, but does not explicitly state 'high-certainty evidence.' The claims made are largely accurate, with no fabricated information, and the response appropriately discusses the balance of efficacy and tolerability."
+      },
+      {
+        "id": "EP3",
+        "condition": "epilepsy",
+        "synthesis_completeness": 60,
+        "factual_accuracy": 80,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings but omits sodium valproate as the best profile drug and does not mention it as an alternative. It inaccurately claims a specific effect size for lamotrigine, which is not supported by the gold standard. However, it appropriately acknowledges variability in individual responses."
+      },
+      {
+        "id": "EP4",
+        "condition": "epilepsy",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard, including the number of AEDs and the nature of the study, while also expressing appropriate confidence in the information provided."
+      },
+      {
+        "id": "EP5",
+        "condition": "epilepsy",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard answer and provides correct information without any fabricated claims, while also expressing the definition of drug-resistant epilepsy appropriately."
+      },
+      {
+        "id": "EP6",
+        "condition": "epilepsy",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard answer, including the mention of NICE guidelines and the medications carbamazepine and lamotrigine as first-line treatments for focal seizures. It also provides additional context about efficacy and patient considerations without fabricating information."
+      },
+      {
+        "id": "ST1",
+        "condition": "stroke",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer, provides accurate claims about the benefits and risks of alteplase, and appropriately expresses confidence in the evidence presented."
+      },
+      {
+        "id": "ST2",
+        "condition": "stroke",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard answer, correctly states the time window for alteplase use in Europe, and appropriately acknowledges the variability in treatment protocols, demonstrating epistemic honesty."
+      },
+      {
+        "id": "ST3",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 4,
+        "epistemic_honesty": 0,
+        "reasoning": "The response does not capture any of the key findings from the gold standard answer and presents fabricated statistics and claims about the efficacy of alteplase over reteplase, which contradicts the gold standard. It also fails to express uncertainty or acknowledge evidence limitations."
+      },
+      {
+        "id": "ST4",
+        "condition": "stroke",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard answer, correctly states that there is no significant difference in mortality outcomes, and acknowledges the limitations of the evidence while providing accurate claims."
+      },
+      {
+        "id": "ST5",
+        "condition": "stroke",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures all key findings from the gold standard answer, accurately describes the risks associated with thrombolytic therapy, and appropriately expresses the need for careful patient selection and monitoring."
+      },
+      {
+        "id": "ST6",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response incorrectly claims that tenecteplase shows significantly better outcomes, contradicting the gold standard answer. It also fabricates an odds ratio of 1.25 and misrepresents the safety profile, leading to multiple hallucinations."
+      }
+    ]
+  },
+  "B4_neuroslr": {
+    "baseline": "B4_neuroslr",
+    "overall": {
+      "avg_completeness": 21.0,
+      "avg_accuracy": 95.0,
+      "total_hallucinations": 5,
+      "avg_epistemic_honesty": 0.97
+    },
+    "per_condition": {
+      "alzheimers": {
+        "avg_completeness": 8.3,
+        "avg_accuracy": 96.7,
+        "total_hallucinations": 0,
+        "avg_honesty": 1.0
+      },
+      "parkinsons": {
+        "avg_completeness": 10.0,
+        "avg_accuracy": 80.0,
+        "total_hallucinations": 3,
+        "avg_honesty": 0.83
+      },
+      "multiple_sclerosis": {
+        "avg_completeness": 20.8,
+        "avg_accuracy": 100.0,
+        "total_hallucinations": 0,
+        "avg_honesty": 1.0
+      },
+      "epilepsy": {
+        "avg_completeness": 13.3,
+        "avg_accuracy": 100.0,
+        "total_hallucinations": 1,
+        "avg_honesty": 1.0
+      },
+      "stroke": {
+        "avg_completeness": 52.5,
+        "avg_accuracy": 98.3,
+        "total_hallucinations": 1,
+        "avg_honesty": 1.0
+      }
+    },
+    "per_question": [
+      {
+        "id": "AD1",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response correctly identifies a lack of sufficient evidence regarding donepezil's effect on ADAS-Cog scores, demonstrating epistemic honesty, but fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "AD2",
+        "condition": "alzheimers",
+        "synthesis_completeness": 50,
+        "factual_accuracy": 80,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings but misses specific details like 'moderate-quality evidence' and the time frame of '12-24 weeks.' It accurately discusses the evidence and expresses uncertainty about the benefits, scoring well on epistemic honesty."
+      },
+      {
+        "id": "AD3",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not capture any of the key findings from the gold standard answer, but it accurately stated that the evidence is insufficient and acknowledged the limitations of the studies."
+      },
+      {
+        "id": "AD4",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not capture any of the key findings from the gold standard answer, resulting in a synthesis completeness of 0. However, it accurately stated that specific combinations were not detailed and expressed uncertainty about the evidence, leading to a factual accuracy of 100 and an epistemic honesty score of 1."
+      },
+      {
+        "id": "AD5",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response acknowledges the limitations of the evidence regarding donepezil's cost-neutrality, expressing uncertainty appropriately, but it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "AD6",
+        "condition": "alzheimers",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response correctly acknowledges the lack of specific information and does not fabricate any claims, demonstrating epistemic honesty."
+      },
+      {
+        "id": "PD1",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that the evidence is limited and does not fabricate information, but it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "PD2",
+        "condition": "parkinsons",
+        "synthesis_completeness": 60,
+        "factual_accuracy": 80,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings such as dyskinesia but misses others like constipation, hallucinations, and vomiting. It provides accurate claims about the benefits and challenges of adjuvant therapy, with no fabricated information, and appropriately acknowledges variability in treatment effectiveness."
+      },
+      {
+        "id": "PD3",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response correctly acknowledges the lack of specific information and does not fabricate any claims, demonstrating epistemic honesty."
+      },
+      {
+        "id": "PD4",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 0,
+        "hallucination_count": 3,
+        "epistemic_honesty": 0,
+        "reasoning": "The response incorrectly identifies GLP-1 receptor agonists as the drug class in question, fabricating claims about their efficacy compared to COMTI and MAOBI, and fails to acknowledge the evidence limitations."
+      },
+      {
+        "id": "PD5",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not capture any of the key findings from the gold standard answer, particularly the lack of significant differences and the specific mention of tolcapone's efficacy. However, it accurately stated that the evidence is insufficient and acknowledged the limitations of the studies."
+      },
+      {
+        "id": "PD6",
+        "condition": "parkinsons",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response does not capture any of the key findings from the gold standard answer, particularly the need for head-to-head trials and the focus on quality of life. However, it does not contain any incorrect claims and appropriately expresses the need for further research."
+      },
+      {
+        "id": "MS1",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to answer the question, thus scoring high on factual accuracy and epistemic honesty, but it does not capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "MS2",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not capture any of the key findings regarding the specific percentage reduction in relapses or the comparative efficacy of the treatments, resulting in a synthesis completeness of 0. However, it accurately stated the limitations of the evidence and did not fabricate any information, leading to a factual accuracy of 100 and a hallucination count of 0."
+      },
+      {
+        "id": "MS3",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 50,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures the essence of the gold standard by stating that the evidence does not confirm benefits beyond one year, but it does not fully synthesize all key findings. It accurately reflects the uncertainty regarding the evidence and does not fabricate information."
+      },
+      {
+        "id": "MS4",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 75,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures the key finding of DMTs reducing disability progression but does not provide specific statistics like the relative risk or p-value. However, it accurately reflects the effectiveness of DMTs and acknowledges the evidence supporting this claim."
+      },
+      {
+        "id": "MS5",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to compare the efficacy of injectable versus oral DMTs, reflecting epistemic honesty. However, it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "MS6",
+        "condition": "multiple_sclerosis",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to identify therapies with high-confidence evidence, reflecting epistemic honesty. However, it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "EP1",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response correctly identifies a lack of specific evidence to quantify the success rate of AED monotherapy, thus scoring high on factual accuracy and epistemic honesty, but it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "EP2",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response did not capture any of the key findings from the gold standard answer, resulting in a synthesis completeness of 0. However, it accurately stated that there is insufficient evidence to determine the best AEDs for focal onset seizures, leading to a factual accuracy of 100. The mention of 'losigamone' is a hallucination as it is not part of the gold standard answer. The response appropriately expressed uncertainty about the evidence."
+      },
+      {
+        "id": "EP3",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to determine the best antiepileptic drug for generalized tonic-clonic seizures, reflecting epistemic honesty. However, it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "EP4",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response correctly acknowledges the lack of specific information and does not fabricate any claims, demonstrating epistemic honesty."
+      },
+      {
+        "id": "EP5",
+        "condition": "epilepsy",
+        "synthesis_completeness": 80,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures the key finding of approximately 30% experiencing refractory seizures and acknowledges the limitations of the evidence, demonstrating epistemic honesty."
+      },
+      {
+        "id": "EP6",
+        "condition": "epilepsy",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to confirm the guidelines, thus scoring high on factual accuracy and epistemic honesty, but it fails to capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "ST1",
+        "condition": "stroke",
+        "synthesis_completeness": 80,
+        "factual_accuracy": 90,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures most key findings but lacks explicit mention of the risk of bleeding. It accurately describes the effectiveness of alteplase and acknowledges limitations in the evidence, demonstrating epistemic honesty."
+      },
+      {
+        "id": "ST2",
+        "condition": "stroke",
+        "synthesis_completeness": 100,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately captures all key findings from the gold standard answer and expresses appropriate uncertainty regarding variations in regulations by country."
+      },
+      {
+        "id": "ST3",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to compare reteplase and alteplase, reflecting epistemic honesty, but it does not capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "ST4",
+        "condition": "stroke",
+        "synthesis_completeness": 0,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response accurately states that there is insufficient evidence to determine differences in mortality outcomes, reflecting epistemic honesty, but it does not capture any of the key findings from the gold standard answer."
+      },
+      {
+        "id": "ST5",
+        "condition": "stroke",
+        "synthesis_completeness": 75,
+        "factual_accuracy": 100,
+        "hallucination_count": 1,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures the risk of intracranial hemorrhage and its potential fatality, but it introduces a fabricated concept of 'thrombolytic resistance' which is not mentioned in the gold standard. It appropriately expresses uncertainty regarding the complications of thrombolysis."
+      },
+      {
+        "id": "ST6",
+        "condition": "stroke",
+        "synthesis_completeness": 60,
+        "factual_accuracy": 100,
+        "hallucination_count": 0,
+        "epistemic_honesty": 1,
+        "reasoning": "The response captures some key findings but does not explicitly mention the odds ratio or its statistical significance. However, it accurately states the lack of evidence for significantly better outcomes and expresses uncertainty appropriately."
+      }
+    ]
+  }
+}

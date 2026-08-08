@@ -1,0 +1,242 @@
+[
+  {
+    "id": "AD1",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve cognitive function (ADAS-Cog score) in patients with mild-to-severe Alzheimer's disease after 24-26 weeks compared to placebo?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not include specific studies directly evaluating the effect of donepezil on cognitive function (ADAS-Cog score) in patients with mild-to-severe Alzheimer's disease after 24-26 weeks compared to placebo. While there are studies on cholinesterase inhibitors and their impact on cognitive trajectories, none specifically address donepezil or provide a direct comparison to placebo within the specified timeframe. Therefore, the evidence is insufficient to fully answer the question.",
+    "timestamp": "2026-08-07T20:40:26.971504"
+  },
+  {
+    "id": "AD2",
+    "condition": "alzheimers",
+    "question": "What quality of evidence supports donepezil's benefit for activities of daily living in Alzheimer's disease?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence supporting donepezil's benefit for activities of daily living in Alzheimer's disease is limited. The available studies primarily focus on cholinesterase inhibitors, including donepezil, and their effects on cognitive trajectories and behavioral symptoms, with most studies graded at CEBM Level 3 (cohort studies). However, there is no direct evidence from randomized controlled trials (RCTs) specifically addressing donepezil's impact on activities of daily living. Therefore, the quality of evidence remains insufficient to conclusively support donepezil's benefits in this area.",
+    "timestamp": "2026-08-07T20:40:30.147026"
+  },
+  {
+    "id": "AD3",
+    "condition": "alzheimers",
+    "question": "Does donepezil improve patient-reported quality of life in Alzheimer's disease?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding the impact of donepezil on patient-reported quality of life in Alzheimer's disease is insufficient based on the provided pipeline evidence. While donepezil is a commonly used cholinesterase inhibitor for Alzheimer's disease, none of the included studies specifically address its effects on quality of life outcomes. Most studies focus on cognitive outcomes, safety, or pharmacovigilance without directly measuring patient-reported quality of life. Therefore, a definitive conclusion cannot be drawn from the available evidence.",
+    "timestamp": "2026-08-07T20:41:35.801100"
+  },
+  {
+    "id": "AD4",
+    "condition": "alzheimers",
+    "question": "Which cognitive enhancer combination shows the greatest MMSE improvement in Alzheimer's disease according to network meta-analysis?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide a clear answer regarding which cognitive enhancer combination shows the greatest improvement in MMSE scores for Alzheimer's disease based on network meta-analysis. While there are studies on various treatments, including lecanemab and transcranial direct current stimulation, the evidence is inconsistent and lacks a definitive comparison of combinations specifically targeting MMSE improvement. Therefore, the evidence is insufficient to fully answer the question.",
+    "timestamp": "2026-08-07T20:41:39.207499"
+  },
+  {
+    "id": "AD5",
+    "condition": "alzheimers",
+    "question": "Is donepezil cost-neutral in terms of total healthcare costs for Alzheimer's treatment?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not specifically address whether donepezil is cost-neutral in terms of total healthcare costs for Alzheimer's treatment. While there are studies evaluating the efficacy and safety of donepezil and other treatments for Alzheimer's disease, none directly analyze the cost implications or economic evaluations related to donepezil's use. Therefore, based on the available evidence, it is insufficient to conclude whether donepezil is cost-neutral.",
+    "timestamp": "2026-08-07T20:41:41.814441"
+  },
+  {
+    "id": "AD6",
+    "condition": "alzheimers",
+    "question": "How many participants were included in the most recent Cochrane update on donepezil for dementia?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide specific information regarding the number of participants included in the most recent Cochrane update on donepezil for dementia. Therefore, I cannot answer the question based on the available evidence.",
+    "timestamp": "2026-08-07T20:41:44.092610"
+  },
+  {
+    "id": "PD1",
+    "condition": "parkinsons",
+    "question": "Does adjuvant therapy (added to levodopa) reduce 'off-time' in Parkinson's disease patients with motor complications?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding the effectiveness of adjuvant therapy added to levodopa in reducing 'off-time' in Parkinson's disease patients with motor complications is limited. A systematic review and meta-analysis indicated that continuous infusion therapies can improve motor fluctuations, but specific studies on adjuvant therapies like safinamide or amantadine are classified as cohort studies (CEBM Level 3), which do not provide the highest level of evidence. Therefore, while there is some indication that adjuvant therapies may help, the current evidence is insufficient to definitively conclude their effectiveness in reducing 'off-time'.",
+    "timestamp": "2026-08-07T20:41:49.360369"
+  },
+  {
+    "id": "PD2",
+    "condition": "parkinsons",
+    "question": "What are the trade-offs of adjuvant therapy for Parkinson's motor complications?",
+    "baseline": "B4_neuroslr",
+    "response": "The trade-offs of adjuvant therapy for Parkinson's motor complications include potential benefits in managing motor fluctuations and improving quality of life, but they also carry risks of adverse effects and complications. For instance, therapies like continuous infusion of levodopa-carbidopa have shown efficacy in reducing \"off\" time, yet they may lead to increased dyskinesias (CEBM Level 3). Additionally, while device-aided therapies can enhance symptom control, their effectiveness can vary significantly among patients (CEBM Level 3). Overall, the decision to pursue adjuvant therapy should consider these factors, balancing symptom relief against the risk of exacerbating other complications.",
+    "timestamp": "2026-08-07T20:41:52.489402"
+  },
+  {
+    "id": "PD3",
+    "condition": "parkinsons",
+    "question": "How many randomised trials and participants were included in the Cochrane review of adjuvant Parkinson's therapy?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide specific information regarding the number of randomized trials or participants included in the Cochrane review of adjuvant Parkinson's therapy. Therefore, I cannot answer the question explicitly based on the provided evidence.",
+    "timestamp": "2026-08-07T20:41:56.483206"
+  },
+  {
+    "id": "PD4",
+    "condition": "parkinsons",
+    "question": "Which drug class may provide more effective symptomatic control than COMTI and MAOBI therapy in Parkinson's disease?",
+    "baseline": "B4_neuroslr",
+    "response": "The drug class that may provide more effective symptomatic control than COMT inhibitors (COMTIs) and monoamine oxidase B inhibitors (MAOBIs) in Parkinson's disease is GLP-1 receptor agonists. A meta-analysis indicated that GLP-1 receptor agonists demonstrate motor benefits and improvements in mood, suggesting they could be more effective than traditional therapies like COMTIs and MAOBIs (CEBM Level 1). Additionally, continuous infusion therapies have shown efficacy in managing non-motor symptoms, which may also enhance overall symptomatic control (CEBM Level 1). However, further comparative studies are needed to establish definitive superiority.",
+    "timestamp": "2026-08-07T20:41:59.452863"
+  },
+  {
+    "id": "PD5",
+    "condition": "parkinsons",
+    "question": "Is there significant evidence of efficacy differences between individual drugs within the same drug class for Parkinson's motor complications?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding efficacy differences between individual drugs within the same drug class for Parkinson's motor complications is insufficient. While several studies assess various treatments, including dopamine agonists and levodopa, they primarily focus on overall treatment outcomes or safety profiles rather than directly comparing the efficacy of individual drugs within the same class. Most studies included are cohort studies (CEBM Level 3) or systematic reviews (CEBM Level 1) that do not provide direct comparative efficacy data for specific drugs. Therefore, a definitive conclusion on efficacy differences cannot be drawn from the current evidence.",
+    "timestamp": "2026-08-07T20:42:02.422002"
+  },
+  {
+    "id": "PD6",
+    "condition": "parkinsons",
+    "question": "What further research does the Cochrane review recommend for Parkinson's adjuvant therapies?",
+    "baseline": "B4_neuroslr",
+    "response": "The Cochrane review recommends further research on the efficacy and safety of various adjuvant therapies for Parkinson's disease, particularly focusing on non-pharmacological interventions and their integration with existing treatments. It highlights the need for randomized controlled trials (RCTs) to evaluate the effectiveness of therapies such as bright light therapy, physical activity, and device-aided therapies. Additionally, there is a call for studies that explore the long-term outcomes of these interventions, especially in relation to non-motor symptoms and quality of life. Overall, the evidence suggests a gap in understanding the comprehensive impact of these therapies, warranting further investigation (CEBM Level 1-2).",
+    "timestamp": "2026-08-07T20:42:05.288876"
+  },
+  {
+    "id": "MS1",
+    "condition": "multiple_sclerosis",
+    "question": "Does mitoxantrone reduce disability progression in worsening multiple sclerosis compared to placebo?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not include specific studies evaluating the effect of mitoxantrone on disability progression in worsening multiple sclerosis compared to placebo. Therefore, I cannot provide a definitive answer regarding the efficacy of mitoxantrone for this purpose based on the available data. Further research or specific trials focusing on mitoxantrone would be necessary to address this question adequately.",
+    "timestamp": "2026-08-07T20:42:08.273745"
+  },
+  {
+    "id": "MS2",
+    "condition": "multiple_sclerosis",
+    "question": "How much do interferon beta and glatiramer acetate reduce relapses in the first year of relapsing-remitting MS treatment?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide specific data on the extent to which interferon beta and glatiramer acetate reduce relapses in the first year of treatment for relapsing-remitting multiple sclerosis (RRMS). However, it does include a systematic review indicating that interferons have been shown to suppress clinical and MRI measures of disease activity in RRMS (CEBM Level 1). For glatiramer acetate, while it is commonly used in RRMS, specific evidence regarding its relapse reduction in the first year is not included in the provided data. Therefore, the evidence is insufficient to fully answer the question regarding the comparative effectiveness of these two treatments in reducing relapses within the first year.",
+    "timestamp": "2026-08-07T20:42:12.863151"
+  },
+  {
+    "id": "MS3",
+    "condition": "multiple_sclerosis",
+    "question": "Is there evidence of benefit from interferon beta or glatiramer acetate in MS beyond 1 year of treatment?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not specifically address the long-term benefits of interferon beta or glatiramer acetate in multiple sclerosis (MS) beyond one year of treatment. While there are systematic reviews and meta-analyses that evaluate various treatments for MS, including interferons, none of the included studies directly focus on the efficacy of these specific therapies beyond the one-year mark. Therefore, the evidence is insufficient to conclusively answer the question regarding the benefits of interferon beta or glatiramer acetate after one year of treatment.",
+    "timestamp": "2026-08-07T20:42:16.245598"
+  },
+  {
+    "id": "MS4",
+    "condition": "multiple_sclerosis",
+    "question": "Do disease-modifying therapies (DMTs) reduce the risk of disability progression in relapsing-remitting MS compared to placebo?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding the effectiveness of disease-modifying therapies (DMTs) in reducing the risk of disability progression in relapsing-remitting multiple sclerosis (RRMS) compared to placebo is supported by multiple systematic reviews and meta-analyses, which are rated at CEBM Level 1. These studies consistently demonstrate that DMTs significantly reduce relapse rates and slow disability progression in RRMS patients. Therefore, it can be concluded that DMTs do indeed reduce the risk of disability progression in RRMS compared to placebo.",
+    "timestamp": "2026-08-07T20:42:19.271269"
+  },
+  {
+    "id": "MS5",
+    "condition": "multiple_sclerosis",
+    "question": "Does the route of administration (injectable vs oral) affect the efficacy of disease-modifying therapies on disability progression in MS?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide specific studies directly comparing the efficacy of injectable versus oral disease-modifying therapies (DMTs) on disability progression in multiple sclerosis (MS). While there are numerous studies on the efficacy of various DMTs, including systematic reviews and meta-analyses, none explicitly address the impact of the route of administration on disability outcomes. Therefore, the evidence is insufficient to fully answer the question regarding the effect of the route of administration on the efficacy of DMTs in MS.",
+    "timestamp": "2026-08-07T20:42:21.931042"
+  },
+  {
+    "id": "MS6",
+    "condition": "multiple_sclerosis",
+    "question": "Which disease-modifying therapies show high-confidence evidence of reducing new or enlarging T2 brain lesions in MS?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide specific high-confidence evidence regarding disease-modifying therapies that reduce new or enlarging T2 brain lesions in multiple sclerosis (MS). While several studies mention various therapies and their effects, none are classified as high-confidence (CEBM Level 1) systematic reviews or meta-analyses specifically addressing the reduction of T2 lesions. Therefore, the evidence is insufficient to fully answer the question.",
+    "timestamp": "2026-08-07T20:42:24.438595"
+  },
+  {
+    "id": "EP1",
+    "condition": "epilepsy",
+    "question": "What proportion of people with epilepsy can achieve seizure freedom using a single antiepileptic drug (AED) as monotherapy?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide a specific proportion of people with epilepsy who can achieve seizure freedom using a single antiepileptic drug (AED) as monotherapy. While it is noted that up to half of patients may not achieve seizure freedom with their first AED, there is no direct evidence quantifying the success rate of monotherapy across the general population of individuals with epilepsy. Therefore, the evidence is insufficient to fully answer the question.",
+    "timestamp": "2026-08-07T20:42:27.770234"
+  },
+  {
+    "id": "EP2",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drugs show the best treatment failure and seizure control profile for focal onset seizures?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding the best treatment failure and seizure control profile for focal onset seizures is limited. A systematic review of randomized controlled trials indicates that switching or adding antiepileptic drugs (AEDs) after the first fails to control focal epilepsy is a common practice, but specific recommendations on which AEDs are most effective are not provided (CEBM Level 1). Additionally, a meta-analysis on carbamazepine suggests variability in its efficacy and retention rates (CEBM Level 1). However, no definitive conclusions can be drawn about the best AEDs for focal onset seizures based on the available evidence.",
+    "timestamp": "2026-08-07T20:42:30.787659"
+  },
+  {
+    "id": "EP3",
+    "condition": "epilepsy",
+    "question": "Which antiepileptic drug has the best profile for generalised tonic-clonic seizures?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide sufficient information to determine which antiepileptic drug has the best profile for generalized tonic-clonic seizures specifically. While there are systematic reviews and meta-analyses regarding various antiepileptic drugs, none directly address the efficacy of specific drugs for generalized tonic-clonic seizures. The highest level of evidence available (CEBM Level 1) pertains to studies on other types of epilepsy or general treatment strategies, but not specifically for generalized tonic-clonic seizures. Therefore, a definitive answer cannot be provided based on the current evidence.",
+    "timestamp": "2026-08-07T20:42:36.812237"
+  },
+  {
+    "id": "EP4",
+    "condition": "epilepsy",
+    "question": "How many AEDs were compared in the 2022 Cochrane network meta-analysis of epilepsy monotherapy?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence provided does not include specific information regarding the number of antiepileptic drugs (AEDs) compared in the 2022 Cochrane network meta-analysis of epilepsy monotherapy. Therefore, I cannot provide an answer to your question based on the available evidence.",
+    "timestamp": "2026-08-07T20:42:39.079256"
+  },
+  {
+    "id": "EP5",
+    "condition": "epilepsy",
+    "question": "What percentage of people with epilepsy experience refractory or drug-resistant seizures despite treatment?",
+    "baseline": "B4_neuroslr",
+    "response": "Approximately one-third of people with epilepsy experience refractory or drug-resistant seizures despite treatment, as indicated by the evidence from the narrative review on drug-resistant epilepsy (DRE) (CEBM Level 5). This statistic highlights a significant clinical challenge in managing epilepsy, where traditional treatments fail to provide adequate seizure control for a substantial subset of patients. Further detailed studies are needed to explore the underlying mechanisms and improve treatment strategies for these individuals.",
+    "timestamp": "2026-08-07T20:42:41.888810"
+  },
+  {
+    "id": "EP6",
+    "condition": "epilepsy",
+    "question": "What guidelines currently recommend carbamazepine or lamotrigine as first-line treatment for focal seizures?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not include specific guidelines recommending carbamazepine or lamotrigine as first-line treatments for focal seizures. While there are systematic reviews and meta-analyses that evaluate the efficacy of various antiseizure medications, including carbamazepine, none explicitly state their status as first-line treatments for focal seizures. Therefore, the evidence is insufficient to fully answer the question regarding current guidelines for these medications.",
+    "timestamp": "2026-08-07T20:42:45.078330"
+  },
+  {
+    "id": "ST1",
+    "condition": "stroke",
+    "question": "Does thrombolysis with alteplase improve functional outcome after acute ischaemic stroke compared to no treatment?",
+    "baseline": "B4_neuroslr",
+    "response": "The evidence regarding the effectiveness of thrombolysis with alteplase in improving functional outcomes after acute ischemic stroke compared to no treatment is supported by systematic reviews and meta-analyses. Specifically, intravenous thrombolysis (IVT) with alteplase is established as the standard treatment for eligible patients, demonstrating significant benefits in functional recovery (CEBM Level 1). However, the pipeline evidence does not provide direct comparative studies between thrombolysis and no treatment, indicating a gap in the literature for this specific comparison. Therefore, while the general consensus supports the efficacy of thrombolysis, the specific question remains insufficiently addressed in the provided evidence.",
+    "timestamp": "2026-08-07T20:42:48.193180"
+  },
+  {
+    "id": "ST2",
+    "condition": "stroke",
+    "question": "Within what time window is alteplase licensed for use in acute ischaemic stroke in most European countries?",
+    "baseline": "B4_neuroslr",
+    "response": "Alteplase is licensed for use in acute ischemic stroke within a time window of 4.5 hours from symptom onset in most European countries. This is consistent with guidelines and clinical practice across the region. However, specific regulations may vary slightly by country, so it is advisable to consult local guidelines for precise details.",
+    "timestamp": "2026-08-07T20:42:54.806904"
+  },
+  {
+    "id": "ST3",
+    "condition": "stroke",
+    "question": "How does reteplase compare to alteplase for functional outcomes in acute ischaemic stroke?",
+    "baseline": "B4_neuroslr",
+    "response": "The pipeline evidence does not provide direct comparisons between reteplase and alteplase for functional outcomes in acute ischemic stroke. While there are studies on thrombolytic therapies, including a systematic review and meta-analysis on intravenous thrombolysis, the specific comparison between reteplase and alteplase is not addressed. Therefore, the evidence is insufficient to fully answer the question regarding the comparative effectiveness of these two treatments.",
+    "timestamp": "2026-08-07T20:43:00.172995"
+  },
+  {
+    "id": "ST4",
+    "condition": "stroke",
+    "question": "Is there a difference in mortality outcomes between different thrombolytic agents for acute ischaemic stroke?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not specifically address the difference in mortality outcomes between different thrombolytic agents for acute ischemic stroke. While there are studies related to thrombolysis and its complications, such as hemorrhagic transformation and thrombolytic resistance, none directly compare mortality outcomes associated with different thrombolytic agents. Therefore, the evidence is insufficient to fully answer the question.",
+    "timestamp": "2026-08-07T20:43:03.041330"
+  },
+  {
+    "id": "ST5",
+    "condition": "stroke",
+    "question": "What serious risk is associated with thrombolytic therapy in acute ischaemic stroke?",
+    "baseline": "B4_neuroslr",
+    "response": "The serious risk associated with thrombolytic therapy in acute ischaemic stroke is the potential for hemorrhagic transformation, particularly symptomatic intracranial hemorrhage (sICH). This complication can significantly limit the clinical utility of intravenous thrombolysis, as it may lead to increased morbidity and mortality in patients receiving this treatment (CEBM Level 1). Additionally, thrombolytic resistance can also contribute to treatment failure, further complicating patient outcomes (CEBM Level 5).",
+    "timestamp": "2026-08-07T20:43:11.747539"
+  },
+  {
+    "id": "ST6",
+    "condition": "stroke",
+    "question": "Does tenecteplase show significantly better functional outcomes than alteplase at 90 days post-stroke?",
+    "baseline": "B4_neuroslr",
+    "response": "The provided evidence does not include direct comparisons of functional outcomes between tenecteplase and alteplase at 90 days post-stroke. While there are studies indicating the noninferiority of tenecteplase compared to alteplase regarding functional outcomes and safety, specific data on significantly better outcomes for tenecteplase is lacking. Therefore, based on the available evidence, it is insufficient to conclude that tenecteplase shows significantly better functional outcomes than alteplase at 90 days post-stroke.",
+    "timestamp": "2026-08-07T20:43:16.825435"
+  }
+]
