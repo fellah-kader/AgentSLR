@@ -1,0 +1,182 @@
+[
+  {
+    "article_id": "PMID_40955892",
+    "condition": "alzheimers",
+    "title": "Unlocking the Future of Alzheimer's Disease: Innovations in Diagnosis and Therapy.",
+    "abstract": "Alzheimer's disease (AD) is one of the most common forms of dementia, making up around two thirds of all dementia cases globally. Despite its high prevalence, it is estimated to remain undiagnosed in 41 million people with dementia, and with only about 25% of dementia individuals being clinically identified. AD is the major neurodegenerative disorder leading to dementia, characterized by neuronal atrophy and loss. The accumulation of toxic amyloid-beta (A\u03b2) oligomers, protein aggregates, along w",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42384283",
+    "condition": "alzheimers",
+    "title": "The protective role of melatonin on the brain in a rat model of Alzheimer's disease.",
+    "abstract": "Alzheimer's disease is an age-related neurodegenerative disorder characterized by progressive cognitive decline and multiple biochemical and structural abnormalities in the brain. Accumulating evidence suggests that aluminum exposure may contribute to neurodegenerative process including those observed in AD and was linked to neuronal damage and cognitive impairment. Melatonin (Mel) is a neurohormone that regulates circadian rhythm and possesses antioxidant, anti-inflammatory and neuroprotective ",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_40676541",
+    "condition": "alzheimers",
+    "title": "Efficacy of repetitive transcranial magnetic stimulation in cognitive impairment of neurodegenerative diseases: a systematic review and meta-analysis.",
+    "abstract": "OBJECTIVE: Currently, there is a lack of reliable evidence to prove the effectiveness of repetitive transcranial magnetic stimulation (rTMS) in the cognitive and emotional domains of neurodegenerative diseases (ND), leading to the absence of a unified and effective rTMS treatment protocol or stimulation targets. This systematic review and meta-analysis summarizes existing evidence to evaluate the efficacy of rTMS targeting the dorsolateral prefrontal cortex (DLPFC) and non-DLPFC in the cognitive",
+    "ai_decision": "INCLUDE",
+    "ai_cebm_level": 1,
+    "ai_cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)"
+  },
+  {
+    "article_id": "PMID_41212305",
+    "condition": "alzheimers",
+    "title": "Bidirectional causal association between cathepsins and neuropsychiatric disorders: univariate and multivariate Mendelian randomization study.",
+    "abstract": "BACKGROUND: Neuropsychiatric disorders are among the most common diseases worldwide and are characterized by complex pathogenic mechanisms. Cathepsins (CTS) are crucially involved in the pathogenesis and treatment of numerous diseases. Increasing evidence suggests a relationship between cathepsins and neuropsychiatric disorders. However, the causal associations remain unclear. METHODS: We performed a bidirectional two-sample Mendelian randomization (MR) analysis, applying univariable (UVMR) and ",
+    "ai_decision": "INCLUDE",
+    "ai_cebm_level": 5,
+    "ai_cebm_label": "Case report, case series, expert opinion, animal study, or in-vitro study"
+  },
+  {
+    "article_id": "PMID_42510553",
+    "condition": "parkinsons",
+    "title": "Integrin \u03b15\u03b21 Activation by PHSRN Peptide Elicits Neuroprotection and Functional Recovery in Parkinson's Disease Mice.",
+    "abstract": "Parkinson's disease (PD) is characterized by progressive dopaminergic neurodegeneration driven by oxidative stress, mitochondrial dysfunction, synaptic loss, and impaired neurotrophic signaling; however, the role of integrin \u03b15\u03b21 in neuronal vulnerability remains unclear. Here, the data show that rotenone-induced stress reduces integrin \u03b15 expression in a dose- and time-dependent manner, leading to increased ROS accumulation, glutathione imbalance, synaptic degeneration, senescence-like \u03b2-gal ac",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42511874",
+    "condition": "parkinsons",
+    "title": "Low-Dose Ionizing Radiation and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Review of Recent Evidence and Future Research Directions Toward the Elucidation of a Metabolic, Immunologic, and Signaling Cascade.",
+    "abstract": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is an idiopathic, multisystem disorder marked by debilitating fatigue, post-exertional malaise, cognitive dysfunction and neuroinflammation. Its etiology remains unclear, yet emerging evidence implicates a complex interplay between immune dysregulation, metabolic impairment, mitochondrial bioenergetics, and environmental stressors such as viral infection or low-dose ionizing radiation (LDIR). To develop treatments for ME/CFS, it is esse",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42484650",
+    "condition": "parkinsons",
+    "title": "Effect of continuous subcutaneous foslevodopa/foscarbidopa infusion on gait in advanced Parkinson's disease: a real-world wearable-based study.",
+    "abstract": "BACKGROUND: In patients with advanced Parkinson's disease (PD), spatiotemporal gait parameters and freezing of gait (FoG) show a variable responsiveness to levodopa, with FoG often exacerbated by motor fluctuations. Continuous subcutaneous foslevodopa/foscarbidopa (LDp/CDp) infusion effectively reduces motor fluctuations; however, its effects on gait remain incompletely explored.\nOBJECTIVES: To provide an objective, wearable-based assessment of FoG and gait parameters during LDp/CDp infusion in ",
+    "ai_decision": "INCLUDE",
+    "ai_cebm_level": 3,
+    "ai_cebm_label": "Cohort study (prospective or retrospective, observational)"
+  },
+  {
+    "article_id": "PMID_42533035",
+    "condition": "parkinsons",
+    "title": "A cortical insula-orbitofrontal circuit drives stress-induced dopamine system dysfunction.",
+    "abstract": "Stress is a major risk factor for psychiatric disorders, including post-traumatic stress disorder (PTSD), depression, and psychosis, and is closely linked to dysregulation of the dopamine system. Psychosis is characterized by aberrant salience processing driven by elevated striatal dopamine transmission, and both clinical and preclinical studies demonstrate that acute stress increases dopamine release and induces behavioral alterations associated with psychosis. A key physiological substrate of ",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42516564",
+    "condition": "multiple_sclerosis",
+    "title": "Targeting CDK8 dually enhances paclitaxel antitumor efficacy and alleviates chemotherapy-induced peripheral neuropathy in breast cancer.",
+    "abstract": "BACKGROUND: Paclitaxel-based chemotherapy remains a mainstay for breast cancer treatment, yet its efficacy is often limited by drug resistance and dose-limiting peripheral neuropathy. This study aimed to investigate whether CDK8 could serve as a dual target for enhancing the antitumor efficacy of paclitaxel while alleviating chemotherapy-induced neuropathic pain.\nMETHODS: We evaluated CDK8 expression in human breast cancer specimens before and after paclitaxel-containing neoadjuvant chemotherapy",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42545012",
+    "condition": "multiple_sclerosis",
+    "title": "Assessment of Facial Weakness After Microvascular Decompression: Morphology of Lateral Spread Responses and Sequential Changes in Compound Muscle Action Potentials.",
+    "abstract": "BACKGROUND AND OBJECTIVES: Assessing facial nerve injury in hemifacial spasm (HFS) remains clinically challenging; although delayed facial palsy (DFP) frequently resolves without treatment, anticipating its occurrence is important for patient counseling. However, reliable predictors remain incompletely established, and early recognition of corneal complications secondary to facial weakness with timely referral for appropriate ophthalmological care is essential. The aim of this study was to inves",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42529218",
+    "condition": "multiple_sclerosis",
+    "title": "Real-world practices and challenges of radiologically isolated syndrome: results of a cross-sector survey by the DACH MS guidelines group.",
+    "abstract": "OBJECTIVE: To evaluate real-world Radiologically isolated syndrome (RIS) management practices across Germany, Austria, and Switzerland and identify key gaps for future guideline development.\nMETHODS: Between October 1 and October 16, 2024, neurologists across university hospitals, teaching hospitals, municipal clinics, and private practices in Germany, Austria, and Switzerland (DACH) participated in an anonymous online survey on RIS diagnosis, treatment, and monitoring practices.\nRESULTS: Among ",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42457429",
+    "condition": "multiple_sclerosis",
+    "title": "Individually designed fall prevention strategies compared to generic strategies for mastering complex fall risk situations in people with multiple sclerosis: study protocol of a randomised controlled trial.",
+    "abstract": "INTRODUCTION: Of individuals with mild-to-moderate multiple sclerosis (MS), 56% report falling at least once during a 3-month period. Several fall risk factors have been identified, but the issue is complex, with interactions between triggering factors and preceding activities and events. There is a lack of studies explicitly evaluating fall prevention strategies given as counselling over time.\nMETHODS AND ANALYSIS: The project includes (1) a two-armed randomised controlled internal pilot study ",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42500342",
+    "condition": "epilepsy",
+    "title": "Current Paradigms in Understanding Neuron Fluctuations, Factors, Regulation, Pathophysiology of Epilepsy: Advancements in Diagnosis, Treatment and Management-An Update.",
+    "abstract": "Epilepsy has been attributed to be a most common universal brain neurological disorder afflicting more than 50 million people globally. Neural network is known to be hyperexcitable and hypersynchronous which ultimately result in seizures. Bibliographic databases for peer reviewed journals were searched for key words like epilepsy, seizures, neurological disorders, gut microbiota brain axis, antiepileptic phytomedicines and diagnostic tools. Current review brings forth the putative mechanism to u",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42538810",
+    "condition": "epilepsy",
+    "title": "Intracranial EEG synchrony tracks antiseizure medication load in drug-resistant epilepsy.",
+    "abstract": "Epilepsy care is often guided by incomplete snapshots: patient-reported seizures, intermittent drug levels and medication histories that may not reflect current exposure. Between these snapshots, clinicians have little objective information about how the brain is responding to antiseizure medication. In this study, we tested whether intracranial EEG synchrony, a measure of coordinated neural activity across intracranial electrodes, tracks antiseizure medication load in patients with drug-resista",
+    "ai_decision": "INCLUDE",
+    "ai_cebm_level": 3,
+    "ai_cebm_label": "Cohort study"
+  },
+  {
+    "article_id": "PMID_42471899",
+    "condition": "epilepsy",
+    "title": "Cerebral schistosomiasis in a Nigerian patient with end-stage kidney disease.",
+    "abstract": "Cerebral schistosomiasis is an uncommon, probably less recognised, but serious neurological complication of Schistosoma infection. Its diagnosis is often delayed due to nonspecific clinical presentations and imaging findings. We report the case of a 29-year-old Nigerian male with end-stage kidney disease on dialysis who presented with headaches, fever, generalised seizures, and left-side emiplegia. His brain MRI revealed a contrast-enhancing right frontotemporal mass lesion with surrounding oede",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_35980668",
+    "condition": "epilepsy",
+    "title": "Anti-seizure efficacy and retention rate of carbamazepine is highly variable in randomized controlled trials: A meta-analysis.",
+    "abstract": "We sought to assess the anti-seizure efficacy of carbamazepine (CBZ) and retention rate (RR) in randomized, controlled trials (RCTs) in epilepsy. Our analysis was carried out according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement. Inclusion criteria were monotherapy of CBZ in adequate dosage for epilepsy treatment and RCT duration of \u22653\u2009months. Outcome measures were seizure freedom rate (SFR) and RR. Random-effects meta-analyses were performed to a",
+    "ai_decision": "INCLUDE",
+    "ai_cebm_level": 1,
+    "ai_cebm_label": "Systematic review or meta-analysis of randomised controlled trials (RCTs)"
+  },
+  {
+    "article_id": "PMID_42542110",
+    "condition": "stroke",
+    "title": "More than just numbers: the expanding burden of non-communicable diseases.",
+    "abstract": "Non-communicable diseases (NCDs) account for a major share of global mortality and disability, while their development and outcomes reflect interactions among behavioral, metabolic, socioeconomic, environmental, infectious, and non-modifiable factors. This issue of the Biomedical Journal highlights the breadth of contemporary research across NCD epidemiology, mechanisms, diagnosis, prevention, and treatment. A study from northern Peninsular Malaysia examines age- and sex-specific patterns in the",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_32838784",
+    "condition": "stroke",
+    "title": "Patient experiences with technology enabled care across healthcare settings- a systematic review.",
+    "abstract": "<h4>Background</h4>Healthcare services are facing extensive challenges due to the increased proportion of elderly persons and persons with chronic disease. Technology enabled care (TEC) is a collective term for telecare, telehealth, telemedicine, mobile (m)-, digital- and electronic (e) health services. TEC is increasingly seen as a solution to many of the challenges facing the health sector. Patient perspectives may provide a useful evaluation tool for new healthcare technologies that have limi",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_42531182",
+    "condition": "stroke",
+    "title": "Management of Shamblin Type III Carotid Body Tumor With Preoperative Embolization, Surgical Resection, and Rescue Endovascular Stroke Treatment: A Case Report.",
+    "abstract": "BACKGROUND This report describes the case of a 51-year-old woman with a history of transient ischemic attack and a diagnosis of a large Shamblin type III carotid body tumor (CBT) encasing the carotid artery. The CBT was managed by preoperative embolization and surgical resection, which was complicated by postoperative stroke and arterial damage requiring surgical repair. CBTs are usually slow-growing, pulsatile cervical tumors that can cause clinical symptoms secondary to catecholamine secretion",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  },
+  {
+    "article_id": "PMID_37609531",
+    "condition": "stroke",
+    "title": "The value of Coronary Artery Disease - Reporting and Data System (CAD-RADS) in Outcome Prediction of CAD Patients; a Systematic Review and Meta-analysis.",
+    "abstract": "<h4>Introduction</h4>Coronary computed tomographic angiography (CCTA) reporting has traditionally been operator-dependent, and no precise classification is broadly used for reporting Coronary Artery Disease (CAD) severity. The Coronary Artery Disease Reporting and Data Systems (CAD-RADS) was introduced to address the inconsistent CCTA reports. This systematic review with meta-analysis aimed to comprehensively appraise all available studies and draw conclusions on the prognostic value of the CAD-",
+    "ai_decision": "EXCLUDE",
+    "ai_cebm_level": "N/A",
+    "ai_cebm_label": "N/A"
+  }
+]
