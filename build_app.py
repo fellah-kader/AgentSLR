@@ -1,4 +1,7 @@
-import streamlit as st
+#!/usr/bin/env python3
+"""Generates the redesigned NeuroSLR streamlit app, avoiding shell-quoting issues."""
+
+APP = r'''import streamlit as st
 import json
 import pandas as pd
 import plotly.graph_objects as go
@@ -378,3 +381,8 @@ with tabs[4]:
         st.info("No evaluation scores found.")
 
 st.markdown('<div class="footer">NeuroSLR &mdash; MSc Advanced Data Science &amp; AI Dissertation &bull; Fellah Imthiaz Kader (201965998) &bull; University of Liverpool &bull; Supervisor: Dr. Meng Fang &bull; Extending AgentSLR (Oxford/OxRML) into Neurology</div>', unsafe_allow_html=True)
+'''
+
+with open("app/streamlit_app.py", "w") as f:
+    f.write(APP)
+print(f"Redesigned app written: {len(APP.splitlines())} lines")
