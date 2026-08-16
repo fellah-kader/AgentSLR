@@ -7,25 +7,75 @@ from collections import Counter
 
 st.set_page_config(page_title='NeuroSLR', page_icon='🧠', layout='wide')
 
-st.markdown('''
+st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-html, body, [class*='css'] { font-family: Inter, sans-serif; }
-.main-title { font-size: 2.6rem; font-weight: 700; color: #0D3B2E; margin-bottom: 0; letter-spacing: -1px; }
-.main-subtitle { font-size: 1.1rem; color: #4A7A6A; margin-top: 4px; margin-bottom: 2rem; font-weight: 400; }
-.metric-card { background: linear-gradient(135deg, #EBF5F0 0%, #D4E8DE 100%); border: 1px solid #B8D4C6; border-radius: 14px; padding: 1.4rem 1.6rem; text-align: center; box-shadow: 0 2px 8px rgba(13,59,46,0.06); }
-.metric-value { font-size: 2.4rem; font-weight: 700; color: #0D3B2E; line-height: 1.1; }
-.metric-label { font-size: 0.78rem; color: #4A7A6A; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; margin-top: 6px; }
-.pipeline-box { background: #0D3B2E; border-radius: 10px; padding: 0.9rem; text-align: center; color: white; margin: 4px 0; font-weight: 600; font-size: 0.9rem; }
-.pipeline-arrow { text-align: center; font-size: 1.2rem; color: #0D3B2E; padding: 2px 0; }
-.sev-major { background: #FEE2E2; border-left: 5px solid #DC2626; padding: 1rem 1.2rem; border-radius: 0 10px 10px 0; margin: 8px 0; }
-.sev-moderate { background: #FEF3C7; border-left: 5px solid #F59E0B; padding: 1rem 1.2rem; border-radius: 0 10px 10px 0; margin: 8px 0; }
-.finding-card { background: linear-gradient(135deg, #F7FAF8 0%, #EDF3EF 100%); border: 1px solid #D4E8DE; border-radius: 14px; padding: 1.4rem; margin: 6px 0; box-shadow: 0 2px 8px rgba(13,59,46,0.04); }
-.ev-1 { color: #059669; font-weight: 700; } .ev-2 { color: #0D9488; font-weight: 700; } .ev-3 { color: #D97706; font-weight: 700; } .ev-4 { color: #EA580C; font-weight: 700; } .ev-5 { color: #DC2626; font-weight: 700; }
-div[data-testid='stTabs'] button { font-weight: 600; font-size: 0.95rem; }
-.footer { text-align: center; color: #8CA69B; font-size: 0.78rem; padding: 2.5rem 0 1rem; border-top: 1px solid #D4E8DE; margin-top: 3rem; }
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@300;400;500;600;700&display=swap');
+html, body, [class*="css"], .stApp { font-family: 'Inter', -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+.stApp { background: #F5F5F3; }
+#MainMenu, footer, header { visibility: hidden; }
+.block-container { padding: 2rem 2.5rem 2rem; max-width: 1380px; }
+section[data-testid="stSidebar"] { background: #1A202C; width: 270px !important; border-right: 1px solid #2D3748; }
+section[data-testid="stSidebar"] > div { padding: 1.5rem 1.3rem 1rem; }
+section[data-testid="stSidebar"] * { color: #A0AEC0; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] > div { background: #FFFFFF !important; border: 1px solid #4A5568 !important; border-radius: 6px; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] div { color: #1A202C !important; font-weight: 600; font-size: 0.9rem !important; -webkit-text-fill-color: #1A202C !important; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] svg { color: #A0AEC0 !important; fill: #A0AEC0 !important; }
+section[data-testid="stSidebar"] hr { border-color: #2D3748; margin: 0.8rem 0; }
+.pipeline-box { display: none; }
+.pipeline-arrow { display: none; }
+.main-title { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.65rem; font-weight: 600; color: #1A1F2E; margin-bottom: 0; letter-spacing: -0.3px; line-height: 1.15; }
+.main-subtitle { font-size: 0.88rem; color: #6B7A8D; margin-top: 3px; margin-bottom: 0; font-weight: 400; letter-spacing: 0.1px; line-height: 1.4; }
+.metric-card { background: #FFFFFF; border: 1px solid #E4E7EB; border-radius: 8px; padding: 1rem 1.15rem; text-align: left; box-shadow: none; transition: border-color 0.2s; }
+.metric-card:hover { border-color: #CBD1D8; }
+.metric-value { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.75rem; font-weight: 600; color: #1A1F2E; line-height: 1.1; }
+.metric-label { font-size: 0.67rem; color: #8494A7; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; margin-top: 0.45rem; }
+.kpi { background: #FFFFFF; border: 1px solid #E4E7EB; border-radius: 8px; padding: 1rem 1.15rem; height: 100%; box-shadow: none; transition: border-color 0.2s; }
+.kpi:hover { border-color: #CBD1D8; transform: none; box-shadow: none; }
+.kpi-label { font-size: 0.65rem; font-weight: 600; color: #8494A7; text-transform: uppercase; letter-spacing: 0.8px; }
+.kpi-value { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.75rem; font-weight: 600; color: #1A1F2E; line-height: 1.1; margin: 0.3rem 0; }
+.kpi-ctx { font-size: 0.72rem; color: #8494A7; line-height: 1.3; }
+.kpi-accent { border-top: 2px solid #2D6A4F; }
+.sec-title { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: #1A1F2E; margin: 1.8rem 0 0.25rem; letter-spacing: -0.2px; }
+.sec-sub { font-size: 0.82rem; color: #8494A7; margin-bottom: 0.8rem; }
+.funnel-wrap { display: flex; align-items: stretch; gap: 0; margin: 0.5rem 0 1rem; }
+.funnel-step { flex: 1; background: #FFFFFF; border: 1px solid #E4E7EB; padding: 0.85rem 0.8rem; text-align: center; }
+.funnel-step:first-child { border-radius: 8px 0 0 8px; }
+.funnel-step:last-child { border-radius: 0 8px 8px 0; }
+.funnel-num { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.35rem; font-weight: 600; color: #1A1F2E; }
+.funnel-lbl { font-size: 0.65rem; color: #8494A7; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 600; margin-top: 2px; }
+.funnel-pct { font-size: 0.64rem; color: #2D6A4F; font-weight: 600; margin-top: 1px; }
+.insight { background: #FFFFFF; border: 1px solid #E4E7EB; border-left: 3px solid #2D6A4F; border-radius: 0 8px 8px 0; padding: 1rem 1.15rem; margin-bottom: 0.7rem; }
+.insight-lbl { font-size: 0.62rem; font-weight: 700; color: #2D6A4F; text-transform: uppercase; letter-spacing: 1px; }
+.insight-val { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.15rem; font-weight: 600; color: #1A1F2E; margin: 3px 0; }
+.insight-desc { font-size: 0.78rem; color: #6B7A8D; line-height: 1.4; }
+.finding-card { background: #FFFFFF; border: 1px solid #E4E7EB; border-radius: 8px; padding: 1.1rem; margin: 0.4rem 0; }
+.severity-major { background: #FDF2F2; border-left: 3px solid #9B1C1C; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; margin: 0.4rem 0; }
+.severity-moderate { background: #FDF8EE; border-left: 3px solid #B7791F; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; margin: 0.4rem 0; }
+.severity-minor { background: #FEFCE8; border-left: 3px solid #A16207; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; margin: 0.4rem 0; }
+.study-card { background: #FFFFFF; border: 1px solid #E4E7EB; border-radius: 8px; padding: 0.9rem 1.1rem; height: 100%; }
+.study-tag { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #8494A7; }
+.study-title { font-size: 0.84rem; font-weight: 500; color: #1A1F2E; line-height: 1.35; margin-top: 4px; }
+.vs-badge { text-align: center; font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 400; color: #B8A9A9; font-size: 0.9rem; padding: 0.8rem 0; }
+.sev-pill-major { display: inline-block; background: #FDF2F2; color: #9B1C1C; border: 1px solid #E8C4C4; padding: 0.2rem 0.55rem; border-radius: 4px; font-size: 0.67rem; font-weight: 700; }
+.sev-pill-moderate { display: inline-block; background: #FDF8EE; color: #92600A; border: 1px solid #E5D5A8; padding: 0.2rem 0.55rem; border-radius: 4px; font-size: 0.67rem; font-weight: 700; }
+.sev-pill-minor { display: inline-block; background: #FEFCE8; color: #854D0E; border: 1px solid #E5DFA0; padding: 0.2rem 0.55rem; border-radius: 4px; font-size: 0.67rem; font-weight: 700; }
+.dcard { background: #FFFFFF; border: 1px solid #E4E7EB; border-radius: 8px; padding: 0.9rem 1.1rem; margin-bottom: 0.6rem; }
+.evidence-level-1 { color: #2D6A4F; font-weight: 700; }
+.evidence-level-2 { color: #40916C; font-weight: 700; }
+.evidence-level-3 { color: #B7791F; font-weight: 700; }
+.evidence-level-4 { color: #C05621; font-weight: 700; }
+.evidence-level-5 { color: #9B1C1C; font-weight: 700; }
+.stTabs [data-baseweb="tab-list"] { gap: 0.5rem; border-bottom: 1px solid #E4E7EB; }
+.stTabs [data-baseweb="tab"] { font-weight: 500; font-size: 0.85rem; color: #8494A7; padding: 0.55rem 0.8rem; background: transparent; }
+.stTabs [aria-selected="true"] { color: #1A1F2E !important; font-weight: 600; }
+.stTabs [data-baseweb="tab-highlight"] { background: #2D6A4F; height: 2px; }
+div[data-testid="stTabs"] button { font-weight: 500; font-size: 0.85rem; }
+[data-testid="stDataFrame"] { border: 1px solid #E4E7EB; border-radius: 6px; }
+.footer-text { text-align: center; color: #A0ACB8; font-size: 0.72rem; padding: 2rem 0 0.5rem; border-top: 1px solid #E4E7EB; margin-top: 2.5rem; }
+.stMetric label { font-size: 0.67rem !important; font-weight: 600 !important; color: #8494A7 !important; text-transform: uppercase; letter-spacing: 0.6px; }
+.stMetric [data-testid="stMetricValue"] { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.65rem !important; font-weight: 600 !important; color: #1A1F2E !important; }
 </style>
-''', unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 CONDITIONS = {'alzheimers': "Alzheimer's Disease", 'parkinsons': "Parkinson's Disease", 'multiple_sclerosis': 'Multiple Sclerosis', 'epilepsy': 'Epilepsy', 'stroke': 'Stroke'}
 CEBM = {1: 'Systematic Review / Meta-analysis', 2: 'Individual RCT', 3: 'Cohort Study', 4: 'Case-Control Study', 5: 'Case Report / Expert Opinion'}
@@ -81,17 +131,53 @@ st.markdown('<p class="main-title">🧠 NeuroSLR</p>', unsafe_allow_html=True)
 st.markdown('<p class="main-subtitle">Neurology-Specialised Systematic Literature Review with Contradiction Detection and Evidence Grading</p>', unsafe_allow_html=True)
 
 with st.sidebar:
-    st.markdown('### Navigation')
-    condition = st.selectbox('Select Condition', options=list(CONDITIONS.keys()), format_func=lambda x: CONDITIONS[x])
-    st.markdown('---')
-    st.markdown('### Pipeline')
-    for step in ['1. Harvest', '2. Screen', '3. Contradictions', '4. Evidence Grade']:
-        st.markdown(f'<div class="pipeline-box">{step}</div>', unsafe_allow_html=True)
-        if step != '4. Evidence Grade': st.markdown('<div class="pipeline-arrow">\u2193</div>', unsafe_allow_html=True)
-    st.markdown('---')
-    st.caption('MSc Advanced Data Science and AI')
-    st.caption('University of Liverpool')
-    st.caption('Supervisor: Dr. Meng Fang')
+    st.markdown('''
+    <div style="margin-bottom:1.5rem;">
+        <div style="font-size:1.7rem;font-weight:700;color:#FFFFFF;letter-spacing:-0.5px;">NeuroSLR</div>
+        <div style="font-size:0.6rem;color:#6EE7B7;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;margin-top:4px;">Research Intelligence</div>
+    </div>
+    ''', unsafe_allow_html=True)
+    st.markdown('<hr style="border:none;border-top:1px solid #2D3748;margin:0.8rem 0;">', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:0.68rem;color:#A0AEC0;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem;">Condition</div>', unsafe_allow_html=True)
+    condition = st.selectbox("Condition", options=list(CONDITIONS.keys()), format_func=lambda x: CONDITIONS[x], label_visibility="collapsed")
+    st.markdown('<hr style="border:none;border-top:1px solid #2D3748;margin:0.8rem 0;">', unsafe_allow_html=True)
+    st.markdown('''
+    <div style="font-size:0.6rem;color:#718096;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:0.6rem;">Pipeline</div>
+    <div style="padding:0.4rem 0.5rem;margin:2px 0;border-left:2px solid #4FD1C5;background:rgba(79,209,197,0.05);border-radius:0 4px 4px 0;">
+        <div style="font-size:0.92rem;font-weight:600;color:#F7FAFC;">01 &nbsp; Literature Harvest</div>
+        <div style="font-size:0.72rem;color:#A0AEC0;margin-top:2px;">PubMed search &amp; retrieval</div>
+    </div>
+    <div style="padding:0.4rem 0.5rem;margin:2px 0;border-left:2px solid #4FD1C5;background:rgba(79,209,197,0.05);border-radius:0 4px 4px 0;">
+        <div style="font-size:0.92rem;font-weight:600;color:#F7FAFC;">02 &nbsp; AI Screening</div>
+        <div style="font-size:0.72rem;color:#A0AEC0;margin-top:2px;">Relevance filtering</div>
+    </div>
+    ''', unsafe_allow_html=True)
+    st.markdown('''
+    <div style="font-size:0.6rem;color:#718096;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin:1rem 0 0.6rem;">Intelligence</div>
+    <div style="padding:0.4rem 0.5rem;margin:2px 0;border-left:2px solid #F6AD55;background:rgba(246,173,85,0.05);border-radius:0 4px 4px 0;">
+        <div style="font-size:0.92rem;font-weight:600;color:#F7FAFC;">03 &nbsp; Contradiction Analysis</div>
+        <div style="font-size:0.72rem;color:#A0AEC0;margin-top:2px;">Conflict detection</div>
+    </div>
+    <div style="padding:0.4rem 0.5rem;margin:2px 0;border-left:2px solid #F6AD55;background:rgba(246,173,85,0.05);border-radius:0 4px 4px 0;">
+        <div style="font-size:0.92rem;font-weight:600;color:#F7FAFC;">04 &nbsp; Evidence Grading</div>
+        <div style="font-size:0.72rem;color:#A0AEC0;margin-top:2px;">CEBM classification</div>
+    </div>
+    ''', unsafe_allow_html=True)
+    st.markdown('''
+    <div style="font-size:0.6rem;color:#718096;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin:1rem 0 0.6rem;">Validation</div>
+    <div style="padding:0.4rem 0.5rem;margin:2px 0;border-left:2px solid #B794F4;background:rgba(183,148,244,0.05);border-radius:0 4px 4px 0;">
+        <div style="font-size:0.92rem;font-weight:600;color:#F7FAFC;">05 &nbsp; Benchmark Evaluation</div>
+        <div style="font-size:0.72rem;color:#A0AEC0;margin-top:2px;">Cochrane benchmark</div>
+    </div>
+    ''', unsafe_allow_html=True)
+    st.markdown('<hr style="border:none;border-top:1px solid #2D3748;margin:1rem 0 0.8rem;">', unsafe_allow_html=True)
+    st.markdown('''
+    <div style="font-size:0.68rem;color:#4A5568;line-height:1.7;">
+        <strong style="color:#718096;">MSc Advanced Data Science &amp; AI</strong><br>
+        University of Liverpool<br>
+        Supervisor: Dr. Meng Fang
+    </div>
+    ''', unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(['Dashboard Overview', 'Screening Results', 'Contradiction Analysis', 'Evidence Grades', 'Evaluation Results'])
 
